@@ -10,7 +10,7 @@
     "body": "string",
     "post": "Post"
   },
-  "hnt":{
-    "bookings: [],
+  "Hnt": {
+    "bookings": [{ "id": 1001, "bookingId": 1, "name": "xyz"}]
   }
 }
