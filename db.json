@@ -9,5 +9,8 @@
   "Comment": {
     "body": "string",
     "post": "Post"
+  },
+  "Hnt": {
+    "bookings": [{ "id": 1001, "bookingId": 1, "name": "xyz"}]
   }
 }
