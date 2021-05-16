@@ -11,6 +11,6 @@
     "post": "Post"
   },
   "hnt": {
-    "bookings": []
+    "bookings": [{ id: 1001, bookingId: 1, name: 'xyz'}]
   }
 }
