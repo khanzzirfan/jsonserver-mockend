@@ -13,7 +13,7 @@
   "Hnt": {
     "bookings": [{ "id": 1001, "bookingId": 1, "name": "xyz"}]
   },
-  "flightbookin":{
+  "flightbooking":{
     "1": {
       "id": 1001
     }
