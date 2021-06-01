@@ -1,0 +1,425 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1621288374029' stop='1621288403902'>
+    <name>Review freight shipment @evtprodu</name>
+    <title>Review freight shipment @evtprodu</title>
+    <test-cases>
+        <test-case start='1621288374030' status='failed' stop='1621288403792'>
+            <name>As a user I should be able to create freight shipment and review the shipment details @prod1</name>
+            <title>As a user I should be able to create freight shipment and review the shipment details @prod1</title>
+            <labels>
+                <label name='tag' value='@evtprodu'/>
+                <label name='tag' value='@prod1'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1621288375614' status='passed' stop='1621288378581'>
+                    <name>Given I navigate to evert air application create page </name>
+                    <title>Given I navigate to evert air application create page </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288375614' status='passed' stop='1621288378240'>
+                            <name>createshipmentPage: goto </name>
+                            <title>createshipmentPage: goto </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1621288375614' status='passed' stop='1621288377299'>
+                                    <name>I am on page "https://test.tflite.com/Public/EVT/Freight/Create"</name>
+                                    <title>I am on page "https://test.tflite.com/Public/EVT/Freight/Create"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1621288377299' status='passed' stop='1621288378020'>
+                                    <name>I refresh page </name>
+                                    <title>I refresh page </title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1621288378021' status='passed' stop='1621288378240'>
+                                    <name>I wait for visible "#custom-header"</name>
+                                    <title>I wait for visible "#custom-header"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1621288378240' status='passed' stop='1621288378581'>
+                            <name>I see "Create Shipment"</name>
+                            <title>I see "Create Shipment"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288378581' status='passed' stop='1621288379289'>
+                    <name>When I see page is loaded </name>
+                    <title>When I see page is loaded </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288378581' status='passed' stop='1621288378888'>
+                            <name>I see "Create Shipment"</name>
+                            <title>I see "Create Shipment"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288379289' status='passed' stop='1621288380015'>
+                    <name>Then I should fill in shippers account number </name>
+                    <title>Then I should fill in shippers account number </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288379289' status='passed' stop='1621288379610'>
+                            <name>I fill field "#shipper_account", 80432333</name>
+                            <title>I fill field "#shipper_account", 80432333</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288380015' status='passed' stop='1621288380732'>
+                    <name>Then I should fill shippers name </name>
+                    <title>Then I should fill shippers name </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288380015' status='passed' stop='1621288380332'>
+                            <name>I fill field "#shipper_name", "Auto Loan Account"</name>
+                            <title>I fill field "#shipper_name", "Auto Loan Account"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288380732' status='passed' stop='1621288381439'>
+                    <name>Then I should fill shippers contact address </name>
+                    <title>Then I should fill shippers contact address </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288380732' status='passed' stop='1621288381038'>
+                            <name>I fill field "#shipper_address", "28179 Earlene Falls"</name>
+                            <title>I fill field "#shipper_address", "28179 Earlene Falls"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288381439' status='passed' stop='1621288382144'>
+                    <name>Then I should enter shippers phone number </name>
+                    <title>Then I should enter shippers phone number </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288381439' status='passed' stop='1621288381743'>
+                            <name>I fill field "#shipper_phone", "237-870-9122 x575"</name>
+                            <title>I fill field "#shipper_phone", "237-870-9122 x575"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288382144' status='passed' stop='1621288382878'>
+                    <name>Then I should enter consignee account number </name>
+                    <title>Then I should enter consignee account number </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288382144' status='passed' stop='1621288382478'>
+                            <name>I fill field "#consignee_account", 61285901</name>
+                            <title>I fill field "#consignee_account", 61285901</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288382878' status='passed' stop='1621288383590'>
+                    <name>Then I should enter consignee name </name>
+                    <title>Then I should enter consignee name </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288382878' status='passed' stop='1621288383190'>
+                            <name>I fill field "#consignee_name", "Checking Account"</name>
+                            <title>I fill field "#consignee_name", "Checking Account"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288383590' status='passed' stop='1621288384350'>
+                    <name>Then I should enter consignee address </name>
+                    <title>Then I should enter consignee address </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288383590' status='passed' stop='1621288383950'>
+                            <name>I fill field "#consignee_address", "00284 Gleason Crescent"</name>
+                            <title>I fill field "#consignee_address", "00284 Gleason Crescent"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288384350' status='passed' stop='1621288384675'>
+                    <name>Then I should enter consignee phone number </name>
+                    <title>Then I should enter consignee phone number </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288384350' status='passed' stop='1621288384675'>
+                            <name>I fill field "#consignee_phone", "1-354-687-6046"</name>
+                            <title>I fill field "#consignee_phone", "1-354-687-6046"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288384675' status='passed' stop='1621288386167'>
+                    <name>Then I should select priority checkbox </name>
+                    <title>Then I should select priority checkbox </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288384675' status='passed' stop='1621288385100'>
+                            <name>I see "Check for yes", "label"</name>
+                            <title>I see "Check for yes", "label"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1621288385501' status='passed' stop='1621288385767'>
+                            <name>I click "#priority"</name>
+                            <title>I click "#priority"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288386167' status='passed' stop='1621288386431'>
+                    <name>Then I should select service standard prepaid </name>
+                    <title>Then I should select service standard prepaid </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288386167' status='passed' stop='1621288386431'>
+                            <name>I check option "Prepaid"</name>
+                            <title>I check option "Prepaid"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288386431' status='passed' stop='1621288386496'>
+                    <name>Then I should select shipping from location </name>
+                    <title>Then I should select shipping from location </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288386431' status='passed' stop='1621288386496'>
+                            <name>I select option "#from", "Fairbanks"</name>
+                            <title>I select option "#from", "Fairbanks"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288386496' status='passed' stop='1621288386961'>
+                    <name>Then I should select shipping to location </name>
+                    <title>Then I should select shipping to location </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288386496' status='passed' stop='1621288386560'>
+                            <name>I select option "#to", "Bethel"</name>
+                            <title>I select option "#to", "Bethel"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288386961' status='passed' stop='1621288387660'>
+                    <name>Then I should enter purchase order number </name>
+                    <title>Then I should enter purchase order number </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288386961' status='passed' stop='1621288387259'>
+                            <name>I fill field "#po", 91164</name>
+                            <title>I fill field "#po", 91164</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288387660' status='passed' stop='1621288388612'>
+                    <name>Then I should enter booking comments </name>
+                    <title>Then I should enter booking comments </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288387660' status='passed' stop='1621288388212'>
+                            <name>I fill field "#booking_comment", "Saepe provident enim. Adipisci praesentium saepe quis velit sit sit. Eum vero consequatur earum veniam recusandae. Sapiente quisquam culpa consequatur natus libero aliquid et. Voluptas dolorem ab quo."</name>
+                            <title>I fill field "#booking_comment", "Saepe provident enim. Adipisci praesentium saepe quis velit sit sit. Eum vero consequatur earum veniam recusandae. Sapiente quisquam culpa consequatur natus libero aliquid et. Voluptas dolorem ab quo."</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288388612' status='passed' stop='1621288389546'>
+                    <name>Then I should enter freight description </name>
+                    <title>Then I should enter freight description </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288388612' status='passed' stop='1621288389146'>
+                            <name>I fill field ".freight-description", "Ipsa eum saepe dicta quos. Officiis sequi voluptatem sunt. Ut cumque id dolorem rerum pariatur cum et. Reprehenderit consequatur ratione fugiat. Inventore magnam minus sunt modi sequi dolorem. Ab sint odit."</name>
+                            <title>I fill field ".freight-description", "Ipsa eum saepe dicta quos. Officiis sequi voluptatem sunt. Ut cumque id dolorem rerum pariatur cum et. Reprehenderit consequatur ratione fugiat. Inventore magnam minus sunt modi sequi dolorem. Ab sint odit."</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288389546' status='passed' stop='1621288390275'>
+                    <name>Then I should enter field declared value </name>
+                    <title>Then I should enter field declared value </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288389546' status='passed' stop='1621288389875'>
+                            <name>I fill field ".freight-declared-value", "484.28"</name>
+                            <title>I fill field ".freight-declared-value", "484.28"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288390275' status='passed' stop='1621288390967'>
+                    <name>Then I should enter number of pieces </name>
+                    <title>Then I should enter number of pieces </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288390275' status='passed' stop='1621288390566'>
+                            <name>I fill field ".freight-pieces", 5</name>
+                            <title>I fill field ".freight-pieces", 5</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288390967' status='passed' stop='1621288391294'>
+                    <name>Then I should enter gross weight </name>
+                    <title>Then I should enter gross weight </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288390967' status='passed' stop='1621288391294'>
+                            <name>I fill field ".freight-gross-weight", 245</name>
+                            <title>I fill field ".freight-gross-weight", 245</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288391294' status='passed' stop='1621288391359'>
+                    <name>Then I should enter field freight handling </name>
+                    <title>Then I should enter field freight handling </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288391294' status='passed' stop='1621288391359'>
+                            <name>I select option ".freight-handling", "Chilled"</name>
+                            <title>I select option ".freight-handling", "Chilled"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288391359' status='passed' stop='1621288392333'>
+                    <name>Then I should enter length width and height </name>
+                    <title>Then I should enter length width and height </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288391359' status='passed' stop='1621288391683'>
+                            <name>I see "Length (Max 17ft)"</name>
+                            <title>I see "Length (Max 17ft)"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1621288391684' status='passed' stop='1621288392024'>
+                            <name>I see "Width (Max 80in)"</name>
+                            <title>I see "Width (Max 80in)"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1621288392024' status='passed' stop='1621288392333'>
+                            <name>I see "Height (Max 72in)"</name>
+                            <title>I see "Height (Max 72in)"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288392333' status='passed' stop='1621288392595'>
+                    <name>Then I should read disclaimer dangerous goods/Hazmat declaration </name>
+                    <title>Then I should read disclaimer dangerous goods/Hazmat declaration </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288392333' status='passed' stop='1621288392595'>
+                            <name>I see "Dangerous Goods/Hazmat Declaration*", "label"</name>
+                            <title>I see "Dangerous Goods/Hazmat Declaration*", "label"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288392595' status='passed' stop='1621288393053'>
+                    <name>Then I should make dangers goods selection from dropdown with No option </name>
+                    <title>Then I should make dangers goods selection from dropdown with No option </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288392595' status='passed' stop='1621288392650'>
+                            <name>I select option ".freight-dangerous-goods", "No"</name>
+                            <title>I select option ".freight-dangerous-goods", "No"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288393053' status='passed' stop='1621288393801'>
+                    <name>Then I enter confirm email address </name>
+                    <title>Then I enter confirm email address </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288393053' status='passed' stop='1621288393400'>
+                            <name>I fill field "#email", "Grayson_McLaughlin@hotmail.com"</name>
+                            <title>I fill field "#email", "Grayson_McLaughlin@hotmail.com"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288393801' status='passed' stop='1621288394100'>
+                    <name>Then I click next button </name>
+                    <title>Then I click next button </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288393801' status='passed' stop='1621288394100'>
+                            <name>I click ".btn-success"</name>
+                            <title>I click ".btn-success"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288394100' status='failed' stop='1621288403792'>
+                    <name>Then I should see freight confirmation page </name>
+                    <title>Then I should see freight confirmation page </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288394100' status='passed' stop='1621288399101'>
+                            <name>I wait 5</name>
+                            <title>I wait 5</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1621288399101' status='failed' stop='1621288403791'>
+                            <name>I see in current url "/Freight/Confirmation"</name>
+                            <title>I see in current url "/Freight/Confirmation"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='d00e047e-3763-4934-86be-bbc7b423cba9-attachment.png' type='image/png' size='32308'/>
+            </attachments>
+            <failure>
+                <message></message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

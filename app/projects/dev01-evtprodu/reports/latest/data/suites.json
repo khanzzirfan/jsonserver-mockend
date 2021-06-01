@@ -1,0 +1,87 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "TakeFliteBDD",
+    "children" : [ {
+      "name" : "Evtprodu anchorage freight search ",
+      "uid" : "6a2530d9cbd028aa",
+      "parentUid" : "f85b5c63697af39b27b3ace4471ab5cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621350071096,
+        "stop" : 1621350157754,
+        "duration" : 86658
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "EvtProdu dashboard screen validation",
+      "uid" : "72d1c90d0607bd07",
+      "parentUid" : "f85b5c63697af39b27b3ace4471ab5cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621350157774,
+        "stop" : 1621350218345,
+        "duration" : 60571
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "EvtProdu CreateQuickFreight-Validatefields",
+      "uid" : "cf3a82c29071400a",
+      "parentUid" : "f85b5c63697af39b27b3ace4471ab5cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621350218355,
+        "stop" : 1621350292647,
+        "duration" : 74292
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "EvtProdu Tag flight should throw error when no tags available",
+      "uid" : "2d9d257a0a58ac8f",
+      "parentUid" : "f85b5c63697af39b27b3ace4471ab5cc",
+      "status" : "failed",
+      "time" : {
+        "start" : 1621350292647,
+        "stop" : 1621350417348,
+        "duration" : 124701
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "EvtProdu CreateNew Tags",
+      "uid" : "aca69cba3350582f",
+      "parentUid" : "f85b5c63697af39b27b3ace4471ab5cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621350417348,
+        "stop" : 1621350480628,
+        "duration" : 63280
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "EvtProdu Assign tag to scheduled booking flight",
+      "uid" : "fbb295be096b76a",
+      "parentUid" : "f85b5c63697af39b27b3ace4471ab5cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621350480648,
+        "stop" : 1621350559618,
+        "duration" : 78970
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "f85b5c63697af39b27b3ace4471ab5cc"
+  } ]
+}

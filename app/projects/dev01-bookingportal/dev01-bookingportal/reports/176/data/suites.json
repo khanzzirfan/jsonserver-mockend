@@ -1,0 +1,250 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Create a freight shipment @evtprodu",
+    "children" : [ {
+      "name" : "Freight shipment create page",
+      "uid" : "d68104f253149563",
+      "parentUid" : "a6b6782ab37d571fdf8da107aa9324d5",
+      "status" : "failed",
+      "time" : {
+        "start" : 1621066258907,
+        "stop" : 1621066319264,
+        "duration" : 60357
+      },
+      "flaky" : true,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Validate page headings on create freight page",
+      "uid" : "2d7b93049722fc4d",
+      "parentUid" : "a6b6782ab37d571fdf8da107aa9324d5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621066559338,
+        "stop" : 1621066570904,
+        "duration" : 11566
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "As a user I should be able to create freight shipment",
+      "uid" : "d3a3a0a1c84f23aa",
+      "parentUid" : "a6b6782ab37d571fdf8da107aa9324d5",
+      "status" : "failed",
+      "time" : {
+        "start" : 1621066571421,
+        "stop" : 1621066605525,
+        "duration" : 34104
+      },
+      "flaky" : true,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Create freight shipment page should show validation errors when not filled @prod @smoke @prod2",
+      "uid" : "9e9171eb3d630fd4",
+      "parentUid" : "a6b6782ab37d571fdf8da107aa9324d5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621066605588,
+        "stop" : 1621066613778,
+        "duration" : 8190
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "a6b6782ab37d571fdf8da107aa9324d5"
+  }, {
+    "name" : "Review freight shipment @evtprodu",
+    "children" : [ {
+      "name" : "As a user I should be able to create freight shipment and review the shipment details @prod1",
+      "uid" : "ecbd7015212785bd",
+      "parentUid" : "df17ff7559e3c5dbfd94469cbb28459a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1621066614199,
+        "stop" : 1621066644647,
+        "duration" : 30448
+      },
+      "flaky" : true,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "df17ff7559e3c5dbfd94469cbb28459a"
+  }, {
+    "name" : "Book a flight and complete the payments @flightbooking",
+    "children" : [ {
+      "name" : "Search page should display all basic field on landing",
+      "uid" : "83c6225f41ff1f5a",
+      "parentUid" : "13a4147092169b8bcfb725aa55d55c96",
+      "status" : "failed",
+      "time" : {
+        "start" : 1621066644754,
+        "stop" : 1621066664482,
+        "duration" : 19728
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "As a user I should see oneway trip booking options @validation",
+      "uid" : "ffa1f6a22dc281f",
+      "parentUid" : "13a4147092169b8bcfb725aa55d55c96",
+      "status" : "failed",
+      "time" : {
+        "start" : 1621066664549,
+        "stop" : 1621066676429,
+        "duration" : 11880
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "As a user I should see validation errors for oneway trip @validation",
+      "uid" : "702ad9196e6d8e91",
+      "parentUid" : "13a4147092169b8bcfb725aa55d55c96",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621066676496,
+        "stop" : 1621066683221,
+        "duration" : 6725
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "As a user I should see validation errors for round trip field @validation",
+      "uid" : "4ac1f1a2dd48ea75",
+      "parentUid" : "13a4147092169b8bcfb725aa55d55c96",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621066683568,
+        "stop" : 1621066689223,
+        "duration" : 5655
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "13a4147092169b8bcfb725aa55d55c96"
+  }, {
+    "name" : "Booking portal search page",
+    "children" : [ {
+      "name" : "Search page should display all basic field on landing @story1245",
+      "uid" : "ebf4b2f97de5e29d",
+      "parentUid" : "56e6592fb8b68c124d1f3f2777837d46",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621066689582,
+        "stop" : 1621066698854,
+        "duration" : 9272
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Search page should display sidebar links @story1246",
+      "uid" : "b2e3cd76a5cdbdf9",
+      "parentUid" : "56e6592fb8b68c124d1f3f2777837d46",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621066699165,
+        "stop" : 1621066704443,
+        "duration" : 5278
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Search page should display menu items",
+      "uid" : "32d49fd3407fc6a9",
+      "parentUid" : "56e6592fb8b68c124d1f3f2777837d46",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621066704821,
+        "stop" : 1621066708567,
+        "duration" : 3746
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Search page should display footer links",
+      "uid" : "d6d4d6622a392ad1",
+      "parentUid" : "56e6592fb8b68c124d1f3f2777837d46",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621066708942,
+        "stop" : 1621066713112,
+        "duration" : 4170
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Search page feedback should display modal feedback",
+      "uid" : "bc2c70f40acfad3b",
+      "parentUid" : "56e6592fb8b68c124d1f3f2777837d46",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621066713472,
+        "stop" : 1621066719657,
+        "duration" : 6185
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Search page terms of use should display modal with terms of usage",
+      "uid" : "e2ea497029953471",
+      "parentUid" : "56e6592fb8b68c124d1f3f2777837d46",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621066719967,
+        "stop" : 1621066726181,
+        "duration" : 6214
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "56e6592fb8b68c124d1f3f2777837d46"
+  }, {
+    "name" : "Booking portal signin page @signin",
+    "children" : [ {
+      "name" : "Agent should be able to login using their account details on signin page",
+      "uid" : "9528237978c51033",
+      "parentUid" : "0a914b9db293af1f9b6b55fb129a5662",
+      "status" : "failed",
+      "time" : {
+        "start" : 1621066726547,
+        "stop" : 1621066746756,
+        "duration" : 20209
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "0a914b9db293af1f9b6b55fb129a5662"
+  }, {
+    "name" : "Simple test feature file @testfeature",
+    "children" : [ {
+      "name" : "Search page terms of use should display modal with terms of usage @testscenario",
+      "uid" : "c61d76ef9c957508",
+      "parentUid" : "2b7089c3d03517cb3bde7c74e79838b9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621066746822,
+        "stop" : 1621066758891,
+        "duration" : 12069
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "2b7089c3d03517cb3bde7c74e79838b9"
+  } ]
+}

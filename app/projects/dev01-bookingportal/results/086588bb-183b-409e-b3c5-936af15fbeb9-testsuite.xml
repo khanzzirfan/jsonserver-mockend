@@ -1,0 +1,482 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1621288445738' stop='1621288512470'>
+    <name>Create a hinterland booking @hntprodu</name>
+    <title>Create a hinterland booking @hntprodu</title>
+    <test-cases>
+        <test-case start='1621288445738' status='failed' stop='1621288512366'>
+            <name>As a user I should be able to create hinterland flight booking</name>
+            <title>As a user I should be able to create hinterland flight booking</title>
+            <labels>
+                <label name='tag' value='@hntprodu'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1621288447270' status='passed' stop='1621288450043'>
+                    <name>Given I navigate to hinterland air application page </name>
+                    <title>Given I navigate to hinterland air application page </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288447270' status='passed' stop='1621288450043'>
+                            <name>hntCreatebookingPage: goToSearch </name>
+                            <title>hntCreatebookingPage: goToSearch </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1621288447270' status='passed' stop='1621288449276'>
+                                    <name>I am on page "https://apps8.tflite.com/Public/HNT/Booking/Search"</name>
+                                    <title>I am on page "https://apps8.tflite.com/Public/HNT/Booking/Search"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1621288449276' status='passed' stop='1621288449859'>
+                                    <name>I refresh page </name>
+                                    <title>I refresh page </title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1621288449859' status='passed' stop='1621288450043'>
+                                    <name>I wait for visible "#submit"</name>
+                                    <title>I wait for visible "#submit"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288450043' status='passed' stop='1621288450048'>
+                    <name>When I see hinterland air page is loaded </name>
+                    <title>When I see hinterland air page is loaded </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288450043' status='passed' stop='1621288450048'>
+                            <name>I see in current url "/HNT/Booking/Search"</name>
+                            <title>I see in current url "/HNT/Booking/Search"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288450048' status='passed' stop='1621288450081'>
+                    <name>Then I should see hinterland Air logo </name>
+                    <title>Then I should see hinterland Air logo </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288450048' status='passed' stop='1621288450062'>
+                            <name>I wait for element {xpath: .//img[@alt = 'Hinterland Aviation ']}</name>
+                            <title>I wait for element {xpath: .//img[@alt = 'Hinterland Aviation ']}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1621288450062' status='passed' stop='1621288450081'>
+                            <name>I see element {xpath: .//img[@alt = 'Hinterland Aviation ']}</name>
+                            <title>I see element {xpath: .//img[@alt = 'Hinterland Aviation ']}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288450081' status='passed' stop='1621288450150'>
+                    <name>Then I choose departing from 'Cooktown' flight </name>
+                    <title>Then I choose departing from 'Cooktown' flight </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288450081' status='passed' stop='1621288450150'>
+                            <name>I select option "#from", "Cooktown"</name>
+                            <title>I select option "#from", "Cooktown"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288450150' status='passed' stop='1621288450610'>
+                    <name>Then I choose travelling to 'Cairns' flight </name>
+                    <title>Then I choose travelling to 'Cairns' flight </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288450150' status='passed' stop='1621288450210'>
+                            <name>I select option "#to", "Cairns"</name>
+                            <title>I select option "#to", "Cairns"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288450610' status='passed' stop='1621288455260'>
+                    <name>Then I choose departing from date </name>
+                    <title>Then I choose departing from date </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288450611' status='passed' stop='1621288451312'>
+                            <name>I click "#depart_date"</name>
+                            <title>I click "#depart_date"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1621288451712' status='passed' stop='1621288451989'>
+                            <name>I click ".datepicker-days .next"</name>
+                            <title>I click ".datepicker-days .next"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1621288452390' status='passed' stop='1621288452652'>
+                            <name>I click ".datepicker-days .next"</name>
+                            <title>I click ".datepicker-days .next"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1621288453052' status='passed' stop='1621288453307'>
+                            <name>I click ".datepicker-days .next"</name>
+                            <title>I click ".datepicker-days .next"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1621288453710' status='passed' stop='1621288453980'>
+                            <name>I click ".datepicker-days .next"</name>
+                            <title>I click ".datepicker-days .next"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1621288454381' status='passed' stop='1621288454859'>
+                            <name>I click "tr:nth-child(4) > .day:nth-child(6)"</name>
+                            <title>I click "tr:nth-child(4) > .day:nth-child(6)"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288455260' status='passed' stop='1621288457510'>
+                    <name>Then I choose return date </name>
+                    <title>Then I choose return date </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288455260' status='passed' stop='1621288455569'>
+                            <name>I click "#return_date"</name>
+                            <title>I click "#return_date"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1621288455969' status='passed' stop='1621288456237'>
+                            <name>I click ".datepicker-days .next"</name>
+                            <title>I click ".datepicker-days .next"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1621288456638' status='passed' stop='1621288457109'>
+                            <name>I click "tr:nth-child(5) > .day:nth-child(2)"</name>
+                            <title>I click "tr:nth-child(5) > .day:nth-child(2)"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288457510' status='passed' stop='1621288457775'>
+                    <name>Then I click on search button </name>
+                    <title>Then I click on search button </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288457510' status='passed' stop='1621288457775'>
+                            <name>I click "#submit"</name>
+                            <title>I click "#submit"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288457775' status='passed' stop='1621288460595'>
+                    <name>Then I should see page is navigated to url '/HNT/Booking/Flights' </name>
+                    <title>Then I should see page is navigated to url '/HNT/Booking/Flights' </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288457775' status='passed' stop='1621288460595'>
+                            <name>I see in current url "/HNT/Booking/Flights"</name>
+                            <title>I see in current url "/HNT/Booking/Flights"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288460595' status='passed' stop='1621288473141'>
+                    <name>Then I select first available departing flight </name>
+                    <title>Then I select first available departing flight </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288460595' status='passed' stop='1621288469613'>
+                            <name>I wait for element ".fc_radio-success"</name>
+                            <title>I wait for element ".fc_radio-success"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1621288469613' status='passed' stop='1621288471614'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1621288471614' status='passed' stop='1621288471640'>
+                            <name>I scroll into view "div[data-leg="1"]"</name>
+                            <title>I scroll into view "div[data-leg="1"]"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1621288471643' status='passed' stop='1621288472134'>
+                            <name>I click {xpath: ((.//div[@data-leg = '1']//li[contains(concat(' ', normalize-space(./@class), ' '), ' panel ')]//*[contains(concat(' ', normalize-space(./@class), ' '), ' generic-booking-item ')])[position()=1]//*[contains(concat(' ', normalize-space(./@class), ' '), ' table-wrapper ')])[position()=1]//*[contains(concat(' ', normalize-space(./@class), ' '), ' fc_radio ')]//*[contains(concat(' ', normalize-space(./@class), ' '), ' fc_radio-success ')][./child::label]}</name>
+                            <title>I click {xpath: ((.//div[@data-leg = '1']//li[contains(concat(' ', normalize-space(./@class), ' '), ' panel ')]//*[contains(concat(' ', normalize-space(./@class), ' '), ' generic-booking-item ')])[position()=1]//*[contains(concat(' ', normalize-space(./@class), ' '), ' table-wrapper ')])[position()=1]//*[contains(concat(' ', normalize-space(./@class), ' '), ' fc_radio ')]//*[contains(concat(' ', normalize-space(./@class), ' '), ' fc_radio-success ')][./child::label]}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1621288472134' status='passed' stop='1621288472134'>
+                            <name>flightSelected0</name>
+                            <title>flightSelected0</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1621288472134' status='passed' stop='1621288472134'>
+                            <name>true</name>
+                            <title>true</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1621288472134' status='passed' stop='1621288473134'>
+                            <name>I wait 1</name>
+                            <title>I wait 1</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288473141' status='passed' stop='1621288474287'>
+                    <name>Then I select first available returning flight </name>
+                    <title>Then I select first available returning flight </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288473141' status='passed' stop='1621288473170'>
+                            <name>I scroll into view "div[data-leg="2"]"</name>
+                            <title>I scroll into view "div[data-leg="2"]"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1621288473172' status='passed' stop='1621288473280'>
+                            <name>I click {xpath: ((.//div[@data-leg = '2']//li[contains(concat(' ', normalize-space(./@class), ' '), ' panel ')]//*[contains(concat(' ', normalize-space(./@class), ' '), ' generic-booking-item ')])[position()=1]//*[contains(concat(' ', normalize-space(./@class), ' '), ' table-wrapper ')])[position()=1]//*[contains(concat(' ', normalize-space(./@class), ' '), ' fc_radio ')]//*[contains(concat(' ', normalize-space(./@class), ' '), ' fc_radio-success ')][./child::label]}</name>
+                            <title>I click {xpath: ((.//div[@data-leg = '2']//li[contains(concat(' ', normalize-space(./@class), ' '), ' panel ')]//*[contains(concat(' ', normalize-space(./@class), ' '), ' generic-booking-item ')])[position()=1]//*[contains(concat(' ', normalize-space(./@class), ' '), ' table-wrapper ')])[position()=1]//*[contains(concat(' ', normalize-space(./@class), ' '), ' fc_radio ')]//*[contains(concat(' ', normalize-space(./@class), ' '), ' fc_radio-success ')][./child::label]}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1621288473281' status='passed' stop='1621288473281'>
+                            <name>flightSelected0</name>
+                            <title>flightSelected0</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1621288473281' status='passed' stop='1621288473281'>
+                            <name>true</name>
+                            <title>true</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1621288473281' status='passed' stop='1621288474282'>
+                            <name>I wait 1</name>
+                            <title>I wait 1</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288474287' status='passed' stop='1621288475275'>
+                    <name>Then I should see flight summary popup window with booking details </name>
+                    <title>Then I should see flight summary popup window with booking details </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288474287' status='passed' stop='1621288474418'>
+                            <name>I see element ".modal-dialog"</name>
+                            <title>I see element ".modal-dialog"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1621288474419' status='passed' stop='1621288474813'>
+                            <name>I see "Flight Summary"</name>
+                            <title>I see "Flight Summary"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1621288474813' status='passed' stop='1621288474859'>
+                            <name>I grab text from {xpath: (.//*[contains(concat(' ', normalize-space(./@class), ' '), ' booking-item-payment-price-title ')])[position()=1]}</name>
+                            <title>I grab text from {xpath: (.//*[contains(concat(' ', normalize-space(./@class), ' '), ' booking-item-payment-price-title ')])[position()=1]}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288475275' status='passed' stop='1621288480543'>
+                    <name>Then I should click on happy and please proceed button </name>
+                    <title>Then I should click on happy and please proceed button </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288475275' status='passed' stop='1621288475542'>
+                            <name>I click ".btn-success"</name>
+                            <title>I click ".btn-success"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1621288475542' status='passed' stop='1621288480543'>
+                            <name>I wait 5</name>
+                            <title>I wait 5</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288480543' status='passed' stop='1621288480951'>
+                    <name>Then I should see page is navigated to url '/HNT/Booking/Passengers' </name>
+                    <title>Then I should see page is navigated to url '/HNT/Booking/Passengers' </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288480543' status='passed' stop='1621288480551'>
+                            <name>I see in current url "/HNT/Booking/Passengers"</name>
+                            <title>I see in current url "/HNT/Booking/Passengers"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288480951' status='passed' stop='1621288483912'>
+                    <name>Then I fill in form details page for HNT flight booking </name>
+                    <title>Then I fill in form details page for HNT flight booking </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288480951' status='passed' stop='1621288481257'>
+                            <name>I fill field ".passenger-first-name", "Kane"</name>
+                            <title>I fill field ".passenger-first-name", "Kane"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1621288481657' status='passed' stop='1621288481958'>
+                            <name>I fill field ".passenger-last-name", "Williamson"</name>
+                            <title>I fill field ".passenger-last-name", "Williamson"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1621288482358' status='passed' stop='1621288482669'>
+                            <name>I fill field "#customeremail-main", "kw@blackcaps.co.nz"</name>
+                            <title>I fill field "#customeremail-main", "kw@blackcaps.co.nz"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1621288483069' status='passed' stop='1621288483363'>
+                            <name>I fill field ".customer-number", "1245784512"</name>
+                            <title>I fill field ".customer-number", "1245784512"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1621288483363' status='passed' stop='1621288483436'>
+                            <name>I select option ".customer-pickup-locations", "281521"</name>
+                            <title>I select option ".customer-pickup-locations", "281521"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1621288483436' status='passed' stop='1621288483512'>
+                            <name>I select option ".customer-dropoff-locations", "281522"</name>
+                            <title>I select option ".customer-dropoff-locations", "281522"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288483912' status='passed' stop='1621288494177'>
+                    <name>Then I click continue button </name>
+                    <title>Then I click continue button </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288483912' status='passed' stop='1621288484176'>
+                            <name>I click ".btn-success"</name>
+                            <title>I click ".btn-success"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1621288484176' status='passed' stop='1621288494177'>
+                            <name>I wait 10</name>
+                            <title>I wait 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288494177' status='passed' stop='1621288494586'>
+                    <name>Then I should see page is navigated to url '/HNT/Booking/Payment' </name>
+                    <title>Then I should see page is navigated to url '/HNT/Booking/Payment' </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288494177' status='passed' stop='1621288494183'>
+                            <name>I see in current url "/HNT/Booking/Payment"</name>
+                            <title>I see in current url "/HNT/Booking/Payment"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288494586' status='passed' stop='1621288495932'>
+                    <name>Then I click on terms and conditions checkbox </name>
+                    <title>Then I click on terms and conditions checkbox </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288494586' status='passed' stop='1621288494863'>
+                            <name>I check option "#check1"</name>
+                            <title>I check option "#check1"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1621288495263' status='passed' stop='1621288495532'>
+                            <name>I check option "#promo"</name>
+                            <title>I check option "#promo"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288495932' status='passed' stop='1621288506600'>
+                    <name>Then I click confirm button </name>
+                    <title>Then I click confirm button </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288495932' status='passed' stop='1621288496199'>
+                            <name>I click ".btn-success"</name>
+                            <title>I click ".btn-success"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1621288496199' status='passed' stop='1621288506200'>
+                            <name>I wait 10</name>
+                            <title>I wait 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288506600' status='failed' stop='1621288512366'>
+                    <name>Then I enter credit card details </name>
+                    <title>Then I enter credit card details </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288506600' status='failed' stop='1621288512365'>
+                            <name>I fill field "CardNumber", "4111111111111111"</name>
+                            <title>I fill field "CardNumber", "4111111111111111"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='e497dc47-85dd-4f84-9ad8-324058abe0cc-attachment.png' type='image/png' size='9457'/>
+            </attachments>
+            <failure>
+                <message>Field "CardNumber" was not found by text|CSS|XPath</message>
+                <stack-trace>Error: Field "CardNumber" was not found by text|CSS|XPath
+                    at new ElementNotFound (D:\a\1\s\node_modules\codeceptjs\lib\helper\errors\ElementNotFound.js:14:11)
+                    at assertElementExists (D:\a\1\s\node_modules\codeceptjs\lib\helper\WebDriver.js:2770:11)
+                    at WebDriver.fillField (D:\a\1\s\node_modules\codeceptjs\lib\helper\WebDriver.js:969:5)
+                    at runMicrotasks (&lt;anonymous>)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

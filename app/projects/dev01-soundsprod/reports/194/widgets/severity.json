@@ -1,0 +1,211 @@
+[ {
+  "uid" : "f9e3af58e4451828",
+  "name" : "FindBooking - see all default filter options",
+  "time" : {
+    "start" : 1621016261978,
+    "stop" : 1621016335591,
+    "duration" : 73613
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "70cc738b80cae8c4",
+  "name" : "CreateScheduleBookingCCPayment - SuccessScenario",
+  "time" : {
+    "start" : 1621016826313,
+    "stop" : 1621016950220,
+    "duration" : 123907
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "5fe7e13c0dbffb09",
+  "name" : "LoginScenarios",
+  "time" : {
+    "start" : 1621015311157,
+    "stop" : 1621015357330,
+    "duration" : 46173
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "ef4a089e5d3114fe",
+  "name" : "OpsManagerDashboard",
+  "time" : {
+    "start" : 1621015367167,
+    "stop" : 1621015402979,
+    "duration" : 35812
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "afd669c1bf326ac0",
+  "name" : "FindBooking- Search with more filters",
+  "time" : {
+    "start" : 1621016469371,
+    "stop" : 1621016554335,
+    "duration" : 84964
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "57186e380ccac030",
+  "name" : "FindBooking - Searchbooking for a one month",
+  "time" : {
+    "start" : 1621016335611,
+    "stop" : 1621016469351,
+    "duration" : 133740
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "c573da65e4b7a58e",
+  "name" : "SelectFlight- Search should show blenheim to wellington only results",
+  "time" : {
+    "start" : 1621015887780,
+    "stop" : 1621015966452,
+    "duration" : 78672
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "28a9fe76ddd8e104",
+  "name" : "SelectFlight Validate screenshot for default fields",
+  "time" : {
+    "start" : 1621015402999,
+    "stop" : 1621015469454,
+    "duration" : 66455
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b6331a1a479e5b53",
+  "name" : "FindBooking - User should be search bookings for a specific transaction",
+  "time" : {
+    "start" : 1621016129838,
+    "stop" : 1621016261958,
+    "duration" : 132120
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "8a0f96afe8a6611a",
+  "name" : "SelectFlight Validate screenshot for return way and freightonly selection",
+  "time" : {
+    "start" : 1621015738381,
+    "stop" : 1621015813749,
+    "duration" : 75368
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "922fcf26ccd1aa15",
+  "name" : "SelectFlight Validate screenshot for return way",
+  "time" : {
+    "start" : 1621015550094,
+    "stop" : 1621015662795,
+    "duration" : 112701
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c00025169c506738",
+  "name" : "SelectFlight-ValidateAllAirports",
+  "time" : {
+    "start" : 1621015469474,
+    "stop" : 1621015550074,
+    "duration" : 80600
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d3c990cb6c99e34a",
+  "name" : "LoginScreen",
+  "time" : {
+    "start" : 1621015357340,
+    "stop" : 1621015367157,
+    "duration" : 9817
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ab5351b1d21c2951",
+  "name" : "SelectFlight-Popwindow when no flight selected",
+  "time" : {
+    "start" : 1621015813769,
+    "stop" : 1621015887760,
+    "duration" : 73991
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e227fa2122080df4",
+  "name" : "CreateScheduleBookingCCPayment - UnsuccessfulScenario",
+  "time" : {
+    "start" : 1621016950230,
+    "stop" : 1621017051107,
+    "duration" : 100877
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e6e1153bede89226",
+  "name" : "CreateScheduleBookingCash",
+  "time" : {
+    "start" : 1621016726030,
+    "stop" : 1621016826303,
+    "duration" : 100273
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "317ff489e2f41d81",
+  "name" : "SelectFlight Validate screenshot for freightonly",
+  "time" : {
+    "start" : 1621015662805,
+    "stop" : 1621015738361,
+    "duration" : 75556
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8267ed0e17e9d9ca",
+  "name" : "SelectFlight- Search should show blenheim to wellington and  return way results",
+  "time" : {
+    "start" : 1621015966462,
+    "stop" : 1621016049620,
+    "duration" : 83158
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "64ad8fcb49278ea9",
+  "name" : "FindBooking - See all default booking filter options",
+  "time" : {
+    "start" : 1621016636036,
+    "stop" : 1621016726010,
+    "duration" : 89974
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e458d0d64ef583ed",
+  "name" : "FindBooking- Search booking by name",
+  "time" : {
+    "start" : 1621016554345,
+    "stop" : 1621016636017,
+    "duration" : 81672
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4a7fe1b23bc88213",
+  "name" : "SelectFlight-Search results should be cleared on options change",
+  "time" : {
+    "start" : 1621016049640,
+    "stop" : 1621016129828,
+    "duration" : 80188
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

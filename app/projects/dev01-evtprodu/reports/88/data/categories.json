@@ -1,0 +1,73 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "The object \"txtUsername\" does not exist.",
+      "children" : [ {
+        "name" : "Evtprodu anchorage freight search ",
+        "uid" : "cc98ba91b16ed218",
+        "parentUid" : "3b202356a226f89483b1206c7b50d166",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620054108381,
+          "stop" : 1620054128979,
+          "duration" : 20598
+        },
+        "flaky" : true,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3b202356a226f89483b1206c7b50d166"
+    }, {
+      "name" : "Unable to run \"Takeflite_Ops___Dev\"",
+      "children" : [ {
+        "name" : "EvtProdu dashboard screen validation",
+        "uid" : "b8a4e6800a3a6d95",
+        "parentUid" : "37cd0b208a9f172c85c2bca081780db8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620054128989,
+          "stop" : 1620054138889,
+          "duration" : 9900
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "37cd0b208a9f172c85c2bca081780db8"
+    }, {
+      "name" : "Unable to verify a value with the property checkpoint, because the target object does not exist.",
+      "children" : [ {
+        "name" : "EvtProdu Tag flight should throw error when no tags available",
+        "uid" : "c6839a9f08267881",
+        "parentUid" : "3a101043170d323ea517dbc93696ba99",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620054230019,
+          "stop" : 1620054367172,
+          "duration" : 137153
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "EvtProdu Assign tag to scheduled booking flight",
+        "uid" : "2c653f5a6c8ffe1b",
+        "parentUid" : "3a101043170d323ea517dbc93696ba99",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620054433619,
+          "stop" : 1620054570162,
+          "duration" : 136543
+        },
+        "flaky" : true,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3a101043170d323ea517dbc93696ba99"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

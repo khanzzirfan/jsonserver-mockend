@@ -1,0 +1,234 @@
+{
+  "uid" : "aca69cba3350582f",
+  "name" : "EvtProdu CreateNew Tags",
+  "fullName" : "TakeFliteBDD.EvtProdu CreateNew Tags",
+  "historyId" : "TakeFliteBDD.EvtProdu CreateNew Tags",
+  "time" : {
+    "start" : 1621350417348,
+    "stop" : 1621350480628,
+    "duration" : 63280
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "TakeFliteBDD"
+  }, {
+    "name" : "testClass",
+    "value" : "TakeFliteBDD"
+  }, {
+    "name" : "package",
+    "value" : "TakeFliteBDD"
+  }, {
+    "name" : "resultFormat",
+    "value" : "trx"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 9,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 80,
+        "unknown" : 0,
+        "total" : 89
+      },
+      "items" : [ {
+        "uid" : "50d56ff18df9caef",
+        "reportUrl" : "../110/index.html#testresult/50d56ff18df9caef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621350417348,
+          "stop" : 1621350480628,
+          "duration" : 63280
+        }
+      }, {
+        "uid" : "b3ebe25094b3c311",
+        "reportUrl" : "../109/index.html#testresult/b3ebe25094b3c311",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621350417348,
+          "stop" : 1621350480628,
+          "duration" : 63280
+        }
+      }, {
+        "uid" : "3debecd144a5e086",
+        "reportUrl" : "../108/index.html#testresult/3debecd144a5e086",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621350417348,
+          "stop" : 1621350480628,
+          "duration" : 63280
+        }
+      }, {
+        "uid" : "473f8457af0d7d6b",
+        "reportUrl" : "../107/index.html#testresult/473f8457af0d7d6b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621264028757,
+          "stop" : 1621264101300,
+          "duration" : 72543
+        }
+      }, {
+        "uid" : "276dfbc719859f53",
+        "reportUrl" : "../106/index.html#testresult/276dfbc719859f53",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621177616693,
+          "stop" : 1621177680197,
+          "duration" : 63504
+        }
+      }, {
+        "uid" : "67d950028963f1d0",
+        "reportUrl" : "../105/index.html#testresult/67d950028963f1d0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621177616693,
+          "stop" : 1621177680197,
+          "duration" : 63504
+        }
+      }, {
+        "uid" : "6a83a772324fb0a",
+        "reportUrl" : "../104/index.html#testresult/6a83a772324fb0a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620918435054,
+          "stop" : 1620918499346,
+          "duration" : 64292
+        }
+      }, {
+        "uid" : "f5c2f8b870f6868d",
+        "reportUrl" : "../103/index.html#testresult/f5c2f8b870f6868d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620918435054,
+          "stop" : 1620918499346,
+          "duration" : 64292
+        }
+      }, {
+        "uid" : "8bde8569ce4a4e38",
+        "reportUrl" : "../102/index.html#testresult/8bde8569ce4a4e38",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620832037453,
+          "stop" : 1620832102573,
+          "duration" : 65120
+        }
+      }, {
+        "uid" : "cdff42926159d5e6",
+        "reportUrl" : "../101/index.html#testresult/cdff42926159d5e6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620832037453,
+          "stop" : 1620832102573,
+          "duration" : 65120
+        }
+      }, {
+        "uid" : "1fecead99ecf49e2",
+        "reportUrl" : "../100/index.html#testresult/1fecead99ecf49e2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620745663994,
+          "stop" : 1620745730893,
+          "duration" : 66899
+        }
+      }, {
+        "uid" : "5c341f02c62478f3",
+        "reportUrl" : "../99/index.html#testresult/5c341f02c62478f3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620745663994,
+          "stop" : 1620745730893,
+          "duration" : 66899
+        }
+      }, {
+        "uid" : "10cb73df1f558da1",
+        "reportUrl" : "../98/index.html#testresult/10cb73df1f558da1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620659149630,
+          "stop" : 1620659241271,
+          "duration" : 91641
+        }
+      }, {
+        "uid" : "ccfd366c9be4897d",
+        "reportUrl" : "../97/index.html#testresult/ccfd366c9be4897d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620659149630,
+          "stop" : 1620659241271,
+          "duration" : 91641
+        }
+      }, {
+        "uid" : "e91658e3407c546a",
+        "reportUrl" : "../96/index.html#testresult/e91658e3407c546a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620572818769,
+          "stop" : 1620572886575,
+          "duration" : 67806
+        }
+      }, {
+        "uid" : "6faee9d5c7edf1d",
+        "reportUrl" : "../95/index.html#testresult/6faee9d5c7edf1d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620572818769,
+          "stop" : 1620572886575,
+          "duration" : 67806
+        }
+      }, {
+        "uid" : "6637db25c8b8620f",
+        "reportUrl" : "../94/index.html#testresult/6637db25c8b8620f",
+        "status" : "failed",
+        "statusDetails" : "Unexpected window: 'Takeflite Ops - Dev - Daily Overview - v5.6.11.0 - ctladmin - evtprodu (BACKUP/TRAINING MODE). Database Restored 13 days 6 hours 27 minutes ago. Time in master timezone is 06/May/2021 07:03.'",
+        "time" : {
+          "start" : 1620313403080,
+          "stop" : 1620313438550,
+          "duration" : 35470
+        }
+      }, {
+        "uid" : "eea17275e8805b2d",
+        "reportUrl" : "../93/index.html#testresult/eea17275e8805b2d",
+        "status" : "failed",
+        "statusDetails" : "Unexpected window: 'Takeflite Ops - Dev - Daily Overview - v5.6.11.0 - ctladmin - evtprodu (BACKUP/TRAINING MODE). Database Restored 13 days 6 hours 27 minutes ago. Time in master timezone is 06/May/2021 07:03.'",
+        "time" : {
+          "start" : 1620313403080,
+          "stop" : 1620313438550,
+          "duration" : 35470
+        }
+      }, {
+        "uid" : "390d0dddf77104ed",
+        "reportUrl" : "../92/index.html#testresult/390d0dddf77104ed",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620227157579,
+          "stop" : 1620227223840,
+          "duration" : 66261
+        }
+      }, {
+        "uid" : "a4d22c4cd02638e8",
+        "reportUrl" : "../91/index.html#testresult/a4d22c4cd02638e8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620227157579,
+          "stop" : 1620227223840,
+          "duration" : 66261
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "aca69cba3350582f.json",
+  "parameterValues" : [ ]
+}

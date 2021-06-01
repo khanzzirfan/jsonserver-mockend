@@ -1,0 +1,150 @@
+{
+  "uid" : "2a18696b41ac1657",
+  "name" : "As a user I should be able to create hinterland flight booking",
+  "fullName" : "Create a hinterland booking @hntprodu.As a user I should be able to create hinterland flight booking",
+  "historyId" : "68c60da67056f283647f1d6f779c4768",
+  "time" : {
+    "start" : 1621287847936,
+    "stop" : 1621287889528,
+    "duration" : 41592
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "timeout: Timed out receiving message from renderer: -0.000\n                  (Session info: headless chrome=90.0.4430.93)",
+  "statusTrace" : "timeout: Timed out receiving message from renderer: -0.000\n                  (Session info: headless chrome=90.0.4430.93)\n                    at Object.getErrorFromResponseBody (D:\\a\\r1\\a\\_BookingPortal\\node_modules\\webdriver\\build\\utils.js:189:12)\n                    at WebDriverRequest._request (D:\\a\\r1\\a\\_BookingPortal\\node_modules\\webdriver\\build\\request.js:168:31)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at async Browser.runCommandWithHooks (D:\\a\\r1\\a\\_BookingPortal\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:105:25)\n                    at Browser.runCommandWithHooks (D:\\a\\r1\\a\\_BookingPortal\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n                    at Browser.wrapCommandFn (D:\\a\\r1\\a\\_BookingPortal\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n                    at WebDriver.amOnPage (D:\\a\\r1\\a\\_BookingPortal\\node_modules\\codeceptjs\\lib\\helper\\WebDriver.js:843:25)\n                    at Step.run (D:\\a\\r1\\a\\_BookingPortal\\node_modules\\codeceptjs\\lib\\step.js:66:47)\n                    at D:\\a\\r1\\a\\_BookingPortal\\node_modules\\codeceptjs\\lib\\actor.js:117:23",
+  "flaky" : false,
+  "newFailed" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "timeout: Timed out receiving message from renderer: -0.000\n                  (Session info: headless chrome=90.0.4430.93)",
+    "statusTrace" : "timeout: Timed out receiving message from renderer: -0.000\n                  (Session info: headless chrome=90.0.4430.93)\n                    at Object.getErrorFromResponseBody (D:\\a\\r1\\a\\_BookingPortal\\node_modules\\webdriver\\build\\utils.js:189:12)\n                    at WebDriverRequest._request (D:\\a\\r1\\a\\_BookingPortal\\node_modules\\webdriver\\build\\request.js:168:31)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at async Browser.runCommandWithHooks (D:\\a\\r1\\a\\_BookingPortal\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:105:25)\n                    at Browser.runCommandWithHooks (D:\\a\\r1\\a\\_BookingPortal\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n                    at Browser.wrapCommandFn (D:\\a\\r1\\a\\_BookingPortal\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n                    at WebDriver.amOnPage (D:\\a\\r1\\a\\_BookingPortal\\node_modules\\codeceptjs\\lib\\helper\\WebDriver.js:843:25)\n                    at Step.run (D:\\a\\r1\\a\\_BookingPortal\\node_modules\\codeceptjs\\lib\\step.js:66:47)\n                    at D:\\a\\r1\\a\\_BookingPortal\\node_modules\\codeceptjs\\lib\\actor.js:117:23",
+    "steps" : [ {
+      "name" : "Given I navigate to hinterland air application page ",
+      "time" : {
+        "start" : 1621287849485,
+        "stop" : 1621287889528,
+        "duration" : 40043
+      },
+      "status" : "failed",
+      "statusMessage" : "timeout: Timed out receiving message from renderer: -0.000\n                  (Session info: headless chrome=90.0.4430.93)\n                    at Object.getErrorFromResponseBody (D:\\a\\r1\\a\\_BookingPortal\\node_modules\\webdriver\\build\\utils.js:189:12)\n                    at WebDriverRequest._request (D:\\a\\r1\\a\\_BookingPortal\\node_modules\\webdriver\\build\\request.js:168:31)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at async Browser.runCommandWithHooks (D:\\a\\r1\\a\\_BookingPortal\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:105:25)\n                    at Browser.runCommandWithHooks (D:\\a\\r1\\a\\_BookingPortal\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n                    at Browser.wrapCommandFn (D:\\a\\r1\\a\\_BookingPortal\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n                    at WebDriver.amOnPage (D:\\a\\r1\\a\\_BookingPortal\\node_modules\\codeceptjs\\lib\\helper\\WebDriver.js:843:25)\n                    at Step.run (D:\\a\\r1\\a\\_BookingPortal\\node_modules\\codeceptjs\\lib\\step.js:66:47)\n                    at D:\\a\\r1\\a\\_BookingPortal\\node_modules\\codeceptjs\\lib\\actor.js:117:23",
+      "steps" : [ {
+        "name" : "hntCreatebookingPage: goToSearch ",
+        "time" : {
+          "start" : 1621287849485,
+          "stop" : 1621287889528,
+          "duration" : 40043
+        },
+        "status" : "failed",
+        "statusMessage" : "timeout: Timed out receiving message from renderer: -0.000\n                  (Session info: headless chrome=90.0.4430.93)\n                    at Object.getErrorFromResponseBody (D:\\a\\r1\\a\\_BookingPortal\\node_modules\\webdriver\\build\\utils.js:189:12)\n                    at WebDriverRequest._request (D:\\a\\r1\\a\\_BookingPortal\\node_modules\\webdriver\\build\\request.js:168:31)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at async Browser.runCommandWithHooks (D:\\a\\r1\\a\\_BookingPortal\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:105:25)\n                    at Browser.runCommandWithHooks (D:\\a\\r1\\a\\_BookingPortal\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n                    at Browser.wrapCommandFn (D:\\a\\r1\\a\\_BookingPortal\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n                    at WebDriver.amOnPage (D:\\a\\r1\\a\\_BookingPortal\\node_modules\\codeceptjs\\lib\\helper\\WebDriver.js:843:25)\n                    at Step.run (D:\\a\\r1\\a\\_BookingPortal\\node_modules\\codeceptjs\\lib\\step.js:66:47)\n                    at D:\\a\\r1\\a\\_BookingPortal\\node_modules\\codeceptjs\\lib\\actor.js:117:23",
+        "steps" : [ {
+          "name" : "I am on page \"https://apps8.tflite.com/Public/HNT/Booking/Search\"",
+          "time" : {
+            "start" : 1621287849485,
+            "stop" : 1621287889526,
+            "duration" : 40041
+          },
+          "status" : "failed",
+          "statusMessage" : "timeout: Timed out receiving message from renderer: -0.000\n                  (Session info: headless chrome=90.0.4430.93)\n                    at Object.getErrorFromResponseBody (D:\\a\\r1\\a\\_BookingPortal\\node_modules\\webdriver\\build\\utils.js:189:12)\n                    at WebDriverRequest._request (D:\\a\\r1\\a\\_BookingPortal\\node_modules\\webdriver\\build\\request.js:168:31)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at async Browser.runCommandWithHooks (D:\\a\\r1\\a\\_BookingPortal\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:105:25)\n                    at Browser.runCommandWithHooks (D:\\a\\r1\\a\\_BookingPortal\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n                    at Browser.wrapCommandFn (D:\\a\\r1\\a\\_BookingPortal\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n                    at WebDriver.amOnPage (D:\\a\\r1\\a\\_BookingPortal\\node_modules\\codeceptjs\\lib\\helper\\WebDriver.js:843:25)\n                    at Step.run (D:\\a\\r1\\a\\_BookingPortal\\node_modules\\codeceptjs\\lib\\step.js:66:47)\n                    at D:\\a\\r1\\a\\_BookingPortal\\node_modules\\codeceptjs\\lib\\actor.js:117:23",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : true,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "eea75877e9285c9b",
+      "name" : "Last Seen Screenshot",
+      "source" : "eea75877e9285c9b.png",
+      "type" : "image/png",
+      "size" : 3249
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@hntprodu"
+  }, {
+    "name" : "suite",
+    "value" : "Create a hinterland booking @hntprodu"
+  }, {
+    "name" : "testClass",
+    "value" : "Create a hinterland booking @hntprodu"
+  }, {
+    "name" : "testMethod",
+    "value" : "As a user I should be able to create hinterland flight booking"
+  }, {
+    "name" : "package",
+    "value" : "Create a hinterland booking @hntprodu"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "d6426dd8d4b2a35",
+        "reportUrl" : "../179/index.html#testresult/d6426dd8d4b2a35",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621159602613,
+          "stop" : 1621159676855,
+          "duration" : 74242
+        }
+      }, {
+        "uid" : "95793d1b86151c91",
+        "reportUrl" : "../178/index.html#testresult/95793d1b86151c91",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621159602613,
+          "stop" : 1621159676855,
+          "duration" : 74242
+        }
+      } ]
+    },
+    "tags" : [ "@hntprodu" ]
+  },
+  "source" : "2a18696b41ac1657.json",
+  "parameterValues" : [ ]
+}

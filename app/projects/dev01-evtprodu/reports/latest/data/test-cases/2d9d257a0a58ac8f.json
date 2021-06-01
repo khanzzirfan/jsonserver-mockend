@@ -1,0 +1,257 @@
+{
+  "uid" : "2d9d257a0a58ac8f",
+  "name" : "EvtProdu Tag flight should throw error when no tags available",
+  "fullName" : "TakeFliteBDD.EvtProdu Tag flight should throw error when no tags available",
+  "historyId" : "TakeFliteBDD.EvtProdu Tag flight should throw error when no tags available",
+  "time" : {
+    "start" : 1621350292647,
+    "stop" : 1621350417348,
+    "duration" : 124701
+  },
+  "status" : "failed",
+  "statusMessage" : "Unable to verify a value with the property checkpoint, because the target object does not exist.",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "TakeFliteBDD"
+  }, {
+    "name" : "testClass",
+    "value" : "TakeFliteBDD"
+  }, {
+    "name" : "package",
+    "value" : "TakeFliteBDD"
+  }, {
+    "name" : "resultFormat",
+    "value" : "trx"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 63,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 24,
+        "unknown" : 0,
+        "total" : 87
+      },
+      "items" : [ {
+        "uid" : "b9513ee893872567",
+        "reportUrl" : "../110/index.html#testresult/b9513ee893872567",
+        "status" : "failed",
+        "statusDetails" : "Unable to verify a value with the property checkpoint, because the target object does not exist.",
+        "time" : {
+          "start" : 1621350292647,
+          "stop" : 1621350417348,
+          "duration" : 124701
+        }
+      }, {
+        "uid" : "50a630aea279725b",
+        "reportUrl" : "../109/index.html#testresult/50a630aea279725b",
+        "status" : "failed",
+        "statusDetails" : "Unable to verify a value with the property checkpoint, because the target object does not exist.",
+        "time" : {
+          "start" : 1621350292647,
+          "stop" : 1621350417348,
+          "duration" : 124701
+        }
+      }, {
+        "uid" : "a80dd999599ebd1f",
+        "reportUrl" : "../108/index.html#testresult/a80dd999599ebd1f",
+        "status" : "failed",
+        "statusDetails" : "Unable to verify a value with the property checkpoint, because the target object does not exist.",
+        "time" : {
+          "start" : 1621350292647,
+          "stop" : 1621350417348,
+          "duration" : 124701
+        }
+      }, {
+        "uid" : "ef13b79e92e05876",
+        "reportUrl" : "../107/index.html#testresult/ef13b79e92e05876",
+        "status" : "failed",
+        "statusDetails" : "Unable to verify a value with the property checkpoint, because the target object does not exist.",
+        "time" : {
+          "start" : 1621263902432,
+          "stop" : 1621264028747,
+          "duration" : 126315
+        }
+      }, {
+        "uid" : "8708f51addd5d58e",
+        "reportUrl" : "../106/index.html#testresult/8708f51addd5d58e",
+        "status" : "failed",
+        "statusDetails" : "Unable to verify a value with the property checkpoint, because the target object does not exist.",
+        "time" : {
+          "start" : 1621177490391,
+          "stop" : 1621177616683,
+          "duration" : 126292
+        }
+      }, {
+        "uid" : "8917bddd2fbd425e",
+        "reportUrl" : "../105/index.html#testresult/8917bddd2fbd425e",
+        "status" : "failed",
+        "statusDetails" : "Unable to verify a value with the property checkpoint, because the target object does not exist.",
+        "time" : {
+          "start" : 1621177490391,
+          "stop" : 1621177616683,
+          "duration" : 126292
+        }
+      }, {
+        "uid" : "f3d0a2429c61e4ba",
+        "reportUrl" : "../104/index.html#testresult/f3d0a2429c61e4ba",
+        "status" : "failed",
+        "statusDetails" : "Unable to verify a value with the property checkpoint, because the target object does not exist.",
+        "time" : {
+          "start" : 1620918295014,
+          "stop" : 1620918435044,
+          "duration" : 140030
+        }
+      }, {
+        "uid" : "8ffab5f08bc5232b",
+        "reportUrl" : "../103/index.html#testresult/8ffab5f08bc5232b",
+        "status" : "failed",
+        "statusDetails" : "Unable to verify a value with the property checkpoint, because the target object does not exist.",
+        "time" : {
+          "start" : 1620918295014,
+          "stop" : 1620918435044,
+          "duration" : 140030
+        }
+      }, {
+        "uid" : "16d8490b388269ec",
+        "reportUrl" : "../102/index.html#testresult/16d8490b388269ec",
+        "status" : "failed",
+        "statusDetails" : "Unable to verify a value with the property checkpoint, because the target object does not exist.",
+        "time" : {
+          "start" : 1620831899863,
+          "stop" : 1620832037443,
+          "duration" : 137580
+        }
+      }, {
+        "uid" : "66b493f377b5c3a1",
+        "reportUrl" : "../101/index.html#testresult/66b493f377b5c3a1",
+        "status" : "failed",
+        "statusDetails" : "Unable to verify a value with the property checkpoint, because the target object does not exist.",
+        "time" : {
+          "start" : 1620831899863,
+          "stop" : 1620832037443,
+          "duration" : 137580
+        }
+      }, {
+        "uid" : "d0d73a749bfd84a2",
+        "reportUrl" : "../100/index.html#testresult/d0d73a749bfd84a2",
+        "status" : "failed",
+        "statusDetails" : "Unable to verify a value with the property checkpoint, because the target object does not exist.",
+        "time" : {
+          "start" : 1620745529060,
+          "stop" : 1620745663984,
+          "duration" : 134924
+        }
+      }, {
+        "uid" : "ccf7388e7765b5cd",
+        "reportUrl" : "../99/index.html#testresult/ccf7388e7765b5cd",
+        "status" : "failed",
+        "statusDetails" : "Unable to verify a value with the property checkpoint, because the target object does not exist.",
+        "time" : {
+          "start" : 1620745529060,
+          "stop" : 1620745663984,
+          "duration" : 134924
+        }
+      }, {
+        "uid" : "4dbeab1fe53f1c6a",
+        "reportUrl" : "../98/index.html#testresult/4dbeab1fe53f1c6a",
+        "status" : "failed",
+        "statusDetails" : "1 The dashboard window has not appeared.",
+        "time" : {
+          "start" : 1620659094306,
+          "stop" : 1620659149620,
+          "duration" : 55314
+        }
+      }, {
+        "uid" : "d87a56a608d09815",
+        "reportUrl" : "../97/index.html#testresult/d87a56a608d09815",
+        "status" : "failed",
+        "statusDetails" : "1 The dashboard window has not appeared.",
+        "time" : {
+          "start" : 1620659094306,
+          "stop" : 1620659149620,
+          "duration" : 55314
+        }
+      }, {
+        "uid" : "543717990635138f",
+        "reportUrl" : "../96/index.html#testresult/543717990635138f",
+        "status" : "failed",
+        "statusDetails" : "Unable to verify a value with the property checkpoint, because the target object does not exist.",
+        "time" : {
+          "start" : 1620572685395,
+          "stop" : 1620572818759,
+          "duration" : 133364
+        }
+      }, {
+        "uid" : "52bc98ad70ed52b0",
+        "reportUrl" : "../95/index.html#testresult/52bc98ad70ed52b0",
+        "status" : "failed",
+        "statusDetails" : "Unable to verify a value with the property checkpoint, because the target object does not exist.",
+        "time" : {
+          "start" : 1620572685395,
+          "stop" : 1620572818759,
+          "duration" : 133364
+        }
+      }, {
+        "uid" : "3fa535d6aeecc6fd",
+        "reportUrl" : "../94/index.html#testresult/3fa535d6aeecc6fd",
+        "status" : "failed",
+        "statusDetails" : "Unexpected window: 'Takeflite Ops - Dev - Daily Overview - v5.6.11.0 - ctladmin - evtprodu (BACKUP/TRAINING MODE). Database Restored 13 days 6 hours 26 minutes ago. Time in master timezone is 06/May/2021 07:02.'",
+        "time" : {
+          "start" : 1620313367890,
+          "stop" : 1620313403070,
+          "duration" : 35180
+        }
+      }, {
+        "uid" : "d7a3dd50df754e9e",
+        "reportUrl" : "../93/index.html#testresult/d7a3dd50df754e9e",
+        "status" : "failed",
+        "statusDetails" : "Unexpected window: 'Takeflite Ops - Dev - Daily Overview - v5.6.11.0 - ctladmin - evtprodu (BACKUP/TRAINING MODE). Database Restored 13 days 6 hours 26 minutes ago. Time in master timezone is 06/May/2021 07:02.'",
+        "time" : {
+          "start" : 1620313367890,
+          "stop" : 1620313403070,
+          "duration" : 35180
+        }
+      }, {
+        "uid" : "f1e246061d121936",
+        "reportUrl" : "../92/index.html#testresult/f1e246061d121936",
+        "status" : "failed",
+        "statusDetails" : "Unable to verify a value with the property checkpoint, because the target object does not exist.",
+        "time" : {
+          "start" : 1620227024916,
+          "stop" : 1620227157579,
+          "duration" : 132663
+        }
+      }, {
+        "uid" : "bdc32888da476863",
+        "reportUrl" : "../91/index.html#testresult/bdc32888da476863",
+        "status" : "failed",
+        "statusDetails" : "Unable to verify a value with the property checkpoint, because the target object does not exist.",
+        "time" : {
+          "start" : 1620227024916,
+          "stop" : 1620227157579,
+          "duration" : 132663
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "2d9d257a0a58ac8f.json",
+  "parameterValues" : [ ]
+}

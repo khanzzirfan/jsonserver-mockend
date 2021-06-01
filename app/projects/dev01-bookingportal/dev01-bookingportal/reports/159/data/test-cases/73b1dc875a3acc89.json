@@ -1,0 +1,462 @@
+{
+  "uid" : "73b1dc875a3acc89",
+  "name" : "As a user I should see validation errors for round trip field @validation",
+  "fullName" : "Book a flight and complete the payments @flightbooking.As a user I should see validation errors for round trip field @validation",
+  "historyId" : "431dc33149d0e6928a976a4eab9db10f",
+  "time" : {
+    "start" : 1620339720746,
+    "stop" : 1620339725594,
+    "duration" : 4848
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I navigate to application ",
+      "time" : {
+        "start" : 1620339721741,
+        "stop" : 1620339724421,
+        "duration" : 2680
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "searchPage: goToSearch ",
+        "time" : {
+          "start" : 1620339721741,
+          "stop" : 1620339724396,
+          "duration" : 2655
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "I am on page \"https://apps8.tflite.com/Public/SA/Booking/Search\"",
+          "time" : {
+            "start" : 1620339721741,
+            "stop" : 1620339723475,
+            "duration" : 1734
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "I refresh page ",
+          "time" : {
+            "start" : 1620339723475,
+            "stop" : 1620339724119,
+            "duration" : 644
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "I wait for visible \"#submit\"",
+          "time" : {
+            "start" : 1620339724119,
+            "stop" : 1620339724396,
+            "duration" : 277
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 3,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "I see element \"#submit\"",
+        "time" : {
+          "start" : 1620339724396,
+          "stop" : 1620339724421,
+          "duration" : 25
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 5,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When I see sigin button ",
+      "time" : {
+        "start" : 1620339724421,
+        "stop" : 1620339724850,
+        "duration" : 429
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I see element \"#login\"",
+        "time" : {
+          "start" : 1620339724421,
+          "stop" : 1620339724449,
+          "duration" : 28
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I click on search button ",
+      "time" : {
+        "start" : 1620339724850,
+        "stop" : 1620339725560,
+        "duration" : 710
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I click \"#submit\"",
+        "time" : {
+          "start" : 1620339724850,
+          "stop" : 1620339725560,
+          "duration" : 710
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I should see following fields are required for round trip on search page ",
+      "time" : {
+        "start" : 1620339725560,
+        "stop" : 1620339725594,
+        "duration" : 34
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I see number of elements \".parsley-required\", 2",
+        "time" : {
+          "start" : 1620339725560,
+          "stop" : 1620339725575,
+          "duration" : 15
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I see number of elements \".parsley-custom-error-message\", 2",
+        "time" : {
+          "start" : 1620339725576,
+          "stop" : 1620339725594,
+          "duration" : 18
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "I save screenshot \"As_a_user_I_should_see_validation_errors_for_round_trip_field_@validation.png\", true",
+      "time" : {
+        "start" : 1620339725595,
+        "stop" : 1620339725930,
+        "duration" : 335
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "c45b1dfbfa791714",
+      "name" : "As_a_user_I_should_see_validation_errors_for_round_trip_field_@validation.png",
+      "source" : "c45b1dfbfa791714.png",
+      "type" : "image/png",
+      "size" : 66161
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 14,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@flightbooking"
+  }, {
+    "name" : "tag",
+    "value" : "@validation"
+  }, {
+    "name" : "suite",
+    "value" : "Book a flight and complete the payments @flightbooking"
+  }, {
+    "name" : "testClass",
+    "value" : "Book a flight and complete the payments @flightbooking"
+  }, {
+    "name" : "testMethod",
+    "value" : "As a user I should see validation errors for round trip field @validation"
+  }, {
+    "name" : "package",
+    "value" : "Book a flight and complete the payments @flightbooking"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 18,
+        "unknown" : 0,
+        "total" : 20
+      },
+      "items" : [ {
+        "uid" : "48440ef2c512554f",
+        "reportUrl" : "../158/index.html#testresult/48440ef2c512554f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620339720746,
+          "stop" : 1620339725594,
+          "duration" : 4848
+        }
+      }, {
+        "uid" : "991decc99ec3e06c",
+        "reportUrl" : "../157/index.html#testresult/991decc99ec3e06c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620338789153,
+          "stop" : 1620338794609,
+          "duration" : 5456
+        }
+      }, {
+        "uid" : "94852ec6b891764c",
+        "reportUrl" : "../156/index.html#testresult/94852ec6b891764c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620338789153,
+          "stop" : 1620338794609,
+          "duration" : 5456
+        }
+      }, {
+        "uid" : "2f4c388554014426",
+        "reportUrl" : "../155/index.html#testresult/2f4c388554014426",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620338260642,
+          "stop" : 1620338265810,
+          "duration" : 5168
+        }
+      }, {
+        "uid" : "7b9329cf6ccb1212",
+        "reportUrl" : "../154/index.html#testresult/7b9329cf6ccb1212",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620338260642,
+          "stop" : 1620338265810,
+          "duration" : 5168
+        }
+      }, {
+        "uid" : "139b4736b00371f2",
+        "reportUrl" : "../153/index.html#testresult/139b4736b00371f2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620336581665,
+          "stop" : 1620336587059,
+          "duration" : 5394
+        }
+      }, {
+        "uid" : "c8dcf41b30d3ca15",
+        "reportUrl" : "../152/index.html#testresult/c8dcf41b30d3ca15",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620336581665,
+          "stop" : 1620336587059,
+          "duration" : 5394
+        }
+      }, {
+        "uid" : "2c5bdb54e7fd842",
+        "reportUrl" : "../151/index.html#testresult/2c5bdb54e7fd842",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620331899592,
+          "stop" : 1620331905049,
+          "duration" : 5457
+        }
+      }, {
+        "uid" : "9119c465f8a89227",
+        "reportUrl" : "../150/index.html#testresult/9119c465f8a89227",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620331899592,
+          "stop" : 1620331905049,
+          "duration" : 5457
+        }
+      }, {
+        "uid" : "63ebf1178a5c19cc",
+        "reportUrl" : "../149/index.html#testresult/63ebf1178a5c19cc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620227243726,
+          "stop" : 1620227249305,
+          "duration" : 5579
+        }
+      }, {
+        "uid" : "98514d68f92bb370",
+        "reportUrl" : "../148/index.html#testresult/98514d68f92bb370",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620227243726,
+          "stop" : 1620227249305,
+          "duration" : 5579
+        }
+      }, {
+        "uid" : "f862a9cb59daf020",
+        "reportUrl" : "../147/index.html#testresult/f862a9cb59daf020",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620169009150,
+          "stop" : 1620169014377,
+          "duration" : 5227
+        }
+      }, {
+        "uid" : "13a630a4e9fd2419",
+        "reportUrl" : "../146/index.html#testresult/13a630a4e9fd2419",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620169009150,
+          "stop" : 1620169014377,
+          "duration" : 5227
+        }
+      }, {
+        "uid" : "8d969e49e8efdcba",
+        "reportUrl" : "../145/index.html#testresult/8d969e49e8efdcba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620165633468,
+          "stop" : 1620165639604,
+          "duration" : 6136
+        }
+      }, {
+        "uid" : "c74717d047bb6eeb",
+        "reportUrl" : "../144/index.html#testresult/c74717d047bb6eeb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620165633468,
+          "stop" : 1620165639604,
+          "duration" : 6136
+        }
+      }, {
+        "uid" : "6fcaae8539480950",
+        "reportUrl" : "../143/index.html#testresult/6fcaae8539480950",
+        "status" : "failed",
+        "statusDetails" : "Cannot read property 'url' of undefined",
+        "time" : {
+          "start" : 1620141451146,
+          "stop" : 1620141454192,
+          "duration" : 3046
+        }
+      }, {
+        "uid" : "738a6268b5b57199",
+        "reportUrl" : "../142/index.html#testresult/738a6268b5b57199",
+        "status" : "failed",
+        "statusDetails" : "Cannot read property 'url' of undefined",
+        "time" : {
+          "start" : 1620141451146,
+          "stop" : 1620141454192,
+          "duration" : 3046
+        }
+      }, {
+        "uid" : "ab564c2dad5989d9",
+        "reportUrl" : "../141/index.html#testresult/ab564c2dad5989d9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620075170303,
+          "stop" : 1620075189046,
+          "duration" : 18743
+        }
+      }, {
+        "uid" : "64da56bee7aedc10",
+        "reportUrl" : "../140/index.html#testresult/64da56bee7aedc10",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620075170303,
+          "stop" : 1620075189046,
+          "duration" : 18743
+        }
+      } ]
+    },
+    "tags" : [ "@flightbooking", "@validation" ]
+  },
+  "source" : "73b1dc875a3acc89.json",
+  "parameterValues" : [ ]
+}

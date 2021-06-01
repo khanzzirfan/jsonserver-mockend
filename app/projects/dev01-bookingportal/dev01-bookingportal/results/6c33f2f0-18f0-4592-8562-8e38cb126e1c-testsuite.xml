@@ -1,0 +1,921 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1621288512487' stop='1621288553332'>
+    <name>Booking portal search page</name>
+    <title>Booking portal search page</title>
+    <test-cases>
+        <test-case start='1621288512488' status='passed' stop='1621288522829'>
+            <name>Search page should display all basic field on landing @story1245</name>
+            <title>Search page should display all basic field on landing @story1245</title>
+            <labels>
+                <label name='tag' value='@story1245'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1621288514081' status='passed' stop='1621288517319'>
+                    <name>Given I navigate to application </name>
+                    <title>Given I navigate to application </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288514081' status='passed' stop='1621288517298'>
+                            <name>searchPage: goToSearch </name>
+                            <title>searchPage: goToSearch </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1621288514081' status='passed' stop='1621288516365'>
+                                    <name>I am on page "https://test.tflite.com/Public/SA/Booking/Search"</name>
+                                    <title>I am on page "https://test.tflite.com/Public/SA/Booking/Search"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1621288516365' status='passed' stop='1621288517102'>
+                                    <name>I refresh page </name>
+                                    <title>I refresh page </title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1621288517102' status='passed' stop='1621288517298'>
+                                    <name>I wait for visible "#submit"</name>
+                                    <title>I wait for visible "#submit"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1621288517298' status='passed' stop='1621288517319'>
+                            <name>I see element "#submit"</name>
+                            <title>I see element "#submit"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288517319' status='passed' stop='1621288517419'>
+                    <name>Then I should see round trip radio button </name>
+                    <title>Then I should see round trip radio button </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288517319' status='passed' stop='1621288517419'>
+                            <name>I see "Return Trip"</name>
+                            <title>I see "Return Trip"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288517419' status='passed' stop='1621288517455'>
+                    <name>And I should see Search Icon on the page </name>
+                    <title>And I should see Search Icon on the page </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288517419' status='passed' stop='1621288517455'>
+                            <name>I see element "#submit .fa-search"</name>
+                            <title>I see element "#submit .fa-search"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288517455' status='passed' stop='1621288517569'>
+                    <name>Then I should see redeem label with arrow left circle icon </name>
+                    <title>Then I should see redeem label with arrow left circle icon </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288517455' status='passed' stop='1621288517485'>
+                            <name>I see element ".redeemWrapper .fa-arrow-left-circle"</name>
+                            <title>I see element ".redeemWrapper .fa-arrow-left-circle"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1621288517485' status='passed' stop='1621288517569'>
+                            <name>I see "Redeem a 10 Trip Ticket"</name>
+                            <title>I see "Redeem a 10 Trip Ticket"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288517569' status='passed' stop='1621288517593'>
+                    <name>Then I should see redeem input box </name>
+                    <title>Then I should see redeem input box </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288517569' status='passed' stop='1621288517593'>
+                            <name>I see element "input[id="voucher-text"]"</name>
+                            <title>I see element "input[id="voucher-text"]"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288517593' status='passed' stop='1621288517616'>
+                    <name>Then I should see redeem button </name>
+                    <title>Then I should see redeem button </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288517593' status='passed' stop='1621288517616'>
+                            <name>I see element "#btnVoucherGo"</name>
+                            <title>I see element "#btnVoucherGo"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288517616' status='passed' stop='1621288517639'>
+                    <name>Then I should see departing from dropdown </name>
+                    <title>Then I should see departing from dropdown </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288517616' status='passed' stop='1621288517639'>
+                            <name>I see element "button[data-id="from"]"</name>
+                            <title>I see element "button[data-id="from"]"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288517639' status='passed' stop='1621288517663'>
+                    <name>Then I should see travelling to dropdown </name>
+                    <title>Then I should see travelling to dropdown </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288517639' status='passed' stop='1621288517661'>
+                            <name>I see element "button[data-id="to"]"</name>
+                            <title>I see element "button[data-id="to"]"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288517663' status='passed' stop='1621288517728'>
+                    <name>Then I should see departing from date options </name>
+                    <title>Then I should see departing from date options </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288517663' status='passed' stop='1621288517728'>
+                            <name>I see element "input[id="depart_date"]"</name>
+                            <title>I see element "input[id="depart_date"]"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288517728' status='passed' stop='1621288517756'>
+                    <name>Then I should see travelling to date options </name>
+                    <title>Then I should see travelling to date options </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288517728' status='passed' stop='1621288517756'>
+                            <name>I see element "input[id="return_date"]"</name>
+                            <title>I see element "input[id="return_date"]"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288517756' status='passed' stop='1621288517784'>
+                    <name>Then I should see adults options </name>
+                    <title>Then I should see adults options </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288517756' status='passed' stop='1621288517784'>
+                            <name>I see element "input[id="adults"]"</name>
+                            <title>I see element "input[id="adults"]"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288517784' status='passed' stop='1621288517806'>
+                    <name>Then I should see children options </name>
+                    <title>Then I should see children options </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288517784' status='passed' stop='1621288517806'>
+                            <name>I see element "input[id="children"]"</name>
+                            <title>I see element "input[id="children"]"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288517806' status='passed' stop='1621288517828'>
+                    <name>Then I should see infants options </name>
+                    <title>Then I should see infants options </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288517806' status='passed' stop='1621288517828'>
+                            <name>I see element "input[id="infants"]"</name>
+                            <title>I see element "input[id="infants"]"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288517828' status='passed' stop='1621288522829'>
+                    <name>Then I save the final screenshot </name>
+                    <title>Then I save the final screenshot </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288517828' status='passed' stop='1621288522829'>
+                            <name>I wait 5</name>
+                            <title>I wait 5</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1621288522829' status='passed' stop='1621288522829'>
+                            <name>saved screenshot</name>
+                            <title>saved screenshot</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288522830' status='passed' stop='1621288523174'>
+                    <name>I save screenshot "Search_page_should_display_all_basic_field_on_landing_@story1245.png", true</name>
+                    <title>I save screenshot "Search_page_should_display_all_basic_field_on_landing_@story1245.png", true</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Search_page_should_display_all_basic_field_on_landing_@story1245.png' source='e77fba0c-68e5-4eac-acbe-8302557841fa-attachment.png' type='image/png' size='62234'/>
+            </attachments>
+        </test-case>
+        <test-case start='1621288523201' status='passed' stop='1621288528414'>
+            <name>Search page should display sidebar links @story1246</name>
+            <title>Search page should display sidebar links @story1246</title>
+            <labels>
+                <label name='tag' value='@story1246'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1621288524769' status='passed' stop='1621288527865'>
+                    <name>Given I navigate to application </name>
+                    <title>Given I navigate to application </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288524769' status='passed' stop='1621288527839'>
+                            <name>searchPage: goToSearch </name>
+                            <title>searchPage: goToSearch </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1621288524769' status='passed' stop='1621288526812'>
+                                    <name>I am on page "https://test.tflite.com/Public/SA/Booking/Search"</name>
+                                    <title>I am on page "https://test.tflite.com/Public/SA/Booking/Search"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1621288526812' status='passed' stop='1621288527653'>
+                                    <name>I refresh page </name>
+                                    <title>I refresh page </title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1621288527653' status='passed' stop='1621288527839'>
+                                    <name>I wait for visible "#submit"</name>
+                                    <title>I wait for visible "#submit"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1621288527839' status='passed' stop='1621288527865'>
+                            <name>I see element "#submit"</name>
+                            <title>I see element "#submit"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288527865' status='passed' stop='1621288527889'>
+                    <name>When the sidebar page is displayed </name>
+                    <title>When the sidebar page is displayed </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288527865' status='passed' stop='1621288527889'>
+                            <name>I see element ".sidebar-right"</name>
+                            <title>I see element ".sidebar-right"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288527889' status='passed' stop='1621288528050'>
+                    <name>Then I should see the link to purchase 10 trip tickets </name>
+                    <title>Then I should see the link to purchase 10 trip tickets </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288527889' status='passed' stop='1621288528009'>
+                            <name>I see "Purchase 10 Trip Tickets"</name>
+                            <title>I see "Purchase 10 Trip Tickets"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1621288528009' status='passed' stop='1621288528050'>
+                            <name>I see element "a[href="/Public/SA/Voucher/Buy"]"</name>
+                            <title>I see element "a[href="/Public/SA/Voucher/Buy"]"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288528050' status='passed' stop='1621288528173'>
+                    <name>And I should see find a booking link </name>
+                    <title>And I should see find a booking link </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288528050' status='passed' stop='1621288528139'>
+                            <name>I see "Find a Booking"</name>
+                            <title>I see "Find a Booking"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1621288528139' status='passed' stop='1621288528173'>
+                            <name>I see element "a[href="/Public/SA/View/FindBooking"]"</name>
+                            <title>I see element "a[href="/Public/SA/View/FindBooking"]"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288528173' status='passed' stop='1621288528276'>
+                    <name>And I should also see sign in link </name>
+                    <title>And I should also see sign in link </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288528173' status='passed' stop='1621288528255'>
+                            <name>I see "Sign In"</name>
+                            <title>I see "Sign In"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1621288528255' status='passed' stop='1621288528276'>
+                            <name>I see element "a[href="/Public/SA/Account/login"]"</name>
+                            <title>I see element "a[href="/Public/SA/Account/login"]"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288528276' status='passed' stop='1621288528414'>
+                    <name>And I should also see sign up link </name>
+                    <title>And I should also see sign up link </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288528276' status='passed' stop='1621288528369'>
+                            <name>I see "Sign up"</name>
+                            <title>I see "Sign up"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1621288528369' status='passed' stop='1621288528414'>
+                            <name>I see element "a[href="/Public/SA/Account/SignUp"]"</name>
+                            <title>I see element "a[href="/Public/SA/Account/SignUp"]"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288528414' status='passed' stop='1621288528846'>
+                    <name>I save screenshot "Search_page_should_display_sidebar_links_@story1246.png", true</name>
+                    <title>I save screenshot "Search_page_should_display_sidebar_links_@story1246.png", true</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Search_page_should_display_sidebar_links_@story1246.png' source='309fa385-7699-4ee1-aaf8-f26769665927-attachment.png' type='image/png' size='62486'/>
+            </attachments>
+        </test-case>
+        <test-case start='1621288528875' status='passed' stop='1621288533435'>
+            <name>Search page should display menu items</name>
+            <title>Search page should display menu items</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1621288530403' status='passed' stop='1621288533091'>
+                    <name>Given I navigate to application </name>
+                    <title>Given I navigate to application </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288530403' status='passed' stop='1621288533071'>
+                            <name>searchPage: goToSearch </name>
+                            <title>searchPage: goToSearch </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1621288530403' status='passed' stop='1621288532236'>
+                                    <name>I am on page "https://test.tflite.com/Public/SA/Booking/Search"</name>
+                                    <title>I am on page "https://test.tflite.com/Public/SA/Booking/Search"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1621288532236' status='passed' stop='1621288532884'>
+                                    <name>I refresh page </name>
+                                    <title>I refresh page </title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1621288532885' status='passed' stop='1621288533071'>
+                                    <name>I wait for visible "#submit"</name>
+                                    <title>I wait for visible "#submit"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1621288533071' status='passed' stop='1621288533091'>
+                            <name>I see element "#submit"</name>
+                            <title>I see element "#submit"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288533091' status='passed' stop='1621288533113'>
+                    <name>When the search page is displayed </name>
+                    <title>When the search page is displayed </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288533091' status='passed' stop='1621288533113'>
+                            <name>I see element "#submit .fa-search"</name>
+                            <title>I see element "#submit .fa-search"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288533113' status='passed' stop='1621288533161'>
+                    <name>Then I should see book menu with search icon </name>
+                    <title>Then I should see book menu with search icon </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288533113' status='passed' stop='1621288533161'>
+                            <name>I see element "a[href="/Public/SA/Booking/Search"]"</name>
+                            <title>I see element "a[href="/Public/SA/Booking/Search"]"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288533161' status='passed' stop='1621288533262'>
+                    <name>And I should my accounts dropdown menu option </name>
+                    <title>And I should my accounts dropdown menu option </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288533161' status='passed' stop='1621288533262'>
+                            <name>I see "My Account"</name>
+                            <title>I see "My Account"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288533262' status='passed' stop='1621288533390'>
+                    <name>And I see phone number 0800505005 </name>
+                    <title>And I see phone number 0800505005 </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288533262' status='passed' stop='1621288533361'>
+                            <name>I see "0800 505 005"</name>
+                            <title>I see "0800 505 005"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1621288533361' status='passed' stop='1621288533390'>
+                            <name>I see element "a[href="tel:0800 505 005"]"</name>
+                            <title>I see element "a[href="tel:0800 505 005"]"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288533390' status='passed' stop='1621288533413'>
+                    <name>And I should see signup button </name>
+                    <title>And I should see signup button </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288533390' status='passed' stop='1621288533413'>
+                            <name>I see element "#sign-up"</name>
+                            <title>I see element "#sign-up"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288533413' status='passed' stop='1621288533435'>
+                    <name>And I should also see the signin button </name>
+                    <title>And I should also see the signin button </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288533413' status='passed' stop='1621288533435'>
+                            <name>I see element "#login"</name>
+                            <title>I see element "#login"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288533436' status='passed' stop='1621288533818'>
+                    <name>I save screenshot "Search_page_should_display_menu_items.png", true</name>
+                    <title>I save screenshot "Search_page_should_display_menu_items.png", true</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Search_page_should_display_menu_items.png' source='5697c5a1-5f27-4b94-8604-ae11f3c24e5b-attachment.png' type='image/png' size='54443'/>
+            </attachments>
+        </test-case>
+        <test-case start='1621288533843' status='passed' stop='1621288538477'>
+            <name>Search page should display footer links</name>
+            <title>Search page should display footer links</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1621288535402' status='passed' stop='1621288537812'>
+                    <name>Given I navigate to application </name>
+                    <title>Given I navigate to application </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288535402' status='passed' stop='1621288537792'>
+                            <name>searchPage: goToSearch </name>
+                            <title>searchPage: goToSearch </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1621288535402' status='passed' stop='1621288536973'>
+                                    <name>I am on page "https://test.tflite.com/Public/SA/Booking/Search"</name>
+                                    <title>I am on page "https://test.tflite.com/Public/SA/Booking/Search"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1621288536973' status='passed' stop='1621288537619'>
+                                    <name>I refresh page </name>
+                                    <title>I refresh page </title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1621288537619' status='passed' stop='1621288537792'>
+                                    <name>I wait for visible "#submit"</name>
+                                    <title>I wait for visible "#submit"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1621288537792' status='passed' stop='1621288537812'>
+                            <name>I see element "#submit"</name>
+                            <title>I see element "#submit"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288537812' status='passed' stop='1621288537833'>
+                    <name>When the sidebar page is displayed </name>
+                    <title>When the sidebar page is displayed </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288537812' status='passed' stop='1621288537833'>
+                            <name>I see element ".sidebar-right"</name>
+                            <title>I see element ".sidebar-right"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288537833' status='passed' stop='1621288537945'>
+                    <name>Then I should see Term of use link </name>
+                    <title>Then I should see Term of use link </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288537833' status='passed' stop='1621288537945'>
+                            <name>I see "Terms of use"</name>
+                            <title>I see "Terms of use"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288537945' status='passed' stop='1621288538033'>
+                    <name>And I should also see Terms and Conditions link </name>
+                    <title>And I should also see Terms and Conditions link </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288537945' status='passed' stop='1621288538033'>
+                            <name>I see "Terms and Conditions"</name>
+                            <title>I see "Terms and Conditions"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288538033' status='passed' stop='1621288538120'>
+                    <name>And I should see privacy statement link </name>
+                    <title>And I should see privacy statement link </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288538033' status='passed' stop='1621288538120'>
+                            <name>I see "Privacy Statement"</name>
+                            <title>I see "Privacy Statement"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288538120' status='passed' stop='1621288538210'>
+                    <name>And I should also see feedback link </name>
+                    <title>And I should also see feedback link </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288538120' status='passed' stop='1621288538210'>
+                            <name>I see " Feedback"</name>
+                            <title>I see " Feedback"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288538210' status='passed' stop='1621288538477'>
+                    <name>And I should also see footer text sounds air all rights reserved </name>
+                    <title>And I should also see footer text sounds air all rights reserved </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288538210' status='passed' stop='1621288538302'>
+                            <name>I see "© 2021 "</name>
+                            <title>I see "© 2021 "</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1621288538302' status='passed' stop='1621288538395'>
+                            <name>I see "Sounds Air"</name>
+                            <title>I see "Sounds Air"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1621288538395' status='passed' stop='1621288538477'>
+                            <name>I see ". All Rights Reserved"</name>
+                            <title>I see ". All Rights Reserved"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288538477' status='passed' stop='1621288538885'>
+                    <name>I save screenshot "Search_page_should_display_footer_links.png", true</name>
+                    <title>I save screenshot "Search_page_should_display_footer_links.png", true</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Search_page_should_display_footer_links.png' source='511a5b53-a5eb-4ea4-b1a5-faa6da174b52-attachment.png' type='image/png' size='63967'/>
+            </attachments>
+        </test-case>
+        <test-case start='1621288538902' status='passed' stop='1621288545513'>
+            <name>Search page feedback should display modal feedback</name>
+            <title>Search page feedback should display modal feedback</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1621288540429' status='passed' stop='1621288542811'>
+                    <name>Given I navigate to application </name>
+                    <title>Given I navigate to application </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288540429' status='passed' stop='1621288542787'>
+                            <name>searchPage: goToSearch </name>
+                            <title>searchPage: goToSearch </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1621288540429' status='passed' stop='1621288541988'>
+                                    <name>I am on page "https://test.tflite.com/Public/SA/Booking/Search"</name>
+                                    <title>I am on page "https://test.tflite.com/Public/SA/Booking/Search"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1621288541989' status='passed' stop='1621288542744'>
+                                    <name>I refresh page </name>
+                                    <title>I refresh page </title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1621288542744' status='passed' stop='1621288542787'>
+                                    <name>I wait for visible "#submit"</name>
+                                    <title>I wait for visible "#submit"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1621288542787' status='passed' stop='1621288542810'>
+                            <name>I see element "#submit"</name>
+                            <title>I see element "#submit"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288542811' status='passed' stop='1621288542834'>
+                    <name>When the sidebar page is displayed </name>
+                    <title>When the sidebar page is displayed </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288542811' status='passed' stop='1621288542834'>
+                            <name>I see element ".sidebar-right"</name>
+                            <title>I see element ".sidebar-right"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288542834' status='passed' stop='1621288543364'>
+                    <name>Then I should also see feedback link </name>
+                    <title>Then I should also see feedback link </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288542834' status='passed' stop='1621288542963'>
+                            <name>I see " Feedback"</name>
+                            <title>I see " Feedback"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288543364' status='passed' stop='1621288544120'>
+                    <name>Then I click on feedback link </name>
+                    <title>Then I click on feedback link </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288543364' status='passed' stop='1621288544120'>
+                            <name>I click "a[title="Feedback"]"</name>
+                            <title>I click "a[title="Feedback"]"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288544120' status='passed' stop='1621288544545'>
+                    <name>Then I should see feedback modal window </name>
+                    <title>Then I should see feedback modal window </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288544120' status='passed' stop='1621288544144'>
+                            <name>I see element "#feedback_modal"</name>
+                            <title>I see element "#feedback_modal"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288544545' status='passed' stop='1621288545250'>
+                    <name>Then I enter feedback details </name>
+                    <title>Then I enter feedback details </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288544545' status='passed' stop='1621288544849'>
+                            <name>I fill field "#feedback_text", "Test feedback details"</name>
+                            <title>I fill field "#feedback_text", "Test feedback details"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288545250' status='passed' stop='1621288545513'>
+                    <name>Then I should submit feedback </name>
+                    <title>Then I should submit feedback </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288545250' status='passed' stop='1621288545513'>
+                            <name>I click "#feedback_submit"</name>
+                            <title>I click "#feedback_submit"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288545513' status='passed' stop='1621288545857'>
+                    <name>I save screenshot "Search_page_feedback_should_display_modal_feedback.png", true</name>
+                    <title>I save screenshot "Search_page_feedback_should_display_modal_feedback.png", true</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Search_page_feedback_should_display_modal_feedback.png' source='028512d7-3a52-4b68-bfef-4ada402dd5a1-attachment.png' type='image/png' size='64740'/>
+            </attachments>
+        </test-case>
+        <test-case start='1621288545880' status='passed' stop='1621288552840'>
+            <name>Search page terms of use should display modal with terms of usage</name>
+            <title>Search page terms of use should display modal with terms of usage</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1621288547405' status='passed' stop='1621288550370'>
+                    <name>Given I navigate to application </name>
+                    <title>Given I navigate to application </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288547405' status='passed' stop='1621288550341'>
+                            <name>searchPage: goToSearch </name>
+                            <title>searchPage: goToSearch </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1621288547405' status='passed' stop='1621288549270'>
+                                    <name>I am on page "https://test.tflite.com/Public/SA/Booking/Search"</name>
+                                    <title>I am on page "https://test.tflite.com/Public/SA/Booking/Search"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1621288549270' status='passed' stop='1621288550163'>
+                                    <name>I refresh page </name>
+                                    <title>I refresh page </title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1621288550164' status='passed' stop='1621288550341'>
+                                    <name>I wait for visible "#submit"</name>
+                                    <title>I wait for visible "#submit"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1621288550341' status='passed' stop='1621288550369'>
+                            <name>I see element "#submit"</name>
+                            <title>I see element "#submit"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288550370' status='passed' stop='1621288550809'>
+                    <name>When the sidebar page is displayed </name>
+                    <title>When the sidebar page is displayed </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288550370' status='passed' stop='1621288550408'>
+                            <name>I see element ".sidebar-right"</name>
+                            <title>I see element ".sidebar-right"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288550809' status='passed' stop='1621288551625'>
+                    <name>Then I should click on terms of use </name>
+                    <title>Then I should click on terms of use </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288550809' status='passed' stop='1621288551625'>
+                            <name>I click "a[data-target="#termsofuse_modal"]"</name>
+                            <title>I click "a[data-target="#termsofuse_modal"]"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288551625' status='passed' stop='1621288551656'>
+                    <name>Then I should see modal with terms of usage </name>
+                    <title>Then I should see modal with terms of usage </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288551625' status='passed' stop='1621288551656'>
+                            <name>I see element "a[data-target="#termsofuse_modal"]"</name>
+                            <title>I see element "a[data-target="#termsofuse_modal"]"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288551656' status='passed' stop='1621288552840'>
+                    <name>Then I should close the modal window </name>
+                    <title>Then I should close the modal window </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288551656' status='passed' stop='1621288552189'>
+                            <name>I wait for clickable "#termsofuse_modal button[data-dismiss="modal"]", 5</name>
+                            <title>I wait for clickable "#termsofuse_modal button[data-dismiss="modal"]", 5</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1621288552590' status='passed' stop='1621288552840'>
+                            <name>I click "#termsofuse_modal button[data-dismiss="modal"]"</name>
+                            <title>I click "#termsofuse_modal button[data-dismiss="modal"]"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288552841' status='passed' stop='1621288553305'>
+                    <name>I save screenshot "Search_page_terms_of_use_should_display_modal_with_terms_of_usage.png", true</name>
+                    <title>I save screenshot "Search_page_terms_of_use_should_display_modal_with_terms_of_usage.png", true</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Search_page_terms_of_use_should_display_modal_with_terms_of_usage.png' source='5b265107-3d96-4674-bf59-3ffeadeb60ff-attachment.png' type='image/png' size='62256'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

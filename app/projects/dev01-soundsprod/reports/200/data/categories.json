@@ -1,0 +1,77 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "TypeError: aqUtils is not a function",
+      "children" : [ {
+        "name" : "LoginScenarios",
+        "uid" : "2c3fb18471350c84",
+        "parentUid" : "4acc4a5b7be3ce1141c38eb3432dddf0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1621274525231,
+          "stop" : 1621274570249,
+          "duration" : 45018
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4acc4a5b7be3ce1141c38eb3432dddf0"
+    }, {
+      "name" : "The property checkpoint failed, because Text does not contain the substring (case-sensitive) \"100 passenger(s) found. Orphaned passengers a...\". See Details for additional information.",
+      "children" : [ {
+        "name" : "FindBooking - User should be search bookings for a specific transaction",
+        "uid" : "467b9da8d12cfd2b",
+        "parentUid" : "1ac8c0b8cd0030d0d4ac8cb02807b9be",
+        "status" : "failed",
+        "time" : {
+          "start" : 1621275329286,
+          "stop" : 1621275461913,
+          "duration" : 132627
+        },
+        "flaky" : true,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1ac8c0b8cd0030d0d4ac8cb02807b9be"
+    }, {
+      "name" : "The property checkpoint failed, because Text does not equal (case-sensitive) \"100 passenger(s) found. Orphaned passengers a...\". See Details for additional information.",
+      "children" : [ {
+        "name" : "FindBooking - Searchbooking for a one month",
+        "uid" : "ec0869aa541ae27d",
+        "parentUid" : "f8c977a79bcefb9392ce750f9db4c165",
+        "status" : "failed",
+        "time" : {
+          "start" : 1621275536387,
+          "stop" : 1621275671054,
+          "duration" : 134667
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f8c977a79bcefb9392ce750f9db4c165"
+    }, {
+      "name" : "The page 'https://uat.paymentexpress.com/pxmi3/*' was not found.",
+      "children" : [ {
+        "name" : "CreateScheduleBookingCCPayment - SuccessScenario",
+        "uid" : "8512600992fd7e0d",
+        "parentUid" : "0a46456386065688440c330e7ef5bf6d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1621276026514,
+          "stop" : 1621276140110,
+          "duration" : 113596
+        },
+        "flaky" : true,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0a46456386065688440c330e7ef5bf6d"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

@@ -1,0 +1,246 @@
+{
+  "uid" : "334d393c9121fa3",
+  "name" : "EvtProdu Assign tag to scheduled booking flight",
+  "fullName" : "TakeFliteBDD.EvtProdu Assign tag to scheduled booking flight",
+  "historyId" : "TakeFliteBDD.EvtProdu Assign tag to scheduled booking flight",
+  "time" : {
+    "start" : 1620572886585,
+    "stop" : 1620573018787,
+    "duration" : 132202
+  },
+  "status" : "failed",
+  "statusMessage" : "Unable to verify a value with the property checkpoint, because the target object does not exist.",
+  "flaky" : true,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "TakeFliteBDD"
+  }, {
+    "name" : "testClass",
+    "value" : "TakeFliteBDD"
+  }, {
+    "name" : "package",
+    "value" : "TakeFliteBDD"
+  }, {
+    "name" : "resultFormat",
+    "value" : "trx"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 17,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 57,
+        "unknown" : 0,
+        "total" : 74
+      },
+      "items" : [ {
+        "uid" : "711f77caa6988737",
+        "reportUrl" : "../95/index.html#testresult/711f77caa6988737",
+        "status" : "failed",
+        "statusDetails" : "Unable to verify a value with the property checkpoint, because the target object does not exist.",
+        "time" : {
+          "start" : 1620572886585,
+          "stop" : 1620573018787,
+          "duration" : 132202
+        }
+      }, {
+        "uid" : "6dd6d14efe54e162",
+        "reportUrl" : "../94/index.html#testresult/6dd6d14efe54e162",
+        "status" : "failed",
+        "statusDetails" : "Unexpected window: 'Takeflite Ops - Dev - Daily Overview - v5.6.11.0 - ctladmin - evtprodu (BACKUP/TRAINING MODE). Database Restored 13 days 6 hours 27 minutes ago. Time in master timezone is 06/May/2021 07:03.'",
+        "time" : {
+          "start" : 1620313438550,
+          "stop" : 1620313473935,
+          "duration" : 35385
+        }
+      }, {
+        "uid" : "beae14f0ddfa7362",
+        "reportUrl" : "../93/index.html#testresult/beae14f0ddfa7362",
+        "status" : "failed",
+        "statusDetails" : "Unexpected window: 'Takeflite Ops - Dev - Daily Overview - v5.6.11.0 - ctladmin - evtprodu (BACKUP/TRAINING MODE). Database Restored 13 days 6 hours 27 minutes ago. Time in master timezone is 06/May/2021 07:03.'",
+        "time" : {
+          "start" : 1620313438550,
+          "stop" : 1620313473935,
+          "duration" : 35385
+        }
+      }, {
+        "uid" : "f390f628a1cfba15",
+        "reportUrl" : "../92/index.html#testresult/f390f628a1cfba15",
+        "status" : "failed",
+        "statusDetails" : "Unable to verify a value with the property checkpoint, because the target object does not exist.",
+        "time" : {
+          "start" : 1620227223840,
+          "stop" : 1620227361098,
+          "duration" : 137258
+        }
+      }, {
+        "uid" : "230814d25bd97b4c",
+        "reportUrl" : "../91/index.html#testresult/230814d25bd97b4c",
+        "status" : "failed",
+        "statusDetails" : "Unable to verify a value with the property checkpoint, because the target object does not exist.",
+        "time" : {
+          "start" : 1620227223840,
+          "stop" : 1620227361098,
+          "duration" : 137258
+        }
+      }, {
+        "uid" : "2fd53458fd0e8dc0",
+        "reportUrl" : "../90/index.html#testresult/2fd53458fd0e8dc0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620140897389,
+          "stop" : 1620140974900,
+          "duration" : 77511
+        }
+      }, {
+        "uid" : "4a70c32428d95249",
+        "reportUrl" : "../89/index.html#testresult/4a70c32428d95249",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620140897389,
+          "stop" : 1620140974900,
+          "duration" : 77511
+        }
+      }, {
+        "uid" : "2c653f5a6c8ffe1b",
+        "reportUrl" : "../88/index.html#testresult/2c653f5a6c8ffe1b",
+        "status" : "failed",
+        "statusDetails" : "Unable to verify a value with the property checkpoint, because the target object does not exist.",
+        "time" : {
+          "start" : 1620054433619,
+          "stop" : 1620054570162,
+          "duration" : 136543
+        }
+      }, {
+        "uid" : "176801506916806f",
+        "reportUrl" : "../87/index.html#testresult/176801506916806f",
+        "status" : "failed",
+        "statusDetails" : "Unable to verify a value with the property checkpoint, because the target object does not exist.",
+        "time" : {
+          "start" : 1620054433619,
+          "stop" : 1620054570162,
+          "duration" : 136543
+        }
+      }, {
+        "uid" : "c0516278eb0fc595",
+        "reportUrl" : "../86/index.html#testresult/c0516278eb0fc595",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619968067269,
+          "stop" : 1619968140166,
+          "duration" : 72897
+        }
+      }, {
+        "uid" : "2332b5094b4380d7",
+        "reportUrl" : "../85/index.html#testresult/2332b5094b4380d7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619968067269,
+          "stop" : 1619968140166,
+          "duration" : 72897
+        }
+      }, {
+        "uid" : "a967389cf18d7d14",
+        "reportUrl" : "../84/index.html#testresult/a967389cf18d7d14",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619708888918,
+          "stop" : 1619708976044,
+          "duration" : 87126
+        }
+      }, {
+        "uid" : "477e54c41fd97a3c",
+        "reportUrl" : "../83/index.html#testresult/477e54c41fd97a3c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619708888918,
+          "stop" : 1619708976044,
+          "duration" : 87126
+        }
+      }, {
+        "uid" : "936d864f3779101c",
+        "reportUrl" : "../82/index.html#testresult/936d864f3779101c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619622480182,
+          "stop" : 1619622560224,
+          "duration" : 80042
+        }
+      }, {
+        "uid" : "ee6acd11c03741ca",
+        "reportUrl" : "../81/index.html#testresult/ee6acd11c03741ca",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619622480182,
+          "stop" : 1619622560224,
+          "duration" : 80042
+        }
+      }, {
+        "uid" : "b0d96448237117b9",
+        "reportUrl" : "../80/index.html#testresult/b0d96448237117b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619536068899,
+          "stop" : 1619536155307,
+          "duration" : 86408
+        }
+      }, {
+        "uid" : "f0afef96917a089a",
+        "reportUrl" : "../79/index.html#testresult/f0afef96917a089a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619536068899,
+          "stop" : 1619536155307,
+          "duration" : 86408
+        }
+      }, {
+        "uid" : "17fa150eea685057",
+        "reportUrl" : "../78/index.html#testresult/17fa150eea685057",
+        "status" : "failed",
+        "statusDetails" : "Unable to verify a value with the property checkpoint, because the target object does not exist.",
+        "time" : {
+          "start" : 1619449686860,
+          "stop" : 1619449825229,
+          "duration" : 138369
+        }
+      }, {
+        "uid" : "beb3f5b6af9b6437",
+        "reportUrl" : "../77/index.html#testresult/beb3f5b6af9b6437",
+        "status" : "failed",
+        "statusDetails" : "Unable to verify a value with the property checkpoint, because the target object does not exist.",
+        "time" : {
+          "start" : 1619449686860,
+          "stop" : 1619449825229,
+          "duration" : 138369
+        }
+      }, {
+        "uid" : "72d30cbb7bef55c3",
+        "reportUrl" : "../76/index.html#testresult/72d30cbb7bef55c3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619363208466,
+          "stop" : 1619363289941,
+          "duration" : 81475
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "334d393c9121fa3.json",
+  "parameterValues" : [ ]
+}

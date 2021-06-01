@@ -1,0 +1,433 @@
+{
+  "uid" : "9e9171eb3d630fd4",
+  "name" : "Create freight shipment page should show validation errors when not filled @prod @smoke @prod2",
+  "fullName" : "Create a freight shipment @evtprodu.Create freight shipment page should show validation errors when not filled @prod @smoke @prod2",
+  "historyId" : "a214de217e2180d3689fbca1d8b62411",
+  "time" : {
+    "start" : 1621066605588,
+    "stop" : 1621066613778,
+    "duration" : 8190
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I navigate to evert air application create page ",
+      "time" : {
+        "start" : 1621066607110,
+        "stop" : 1621066612518,
+        "duration" : 5408
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "createshipmentPage: goto ",
+        "time" : {
+          "start" : 1621066607110,
+          "stop" : 1621066612279,
+          "duration" : 5169
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "I am on page \"https://test.tflite.com/Public/EVT/Freight/Create\"",
+          "time" : {
+            "start" : 1621066607110,
+            "stop" : 1621066608833,
+            "duration" : 1723
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "I refresh page ",
+          "time" : {
+            "start" : 1621066608833,
+            "stop" : 1621066612098,
+            "duration" : 3265
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "I wait for visible \"#custom-header\"",
+          "time" : {
+            "start" : 1621066612098,
+            "stop" : 1621066612279,
+            "duration" : 181
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 3,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "I see \"Create Shipment\"",
+        "time" : {
+          "start" : 1621066612279,
+          "stop" : 1621066612518,
+          "duration" : 239
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 5,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When I see page is loaded ",
+      "time" : {
+        "start" : 1621066612518,
+        "stop" : 1621066613125,
+        "duration" : 607
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I see \"Create Shipment\"",
+        "time" : {
+          "start" : 1621066612518,
+          "stop" : 1621066612725,
+          "duration" : 207
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I click next button ",
+      "time" : {
+        "start" : 1621066613125,
+        "stop" : 1621066613553,
+        "duration" : 428
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I click \".btn-success\"",
+        "time" : {
+          "start" : 1621066613125,
+          "stop" : 1621066613553,
+          "duration" : 428
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I should see all the following fields has validation errors ",
+      "time" : {
+        "start" : 1621066613553,
+        "stop" : 1621066613778,
+        "duration" : 225
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I grab attribute from \"#shipper_name\", \"required\"",
+        "time" : {
+          "start" : 1621066613553,
+          "stop" : 1621066613578,
+          "duration" : 25
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I grab attribute from \"#shipper_address\", \"required\"",
+        "time" : {
+          "start" : 1621066613579,
+          "stop" : 1621066613600,
+          "duration" : 21
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I grab attribute from \"#shipper_phone\", \"required\"",
+        "time" : {
+          "start" : 1621066613600,
+          "stop" : 1621066613620,
+          "duration" : 20
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I grab attribute from \"#consignee_name\", \"required\"",
+        "time" : {
+          "start" : 1621066613620,
+          "stop" : 1621066613646,
+          "duration" : 26
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I grab attribute from \"#consignee_address\", \"required\"",
+        "time" : {
+          "start" : 1621066613647,
+          "stop" : 1621066613670,
+          "duration" : 23
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I grab attribute from \"#consignee_phone\", \"required\"",
+        "time" : {
+          "start" : 1621066613670,
+          "stop" : 1621066613692,
+          "duration" : 22
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I grab attribute from \"#from\", \"required\"",
+        "time" : {
+          "start" : 1621066613692,
+          "stop" : 1621066613716,
+          "duration" : 24
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I grab attribute from \"#to\", \"required\"",
+        "time" : {
+          "start" : 1621066613717,
+          "stop" : 1621066613737,
+          "duration" : 20
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I grab attribute from \".freight-description\", \"required\"",
+        "time" : {
+          "start" : 1621066613737,
+          "stop" : 1621066613758,
+          "duration" : 21
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I grab attribute from \"#email\", \"required\"",
+        "time" : {
+          "start" : 1621066613758,
+          "stop" : 1621066613778,
+          "duration" : 20
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 10,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "I save screenshot \"Create_freight_shipment_page_should_show_validation_errors_when_not_filled_@prod_@smoke_@prod2.png\", true",
+      "time" : {
+        "start" : 1621066613778,
+        "stop" : 1621066614154,
+        "duration" : 376
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "58dce937a138eacf",
+      "name" : "Create_freight_shipment_page_should_show_validation_errors_when_not_filled_@prod_@smoke_@prod2.png",
+      "source" : "58dce937a138eacf.png",
+      "type" : "image/png",
+      "size" : 129405
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 22,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@evtprodu"
+  }, {
+    "name" : "tag",
+    "value" : "@prod"
+  }, {
+    "name" : "tag",
+    "value" : "@prod2"
+  }, {
+    "name" : "tag",
+    "value" : "@smoke"
+  }, {
+    "name" : "suite",
+    "value" : "Create a freight shipment @evtprodu"
+  }, {
+    "name" : "testClass",
+    "value" : "Create a freight shipment @evtprodu"
+  }, {
+    "name" : "testMethod",
+    "value" : "Create freight shipment page should show validation errors when not filled @prod @smoke @prod2"
+  }, {
+    "name" : "package",
+    "value" : "Create a freight shipment @evtprodu"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "5dffe54b6b2e5bea",
+        "reportUrl" : "../175/index.html#testresult/5dffe54b6b2e5bea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620861705421,
+          "stop" : 1620861718270,
+          "duration" : 12849
+        }
+      }, {
+        "uid" : "3c097e38d6b8c3ba",
+        "reportUrl" : "../174/index.html#testresult/3c097e38d6b8c3ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620861705421,
+          "stop" : 1620861718270,
+          "duration" : 12849
+        }
+      } ]
+    },
+    "tags" : [ "@smoke", "@evtprodu", "@prod", "@prod2" ]
+  },
+  "source" : "9e9171eb3d630fd4.json",
+  "parameterValues" : [ ]
+}

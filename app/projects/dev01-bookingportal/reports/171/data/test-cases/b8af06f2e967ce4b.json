@@ -1,0 +1,568 @@
+{
+  "uid" : "b8af06f2e967ce4b",
+  "name" : "Search page should display footer links",
+  "fullName" : "Booking portal search page.Search page should display footer links",
+  "historyId" : "b60d326b7ae4704835c3459f2908e73d",
+  "time" : {
+    "start" : 1620745527325,
+    "stop" : 1620745532341,
+    "duration" : 5016
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I navigate to application ",
+      "time" : {
+        "start" : 1620745528901,
+        "stop" : 1620745531465,
+        "duration" : 2564
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "searchPage: goToSearch ",
+        "time" : {
+          "start" : 1620745528901,
+          "stop" : 1620745531444,
+          "duration" : 2543
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "I am on page \"https://apps8.tflite.com/Public/SA/Booking/Search\"",
+          "time" : {
+            "start" : 1620745528901,
+            "stop" : 1620745530610,
+            "duration" : 1709
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "I refresh page ",
+          "time" : {
+            "start" : 1620745530610,
+            "stop" : 1620745531247,
+            "duration" : 637
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "I wait for visible \"#submit\"",
+          "time" : {
+            "start" : 1620745531247,
+            "stop" : 1620745531443,
+            "duration" : 196
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 3,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "I see element \"#submit\"",
+        "time" : {
+          "start" : 1620745531444,
+          "stop" : 1620745531465,
+          "duration" : 21
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 5,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When the sidebar page is displayed ",
+      "time" : {
+        "start" : 1620745531465,
+        "stop" : 1620745531489,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I see element \".sidebar-right\"",
+        "time" : {
+          "start" : 1620745531465,
+          "stop" : 1620745531489,
+          "duration" : 24
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I should see Term of use link ",
+      "time" : {
+        "start" : 1620745531489,
+        "stop" : 1620745531622,
+        "duration" : 133
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I see \"Terms of use\"",
+        "time" : {
+          "start" : 1620745531489,
+          "stop" : 1620745531622,
+          "duration" : 133
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "And I should also see Terms and Conditions link ",
+      "time" : {
+        "start" : 1620745531622,
+        "stop" : 1620745531722,
+        "duration" : 100
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I see \"Terms and Conditions\"",
+        "time" : {
+          "start" : 1620745531622,
+          "stop" : 1620745531722,
+          "duration" : 100
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "And I should see privacy statement link ",
+      "time" : {
+        "start" : 1620745531722,
+        "stop" : 1620745531833,
+        "duration" : 111
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I see \"Privacy Statement\"",
+        "time" : {
+          "start" : 1620745531722,
+          "stop" : 1620745531833,
+          "duration" : 111
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "And I should also see feedback link ",
+      "time" : {
+        "start" : 1620745531833,
+        "stop" : 1620745531946,
+        "duration" : 113
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I see \" Feedback\"",
+        "time" : {
+          "start" : 1620745531833,
+          "stop" : 1620745531946,
+          "duration" : 113
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "And I should also see footer text sounds air all rights reserved ",
+      "time" : {
+        "start" : 1620745531946,
+        "stop" : 1620745532341,
+        "duration" : 395
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I see \"© 2021 \"",
+        "time" : {
+          "start" : 1620745531946,
+          "stop" : 1620745532069,
+          "duration" : 123
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I see \"Sounds Air\"",
+        "time" : {
+          "start" : 1620745532069,
+          "stop" : 1620745532178,
+          "duration" : 109
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I see \". All Rights Reserved\"",
+        "time" : {
+          "start" : 1620745532178,
+          "stop" : 1620745532341,
+          "duration" : 163
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "I save screenshot \"Search_page_should_display_footer_links.png\", true",
+      "time" : {
+        "start" : 1620745532342,
+        "stop" : 1620745532709,
+        "duration" : 367
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "ef416c32b8b4c5f1",
+      "name" : "Search_page_should_display_footer_links.png",
+      "source" : "ef416c32b8b4c5f1.png",
+      "type" : "image/png",
+      "size" : 62532
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 21,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Booking portal search page"
+  }, {
+    "name" : "testClass",
+    "value" : "Booking portal search page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Search page should display footer links"
+  }, {
+    "name" : "package",
+    "value" : "Booking portal search page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 13,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 130,
+        "unknown" : 0,
+        "total" : 143
+      },
+      "items" : [ {
+        "uid" : "cfb7e122553646bc",
+        "reportUrl" : "../170/index.html#testresult/cfb7e122553646bc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620745527325,
+          "stop" : 1620745532341,
+          "duration" : 5016
+        }
+      }, {
+        "uid" : "6fd12cb3a47cbc3",
+        "reportUrl" : "../169/index.html#testresult/6fd12cb3a47cbc3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620706724502,
+          "stop" : 1620706728789,
+          "duration" : 4287
+        }
+      }, {
+        "uid" : "6db4e0605fdab709",
+        "reportUrl" : "../168/index.html#testresult/6db4e0605fdab709",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620706724502,
+          "stop" : 1620706728789,
+          "duration" : 4287
+        }
+      }, {
+        "uid" : "e99aca52e1b396f4",
+        "reportUrl" : "../167/index.html#testresult/e99aca52e1b396f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620659267411,
+          "stop" : 1620659274217,
+          "duration" : 6806
+        }
+      }, {
+        "uid" : "54466a9b2aaf2c1d",
+        "reportUrl" : "../166/index.html#testresult/54466a9b2aaf2c1d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620659267411,
+          "stop" : 1620659274217,
+          "duration" : 6806
+        }
+      }, {
+        "uid" : "32a287866121a44b",
+        "reportUrl" : "../165/index.html#testresult/32a287866121a44b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620572932852,
+          "stop" : 1620572938153,
+          "duration" : 5301
+        }
+      }, {
+        "uid" : "d87d7cbba9fa6f09",
+        "reportUrl" : "../164/index.html#testresult/d87d7cbba9fa6f09",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620572932852,
+          "stop" : 1620572938153,
+          "duration" : 5301
+        }
+      }, {
+        "uid" : "e7350a60b8a9ec7",
+        "reportUrl" : "../163/index.html#testresult/e7350a60b8a9ec7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620346529421,
+          "stop" : 1620346535612,
+          "duration" : 6191
+        }
+      }, {
+        "uid" : "c2bb972dd76ea4ed",
+        "reportUrl" : "../162/index.html#testresult/c2bb972dd76ea4ed",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620346529421,
+          "stop" : 1620346535612,
+          "duration" : 6191
+        }
+      }, {
+        "uid" : "21f9a6fc8fba0686",
+        "reportUrl" : "../161/index.html#testresult/21f9a6fc8fba0686",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620345582441,
+          "stop" : 1620345587473,
+          "duration" : 5032
+        }
+      }, {
+        "uid" : "39d6bf99c742fea5",
+        "reportUrl" : "../160/index.html#testresult/39d6bf99c742fea5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620345582441,
+          "stop" : 1620345587473,
+          "duration" : 5032
+        }
+      }, {
+        "uid" : "eb44d79dd8267083",
+        "reportUrl" : "../159/index.html#testresult/eb44d79dd8267083",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620339744414,
+          "stop" : 1620339748782,
+          "duration" : 4368
+        }
+      }, {
+        "uid" : "f0788a25bd4f021c",
+        "reportUrl" : "../158/index.html#testresult/f0788a25bd4f021c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620339744414,
+          "stop" : 1620339748782,
+          "duration" : 4368
+        }
+      }, {
+        "uid" : "e875b77ccdfa1bd6",
+        "reportUrl" : "../157/index.html#testresult/e875b77ccdfa1bd6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620338821647,
+          "stop" : 1620338827655,
+          "duration" : 6008
+        }
+      }, {
+        "uid" : "759ea199d2e19f3c",
+        "reportUrl" : "../156/index.html#testresult/759ea199d2e19f3c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620338821647,
+          "stop" : 1620338827655,
+          "duration" : 6008
+        }
+      }, {
+        "uid" : "199524d77e24519b",
+        "reportUrl" : "../155/index.html#testresult/199524d77e24519b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620338285914,
+          "stop" : 1620338290735,
+          "duration" : 4821
+        }
+      }, {
+        "uid" : "ed0c15fea132cc91",
+        "reportUrl" : "../154/index.html#testresult/ed0c15fea132cc91",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620338285914,
+          "stop" : 1620338290735,
+          "duration" : 4821
+        }
+      }, {
+        "uid" : "c293ab745f9deeb9",
+        "reportUrl" : "../153/index.html#testresult/c293ab745f9deeb9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620336607661,
+          "stop" : 1620336612905,
+          "duration" : 5244
+        }
+      }, {
+        "uid" : "a5f9d45b915b0f33",
+        "reportUrl" : "../152/index.html#testresult/a5f9d45b915b0f33",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620336607661,
+          "stop" : 1620336612905,
+          "duration" : 5244
+        }
+      }, {
+        "uid" : "2fc09ebce56935e0",
+        "reportUrl" : "../151/index.html#testresult/2fc09ebce56935e0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620331929811,
+          "stop" : 1620331935267,
+          "duration" : 5456
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "b8af06f2e967ce4b.json",
+  "parameterValues" : [ ]
+}

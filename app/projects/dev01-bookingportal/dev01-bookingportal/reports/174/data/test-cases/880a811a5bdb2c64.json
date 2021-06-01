@@ -1,0 +1,332 @@
+{
+  "uid" : "880a811a5bdb2c64",
+  "name" : "As a user I should see validation errors for oneway trip @validation",
+  "fullName" : "Book a flight and complete the payments @flightbooking.As a user I should see validation errors for oneway trip @validation",
+  "historyId" : "5f497c144b09e72939b07f3b783729",
+  "time" : {
+    "start" : 1620861807314,
+    "stop" : 1620861828395,
+    "duration" : 21081
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "element (#submit) still not visible after 20 sec",
+  "statusTrace" : "Error: element (#submit) still not visible after 20 sec\n                    at D:\\a\\1\\s\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:66:23",
+  "flaky" : true,
+  "newFailed" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "element (#submit) still not visible after 20 sec",
+    "statusTrace" : "Error: element (#submit) still not visible after 20 sec\n                    at D:\\a\\1\\s\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:66:23",
+    "steps" : [ {
+      "name" : "Given I navigate to application ",
+      "time" : {
+        "start" : 1620861808371,
+        "stop" : 1620861828395,
+        "duration" : 20024
+      },
+      "status" : "failed",
+      "statusMessage" : "Error: element (#submit) still not visible after 20 sec\n                    at D:\\a\\1\\s\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:66:23",
+      "steps" : [ {
+        "name" : "searchPage: goToSearch ",
+        "time" : {
+          "start" : 1620861808371,
+          "stop" : 1620861828395,
+          "duration" : 20024
+        },
+        "status" : "failed",
+        "statusMessage" : "Error: element (#submit) still not visible after 20 sec\n                    at D:\\a\\1\\s\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:66:23",
+        "steps" : [ {
+          "name" : "I refresh page ",
+          "time" : {
+            "start" : 1620861808371,
+            "stop" : 1620861808393,
+            "duration" : 22
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "I wait for visible \"#submit\"",
+          "time" : {
+            "start" : 1620861808393,
+            "stop" : 1620861828395,
+            "duration" : 20002
+          },
+          "status" : "failed",
+          "statusMessage" : "Error: element (#submit) still not visible after 20 sec\n                    at D:\\a\\1\\s\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:66:23",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : true,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "8db9b76b77950eed",
+      "name" : "Last Seen Screenshot",
+      "source" : "8db9b76b77950eed.png",
+      "type" : "image/png",
+      "size" : 3249
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@flightbooking"
+  }, {
+    "name" : "tag",
+    "value" : "@validation"
+  }, {
+    "name" : "suite",
+    "value" : "Book a flight and complete the payments @flightbooking"
+  }, {
+    "name" : "testClass",
+    "value" : "Book a flight and complete the payments @flightbooking"
+  }, {
+    "name" : "testMethod",
+    "value" : "As a user I should see validation errors for oneway trip @validation"
+  }, {
+    "name" : "package",
+    "value" : "Book a flight and complete the payments @flightbooking"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 5,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 30,
+        "unknown" : 0,
+        "total" : 35
+      },
+      "items" : [ {
+        "uid" : "e205ebbcb8fbd891",
+        "reportUrl" : "../173/index.html#testresult/e205ebbcb8fbd891",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620831890794,
+          "stop" : 1620831898107,
+          "duration" : 7313
+        }
+      }, {
+        "uid" : "52241a7afe004cb0",
+        "reportUrl" : "../172/index.html#testresult/52241a7afe004cb0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620831890794,
+          "stop" : 1620831898107,
+          "duration" : 7313
+        }
+      }, {
+        "uid" : "7ea3c7422068eedf",
+        "reportUrl" : "../171/index.html#testresult/7ea3c7422068eedf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620745493903,
+          "stop" : 1620745500716,
+          "duration" : 6813
+        }
+      }, {
+        "uid" : "6e645dc34652ee96",
+        "reportUrl" : "../170/index.html#testresult/6e645dc34652ee96",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620745493903,
+          "stop" : 1620745500716,
+          "duration" : 6813
+        }
+      }, {
+        "uid" : "32b104b02e34f22",
+        "reportUrl" : "../169/index.html#testresult/32b104b02e34f22",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620706692908,
+          "stop" : 1620706699847,
+          "duration" : 6939
+        }
+      }, {
+        "uid" : "b584245aaaf881c2",
+        "reportUrl" : "../168/index.html#testresult/b584245aaaf881c2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620706692908,
+          "stop" : 1620706699847,
+          "duration" : 6939
+        }
+      }, {
+        "uid" : "e50c52ccda8215e8",
+        "reportUrl" : "../167/index.html#testresult/e50c52ccda8215e8",
+        "status" : "failed",
+        "statusDetails" : "timeout: Timed out receiving message from renderer: -0.000\n                  (Session info: headless chrome=90.0.4430.85)",
+        "time" : {
+          "start" : 1620659155875,
+          "stop" : 1620659197478,
+          "duration" : 41603
+        }
+      }, {
+        "uid" : "ee9a06ab538bd05e",
+        "reportUrl" : "../166/index.html#testresult/ee9a06ab538bd05e",
+        "status" : "failed",
+        "statusDetails" : "timeout: Timed out receiving message from renderer: -0.000\n                  (Session info: headless chrome=90.0.4430.85)",
+        "time" : {
+          "start" : 1620659155875,
+          "stop" : 1620659197478,
+          "duration" : 41603
+        }
+      }, {
+        "uid" : "705af8a89897bf35",
+        "reportUrl" : "../165/index.html#testresult/705af8a89897bf35",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620572898661,
+          "stop" : 1620572905730,
+          "duration" : 7069
+        }
+      }, {
+        "uid" : "aab392e576b821d1",
+        "reportUrl" : "../164/index.html#testresult/aab392e576b821d1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620572898661,
+          "stop" : 1620572905730,
+          "duration" : 7069
+        }
+      }, {
+        "uid" : "3783612ffc53b6ce",
+        "reportUrl" : "../163/index.html#testresult/3783612ffc53b6ce",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620346489339,
+          "stop" : 1620346497679,
+          "duration" : 8340
+        }
+      }, {
+        "uid" : "6f8c7225c8ec08c1",
+        "reportUrl" : "../162/index.html#testresult/6f8c7225c8ec08c1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620346489339,
+          "stop" : 1620346497679,
+          "duration" : 8340
+        }
+      }, {
+        "uid" : "3565ac4b071da1e6",
+        "reportUrl" : "../161/index.html#testresult/3565ac4b071da1e6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620345548980,
+          "stop" : 1620345556240,
+          "duration" : 7260
+        }
+      }, {
+        "uid" : "ce0a2bd93536dc53",
+        "reportUrl" : "../160/index.html#testresult/ce0a2bd93536dc53",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620345548980,
+          "stop" : 1620345556240,
+          "duration" : 7260
+        }
+      }, {
+        "uid" : "c01cf3064dd152b7",
+        "reportUrl" : "../159/index.html#testresult/c01cf3064dd152b7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620339714010,
+          "stop" : 1620339720375,
+          "duration" : 6365
+        }
+      }, {
+        "uid" : "dda3e30174a6118d",
+        "reportUrl" : "../158/index.html#testresult/dda3e30174a6118d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620339714010,
+          "stop" : 1620339720375,
+          "duration" : 6365
+        }
+      }, {
+        "uid" : "c2db7f8f8d29ac3a",
+        "reportUrl" : "../157/index.html#testresult/c2db7f8f8d29ac3a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620338782007,
+          "stop" : 1620338788791,
+          "duration" : 6784
+        }
+      }, {
+        "uid" : "5828cec9747b1e23",
+        "reportUrl" : "../156/index.html#testresult/5828cec9747b1e23",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620338782007,
+          "stop" : 1620338788791,
+          "duration" : 6784
+        }
+      }, {
+        "uid" : "8ec83257eb63870e",
+        "reportUrl" : "../155/index.html#testresult/8ec83257eb63870e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620338253437,
+          "stop" : 1620338260271,
+          "duration" : 6834
+        }
+      }, {
+        "uid" : "f7cc72786916ca6f",
+        "reportUrl" : "../154/index.html#testresult/f7cc72786916ca6f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620338253437,
+          "stop" : 1620338260271,
+          "duration" : 6834
+        }
+      } ]
+    },
+    "tags" : [ "@flightbooking", "@validation" ]
+  },
+  "source" : "880a811a5bdb2c64.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,553 @@
+{
+  "uid" : "1341bb1fb7efa7ac",
+  "name" : "Search page should display menu items",
+  "fullName" : "Booking portal search page.Search page should display menu items",
+  "historyId" : "b6a9bc8da5a589be28a6e0940a1d09da",
+  "time" : {
+    "start" : 1620745522071,
+    "stop" : 1620745526735,
+    "duration" : 4664
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I navigate to application ",
+      "time" : {
+        "start" : 1620745523652,
+        "stop" : 1620745526196,
+        "duration" : 2544
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "searchPage: goToSearch ",
+        "time" : {
+          "start" : 1620745523652,
+          "stop" : 1620745526176,
+          "duration" : 2524
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "I am on page \"https://apps8.tflite.com/Public/SA/Booking/Search\"",
+          "time" : {
+            "start" : 1620745523652,
+            "stop" : 1620745525324,
+            "duration" : 1672
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "I refresh page ",
+          "time" : {
+            "start" : 1620745525324,
+            "stop" : 1620745525973,
+            "duration" : 649
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "I wait for visible \"#submit\"",
+          "time" : {
+            "start" : 1620745525973,
+            "stop" : 1620745526176,
+            "duration" : 203
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 3,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "I see element \"#submit\"",
+        "time" : {
+          "start" : 1620745526177,
+          "stop" : 1620745526196,
+          "duration" : 19
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 5,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When the search page is displayed ",
+      "time" : {
+        "start" : 1620745526196,
+        "stop" : 1620745526269,
+        "duration" : 73
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I see element \"#submit .fa-search\"",
+        "time" : {
+          "start" : 1620745526196,
+          "stop" : 1620745526269,
+          "duration" : 73
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I should see book menu with search icon ",
+      "time" : {
+        "start" : 1620745526269,
+        "stop" : 1620745526318,
+        "duration" : 49
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I see element \"a[href=\"/Public/SA/Booking/Search\"]\"",
+        "time" : {
+          "start" : 1620745526269,
+          "stop" : 1620745526318,
+          "duration" : 49
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "And I should my accounts dropdown menu option ",
+      "time" : {
+        "start" : 1620745526319,
+        "stop" : 1620745526461,
+        "duration" : 142
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I see \"My Account\"",
+        "time" : {
+          "start" : 1620745526319,
+          "stop" : 1620745526461,
+          "duration" : 142
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "And I see phone number 0800505005 ",
+      "time" : {
+        "start" : 1620745526461,
+        "stop" : 1620745526639,
+        "duration" : 178
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I see \"0800 505 005\"",
+        "time" : {
+          "start" : 1620745526461,
+          "stop" : 1620745526580,
+          "duration" : 119
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I see element \"a[href=\"tel:0800 505 005\"]\"",
+        "time" : {
+          "start" : 1620745526580,
+          "stop" : 1620745526639,
+          "duration" : 59
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "And I should see signup button ",
+      "time" : {
+        "start" : 1620745526639,
+        "stop" : 1620745526689,
+        "duration" : 50
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I see element \"#sign-up\"",
+        "time" : {
+          "start" : 1620745526639,
+          "stop" : 1620745526689,
+          "duration" : 50
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "And I should also see the signin button ",
+      "time" : {
+        "start" : 1620745526689,
+        "stop" : 1620745526735,
+        "duration" : 46
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I see element \"#login\"",
+        "time" : {
+          "start" : 1620745526689,
+          "stop" : 1620745526735,
+          "duration" : 46
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "I save screenshot \"Search_page_should_display_menu_items.png\", true",
+      "time" : {
+        "start" : 1620745526736,
+        "stop" : 1620745527304,
+        "duration" : 568
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "66b472b5d9c8755b",
+      "name" : "Search_page_should_display_menu_items.png",
+      "source" : "66b472b5d9c8755b.png",
+      "type" : "image/png",
+      "size" : 63472
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 20,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Booking portal search page"
+  }, {
+    "name" : "testClass",
+    "value" : "Booking portal search page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Search page should display menu items"
+  }, {
+    "name" : "package",
+    "value" : "Booking portal search page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 13,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 130,
+        "unknown" : 0,
+        "total" : 143
+      },
+      "items" : [ {
+        "uid" : "2f50b8193782f7dd",
+        "reportUrl" : "../170/index.html#testresult/2f50b8193782f7dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620745522071,
+          "stop" : 1620745526735,
+          "duration" : 4664
+        }
+      }, {
+        "uid" : "37d913a12b0fef74",
+        "reportUrl" : "../169/index.html#testresult/37d913a12b0fef74",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620706720252,
+          "stop" : 1620706724149,
+          "duration" : 3897
+        }
+      }, {
+        "uid" : "2292e42f6a30f1b7",
+        "reportUrl" : "../168/index.html#testresult/2292e42f6a30f1b7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620706720252,
+          "stop" : 1620706724149,
+          "duration" : 3897
+        }
+      }, {
+        "uid" : "2dbc49ea364c2f37",
+        "reportUrl" : "../167/index.html#testresult/2dbc49ea364c2f37",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620659261610,
+          "stop" : 1620659267035,
+          "duration" : 5425
+        }
+      }, {
+        "uid" : "84e37fba4445898a",
+        "reportUrl" : "../166/index.html#testresult/84e37fba4445898a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620659261610,
+          "stop" : 1620659267035,
+          "duration" : 5425
+        }
+      }, {
+        "uid" : "cf07fa8d3c550376",
+        "reportUrl" : "../165/index.html#testresult/cf07fa8d3c550376",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620572927930,
+          "stop" : 1620572932409,
+          "duration" : 4479
+        }
+      }, {
+        "uid" : "79d5fc8c9bf924c7",
+        "reportUrl" : "../164/index.html#testresult/79d5fc8c9bf924c7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620572927930,
+          "stop" : 1620572932409,
+          "duration" : 4479
+        }
+      }, {
+        "uid" : "b6ac94f9882c1abf",
+        "reportUrl" : "../163/index.html#testresult/b6ac94f9882c1abf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620346523514,
+          "stop" : 1620346528930,
+          "duration" : 5416
+        }
+      }, {
+        "uid" : "56903b6ae0f574b4",
+        "reportUrl" : "../162/index.html#testresult/56903b6ae0f574b4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620346523514,
+          "stop" : 1620346528930,
+          "duration" : 5416
+        }
+      }, {
+        "uid" : "39beed9f22d47bec",
+        "reportUrl" : "../161/index.html#testresult/39beed9f22d47bec",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620345577640,
+          "stop" : 1620345581999,
+          "duration" : 4359
+        }
+      }, {
+        "uid" : "78a2846f78e47cb9",
+        "reportUrl" : "../160/index.html#testresult/78a2846f78e47cb9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620345577640,
+          "stop" : 1620345581999,
+          "duration" : 4359
+        }
+      }, {
+        "uid" : "6cdfd3e329b15235",
+        "reportUrl" : "../159/index.html#testresult/6cdfd3e329b15235",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620339740212,
+          "stop" : 1620339744003,
+          "duration" : 3791
+        }
+      }, {
+        "uid" : "25a22da88995c8e4",
+        "reportUrl" : "../158/index.html#testresult/25a22da88995c8e4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620339740212,
+          "stop" : 1620339744003,
+          "duration" : 3791
+        }
+      }, {
+        "uid" : "de7042d37fb8734c",
+        "reportUrl" : "../157/index.html#testresult/de7042d37fb8734c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620338813349,
+          "stop" : 1620338821132,
+          "duration" : 7783
+        }
+      }, {
+        "uid" : "45ad6a1de4a7a3f6",
+        "reportUrl" : "../156/index.html#testresult/45ad6a1de4a7a3f6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620338813349,
+          "stop" : 1620338821132,
+          "duration" : 7783
+        }
+      }, {
+        "uid" : "d88066759ec8bcf6",
+        "reportUrl" : "../155/index.html#testresult/d88066759ec8bcf6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620338281272,
+          "stop" : 1620338285494,
+          "duration" : 4222
+        }
+      }, {
+        "uid" : "bab4a9e92927282d",
+        "reportUrl" : "../154/index.html#testresult/bab4a9e92927282d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620338281272,
+          "stop" : 1620338285494,
+          "duration" : 4222
+        }
+      }, {
+        "uid" : "cc28523ed0edd52a",
+        "reportUrl" : "../153/index.html#testresult/cc28523ed0edd52a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620336602748,
+          "stop" : 1620336607220,
+          "duration" : 4472
+        }
+      }, {
+        "uid" : "37dec73e3539a794",
+        "reportUrl" : "../152/index.html#testresult/37dec73e3539a794",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620336602748,
+          "stop" : 1620336607220,
+          "duration" : 4472
+        }
+      }, {
+        "uid" : "6169c582b2c9f86d",
+        "reportUrl" : "../151/index.html#testresult/6169c582b2c9f86d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620331920042,
+          "stop" : 1620331929366,
+          "duration" : 9324
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "1341bb1fb7efa7ac.json",
+  "parameterValues" : [ ]
+}

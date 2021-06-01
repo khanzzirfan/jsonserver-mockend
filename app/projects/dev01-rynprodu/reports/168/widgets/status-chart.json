@@ -1,0 +1,101 @@
+[ {
+  "uid" : "3748acc9dfb47ee6",
+  "name" : "create quick freight mandatory office selection",
+  "time" : {
+    "start" : 1621008158946,
+    "stop" : 1621008251458,
+    "duration" : 92512
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6cf7822f91b7ab7b",
+  "name" : "Search all freights from Kotlik",
+  "time" : {
+    "start" : 1621008614747,
+    "stop" : 1621008679336,
+    "duration" : 64589
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3215c4dac3e034b4",
+  "name" : "freights from kotlik to emmonak",
+  "time" : {
+    "start" : 1621008540515,
+    "stop" : 1621008614737,
+    "duration" : 74222
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "26644f37ba9c3194",
+  "name" : "validate add freight mandatory fields",
+  "time" : {
+    "start" : 1621008251468,
+    "stop" : 1621008324972,
+    "duration" : 73504
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b862043fbb8fb405",
+  "name" : "Validate add freight window fields",
+  "time" : {
+    "start" : 1621008324995,
+    "stop" : 1621008397024,
+    "duration" : 72029
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "550c265794f3341",
+  "name" : "DashboardScreenValidation",
+  "time" : {
+    "start" : 1621008679346,
+    "stop" : 1621008738693,
+    "duration" : 59347
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "83286720072e3b4a",
+  "name" : "assign tag to scheduled booking flight_1",
+  "time" : {
+    "start" : 1621008808696,
+    "stop" : 1621008902785,
+    "duration" : 94089
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d2f032f7f50301d3",
+  "name" : "search by freights by agent",
+  "time" : {
+    "start" : 1621008397034,
+    "stop" : 1621008540505,
+    "duration" : 143471
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "33f6a6c2619af38a",
+  "name" : "create new tags",
+  "time" : {
+    "start" : 1621008738716,
+    "stop" : 1621008808686,
+    "duration" : 69970
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e1c4e1d04f71ac80",
+  "name" : "create quick freight",
+  "time" : {
+    "start" : 1621008137994,
+    "stop" : 1621008158928,
+    "duration" : 20934
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

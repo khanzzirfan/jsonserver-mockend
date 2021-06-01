@@ -1,0 +1,242 @@
+{
+  "uid" : "bd74d3e0fe106237",
+  "name" : "CreateScheduleBookingCCPayment - SuccessScenario",
+  "fullName" : "TakeFliteBDD.CreateScheduleBookingCCPayment - SuccessScenario",
+  "historyId" : "TakeFliteBDD.CreateScheduleBookingCCPayment - SuccessScenario",
+  "time" : {
+    "start" : 1620757646746,
+    "stop" : 1620757771266,
+    "duration" : 124520
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "TakeFliteBDD"
+  }, {
+    "name" : "testClass",
+    "value" : "TakeFliteBDD"
+  }, {
+    "name" : "package",
+    "value" : "TakeFliteBDD"
+  }, {
+    "name" : "resultFormat",
+    "value" : "trx"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 119,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 52,
+        "unknown" : 0,
+        "total" : 171
+      },
+      "items" : [ {
+        "uid" : "8e265f4fb48442dc",
+        "reportUrl" : "../189/index.html#testresult/8e265f4fb48442dc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620757646746,
+          "stop" : 1620757771266,
+          "duration" : 124520
+        }
+      }, {
+        "uid" : "19ee526322c32e04",
+        "reportUrl" : "../188/index.html#testresult/19ee526322c32e04",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620671257618,
+          "stop" : 1620671378401,
+          "duration" : 120783
+        }
+      }, {
+        "uid" : "f0c2fbca0ddf9a9b",
+        "reportUrl" : "../187/index.html#testresult/f0c2fbca0ddf9a9b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620671257618,
+          "stop" : 1620671378401,
+          "duration" : 120783
+        }
+      }, {
+        "uid" : "2bbfe0040abb4d8d",
+        "reportUrl" : "../186/index.html#testresult/2bbfe0040abb4d8d",
+        "status" : "failed",
+        "statusDetails" : "Unable to find the object \"#PxPayAuthMain .DpsUiPanelLegend\". See Details for additional information.",
+        "time" : {
+          "start" : 1620584674447,
+          "stop" : 1620584788021,
+          "duration" : 113574
+        }
+      }, {
+        "uid" : "94354d2153962a8c",
+        "reportUrl" : "../185/index.html#testresult/94354d2153962a8c",
+        "status" : "failed",
+        "statusDetails" : "Unable to find the object \"#PxPayAuthMain .DpsUiPanelLegend\". See Details for additional information.",
+        "time" : {
+          "start" : 1620498353621,
+          "stop" : 1620498463454,
+          "duration" : 109833
+        }
+      }, {
+        "uid" : "53f01a8480771c87",
+        "reportUrl" : "../184/index.html#testresult/53f01a8480771c87",
+        "status" : "failed",
+        "statusDetails" : "Unable to find the object \"#PxPayAuthMain .DpsUiPanelLegend\". See Details for additional information.",
+        "time" : {
+          "start" : 1620498353621,
+          "stop" : 1620498463454,
+          "duration" : 109833
+        }
+      }, {
+        "uid" : "54520152078ee5e2",
+        "reportUrl" : "../183/index.html#testresult/54520152078ee5e2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620411999357,
+          "stop" : 1620412125441,
+          "duration" : 126084
+        }
+      }, {
+        "uid" : "8c4f62afeb8cdfa8",
+        "reportUrl" : "../182/index.html#testresult/8c4f62afeb8cdfa8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620411999357,
+          "stop" : 1620412125441,
+          "duration" : 126084
+        }
+      }, {
+        "uid" : "52bd2e85da68f63",
+        "reportUrl" : "../181/index.html#testresult/52bd2e85da68f63",
+        "status" : "failed",
+        "statusDetails" : "Unable to verify a value with the property checkpoint, because the target object does not exist.",
+        "time" : {
+          "start" : 1620325657523,
+          "stop" : 1620325779319,
+          "duration" : 121796
+        }
+      }, {
+        "uid" : "ae6832f81c9d27ad",
+        "reportUrl" : "../180/index.html#testresult/ae6832f81c9d27ad",
+        "status" : "failed",
+        "statusDetails" : "Unable to find the object \"#PxPayAuthMain .DpsUiPanelLegend\". See Details for additional information.",
+        "time" : {
+          "start" : 1620239195936,
+          "stop" : 1620239309682,
+          "duration" : 113746
+        }
+      }, {
+        "uid" : "f88d6a61c757a836",
+        "reportUrl" : "../179/index.html#testresult/f88d6a61c757a836",
+        "status" : "failed",
+        "statusDetails" : "Unable to find the object \"#PxPayAuthMain .DpsUiPanelLegend\". See Details for additional information.",
+        "time" : {
+          "start" : 1620239195936,
+          "stop" : 1620239309682,
+          "duration" : 113746
+        }
+      }, {
+        "uid" : "92958cd1b33c1370",
+        "reportUrl" : "../178/index.html#testresult/92958cd1b33c1370",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620152872505,
+          "stop" : 1620152993381,
+          "duration" : 120876
+        }
+      }, {
+        "uid" : "1005eea51a48a1ce",
+        "reportUrl" : "../177/index.html#testresult/1005eea51a48a1ce",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620066400326,
+          "stop" : 1620066519993,
+          "duration" : 119667
+        }
+      }, {
+        "uid" : "e2023110933096",
+        "reportUrl" : "../176/index.html#testresult/e2023110933096",
+        "status" : "failed",
+        "statusDetails" : "Unable to find the object \"#PxPayAuthMain .DpsUiPanelLegend\". See Details for additional information.",
+        "time" : {
+          "start" : 1619979979511,
+          "stop" : 1619980088897,
+          "duration" : 109386
+        }
+      }, {
+        "uid" : "3dbc947e93a1c77d",
+        "reportUrl" : "../175/index.html#testresult/3dbc947e93a1c77d",
+        "status" : "failed",
+        "statusDetails" : "Unable to find the object \"#PxPayAuthMain .DpsUiPanelLegend\". See Details for additional information.",
+        "time" : {
+          "start" : 1619979979511,
+          "stop" : 1619980088897,
+          "duration" : 109386
+        }
+      }, {
+        "uid" : "faa34d2cee9c1341",
+        "reportUrl" : "../174/index.html#testresult/faa34d2cee9c1341",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619893604740,
+          "stop" : 1619893722900,
+          "duration" : 118160
+        }
+      }, {
+        "uid" : "26e8c285c185564a",
+        "reportUrl" : "../173/index.html#testresult/26e8c285c185564a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619807269844,
+          "stop" : 1619807390769,
+          "duration" : 120925
+        }
+      }, {
+        "uid" : "11c585c0a6394bf1",
+        "reportUrl" : "../172/index.html#testresult/11c585c0a6394bf1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619807269844,
+          "stop" : 1619807390769,
+          "duration" : 120925
+        }
+      }, {
+        "uid" : "61f2d478ed4466b6",
+        "reportUrl" : "../171/index.html#testresult/61f2d478ed4466b6",
+        "status" : "failed",
+        "statusDetails" : "Unable to verify a value with the property checkpoint, because the target object does not exist.",
+        "time" : {
+          "start" : 1619720852611,
+          "stop" : 1619720975138,
+          "duration" : 122527
+        }
+      }, {
+        "uid" : "b0db730d621fda24",
+        "reportUrl" : "../170/index.html#testresult/b0db730d621fda24",
+        "status" : "failed",
+        "statusDetails" : "Unable to find the object \"#PxPayAuthMain .DpsUiPanelLegend\". See Details for additional information.",
+        "time" : {
+          "start" : 1619634428114,
+          "stop" : 1619634537979,
+          "duration" : 109865
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "bd74d3e0fe106237.json",
+  "parameterValues" : [ ]
+}

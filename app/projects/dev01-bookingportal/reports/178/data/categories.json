@@ -1,0 +1,116 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "timeout: Timed out receiving message from renderer: -0.000\n                  (Session info: headless chrome=90.0.4430.93)",
+      "children" : [ {
+        "name" : "Freight shipment create page",
+        "uid" : "56449d0354077587",
+        "parentUid" : "cd19c8d37c7ab6ef6972a251611f4a25",
+        "status" : "failed",
+        "time" : {
+          "start" : 1621159337671,
+          "stop" : 1621159396583,
+          "duration" : 58912
+        },
+        "flaky" : true,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cd19c8d37c7ab6ef6972a251611f4a25"
+    }, {
+      "name" : "timeout: Timed out receiving message from renderer: -0.001\n                  (Session info: headless chrome=90.0.4430.93)",
+      "children" : [ {
+        "name" : "Validate page headings on create freight page",
+        "uid" : "7b5a4fdfdd087f46",
+        "parentUid" : "7d29970b8f4c261c5f80ba8c41f7c042",
+        "status" : "failed",
+        "time" : {
+          "start" : 1621159396848,
+          "stop" : 1621159438670,
+          "duration" : 41822
+        },
+        "flaky" : true,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7d29970b8f4c261c5f80ba8c41f7c042"
+    }, {
+      "name" : "",
+      "children" : [ {
+        "name" : "As a user I should be able to create freight shipment",
+        "uid" : "ee38078f44c1184a",
+        "parentUid" : "ac137dbdc3eb70d55d947f065b65fff1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1621159438759,
+          "stop" : 1621159484735,
+          "duration" : 45976
+        },
+        "flaky" : true,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "As a user I should be able to create freight shipment and review the shipment details @prod1",
+        "uid" : "dad6c7f958d9a214",
+        "parentUid" : "ac137dbdc3eb70d55d947f065b65fff1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1621159492625,
+          "stop" : 1621159523492,
+          "duration" : 30867
+        },
+        "flaky" : true,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Search page should display all basic field on landing",
+        "uid" : "80da188ae8491656",
+        "parentUid" : "ac137dbdc3eb70d55d947f065b65fff1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1621159523629,
+          "stop" : 1621159571835,
+          "duration" : 48206
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Agent should be able to login using their account details on signin page",
+        "uid" : "c38887e2d6694333",
+        "parentUid" : "ac137dbdc3eb70d55d947f065b65fff1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1621159717593,
+          "stop" : 1621159738553,
+          "duration" : 20960
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ac137dbdc3eb70d55d947f065b65fff1"
+    }, {
+      "name" : "Element \"#return_date\" was not found by text|CSS|XPath",
+      "children" : [ {
+        "name" : "As a user I should see oneway trip booking options @validation",
+        "uid" : "50971de86f7e2b2f",
+        "parentUid" : "4bcd2437d01374a18cb14fd3ad79881d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1621159571913,
+          "stop" : 1621159588629,
+          "duration" : 16716
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4bcd2437d01374a18cb14fd3ad79881d"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

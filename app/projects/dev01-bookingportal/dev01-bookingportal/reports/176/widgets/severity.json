@@ -1,0 +1,171 @@
+[ {
+  "uid" : "2d7b93049722fc4d",
+  "name" : "Validate page headings on create freight page",
+  "time" : {
+    "start" : 1621066559338,
+    "stop" : 1621066570904,
+    "duration" : 11566
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "83c6225f41ff1f5a",
+  "name" : "Search page should display all basic field on landing",
+  "time" : {
+    "start" : 1621066644754,
+    "stop" : 1621066664482,
+    "duration" : 19728
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "d3a3a0a1c84f23aa",
+  "name" : "As a user I should be able to create freight shipment",
+  "time" : {
+    "start" : 1621066571421,
+    "stop" : 1621066605525,
+    "duration" : 34104
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "9528237978c51033",
+  "name" : "Agent should be able to login using their account details on signin page",
+  "time" : {
+    "start" : 1621066726547,
+    "stop" : 1621066746756,
+    "duration" : 20209
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "d6d4d6622a392ad1",
+  "name" : "Search page should display footer links",
+  "time" : {
+    "start" : 1621066708942,
+    "stop" : 1621066713112,
+    "duration" : 4170
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ebf4b2f97de5e29d",
+  "name" : "Search page should display all basic field on landing @story1245",
+  "time" : {
+    "start" : 1621066689582,
+    "stop" : 1621066698854,
+    "duration" : 9272
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c61d76ef9c957508",
+  "name" : "Search page terms of use should display modal with terms of usage @testscenario",
+  "time" : {
+    "start" : 1621066746822,
+    "stop" : 1621066758891,
+    "duration" : 12069
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "32d49fd3407fc6a9",
+  "name" : "Search page should display menu items",
+  "time" : {
+    "start" : 1621066704821,
+    "stop" : 1621066708567,
+    "duration" : 3746
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ffa1f6a22dc281f",
+  "name" : "As a user I should see oneway trip booking options @validation",
+  "time" : {
+    "start" : 1621066664549,
+    "stop" : 1621066676429,
+    "duration" : 11880
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "b2e3cd76a5cdbdf9",
+  "name" : "Search page should display sidebar links @story1246",
+  "time" : {
+    "start" : 1621066699165,
+    "stop" : 1621066704443,
+    "duration" : 5278
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ecbd7015212785bd",
+  "name" : "As a user I should be able to create freight shipment and review the shipment details @prod1",
+  "time" : {
+    "start" : 1621066614199,
+    "stop" : 1621066644647,
+    "duration" : 30448
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "702ad9196e6d8e91",
+  "name" : "As a user I should see validation errors for oneway trip @validation",
+  "time" : {
+    "start" : 1621066676496,
+    "stop" : 1621066683221,
+    "duration" : 6725
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bc2c70f40acfad3b",
+  "name" : "Search page feedback should display modal feedback",
+  "time" : {
+    "start" : 1621066713472,
+    "stop" : 1621066719657,
+    "duration" : 6185
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d68104f253149563",
+  "name" : "Freight shipment create page",
+  "time" : {
+    "start" : 1621066258907,
+    "stop" : 1621066319264,
+    "duration" : 60357
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "9e9171eb3d630fd4",
+  "name" : "Create freight shipment page should show validation errors when not filled @prod @smoke @prod2",
+  "time" : {
+    "start" : 1621066605588,
+    "stop" : 1621066613778,
+    "duration" : 8190
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4ac1f1a2dd48ea75",
+  "name" : "As a user I should see validation errors for round trip field @validation",
+  "time" : {
+    "start" : 1621066683568,
+    "stop" : 1621066689223,
+    "duration" : 5655
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e2ea497029953471",
+  "name" : "Search page terms of use should display modal with terms of usage",
+  "time" : {
+    "start" : 1621066719967,
+    "stop" : 1621066726181,
+    "duration" : 6214
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

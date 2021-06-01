@@ -1,0 +1,101 @@
+[ {
+  "uid" : "432e10c71a96e3e1",
+  "name" : "search by freights by agent",
+  "time" : {
+    "start" : 1620749244615,
+    "stop" : 1620749411566,
+    "duration" : 166951
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d96b8f9688a7ce04",
+  "name" : "create quick freight mandatory office selection",
+  "time" : {
+    "start" : 1620749015699,
+    "stop" : 1620749099238,
+    "duration" : 83539
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7e5c31d49563f876",
+  "name" : "create new tags",
+  "time" : {
+    "start" : 1620749623688,
+    "stop" : 1620749704375,
+    "duration" : 80687
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ef3dd6d93da910d2",
+  "name" : "assign tag to scheduled booking flight_1",
+  "time" : {
+    "start" : 1620749704385,
+    "stop" : 1620749818451,
+    "duration" : 114066
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7990347a46f8805b",
+  "name" : "DashboardScreenValidation",
+  "time" : {
+    "start" : 1620749557304,
+    "stop" : 1620749623678,
+    "duration" : 66374
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ec9ec8465e3306c1",
+  "name" : "create quick freight",
+  "time" : {
+    "start" : 1620748932738,
+    "stop" : 1620749015669,
+    "duration" : 82931
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b4e77371ab6744df",
+  "name" : "validate add freight mandatory fields",
+  "time" : {
+    "start" : 1620749099248,
+    "stop" : 1620749169664,
+    "duration" : 70416
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "70a9b3d8bad27bfe",
+  "name" : "Search all freights from Kotlik",
+  "time" : {
+    "start" : 1620749488957,
+    "stop" : 1620749557294,
+    "duration" : 68337
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "30ed21a3eb8cedc0",
+  "name" : "freights from kotlik to emmonak",
+  "time" : {
+    "start" : 1620749411576,
+    "stop" : 1620749488947,
+    "duration" : 77371
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b5318b15ff8310ae",
+  "name" : "Validate add freight window fields",
+  "time" : {
+    "start" : 1620749169685,
+    "stop" : 1620749244605,
+    "duration" : 74920
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

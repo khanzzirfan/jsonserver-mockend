@@ -1,0 +1,60 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "TypeError: aqUtils is not a function",
+      "children" : [ {
+        "name" : "LoginScenarios",
+        "uid" : "9bee86a1225e08e8",
+        "parentUid" : "4acc4a5b7be3ce1141c38eb3432dddf0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620928906534,
+          "stop" : 1620928952068,
+          "duration" : 45534
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4acc4a5b7be3ce1141c38eb3432dddf0"
+    }, {
+      "name" : "The property checkpoint failed, because Text does not contain the substring (case-sensitive) \"100 passenger(s) found. Orphaned passengers a...\". See Details for additional information.",
+      "children" : [ {
+        "name" : "FindBooking - User should be search bookings for a specific transaction",
+        "uid" : "ae8355021f18e139",
+        "parentUid" : "1ac8c0b8cd0030d0d4ac8cb02807b9be",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620929734823,
+          "stop" : 1620929866082,
+          "duration" : 131259
+        },
+        "flaky" : true,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1ac8c0b8cd0030d0d4ac8cb02807b9be"
+    }, {
+      "name" : "The property checkpoint failed, because Text does not equal (case-sensitive) \"100 passenger(s) found. Orphaned passengers a...\". See Details for additional information.",
+      "children" : [ {
+        "name" : "FindBooking - Searchbooking for a one month",
+        "uid" : "396456de8025eb13",
+        "parentUid" : "f8c977a79bcefb9392ce750f9db4c165",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620929940577,
+          "stop" : 1620930073526,
+          "duration" : 132949
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f8c977a79bcefb9392ce750f9db4c165"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

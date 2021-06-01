@@ -1,0 +1,680 @@
+{
+  "uid" : "bc99c30b86467ecf",
+  "name" : "Freight shipment create page",
+  "fullName" : "Create a freight shipment @evtprodu.Freight shipment create page",
+  "historyId" : "63fd7dec27017e855bc22f510929236a",
+  "time" : {
+    "start" : 1620339475408,
+    "stop" : 1620339551830,
+    "duration" : 76422
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I navigate to evert air application create page ",
+      "time" : {
+        "start" : 1620339502248,
+        "stop" : 1620339549497,
+        "duration" : 47249
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "createshipmentPage: goto ",
+        "time" : {
+          "start" : 1620339502249,
+          "stop" : 1620339549083,
+          "duration" : 46834
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "I am on page \"https://apps8.tflite.com/Public/EVT/Freight/Create\"",
+          "time" : {
+            "start" : 1620339502249,
+            "stop" : 1620339537491,
+            "duration" : 35242
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "I refresh page ",
+          "time" : {
+            "start" : 1620339537492,
+            "stop" : 1620339548447,
+            "duration" : 10955
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "I wait for visible \"#custom-header\"",
+          "time" : {
+            "start" : 1620339548447,
+            "stop" : 1620339549083,
+            "duration" : 636
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 3,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "I see \"Create Shipment\"",
+        "time" : {
+          "start" : 1620339549083,
+          "stop" : 1620339549497,
+          "duration" : 414
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 5,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When I see page is loaded ",
+      "time" : {
+        "start" : 1620339549497,
+        "stop" : 1620339549839,
+        "duration" : 342
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I see \"Create Shipment\"",
+        "time" : {
+          "start" : 1620339549497,
+          "stop" : 1620339549839,
+          "duration" : 342
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I should see Everts Air logo ",
+      "time" : {
+        "start" : 1620339549839,
+        "stop" : 1620339549878,
+        "duration" : 39
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I see element \"a[title=\"Create a new booking\"]\"",
+        "time" : {
+          "start" : 1620339549839,
+          "stop" : 1620339549878,
+          "duration" : 39
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I should see menu bar showing type of shipment on the top left ",
+      "time" : {
+        "start" : 1620339549878,
+        "stop" : 1620339549924,
+        "duration" : 46
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I see element \"a[title=\"Freight\"]\"",
+        "time" : {
+          "start" : 1620339549878,
+          "stop" : 1620339549924,
+          "duration" : 46
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I should see Everts air phone number ",
+      "time" : {
+        "start" : 1620339549924,
+        "stop" : 1620339550022,
+        "duration" : 98
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I see element \"a[title=\"Call us\"]\"",
+        "time" : {
+          "start" : 1620339549924,
+          "stop" : 1620339549973,
+          "duration" : 49
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I see element \"a[href=\"tel:907-243-0009\"]\"",
+        "time" : {
+          "start" : 1620339549975,
+          "stop" : 1620339550022,
+          "duration" : 47
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I should see signup and signin links ",
+      "time" : {
+        "start" : 1620339550022,
+        "stop" : 1620339550108,
+        "duration" : 86
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I see element \"#sign-up\"",
+        "time" : {
+          "start" : 1620339550022,
+          "stop" : 1620339550075,
+          "duration" : 53
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I see element \"#login\"",
+        "time" : {
+          "start" : 1620339550075,
+          "stop" : 1620339550107,
+          "duration" : 32
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I should see Create Shipment label ",
+      "time" : {
+        "start" : 1620339550108,
+        "stop" : 1620339550428,
+        "duration" : 320
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I see \"Create Shipment\"",
+        "time" : {
+          "start" : 1620339550108,
+          "stop" : 1620339550428,
+          "duration" : 320
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I should see footer text © 2021 Everts Air Cargo. All Rights Reserved ",
+      "time" : {
+        "start" : 1620339550428,
+        "stop" : 1620339550738,
+        "duration" : 310
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I see \"© 2021 Everts Air Cargo. All Rights Reserved\"",
+        "time" : {
+          "start" : 1620339550428,
+          "stop" : 1620339550738,
+          "duration" : 310
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I should see in footer 907-243-0009 | http://www.evertsair.com ",
+      "time" : {
+        "start" : 1620339550738,
+        "stop" : 1620339551379,
+        "duration" : 641
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I see \"907-243-0009\"",
+        "time" : {
+          "start" : 1620339550738,
+          "stop" : 1620339551054,
+          "duration" : 316
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I see \"http://www.evertsair.com\"",
+        "time" : {
+          "start" : 1620339551054,
+          "stop" : 1620339551379,
+          "duration" : 325
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "And I should see a disclaimer message for freight dimensions ",
+      "time" : {
+        "start" : 1620339551379,
+        "stop" : 1620339551830,
+        "duration" : 451
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I see \"If your freight dimensions are greater than any one of these, 17ft Long x 80in Wide x 72in High and/or weighs of more than 4,000lbs, then you may not continue to book your freight online. For a custom Estimate on your oversized freight please contact our Sales Dept. at 907-249-4313\"",
+        "time" : {
+          "start" : 1620339551379,
+          "stop" : 1620339551830,
+          "duration" : 451
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "I save screenshot \"Freight_shipment_create_page.png\", true",
+      "time" : {
+        "start" : 1620339551832,
+        "stop" : 1620339552390,
+        "duration" : 558
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "9369956b61bf07c5",
+      "name" : "Freight_shipment_create_page.png",
+      "source" : "9369956b61bf07c5.png",
+      "type" : "image/png",
+      "size" : 129545
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 28,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@evtprodu"
+  }, {
+    "name" : "suite",
+    "value" : "Create a freight shipment @evtprodu"
+  }, {
+    "name" : "testClass",
+    "value" : "Create a freight shipment @evtprodu"
+  }, {
+    "name" : "testMethod",
+    "value" : "Freight shipment create page"
+  }, {
+    "name" : "package",
+    "value" : "Create a freight shipment @evtprodu"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 10,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 72,
+        "unknown" : 0,
+        "total" : 82
+      },
+      "items" : [ {
+        "uid" : "cfa4eadcc082f051",
+        "reportUrl" : "../158/index.html#testresult/cfa4eadcc082f051",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620339475408,
+          "stop" : 1620339551830,
+          "duration" : 76422
+        }
+      }, {
+        "uid" : "fd3bc5f5e2322636",
+        "reportUrl" : "../157/index.html#testresult/fd3bc5f5e2322636",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620338563373,
+          "stop" : 1620338640515,
+          "duration" : 77142
+        }
+      }, {
+        "uid" : "9b2e32043d9fe3bd",
+        "reportUrl" : "../156/index.html#testresult/9b2e32043d9fe3bd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620338563373,
+          "stop" : 1620338640515,
+          "duration" : 77142
+        }
+      }, {
+        "uid" : "ee411607b0be41c4",
+        "reportUrl" : "../155/index.html#testresult/ee411607b0be41c4",
+        "status" : "failed",
+        "statusDetails" : "timeout: Timed out receiving message from renderer: -0.000\n                  (Session info: headless chrome=90.0.4430.85)",
+        "time" : {
+          "start" : 1620338007566,
+          "stop" : 1620338088515,
+          "duration" : 80949
+        }
+      }, {
+        "uid" : "329ea6524b7935f6",
+        "reportUrl" : "../154/index.html#testresult/329ea6524b7935f6",
+        "status" : "failed",
+        "statusDetails" : "timeout: Timed out receiving message from renderer: -0.000\n                  (Session info: headless chrome=90.0.4430.85)",
+        "time" : {
+          "start" : 1620338007566,
+          "stop" : 1620338088515,
+          "duration" : 80949
+        }
+      }, {
+        "uid" : "8356643539c3b3dc",
+        "reportUrl" : "../153/index.html#testresult/8356643539c3b3dc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620336410695,
+          "stop" : 1620336445254,
+          "duration" : 34559
+        }
+      }, {
+        "uid" : "b0fbb9a4c7fc74bb",
+        "reportUrl" : "../152/index.html#testresult/b0fbb9a4c7fc74bb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620336410695,
+          "stop" : 1620336445254,
+          "duration" : 34559
+        }
+      }, {
+        "uid" : "fa19b1b072c2b7d1",
+        "reportUrl" : "../151/index.html#testresult/fa19b1b072c2b7d1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620331742529,
+          "stop" : 1620331768043,
+          "duration" : 25514
+        }
+      }, {
+        "uid" : "a509fcb7d3907791",
+        "reportUrl" : "../150/index.html#testresult/a509fcb7d3907791",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620331742529,
+          "stop" : 1620331768043,
+          "duration" : 25514
+        }
+      }, {
+        "uid" : "75521a65e440a44d",
+        "reportUrl" : "../149/index.html#testresult/75521a65e440a44d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620227096035,
+          "stop" : 1620227129012,
+          "duration" : 32977
+        }
+      }, {
+        "uid" : "3a6967c401ad4d3b",
+        "reportUrl" : "../148/index.html#testresult/3a6967c401ad4d3b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620227096035,
+          "stop" : 1620227129012,
+          "duration" : 32977
+        }
+      }, {
+        "uid" : "393a51332e48c510",
+        "reportUrl" : "../147/index.html#testresult/393a51332e48c510",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620168874429,
+          "stop" : 1620168903881,
+          "duration" : 29452
+        }
+      }, {
+        "uid" : "42973009cf55fc34",
+        "reportUrl" : "../146/index.html#testresult/42973009cf55fc34",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620168874429,
+          "stop" : 1620168903881,
+          "duration" : 29452
+        }
+      }, {
+        "uid" : "25b920bec1958a46",
+        "reportUrl" : "../145/index.html#testresult/25b920bec1958a46",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620165477175,
+          "stop" : 1620165492482,
+          "duration" : 15307
+        }
+      }, {
+        "uid" : "19de4563ab8e4174",
+        "reportUrl" : "../144/index.html#testresult/19de4563ab8e4174",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620165477175,
+          "stop" : 1620165492482,
+          "duration" : 15307
+        }
+      }, {
+        "uid" : "1817e58e9d1520c5",
+        "reportUrl" : "../143/index.html#testresult/1817e58e9d1520c5",
+        "status" : "failed",
+        "statusDetails" : "Cannot read property 'url' of undefined",
+        "time" : {
+          "start" : 1620141431661,
+          "stop" : 1620141433570,
+          "duration" : 1909
+        }
+      }, {
+        "uid" : "48a158ccd32c8db1",
+        "reportUrl" : "../142/index.html#testresult/48a158ccd32c8db1",
+        "status" : "failed",
+        "statusDetails" : "Cannot read property 'url' of undefined",
+        "time" : {
+          "start" : 1620141431661,
+          "stop" : 1620141433570,
+          "duration" : 1909
+        }
+      }, {
+        "uid" : "47fad12e0b505366",
+        "reportUrl" : "../141/index.html#testresult/47fad12e0b505366",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620074867108,
+          "stop" : 1620074894165,
+          "duration" : 27057
+        }
+      }, {
+        "uid" : "d1daca18d505bb7e",
+        "reportUrl" : "../140/index.html#testresult/d1daca18d505bb7e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620074867108,
+          "stop" : 1620074894165,
+          "duration" : 27057
+        }
+      }, {
+        "uid" : "6be9b8d3e242b234",
+        "reportUrl" : "../139/index.html#testresult/6be9b8d3e242b234",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620070917263,
+          "stop" : 1620070943694,
+          "duration" : 26431
+        }
+      } ]
+    },
+    "tags" : [ "@evtprodu" ]
+  },
+  "source" : "bc99c30b86467ecf.json",
+  "parameterValues" : [ ]
+}

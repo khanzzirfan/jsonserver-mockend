@@ -1,0 +1,245 @@
+{
+  "uid" : "cc98ba91b16ed218",
+  "name" : "Evtprodu anchorage freight search ",
+  "fullName" : "TakeFliteBDD.Evtprodu anchorage freight search ",
+  "historyId" : "TakeFliteBDD.Evtprodu anchorage freight search ",
+  "time" : {
+    "start" : 1620054108381,
+    "stop" : 1620054128979,
+    "duration" : 20598
+  },
+  "status" : "failed",
+  "statusMessage" : "The object \"txtUsername\" does not exist.",
+  "flaky" : true,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "TakeFliteBDD"
+  }, {
+    "name" : "testClass",
+    "value" : "TakeFliteBDD"
+  }, {
+    "name" : "package",
+    "value" : "TakeFliteBDD"
+  }, {
+    "name" : "resultFormat",
+    "value" : "trx"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 15,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 71,
+        "unknown" : 0,
+        "total" : 86
+      },
+      "items" : [ {
+        "uid" : "99d8ef1900bb495d",
+        "reportUrl" : "../87/index.html#testresult/99d8ef1900bb495d",
+        "status" : "failed",
+        "statusDetails" : "The object \"txtUsername\" does not exist.",
+        "time" : {
+          "start" : 1620054108381,
+          "stop" : 1620054128979,
+          "duration" : 20598
+        }
+      }, {
+        "uid" : "59835b725a787548",
+        "reportUrl" : "../86/index.html#testresult/59835b725a787548",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619967661632,
+          "stop" : 1619967748771,
+          "duration" : 87139
+        }
+      }, {
+        "uid" : "9db6720ef07d08ed",
+        "reportUrl" : "../85/index.html#testresult/9db6720ef07d08ed",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619967661632,
+          "stop" : 1619967748771,
+          "duration" : 87139
+        }
+      }, {
+        "uid" : "3c259d13cee71eac",
+        "reportUrl" : "../84/index.html#testresult/3c259d13cee71eac",
+        "status" : "failed",
+        "statusDetails" : "The object \"txtUsername\" does not exist.",
+        "time" : {
+          "start" : 1619708529070,
+          "stop" : 1619708549215,
+          "duration" : 20145
+        }
+      }, {
+        "uid" : "657da075ac7aabc7",
+        "reportUrl" : "../83/index.html#testresult/657da075ac7aabc7",
+        "status" : "failed",
+        "statusDetails" : "The object \"txtUsername\" does not exist.",
+        "time" : {
+          "start" : 1619708529070,
+          "stop" : 1619708549215,
+          "duration" : 20145
+        }
+      }, {
+        "uid" : "ae163eaa85831674",
+        "reportUrl" : "../82/index.html#testresult/ae163eaa85831674",
+        "status" : "failed",
+        "statusDetails" : "The object \"txtUsername\" does not exist.",
+        "time" : {
+          "start" : 1619622112989,
+          "stop" : 1619622131662,
+          "duration" : 18673
+        }
+      }, {
+        "uid" : "9304ba349907fe38",
+        "reportUrl" : "../81/index.html#testresult/9304ba349907fe38",
+        "status" : "failed",
+        "statusDetails" : "The object \"txtUsername\" does not exist.",
+        "time" : {
+          "start" : 1619622112989,
+          "stop" : 1619622131662,
+          "duration" : 18673
+        }
+      }, {
+        "uid" : "f16fe25769e70e91",
+        "reportUrl" : "../80/index.html#testresult/f16fe25769e70e91",
+        "status" : "failed",
+        "statusDetails" : "The object \"txtUsername\" does not exist.",
+        "time" : {
+          "start" : 1619535706652,
+          "stop" : 1619535726734,
+          "duration" : 20082
+        }
+      }, {
+        "uid" : "a622823a313fa79f",
+        "reportUrl" : "../79/index.html#testresult/a622823a313fa79f",
+        "status" : "failed",
+        "statusDetails" : "The object \"txtUsername\" does not exist.",
+        "time" : {
+          "start" : 1619535706652,
+          "stop" : 1619535726734,
+          "duration" : 20082
+        }
+      }, {
+        "uid" : "6b816f5f336328b",
+        "reportUrl" : "../78/index.html#testresult/6b816f5f336328b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619449274705,
+          "stop" : 1619449365522,
+          "duration" : 90817
+        }
+      }, {
+        "uid" : "e051e980666f4156",
+        "reportUrl" : "../77/index.html#testresult/e051e980666f4156",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619449274705,
+          "stop" : 1619449365522,
+          "duration" : 90817
+        }
+      }, {
+        "uid" : "c01f6e20026b021f",
+        "reportUrl" : "../76/index.html#testresult/c01f6e20026b021f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619362862092,
+          "stop" : 1619362946728,
+          "duration" : 84636
+        }
+      }, {
+        "uid" : "f9bfdc86424b1a5d",
+        "reportUrl" : "../75/index.html#testresult/f9bfdc86424b1a5d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619362862092,
+          "stop" : 1619362946728,
+          "duration" : 84636
+        }
+      }, {
+        "uid" : "654ed8d48679c24",
+        "reportUrl" : "../74/index.html#testresult/654ed8d48679c24",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619103673180,
+          "stop" : 1619103762080,
+          "duration" : 88900
+        }
+      }, {
+        "uid" : "23b01f6f29d2467b",
+        "reportUrl" : "../73/index.html#testresult/23b01f6f29d2467b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619103673180,
+          "stop" : 1619103762080,
+          "duration" : 88900
+        }
+      }, {
+        "uid" : "ae7381effce63e68",
+        "reportUrl" : "../72/index.html#testresult/ae7381effce63e68",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619017262509,
+          "stop" : 1619017347299,
+          "duration" : 84790
+        }
+      }, {
+        "uid" : "f5ed08afe5ddedac",
+        "reportUrl" : "../71/index.html#testresult/f5ed08afe5ddedac",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619017262509,
+          "stop" : 1619017347299,
+          "duration" : 84790
+        }
+      }, {
+        "uid" : "adb30c870106bd2f",
+        "reportUrl" : "../70/index.html#testresult/adb30c870106bd2f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618954892051,
+          "stop" : 1618954977397,
+          "duration" : 85346
+        }
+      }, {
+        "uid" : "ced075266e2b4dd9",
+        "reportUrl" : "../69/index.html#testresult/ced075266e2b4dd9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618954892051,
+          "stop" : 1618954977397,
+          "duration" : 85346
+        }
+      }, {
+        "uid" : "c06fb96866e3ef5b",
+        "reportUrl" : "../68/index.html#testresult/c06fb96866e3ef5b",
+        "status" : "failed",
+        "statusDetails" : "The operation cannot be performed, because the desktop is invisible.",
+        "time" : {
+          "start" : 1618930881366,
+          "stop" : 1618930890222,
+          "duration" : 8856
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "cc98ba91b16ed218.json",
+  "parameterValues" : [ ]
+}

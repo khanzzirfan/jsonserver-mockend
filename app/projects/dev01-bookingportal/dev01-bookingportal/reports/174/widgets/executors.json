@@ -1,0 +1,9 @@
+[ {
+  "name" : "Automatic Execution",
+  "type" : "another",
+  "buildOrder" : 174,
+  "buildName" : "dev01-bookingportal #174",
+  "buildUrl" : "",
+  "reportName" : "dev01-bookingportal",
+  "reportUrl" : "../174/index.html"
+} ]

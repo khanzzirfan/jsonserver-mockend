@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "",
+      "children" : [ {
+        "name" : "Search page should display all basic field on landing",
+        "uid" : "37c04e65279360ea",
+        "parentUid" : "ac137dbdc3eb70d55d947f065b65fff1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620346425890,
+          "stop" : 1620346477322,
+          "duration" : 51432
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ac137dbdc3eb70d55d947f065b65fff1"
+    }, {
+      "name" : "Element \"#return_date\" was not found by text|CSS|XPath",
+      "children" : [ {
+        "name" : "As a user I should see oneway trip booking options @validation",
+        "uid" : "3360c49b93db3484",
+        "parentUid" : "4bcd2437d01374a18cb14fd3ad79881d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620346477457,
+          "stop" : 1620346489204,
+          "duration" : 11747
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4bcd2437d01374a18cb14fd3ad79881d"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

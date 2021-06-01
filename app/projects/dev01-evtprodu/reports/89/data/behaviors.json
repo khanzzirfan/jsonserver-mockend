@@ -1,0 +1,83 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Evtprodu anchorage freight search ",
+    "uid" : "cdd138dfe57a4f45",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1620140478351,
+      "stop" : 1620140573417,
+      "duration" : 95066
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "EvtProdu dashboard screen validation",
+    "uid" : "af45a0899aa9752",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1620140573427,
+      "stop" : 1620140634466,
+      "duration" : 61039
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "EvtProdu CreateQuickFreight-Validatefields",
+    "uid" : "b299c81d1da0da27",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1620140634476,
+      "stop" : 1620140706913,
+      "duration" : 72437
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "EvtProdu Tag flight should throw error when no tags available",
+    "uid" : "ddbf9e1ace0300d4",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1620140706923,
+      "stop" : 1620140832487,
+      "duration" : 125564
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "EvtProdu CreateNew Tags",
+    "uid" : "5b3ed6ecc6aefbc8",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1620140832497,
+      "stop" : 1620140897379,
+      "duration" : 64882
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "EvtProdu Assign tag to scheduled booking flight",
+    "uid" : "4a70c32428d95249",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1620140897389,
+      "stop" : 1620140974900,
+      "duration" : 77511
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ]
+}

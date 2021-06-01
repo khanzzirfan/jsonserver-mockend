@@ -1,0 +1,253 @@
+{
+  "uid" : "d7a3dd50df754e9e",
+  "name" : "EvtProdu Tag flight should throw error when no tags available",
+  "fullName" : "TakeFliteBDD.EvtProdu Tag flight should throw error when no tags available",
+  "historyId" : "TakeFliteBDD.EvtProdu Tag flight should throw error when no tags available",
+  "time" : {
+    "start" : 1620313367890,
+    "stop" : 1620313403070,
+    "duration" : 35180
+  },
+  "status" : "failed",
+  "statusMessage" : "Unexpected window: 'Takeflite Ops - Dev - Daily Overview - v5.6.11.0 - ctladmin - evtprodu (BACKUP/TRAINING MODE). Database Restored 13 days 6 hours 26 minutes ago. Time in master timezone is 06/May/2021 07:02.'",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "TakeFliteBDD"
+  }, {
+    "name" : "testClass",
+    "value" : "TakeFliteBDD"
+  }, {
+    "name" : "package",
+    "value" : "TakeFliteBDD"
+  }, {
+    "name" : "resultFormat",
+    "value" : "trx"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 45,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 24,
+        "unknown" : 0,
+        "total" : 69
+      },
+      "items" : [ {
+        "uid" : "f1e246061d121936",
+        "reportUrl" : "../92/index.html#testresult/f1e246061d121936",
+        "status" : "failed",
+        "statusDetails" : "Unable to verify a value with the property checkpoint, because the target object does not exist.",
+        "time" : {
+          "start" : 1620227024916,
+          "stop" : 1620227157579,
+          "duration" : 132663
+        }
+      }, {
+        "uid" : "bdc32888da476863",
+        "reportUrl" : "../91/index.html#testresult/bdc32888da476863",
+        "status" : "failed",
+        "statusDetails" : "Unable to verify a value with the property checkpoint, because the target object does not exist.",
+        "time" : {
+          "start" : 1620227024916,
+          "stop" : 1620227157579,
+          "duration" : 132663
+        }
+      }, {
+        "uid" : "be2c6108679e5ba5",
+        "reportUrl" : "../90/index.html#testresult/be2c6108679e5ba5",
+        "status" : "failed",
+        "statusDetails" : "Unable to verify a value with the property checkpoint, because the target object does not exist.",
+        "time" : {
+          "start" : 1620140706923,
+          "stop" : 1620140832487,
+          "duration" : 125564
+        }
+      }, {
+        "uid" : "ddbf9e1ace0300d4",
+        "reportUrl" : "../89/index.html#testresult/ddbf9e1ace0300d4",
+        "status" : "failed",
+        "statusDetails" : "Unable to verify a value with the property checkpoint, because the target object does not exist.",
+        "time" : {
+          "start" : 1620140706923,
+          "stop" : 1620140832487,
+          "duration" : 125564
+        }
+      }, {
+        "uid" : "c6839a9f08267881",
+        "reportUrl" : "../88/index.html#testresult/c6839a9f08267881",
+        "status" : "failed",
+        "statusDetails" : "Unable to verify a value with the property checkpoint, because the target object does not exist.",
+        "time" : {
+          "start" : 1620054230019,
+          "stop" : 1620054367172,
+          "duration" : 137153
+        }
+      }, {
+        "uid" : "34758a62c5e7d7df",
+        "reportUrl" : "../87/index.html#testresult/34758a62c5e7d7df",
+        "status" : "failed",
+        "statusDetails" : "Unable to verify a value with the property checkpoint, because the target object does not exist.",
+        "time" : {
+          "start" : 1620054230019,
+          "stop" : 1620054367172,
+          "duration" : 137153
+        }
+      }, {
+        "uid" : "dc41558569a7185b",
+        "reportUrl" : "../86/index.html#testresult/dc41558569a7185b",
+        "status" : "failed",
+        "statusDetails" : "Unable to verify a value with the property checkpoint, because the target object does not exist.",
+        "time" : {
+          "start" : 1619967875708,
+          "stop" : 1619968002041,
+          "duration" : 126333
+        }
+      }, {
+        "uid" : "bf8aa42fb7aebc8e",
+        "reportUrl" : "../85/index.html#testresult/bf8aa42fb7aebc8e",
+        "status" : "failed",
+        "statusDetails" : "Unable to verify a value with the property checkpoint, because the target object does not exist.",
+        "time" : {
+          "start" : 1619967875708,
+          "stop" : 1619968002041,
+          "duration" : 126333
+        }
+      }, {
+        "uid" : "bdb4ada11e4b612b",
+        "reportUrl" : "../84/index.html#testresult/bdb4ada11e4b612b",
+        "status" : "failed",
+        "statusDetails" : "Unable to verify a value with the property checkpoint, because the target object does not exist.",
+        "time" : {
+          "start" : 1619708692622,
+          "stop" : 1619708820773,
+          "duration" : 128151
+        }
+      }, {
+        "uid" : "5feb2fcfc609616d",
+        "reportUrl" : "../83/index.html#testresult/5feb2fcfc609616d",
+        "status" : "failed",
+        "statusDetails" : "Unable to verify a value with the property checkpoint, because the target object does not exist.",
+        "time" : {
+          "start" : 1619708692622,
+          "stop" : 1619708820773,
+          "duration" : 128151
+        }
+      }, {
+        "uid" : "88c1066712ca46d7",
+        "reportUrl" : "../82/index.html#testresult/88c1066712ca46d7",
+        "status" : "failed",
+        "statusDetails" : "The window is overlapped by the 'Flight Manifest' window.",
+        "time" : {
+          "start" : 1619622287897,
+          "stop" : 1619622414841,
+          "duration" : 126944
+        }
+      }, {
+        "uid" : "44be23daf29d34f4",
+        "reportUrl" : "../81/index.html#testresult/44be23daf29d34f4",
+        "status" : "failed",
+        "statusDetails" : "The window is overlapped by the 'Flight Manifest' window.",
+        "time" : {
+          "start" : 1619622287897,
+          "stop" : 1619622414841,
+          "duration" : 126944
+        }
+      }, {
+        "uid" : "ce7c41b1e7003c14",
+        "reportUrl" : "../80/index.html#testresult/ce7c41b1e7003c14",
+        "status" : "failed",
+        "statusDetails" : "Unable to verify a value with the property checkpoint, because the target object does not exist.",
+        "time" : {
+          "start" : 1619535876342,
+          "stop" : 1619536003485,
+          "duration" : 127143
+        }
+      }, {
+        "uid" : "7ea3eed41aac0d41",
+        "reportUrl" : "../79/index.html#testresult/7ea3eed41aac0d41",
+        "status" : "failed",
+        "statusDetails" : "Unable to verify a value with the property checkpoint, because the target object does not exist.",
+        "time" : {
+          "start" : 1619535876342,
+          "stop" : 1619536003485,
+          "duration" : 127143
+        }
+      }, {
+        "uid" : "5c1ad17754875621",
+        "reportUrl" : "../78/index.html#testresult/5c1ad17754875621",
+        "status" : "failed",
+        "statusDetails" : "Unable to verify a value with the property checkpoint, because the target object does not exist.",
+        "time" : {
+          "start" : 1619449493593,
+          "stop" : 1619449621022,
+          "duration" : 127429
+        }
+      }, {
+        "uid" : "879f90bf6bb121bb",
+        "reportUrl" : "../77/index.html#testresult/879f90bf6bb121bb",
+        "status" : "failed",
+        "statusDetails" : "Unable to verify a value with the property checkpoint, because the target object does not exist.",
+        "time" : {
+          "start" : 1619449493593,
+          "stop" : 1619449621022,
+          "duration" : 127429
+        }
+      }, {
+        "uid" : "a5b2864044f05ddf",
+        "reportUrl" : "../76/index.html#testresult/a5b2864044f05ddf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619363074490,
+          "stop" : 1619363141188,
+          "duration" : 66698
+        }
+      }, {
+        "uid" : "158c2f758c70cb84",
+        "reportUrl" : "../75/index.html#testresult/158c2f758c70cb84",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619363074490,
+          "stop" : 1619363141188,
+          "duration" : 66698
+        }
+      }, {
+        "uid" : "9f17567928be49ba",
+        "reportUrl" : "../74/index.html#testresult/9f17567928be49ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619103903463,
+          "stop" : 1619103977853,
+          "duration" : 74390
+        }
+      }, {
+        "uid" : "4e7f78f87d7824f6",
+        "reportUrl" : "../73/index.html#testresult/4e7f78f87d7824f6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619103903463,
+          "stop" : 1619103977853,
+          "duration" : 74390
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "d7a3dd50df754e9e.json",
+  "parameterValues" : [ ]
+}

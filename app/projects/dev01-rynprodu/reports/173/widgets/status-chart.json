@@ -1,0 +1,101 @@
+[ {
+  "uid" : "98e121433c432d5b",
+  "name" : "create quick freight",
+  "time" : {
+    "start" : 1621267316285,
+    "stop" : 1621267400093,
+    "duration" : 83808
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b541deafc2e5624",
+  "name" : "validate add freight mandatory fields",
+  "time" : {
+    "start" : 1621267473944,
+    "stop" : 1621267542118,
+    "duration" : 68174
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "70e72ae8bfcbf42d",
+  "name" : "Validate add freight window fields",
+  "time" : {
+    "start" : 1621267542128,
+    "stop" : 1621267613582,
+    "duration" : 71454
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ad07af9ccfb0103d",
+  "name" : "create new tags",
+  "time" : {
+    "start" : 1621267961455,
+    "stop" : 1621268028756,
+    "duration" : 67301
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a5e8190e3a1b63e4",
+  "name" : "search by freights by agent",
+  "time" : {
+    "start" : 1621267613602,
+    "stop" : 1621267757036,
+    "duration" : 143434
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8a1ebc773108c703",
+  "name" : "create quick freight mandatory office selection",
+  "time" : {
+    "start" : 1621267400113,
+    "stop" : 1621267473934,
+    "duration" : 73821
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c756d23c78acd137",
+  "name" : "DashboardScreenValidation",
+  "time" : {
+    "start" : 1621267901160,
+    "stop" : 1621267961445,
+    "duration" : 60285
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "39d5cadc185d1228",
+  "name" : "freights from kotlik to emmonak",
+  "time" : {
+    "start" : 1621267757046,
+    "stop" : 1621267831990,
+    "duration" : 74944
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "acb059cde1e6fa1d",
+  "name" : "assign tag to scheduled booking flight_1",
+  "time" : {
+    "start" : 1621268028766,
+    "stop" : 1621268118458,
+    "duration" : 89692
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "18fed896d617d4b5",
+  "name" : "Search all freights from Kotlik",
+  "time" : {
+    "start" : 1621267832000,
+    "stop" : 1621267901140,
+    "duration" : 69140
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

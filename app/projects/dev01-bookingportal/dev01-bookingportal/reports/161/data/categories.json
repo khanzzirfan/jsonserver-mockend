@@ -1,0 +1,60 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "timeout: Timed out receiving message from renderer: -0.000\n                  (Session info: headless chrome=90.0.4430.85)",
+      "children" : [ {
+        "name" : "Freight shipment create page",
+        "uid" : "21d3c6b448ac3107",
+        "parentUid" : "6ea70ce4d24561af1c6d722f28c50c66",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620345297414,
+          "stop" : 1620345380242,
+          "duration" : 82828
+        },
+        "flaky" : true,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6ea70ce4d24561af1c6d722f28c50c66"
+    }, {
+      "name" : "",
+      "children" : [ {
+        "name" : "Search page should display all basic field on landing",
+        "uid" : "127c2c8380479b26",
+        "parentUid" : "ac137dbdc3eb70d55d947f065b65fff1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620345484969,
+          "stop" : 1620345537335,
+          "duration" : 52366
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ac137dbdc3eb70d55d947f065b65fff1"
+    }, {
+      "name" : "Element \"#return_date\" was not found by text|CSS|XPath",
+      "children" : [ {
+        "name" : "As a user I should see oneway trip booking options @validation",
+        "uid" : "1149222ee168ccf2",
+        "parentUid" : "4bcd2437d01374a18cb14fd3ad79881d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620345537441,
+          "stop" : 1620345548904,
+          "duration" : 11463
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4bcd2437d01374a18cb14fd3ad79881d"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

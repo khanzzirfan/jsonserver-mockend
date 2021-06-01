@@ -1,0 +1,936 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1621288291847' stop='1621288373991'>
+    <name>Create a freight shipment @evtprodu</name>
+    <title>Create a freight shipment @evtprodu</title>
+    <test-cases>
+        <test-case start='1621288298785' status='passed' stop='1621288328286'>
+            <name>Freight shipment create page</name>
+            <title>Freight shipment create page</title>
+            <labels>
+                <label name='tag' value='@evtprodu'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1621288315722' status='passed' stop='1621288325958'>
+                    <name>Given I navigate to evert air application create page </name>
+                    <title>Given I navigate to evert air application create page </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288315722' status='passed' stop='1621288325559'>
+                            <name>createshipmentPage: goto </name>
+                            <title>createshipmentPage: goto </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1621288315722' status='passed' stop='1621288324025'>
+                                    <name>I am on page "https://test.tflite.com/Public/EVT/Freight/Create"</name>
+                                    <title>I am on page "https://test.tflite.com/Public/EVT/Freight/Create"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1621288324025' status='passed' stop='1621288325385'>
+                                    <name>I refresh page </name>
+                                    <title>I refresh page </title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1621288325386' status='passed' stop='1621288325559'>
+                                    <name>I wait for visible "#custom-header"</name>
+                                    <title>I wait for visible "#custom-header"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1621288325559' status='passed' stop='1621288325958'>
+                            <name>I see "Create Shipment"</name>
+                            <title>I see "Create Shipment"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288325958' status='passed' stop='1621288326292'>
+                    <name>When I see page is loaded </name>
+                    <title>When I see page is loaded </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288325959' status='passed' stop='1621288326292'>
+                            <name>I see "Create Shipment"</name>
+                            <title>I see "Create Shipment"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288326292' status='passed' stop='1621288326331'>
+                    <name>Then I should see Everts Air logo </name>
+                    <title>Then I should see Everts Air logo </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288326292' status='passed' stop='1621288326331'>
+                            <name>I see element "a[title="Create a new booking"]"</name>
+                            <title>I see element "a[title="Create a new booking"]"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288326331' status='passed' stop='1621288326383'>
+                    <name>Then I should see menu bar showing type of shipment on the top left </name>
+                    <title>Then I should see menu bar showing type of shipment on the top left </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288326331' status='passed' stop='1621288326383'>
+                            <name>I see element "a[title="Freight"]"</name>
+                            <title>I see element "a[title="Freight"]"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288326383' status='passed' stop='1621288326488'>
+                    <name>Then I should see Everts air phone number </name>
+                    <title>Then I should see Everts air phone number </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288326383' status='passed' stop='1621288326434'>
+                            <name>I see element "a[title="Call us"]"</name>
+                            <title>I see element "a[title="Call us"]"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1621288326434' status='passed' stop='1621288326488'>
+                            <name>I see element "a[href="tel:907-243-0009"]"</name>
+                            <title>I see element "a[href="tel:907-243-0009"]"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288326488' status='passed' stop='1621288326565'>
+                    <name>Then I should see signup and signin links </name>
+                    <title>Then I should see signup and signin links </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288326488' status='passed' stop='1621288326531'>
+                            <name>I see element "#sign-up"</name>
+                            <title>I see element "#sign-up"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1621288326531' status='passed' stop='1621288326565'>
+                            <name>I see element "#login"</name>
+                            <title>I see element "#login"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288326565' status='passed' stop='1621288326846'>
+                    <name>Then I should see Create Shipment label </name>
+                    <title>Then I should see Create Shipment label </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288326565' status='passed' stop='1621288326846'>
+                            <name>I see "Create Shipment"</name>
+                            <title>I see "Create Shipment"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288326846' status='passed' stop='1621288327155'>
+                    <name>Then I should see footer text © 2021 Everts Air Cargo. All Rights Reserved </name>
+                    <title>Then I should see footer text © 2021 Everts Air Cargo. All Rights Reserved </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288326846' status='passed' stop='1621288327155'>
+                            <name>I see "© 2021 Everts Air Cargo. All Rights Reserved"</name>
+                            <title>I see "© 2021 Everts Air Cargo. All Rights Reserved"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288327155' status='passed' stop='1621288327950'>
+                    <name>Then I should see in footer 907-243-0009 | http://www.evertsair.com </name>
+                    <title>Then I should see in footer 907-243-0009 | http://www.evertsair.com </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288327155' status='passed' stop='1621288327506'>
+                            <name>I see "907-243-0009"</name>
+                            <title>I see "907-243-0009"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1621288327506' status='passed' stop='1621288327950'>
+                            <name>I see "http://www.evertsair.com"</name>
+                            <title>I see "http://www.evertsair.com"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288327950' status='passed' stop='1621288328285'>
+                    <name>And I should see a disclaimer message for freight dimensions </name>
+                    <title>And I should see a disclaimer message for freight dimensions </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288327950' status='passed' stop='1621288328285'>
+                            <name>I see "If your freight dimensions are greater than any one of these, 17ft Long x 80in Wide x 72in High and/or weighs of more than 4,000lbs, then you may not continue to book your freight online. For a custom Estimate on your oversized freight please contact our Sales Dept. at 907-249-4313"</name>
+                            <title>I see "If your freight dimensions are greater than any one of these, 17ft Long x 80in Wide x 72in High and/or weighs of more than 4,000lbs, then you may not continue to book your freight online. For a custom Estimate on your oversized freight please contact our Sales Dept. at 907-249-4313"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288328288' status='passed' stop='1621288328814'>
+                    <name>I save screenshot "Freight_shipment_create_page.png", true</name>
+                    <title>I save screenshot "Freight_shipment_create_page.png", true</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Freight_shipment_create_page.png' source='64dcb1ce-f45b-4d0d-882f-7cf4b04fbc03-attachment.png' type='image/png' size='129316'/>
+            </attachments>
+        </test-case>
+        <test-case start='1621288328831' status='passed' stop='1621288335381'>
+            <name>Validate page headings on create freight page</name>
+            <title>Validate page headings on create freight page</title>
+            <labels>
+                <label name='tag' value='@evtprodu'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1621288330490' status='passed' stop='1621288334089'>
+                    <name>Given I navigate to evert air application create page </name>
+                    <title>Given I navigate to evert air application create page </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288330490' status='passed' stop='1621288333753'>
+                            <name>createshipmentPage: goto </name>
+                            <title>createshipmentPage: goto </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1621288330490' status='passed' stop='1621288332493'>
+                                    <name>I am on page "https://test.tflite.com/Public/EVT/Freight/Create"</name>
+                                    <title>I am on page "https://test.tflite.com/Public/EVT/Freight/Create"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1621288332493' status='passed' stop='1621288332548'>
+                                    <name>I refresh page </name>
+                                    <title>I refresh page </title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1621288332548' status='passed' stop='1621288333753'>
+                                    <name>I wait for visible "#custom-header"</name>
+                                    <title>I wait for visible "#custom-header"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1621288333753' status='passed' stop='1621288334088'>
+                            <name>I see "Create Shipment"</name>
+                            <title>I see "Create Shipment"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288334089' status='passed' stop='1621288334408'>
+                    <name>When I see page is loaded </name>
+                    <title>When I see page is loaded </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288334089' status='passed' stop='1621288334408'>
+                            <name>I see "Create Shipment"</name>
+                            <title>I see "Create Shipment"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288334408' status='passed' stop='1621288334654'>
+                    <name>Then I should see shippers information heading </name>
+                    <title>Then I should see shippers information heading </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288334408' status='passed' stop='1621288334654'>
+                            <name>I see "Shipper Information", "h4"</name>
+                            <title>I see "Shipper Information", "h4"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288334654' status='passed' stop='1621288334796'>
+                    <name>Then I should see Consignee information heading </name>
+                    <title>Then I should see Consignee information heading </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288334654' status='passed' stop='1621288334796'>
+                            <name>I see "Consignee Information", "h4"</name>
+                            <title>I see "Consignee Information", "h4"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288334796' status='passed' stop='1621288334953'>
+                    <name>Then I should see shipping instructions heading </name>
+                    <title>Then I should see shipping instructions heading </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288334796' status='passed' stop='1621288334953'>
+                            <name>I see "Shipping Instructions", "h4"</name>
+                            <title>I see "Shipping Instructions", "h4"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288334953' status='passed' stop='1621288335178'>
+                    <name>Then I should see freight item heading </name>
+                    <title>Then I should see freight item heading </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288334953' status='passed' stop='1621288335178'>
+                            <name>I see "Freight Item #1", "h4"</name>
+                            <title>I see "Freight Item #1", "h4"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288335178' status='passed' stop='1621288335233'>
+                    <name>Then I should also see add new freight item button </name>
+                    <title>Then I should also see add new freight item button </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288335178' status='passed' stop='1621288335204'>
+                            <name>I see element "#btn-add-panel"</name>
+                            <title>I see element "#btn-add-panel"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1621288335204' status='passed' stop='1621288335233'>
+                            <name>I see "Add New Freight Item", "#btn-add-panel"</name>
+                            <title>I see "Add New Freight Item", "#btn-add-panel"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288335233' status='passed' stop='1621288335352'>
+                    <name>Then I should see confirm email address heading </name>
+                    <title>Then I should see confirm email address heading </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288335233' status='passed' stop='1621288335352'>
+                            <name>I see "Confirmation Email Address", "h4"</name>
+                            <title>I see "Confirmation Email Address", "h4"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288335352' status='passed' stop='1621288335381'>
+                    <name>And I should see next button </name>
+                    <title>And I should see next button </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288335352' status='passed' stop='1621288335381'>
+                            <name>I see element ".btn-success"</name>
+                            <title>I see element ".btn-success"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288335382' status='passed' stop='1621288335813'>
+                    <name>I save screenshot "Validate_page_headings_on_create_freight_page.png", true</name>
+                    <title>I save screenshot "Validate_page_headings_on_create_freight_page.png", true</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Validate_page_headings_on_create_freight_page.png' source='7bbef364-1e6f-4629-a6b6-91a41794611f-attachment.png' type='image/png' size='129316'/>
+            </attachments>
+        </test-case>
+        <test-case start='1621288335841' status='failed' stop='1621288367078'>
+            <name>As a user I should be able to create freight shipment</name>
+            <title>As a user I should be able to create freight shipment</title>
+            <labels>
+                <label name='tag' value='@evtprodu'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1621288337422' status='passed' stop='1621288341424'>
+                    <name>Given I navigate to evert air application create page </name>
+                    <title>Given I navigate to evert air application create page </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288337423' status='passed' stop='1621288341076'>
+                            <name>createshipmentPage: goto </name>
+                            <title>createshipmentPage: goto </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1621288337423' status='passed' stop='1621288339764'>
+                                    <name>I am on page "https://test.tflite.com/Public/EVT/Freight/Create"</name>
+                                    <title>I am on page "https://test.tflite.com/Public/EVT/Freight/Create"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1621288339764' status='passed' stop='1621288340877'>
+                                    <name>I refresh page </name>
+                                    <title>I refresh page </title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1621288340877' status='passed' stop='1621288341076'>
+                                    <name>I wait for visible "#custom-header"</name>
+                                    <title>I wait for visible "#custom-header"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1621288341076' status='passed' stop='1621288341424'>
+                            <name>I see "Create Shipment"</name>
+                            <title>I see "Create Shipment"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288341424' status='passed' stop='1621288342165'>
+                    <name>When I see page is loaded </name>
+                    <title>When I see page is loaded </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288341424' status='passed' stop='1621288341765'>
+                            <name>I see "Create Shipment"</name>
+                            <title>I see "Create Shipment"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288342165' status='passed' stop='1621288343192'>
+                    <name>Then I should fill in shippers account number </name>
+                    <title>Then I should fill in shippers account number </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288342165' status='passed' stop='1621288342792'>
+                            <name>I fill field "#shipper_account", 10484359</name>
+                            <title>I fill field "#shipper_account", 10484359</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288343192' status='passed' stop='1621288343929'>
+                    <name>Then I should fill shippers name </name>
+                    <title>Then I should fill shippers name </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288343192' status='passed' stop='1621288343529'>
+                            <name>I fill field "#shipper_name", "Savings Account"</name>
+                            <title>I fill field "#shipper_name", "Savings Account"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288343929' status='passed' stop='1621288344650'>
+                    <name>Then I should fill shippers contact address </name>
+                    <title>Then I should fill shippers contact address </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288343929' status='passed' stop='1621288344249'>
+                            <name>I fill field "#shipper_address", "7480 O'Connell Ports"</name>
+                            <title>I fill field "#shipper_address", "7480 O'Connell Ports"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288344650' status='passed' stop='1621288345373'>
+                    <name>Then I should enter shippers phone number </name>
+                    <title>Then I should enter shippers phone number </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288344650' status='passed' stop='1621288344973'>
+                            <name>I fill field "#shipper_phone", "(522) 481-7416"</name>
+                            <title>I fill field "#shipper_phone", "(522) 481-7416"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288345373' status='passed' stop='1621288346074'>
+                    <name>Then I should enter consignee account number </name>
+                    <title>Then I should enter consignee account number </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288345373' status='passed' stop='1621288345674'>
+                            <name>I fill field "#consignee_account", 17555835</name>
+                            <title>I fill field "#consignee_account", 17555835</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288346074' status='passed' stop='1621288346779'>
+                    <name>Then I should enter consignee name </name>
+                    <title>Then I should enter consignee name </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288346074' status='passed' stop='1621288346379'>
+                            <name>I fill field "#consignee_name", "Investment Account"</name>
+                            <title>I fill field "#consignee_name", "Investment Account"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288346779' status='passed' stop='1621288347491'>
+                    <name>Then I should enter consignee address </name>
+                    <title>Then I should enter consignee address </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288346779' status='passed' stop='1621288347091'>
+                            <name>I fill field "#consignee_address", "26501 Nayeli Haven"</name>
+                            <title>I fill field "#consignee_address", "26501 Nayeli Haven"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288347491' status='passed' stop='1621288347847'>
+                    <name>Then I should enter consignee phone number </name>
+                    <title>Then I should enter consignee phone number </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288347491' status='passed' stop='1621288347847'>
+                            <name>I fill field "#consignee_phone", "1-225-021-5622 x35696"</name>
+                            <title>I fill field "#consignee_phone", "1-225-021-5622 x35696"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288347847' status='passed' stop='1621288349442'>
+                    <name>Then I should select priority checkbox </name>
+                    <title>Then I should select priority checkbox </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288347847' status='passed' stop='1621288348320'>
+                            <name>I see "Check for yes", "label"</name>
+                            <title>I see "Check for yes", "label"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1621288348721' status='passed' stop='1621288349042'>
+                            <name>I click "#priority"</name>
+                            <title>I click "#priority"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288349442' status='passed' stop='1621288349775'>
+                    <name>Then I should select service standard prepaid </name>
+                    <title>Then I should select service standard prepaid </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288349442' status='passed' stop='1621288349775'>
+                            <name>I check option "Prepaid"</name>
+                            <title>I check option "Prepaid"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288349775' status='passed' stop='1621288349846'>
+                    <name>Then I should select shipping from location </name>
+                    <title>Then I should select shipping from location </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288349775' status='passed' stop='1621288349846'>
+                            <name>I select option "#from", "Fairbanks"</name>
+                            <title>I select option "#from", "Fairbanks"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288349846' status='passed' stop='1621288350322'>
+                    <name>Then I should select shipping to location </name>
+                    <title>Then I should select shipping to location </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288349846' status='passed' stop='1621288349920'>
+                            <name>I select option "#to", "Bethel"</name>
+                            <title>I select option "#to", "Bethel"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288350322' status='passed' stop='1621288351023'>
+                    <name>Then I should enter purchase order number </name>
+                    <title>Then I should enter purchase order number </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288350322' status='passed' stop='1621288350623'>
+                            <name>I fill field "#po", 27958</name>
+                            <title>I fill field "#po", 27958</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288351023' status='passed' stop='1621288351929'>
+                    <name>Then I should enter booking comments </name>
+                    <title>Then I should enter booking comments </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288351023' status='passed' stop='1621288351529'>
+                            <name>I fill field "#booking_comment", "Aspernatur cumque vel occaecati tempora quisquam molestiae quia tempora soluta. Praesentium id nemo quidem. Alias harum aut. Possimus architecto eum. Eum nam inventore dolore dolore reiciendis exercitationem."</name>
+                            <title>I fill field "#booking_comment", "Aspernatur cumque vel occaecati tempora quisquam molestiae quia tempora soluta. Praesentium id nemo quidem. Alias harum aut. Possimus architecto eum. Eum nam inventore dolore dolore reiciendis exercitationem."</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288351929' status='passed' stop='1621288352844'>
+                    <name>Then I should enter freight description </name>
+                    <title>Then I should enter freight description </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288351929' status='passed' stop='1621288352444'>
+                            <name>I fill field ".freight-description", "Quo hic eum et. Architecto quia quo reiciendis sit reiciendis soluta. Architecto non voluptates aliquam esse ratione. Eaque quo similique non. Provident illum cupiditate aspernatur ex sint et."</name>
+                            <title>I fill field ".freight-description", "Quo hic eum et. Architecto quia quo reiciendis sit reiciendis soluta. Architecto non voluptates aliquam esse ratione. Eaque quo similique non. Provident illum cupiditate aspernatur ex sint et."</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288352844' status='passed' stop='1621288353542'>
+                    <name>Then I should enter field declared value </name>
+                    <title>Then I should enter field declared value </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288352844' status='passed' stop='1621288353142'>
+                            <name>I fill field ".freight-declared-value", "190.34"</name>
+                            <title>I fill field ".freight-declared-value", "190.34"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288353542' status='passed' stop='1621288354241'>
+                    <name>Then I should enter number of pieces </name>
+                    <title>Then I should enter number of pieces </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288353542' status='passed' stop='1621288353841'>
+                            <name>I fill field ".freight-pieces", 3</name>
+                            <title>I fill field ".freight-pieces", 3</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288354241' status='passed' stop='1621288354539'>
+                    <name>Then I should enter gross weight </name>
+                    <title>Then I should enter gross weight </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288354241' status='passed' stop='1621288354539'>
+                            <name>I fill field ".freight-gross-weight", 453</name>
+                            <title>I fill field ".freight-gross-weight", 453</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288354539' status='passed' stop='1621288354600'>
+                    <name>Then I should enter field freight handling </name>
+                    <title>Then I should enter field freight handling </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288354539' status='passed' stop='1621288354600'>
+                            <name>I select option ".freight-handling", "Chilled"</name>
+                            <title>I select option ".freight-handling", "Chilled"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288354600' status='passed' stop='1621288355611'>
+                    <name>Then I should enter length width and height </name>
+                    <title>Then I should enter length width and height </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288354600' status='passed' stop='1621288354929'>
+                            <name>I see "Length (Max 17ft)"</name>
+                            <title>I see "Length (Max 17ft)"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1621288354929' status='passed' stop='1621288355256'>
+                            <name>I see "Width (Max 80in)"</name>
+                            <title>I see "Width (Max 80in)"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1621288355256' status='passed' stop='1621288355611'>
+                            <name>I see "Height (Max 72in)"</name>
+                            <title>I see "Height (Max 72in)"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288355611' status='passed' stop='1621288355882'>
+                    <name>Then I should read disclaimer dangerous goods/Hazmat declaration </name>
+                    <title>Then I should read disclaimer dangerous goods/Hazmat declaration </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288355611' status='passed' stop='1621288355882'>
+                            <name>I see "Dangerous Goods/Hazmat Declaration*", "label"</name>
+                            <title>I see "Dangerous Goods/Hazmat Declaration*", "label"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288355882' status='passed' stop='1621288356373'>
+                    <name>Then I should make dangers goods selection from dropdown with No option </name>
+                    <title>Then I should make dangers goods selection from dropdown with No option </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288355882' status='passed' stop='1621288355973'>
+                            <name>I select option ".freight-dangerous-goods", "No"</name>
+                            <title>I select option ".freight-dangerous-goods", "No"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288356373' status='passed' stop='1621288357070'>
+                    <name>Then I enter confirm email address </name>
+                    <title>Then I enter confirm email address </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288356373' status='passed' stop='1621288356669'>
+                            <name>I fill field "#email", "Jed62@gmail.com"</name>
+                            <title>I fill field "#email", "Jed62@gmail.com"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288357070' status='passed' stop='1621288357375'>
+                    <name>Then I click next button </name>
+                    <title>Then I click next button </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288357070' status='passed' stop='1621288357375'>
+                            <name>I click ".btn-success"</name>
+                            <title>I click ".btn-success"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288357375' status='failed' stop='1621288367078'>
+                    <name>Then I should see freight confirmation page </name>
+                    <title>Then I should see freight confirmation page </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288357375' status='passed' stop='1621288362376'>
+                            <name>I wait 5</name>
+                            <title>I wait 5</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1621288362376' status='failed' stop='1621288367078'>
+                            <name>I see in current url "/Freight/Confirmation"</name>
+                            <title>I see in current url "/Freight/Confirmation"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='6a944246-a218-4106-b5ba-e85e19095eca-attachment.png' type='image/png' size='40578'/>
+            </attachments>
+            <failure>
+                <message></message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1621288367178' status='passed' stop='1621288373523'>
+            <name>Create freight shipment page should show validation errors when not filled @prod @smoke @prod2</name>
+            <title>Create freight shipment page should show validation errors when not filled @prod @smoke @prod2</title>
+            <labels>
+                <label name='tag' value='@evtprodu'/>
+                <label name='tag' value='@prod'/>
+                <label name='tag' value='@smoke'/>
+                <label name='tag' value='@prod2'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1621288368699' status='passed' stop='1621288372023'>
+                    <name>Given I navigate to evert air application create page </name>
+                    <title>Given I navigate to evert air application create page </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288368699' status='passed' stop='1621288371668'>
+                            <name>createshipmentPage: goto </name>
+                            <title>createshipmentPage: goto </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1621288368700' status='passed' stop='1621288370475'>
+                                    <name>I am on page "https://test.tflite.com/Public/EVT/Freight/Create"</name>
+                                    <title>I am on page "https://test.tflite.com/Public/EVT/Freight/Create"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1621288370475' status='passed' stop='1621288371468'>
+                                    <name>I refresh page </name>
+                                    <title>I refresh page </title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1621288371469' status='passed' stop='1621288371668'>
+                                    <name>I wait for visible "#custom-header"</name>
+                                    <title>I wait for visible "#custom-header"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1621288371668' status='passed' stop='1621288372022'>
+                            <name>I see "Create Shipment"</name>
+                            <title>I see "Create Shipment"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288372023' status='passed' stop='1621288372742'>
+                    <name>When I see page is loaded </name>
+                    <title>When I see page is loaded </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288372023' status='passed' stop='1621288372342'>
+                            <name>I see "Create Shipment"</name>
+                            <title>I see "Create Shipment"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288372742' status='passed' stop='1621288373199'>
+                    <name>Then I click next button </name>
+                    <title>Then I click next button </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288372742' status='passed' stop='1621288373199'>
+                            <name>I click ".btn-success"</name>
+                            <title>I click ".btn-success"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288373199' status='passed' stop='1621288373523'>
+                    <name>Then I should see all the following fields has validation errors </name>
+                    <title>Then I should see all the following fields has validation errors </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288373199' status='passed' stop='1621288373236'>
+                            <name>I grab attribute from "#shipper_name", "required"</name>
+                            <title>I grab attribute from "#shipper_name", "required"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1621288373237' status='passed' stop='1621288373272'>
+                            <name>I grab attribute from "#shipper_address", "required"</name>
+                            <title>I grab attribute from "#shipper_address", "required"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1621288373273' status='passed' stop='1621288373317'>
+                            <name>I grab attribute from "#shipper_phone", "required"</name>
+                            <title>I grab attribute from "#shipper_phone", "required"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1621288373317' status='passed' stop='1621288373348'>
+                            <name>I grab attribute from "#consignee_name", "required"</name>
+                            <title>I grab attribute from "#consignee_name", "required"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1621288373348' status='passed' stop='1621288373377'>
+                            <name>I grab attribute from "#consignee_address", "required"</name>
+                            <title>I grab attribute from "#consignee_address", "required"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1621288373377' status='passed' stop='1621288373416'>
+                            <name>I grab attribute from "#consignee_phone", "required"</name>
+                            <title>I grab attribute from "#consignee_phone", "required"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1621288373416' status='passed' stop='1621288373446'>
+                            <name>I grab attribute from "#from", "required"</name>
+                            <title>I grab attribute from "#from", "required"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1621288373446' status='passed' stop='1621288373472'>
+                            <name>I grab attribute from "#to", "required"</name>
+                            <title>I grab attribute from "#to", "required"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1621288373472' status='passed' stop='1621288373498'>
+                            <name>I grab attribute from ".freight-description", "required"</name>
+                            <title>I grab attribute from ".freight-description", "required"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1621288373498' status='passed' stop='1621288373523'>
+                            <name>I grab attribute from "#email", "required"</name>
+                            <title>I grab attribute from "#email", "required"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288373523' status='passed' stop='1621288373953'>
+                    <name>I save screenshot "Create_freight_shipment_page_should_show_validation_errors_when_not_filled_@prod_@smoke_@prod2.png", true</name>
+                    <title>I save screenshot "Create_freight_shipment_page_should_show_validation_errors_when_not_filled_@prod_@smoke_@prod2.png", true</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Create_freight_shipment_page_should_show_validation_errors_when_not_filled_@prod_@smoke_@prod2.png' source='ebb58204-bda2-49d1-a1e1-2ea9637e3481-attachment.png' type='image/png' size='129405'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

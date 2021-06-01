@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Unable to verify a value with the property checkpoint, because the target object does not exist.",
+      "children" : [ {
+        "name" : "EvtProdu Tag flight should throw error when no tags available",
+        "uid" : "ddbf9e1ace0300d4",
+        "parentUid" : "3a101043170d323ea517dbc93696ba99",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620140706923,
+          "stop" : 1620140832487,
+          "duration" : 125564
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3a101043170d323ea517dbc93696ba99"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

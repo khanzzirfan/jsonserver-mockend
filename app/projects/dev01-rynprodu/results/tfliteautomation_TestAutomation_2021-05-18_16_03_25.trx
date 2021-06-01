@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="7eb49a34-0562-4178-a4c2-21c2b07062b4" name="tfliteautomation@TestAutomation 2021-05-18 16:03:25" runUser="TestAutomation\tfliteautomation" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2021-05-18T16:03:25.3419445+00:00" queuing="2021-05-18T16:03:25.3419445+00:00" start="2021-05-18T16:02:02.1232635+00:00" finish="2021-05-18T16:15:31.6171552+00:00" />
+  <TestSettings name="default" id="e8d7d504-b65f-43d0-baef-ec4710f0ae26">
+    <Deployment runDeploymentRoot="tfliteautomation_TestAutomation_2021-05-18_16_03_25" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="1680b534-a990-435f-af8b-0bd654c05172" testId="d879740e-33b7-5b1a-7830-faff8dd71b4e" testName="Search all freights from Kotlik" computerName="TestAutomation" duration="00:01:03.8750137" startTime="2021-05-18T16:10:50.9480068+00:00" endTime="2021-05-18T16:11:54.8230205+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1680b534-a990-435f-af8b-0bd654c05172" />
+    <UnitTestResult executionId="2418a356-66b6-45d4-ac0b-5204dbad8acb" testId="0cbc76c4-8415-d5d9-dad6-4af01713da9c" testName="create new tags" computerName="TestAutomation" duration="00:01:07.4051758" startTime="2021-05-18T16:12:54.6876878+00:00" endTime="2021-05-18T16:14:02.0928636+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2418a356-66b6-45d4-ac0b-5204dbad8acb" />
+    <UnitTestResult executionId="bb24a9dd-032d-4cf0-89fa-8b0ea155b1ee" testId="95be8c8b-ee43-a8dc-5436-da0253e2bef4" testName="assign tag to scheduled booking flight_1" computerName="TestAutomation" duration="00:01:27.0093525" startTime="2021-05-18T16:14:02.1028210+00:00" endTime="2021-05-18T16:15:29.1121735+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bb24a9dd-032d-4cf0-89fa-8b0ea155b1ee" />
+    <UnitTestResult executionId="74f23931-d635-4944-bec2-eaac15e92adc" testId="b006a2a3-1430-8ae8-8acc-80d8b3842435" testName="create quick freight" computerName="TestAutomation" duration="00:01:19.1511602" startTime="2021-05-18T16:02:06.1607353+00:00" endTime="2021-05-18T16:03:25.3118955+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="74f23931-d635-4944-bec2-eaac15e92adc" />
+    <UnitTestResult executionId="023d239b-c8d1-4b83-bca1-3044b33a9835" testId="c80a904e-2fa6-cc4d-1201-0c1807867109" testName="search by freights by agent" computerName="TestAutomation" duration="00:02:25.9862093" startTime="2021-05-18T16:07:00.7032191+00:00" endTime="2021-05-18T16:09:26.6894284+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="023d239b-c8d1-4b83-bca1-3044b33a9835">
+      <ResultFiles>
+        <ResultFile path="TestAutomation\search by freights by agent_log@TestAutomation_2021-05-18 16_07_00.mht" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="e865ad54-5a4a-4e65-8cad-4842fca158ef" testId="9114f40e-7b04-675d-50cb-58374fa4017d" testName="validate add freight mandatory fields" computerName="TestAutomation" duration="00:01:08.2740948" startTime="2021-05-18T16:04:39.7041265+00:00" endTime="2021-05-18T16:05:47.9782213+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e865ad54-5a4a-4e65-8cad-4842fca158ef">
+      <ResultFiles>
+        <ResultFile path="TestAutomation\validate add freight mandatory fields_log@TestAutomation_2021-05-18 16_04_39.mht" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="f9a745a8-7c9c-4678-ab82-520eca2581d9" testId="8d0c80ef-69f5-512b-238c-21870d95cb59" testName="DashboardScreenValidation" computerName="TestAutomation" duration="00:00:59.8346380" startTime="2021-05-18T16:11:54.8330313+00:00" endTime="2021-05-18T16:12:54.6676693+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f9a745a8-7c9c-4678-ab82-520eca2581d9" />
+    <UnitTestResult executionId="4bb13d6a-9f2b-4ddc-ae96-324b9bb24fbc" testId="bb26286f-6a8c-cf4e-da28-53d918a265d4" testName="create quick freight mandatory office selection" computerName="TestAutomation" duration="00:01:14.3622641" startTime="2021-05-18T16:03:25.3319149+00:00" endTime="2021-05-18T16:04:39.6941790+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4bb13d6a-9f2b-4ddc-ae96-324b9bb24fbc" />
+    <UnitTestResult executionId="83b44701-9dcf-456e-a36d-6ef5e2d7141e" testId="d378a3ae-b907-71f2-b02e-e454f42efc11" testName="freights from kotlik to emmonak" computerName="TestAutomation" duration="00:01:24.2385841" startTime="2021-05-18T16:09:26.6994329+00:00" endTime="2021-05-18T16:10:50.9380170+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="83b44701-9dcf-456e-a36d-6ef5e2d7141e">
+      <ResultFiles>
+        <ResultFile path="TestAutomation\freights from kotlik to emmonak_log@TestAutomation_2021-05-18 16_09_26.mht" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="e3bd27d7-ef05-4ae5-a100-e3ec24869c06" testId="f5242d5d-7082-aba2-0ee7-ba6e3ca10046" testName="Validate add freight window fields" computerName="TestAutomation" duration="00:01:12.7050715" startTime="2021-05-18T16:05:47.9882208+00:00" endTime="2021-05-18T16:07:00.6932923+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e3bd27d7-ef05-4ae5-a100-e3ec24869c06">
+      <ResultFiles>
+        <ResultFile path="TestAutomation\Validate add freight window fields_log@TestAutomation_2021-05-18 16_05_47.mht" />
+      </ResultFiles>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="Search all freights from Kotlik" storage="c:\agent\_work\r3\a\testscriptsopsmanager\takeflitebdd.pjs" id="d879740e-33b7-5b1a-7830-faff8dd71b4e">
+      <Execution id="1680b534-a990-435f-af8b-0bd654c05172" />
+      <TestMethod codeBase="C:\agent\_work\r3\a\testScriptsOpsManager\TakeFliteBDD.pjs" adapterTypeName="executor://tctestexecutor/v2" className="TakeFliteBDD" name="testitem:takeflitebdd\search all freights from kotlik" />
+    </UnitTest>
+    <UnitTest name="freights from kotlik to emmonak" storage="c:\agent\_work\r3\a\testscriptsopsmanager\takeflitebdd.pjs" id="d378a3ae-b907-71f2-b02e-e454f42efc11">
+      <Execution id="83b44701-9dcf-456e-a36d-6ef5e2d7141e" />
+      <TestMethod codeBase="C:\agent\_work\r3\a\testScriptsOpsManager\TakeFliteBDD.pjs" adapterTypeName="executor://tctestexecutor/v2" className="TakeFliteBDD" name="testitem:takeflitebdd\freights from kotlik to emmonak" />
+    </UnitTest>
+    <UnitTest name="create new tags" storage="c:\agent\_work\r3\a\testscriptsopsmanager\takeflitebdd.pjs" id="0cbc76c4-8415-d5d9-dad6-4af01713da9c">
+      <Execution id="2418a356-66b6-45d4-ac0b-5204dbad8acb" />
+      <TestMethod codeBase="C:\agent\_work\r3\a\testScriptsOpsManager\TakeFliteBDD.pjs" adapterTypeName="executor://tctestexecutor/v2" className="TakeFliteBDD" name="testitem:takeflitebdd\create new tags" />
+    </UnitTest>
+    <UnitTest name="validate add freight mandatory fields" storage="c:\agent\_work\r3\a\testscriptsopsmanager\takeflitebdd.pjs" id="9114f40e-7b04-675d-50cb-58374fa4017d">
+      <Execution id="e865ad54-5a4a-4e65-8cad-4842fca158ef" />
+      <TestMethod codeBase="C:\agent\_work\r3\a\testScriptsOpsManager\TakeFliteBDD.pjs" adapterTypeName="executor://tctestexecutor/v2" className="TakeFliteBDD" name="testitem:takeflitebdd\validate add freight mandatory fields" />
+    </UnitTest>
+    <UnitTest name="search by freights by agent" storage="c:\agent\_work\r3\a\testscriptsopsmanager\takeflitebdd.pjs" id="c80a904e-2fa6-cc4d-1201-0c1807867109">
+      <Execution id="023d239b-c8d1-4b83-bca1-3044b33a9835" />
+      <TestMethod codeBase="C:\agent\_work\r3\a\testScriptsOpsManager\TakeFliteBDD.pjs" adapterTypeName="executor://tctestexecutor/v2" className="TakeFliteBDD" name="testitem:takeflitebdd\search by freights by agent" />
+    </UnitTest>
+    <UnitTest name="create quick freight" storage="c:\agent\_work\r3\a\testscriptsopsmanager\takeflitebdd.pjs" id="b006a2a3-1430-8ae8-8acc-80d8b3842435">
+      <Execution id="74f23931-d635-4944-bec2-eaac15e92adc" />
+      <TestMethod codeBase="C:\agent\_work\r3\a\testScriptsOpsManager\TakeFliteBDD.pjs" adapterTypeName="executor://tctestexecutor/v2" className="TakeFliteBDD" name="testitem:takeflitebdd\create quick freight" />
+    </UnitTest>
+    <UnitTest name="create quick freight mandatory office selection" storage="c:\agent\_work\r3\a\testscriptsopsmanager\takeflitebdd.pjs" id="bb26286f-6a8c-cf4e-da28-53d918a265d4">
+      <Execution id="4bb13d6a-9f2b-4ddc-ae96-324b9bb24fbc" />
+      <TestMethod codeBase="C:\agent\_work\r3\a\testScriptsOpsManager\TakeFliteBDD.pjs" adapterTypeName="executor://tctestexecutor/v2" className="TakeFliteBDD" name="testitem:takeflitebdd\create quick freight mandatory office selection" />
+    </UnitTest>
+    <UnitTest name="DashboardScreenValidation" storage="c:\agent\_work\r3\a\testscriptsopsmanager\takeflitebdd.pjs" id="8d0c80ef-69f5-512b-238c-21870d95cb59">
+      <Execution id="f9a745a8-7c9c-4678-ab82-520eca2581d9" />
+      <TestMethod codeBase="C:\agent\_work\r3\a\testScriptsOpsManager\TakeFliteBDD.pjs" adapterTypeName="executor://tctestexecutor/v2" className="TakeFliteBDD" name="testitem:takeflitebdd\dashboardscreenvalidation" />
+    </UnitTest>
+    <UnitTest name="Validate add freight window fields" storage="c:\agent\_work\r3\a\testscriptsopsmanager\takeflitebdd.pjs" id="f5242d5d-7082-aba2-0ee7-ba6e3ca10046">
+      <Execution id="e3bd27d7-ef05-4ae5-a100-e3ec24869c06" />
+      <TestMethod codeBase="C:\agent\_work\r3\a\testScriptsOpsManager\TakeFliteBDD.pjs" adapterTypeName="executor://tctestexecutor/v2" className="TakeFliteBDD" name="testitem:takeflitebdd\validate add freight window fields" />
+    </UnitTest>
+    <UnitTest name="assign tag to scheduled booking flight_1" storage="c:\agent\_work\r3\a\testscriptsopsmanager\takeflitebdd.pjs" id="95be8c8b-ee43-a8dc-5436-da0253e2bef4">
+      <Execution id="bb24a9dd-032d-4cf0-89fa-8b0ea155b1ee" />
+      <TestMethod codeBase="C:\agent\_work\r3\a\testScriptsOpsManager\TakeFliteBDD.pjs" adapterTypeName="executor://tctestexecutor/v2" className="TakeFliteBDD" name="testitem:takeflitebdd\assign tag to scheduled booking flight_1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="d879740e-33b7-5b1a-7830-faff8dd71b4e" executionId="1680b534-a990-435f-af8b-0bd654c05172" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0cbc76c4-8415-d5d9-dad6-4af01713da9c" executionId="2418a356-66b6-45d4-ac0b-5204dbad8acb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="95be8c8b-ee43-a8dc-5436-da0253e2bef4" executionId="bb24a9dd-032d-4cf0-89fa-8b0ea155b1ee" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b006a2a3-1430-8ae8-8acc-80d8b3842435" executionId="74f23931-d635-4944-bec2-eaac15e92adc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c80a904e-2fa6-cc4d-1201-0c1807867109" executionId="023d239b-c8d1-4b83-bca1-3044b33a9835" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9114f40e-7b04-675d-50cb-58374fa4017d" executionId="e865ad54-5a4a-4e65-8cad-4842fca158ef" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8d0c80ef-69f5-512b-238c-21870d95cb59" executionId="f9a745a8-7c9c-4678-ab82-520eca2581d9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bb26286f-6a8c-cf4e-da28-53d918a265d4" executionId="4bb13d6a-9f2b-4ddc-ae96-324b9bb24fbc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d378a3ae-b907-71f2-b02e-e454f42efc11" executionId="83b44701-9dcf-456e-a36d-6ef5e2d7141e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f5242d5d-7082-aba2-0ee7-ba6e3ca10046" executionId="e3bd27d7-ef05-4ae5-a100-e3ec24869c06" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="10" executed="10" passed="10" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>The following test cases were skipped because they do not match the specified filter: LoginScenarios, LoginScreen, OpsManagerDashboard, SelectFlight Validate screenshot for default fields, SelectFlight-ValidateAllAirports, SelectFlight Validate screenshot for return way, SelectFlight Validate screenshot for freightonly, SelectFlight Validate screenshot for return way and freightonly selection, SelectFlight-Popwindow when no flight selected, SelectFlight- Search should show blenheim to wellington only results, SelectFlight- Search should show blenheim to wellington and  return way results, SelectFlight-Search results should be cleared on options change, FindBooking - User should be search bookings for a specific transaction, FindBooking - see all default filter options, FindBooking - Searchbooking for a one month, FindBooking- Search with more filters, FindBooking- Search booking by name, FindBooking - See all default booking filter options, CreateScheduleBookingCash, CreateScheduleBookingCCPayment - SuccessScenario, CreateScheduleBookingCCPayment - UnsuccessfulScenario, create quick freight complete booking, view quick freight booking, Evtprodu anchorage freight search , EvtProdu dashboard screen validation, EvtProdu CreateQuickFreight-Validatefields, EvtProdu Tag flight should throw error when no tags available, EvtProdu CreateNew Tags, EvtProdu Assign tag to scheduled booking flight&#xD;
+Starting the create quick freight test...&#xD;
+Starting the create quick freight mandatory office selection test...&#xD;
+Starting the validate add freight mandatory fields test...&#xD;
+Starting the Validate add freight window fields test...&#xD;
+Starting the search by freights by agent test...&#xD;
+Starting the freights from kotlik to emmonak test...&#xD;
+Starting the Search all freights from Kotlik test...&#xD;
+Starting the DashboardScreenValidation test...&#xD;
+Starting the create new tags test...&#xD;
+Starting the assign tag to scheduled booking flight_1 test...&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>

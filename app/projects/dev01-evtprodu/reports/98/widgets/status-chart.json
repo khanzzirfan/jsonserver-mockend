@@ -1,0 +1,61 @@
+[ {
+  "uid" : "b6b1c101b97dc75",
+  "name" : "EvtProdu CreateQuickFreight-Validatefields",
+  "time" : {
+    "start" : 1620659021892,
+    "stop" : 1620659094306,
+    "duration" : 72414
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4dbeab1fe53f1c6a",
+  "name" : "EvtProdu Tag flight should throw error when no tags available",
+  "time" : {
+    "start" : 1620659094306,
+    "stop" : 1620659149620,
+    "duration" : 55314
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "eb2d8252b0789d80",
+  "name" : "EvtProdu Assign tag to scheduled booking flight",
+  "time" : {
+    "start" : 1620659241281,
+    "stop" : 1620659381666,
+    "duration" : 140385
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "b12e01aa1c4a157a",
+  "name" : "EvtProdu dashboard screen validation",
+  "time" : {
+    "start" : 1620658954856,
+    "stop" : 1620659021882,
+    "duration" : 67026
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "10cb73df1f558da1",
+  "name" : "EvtProdu CreateNew Tags",
+  "time" : {
+    "start" : 1620659149630,
+    "stop" : 1620659241271,
+    "duration" : 91641
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a33de3c024af5c12",
+  "name" : "Evtprodu anchorage freight search ",
+  "time" : {
+    "start" : 1620658872005,
+    "stop" : 1620658954846,
+    "duration" : 82841
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,73 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "timeout: Timed out receiving message from renderer: -0.001\n                  (Session info: headless chrome=90.0.4430.85)",
+      "children" : [ {
+        "name" : "Freight shipment create page",
+        "uid" : "61ae100f504e20cd",
+        "parentUid" : "523a10921518f8a3aa1bb8b492e7a41a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620572645956,
+          "stop" : 1620572702231,
+          "duration" : 56275
+        },
+        "flaky" : true,
+        "newFailed" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "Validate page headings on create freight page",
+        "uid" : "b4e83464a7279765",
+        "parentUid" : "523a10921518f8a3aa1bb8b492e7a41a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620572702494,
+          "stop" : 1620572744187,
+          "duration" : 41693
+        },
+        "flaky" : true,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "523a10921518f8a3aa1bb8b492e7a41a"
+    }, {
+      "name" : "",
+      "children" : [ {
+        "name" : "Search page should display all basic field on landing",
+        "uid" : "a31627b7a5df242c",
+        "parentUid" : "ac137dbdc3eb70d55d947f065b65fff1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620572825087,
+          "stop" : 1620572887133,
+          "duration" : 62046
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ac137dbdc3eb70d55d947f065b65fff1"
+    }, {
+      "name" : "Element \"#return_date\" was not found by text|CSS|XPath",
+      "children" : [ {
+        "name" : "As a user I should see oneway trip booking options @validation",
+        "uid" : "c7dd8ed40937d4a5",
+        "parentUid" : "4bcd2437d01374a18cb14fd3ad79881d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620572887260,
+          "stop" : 1620572898575,
+          "duration" : 11315
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4bcd2437d01374a18cb14fd3ad79881d"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

@@ -1,0 +1,226 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Freight shipment create page",
+    "uid" : "1e0dce8befea4f6b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1620831730029,
+      "stop" : 1620831744670,
+      "duration" : 14641
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Validate page headings on create freight page",
+    "uid" : "dfa441b320298c1d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1620831745198,
+      "stop" : 1620831753551,
+      "duration" : 8353
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "As a user I should be able to create freight shipment",
+    "uid" : "4f62acb216a00872",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1620831754062,
+      "stop" : 1620831781940,
+      "duration" : 27878
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Create freight shipment page should show validation errors when not filled @prod",
+    "uid" : "ad5ce1cdcc100fba",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1620831782347,
+      "stop" : 1620831789040,
+      "duration" : 6693
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "As a user I should be able to create freight shipment and review the shipment details @prod1",
+    "uid" : "1d3322c6f3d1e275",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1620831789562,
+      "stop" : 1620831825368,
+      "duration" : 35806
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Search page should display all basic field on landing",
+    "uid" : "88028da231aff52b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1620831825942,
+      "stop" : 1620831878758,
+      "duration" : 52816
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "As a user I should see oneway trip booking options @validation",
+    "uid" : "c44fd278035da0bf",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1620831878863,
+      "stop" : 1620831890698,
+      "duration" : 11835
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "As a user I should see validation errors for oneway trip @validation",
+    "uid" : "52241a7afe004cb0",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1620831890794,
+      "stop" : 1620831898107,
+      "duration" : 7313
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "As a user I should see validation errors for round trip field @validation",
+    "uid" : "b29f2972c6ae6288",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1620831898494,
+      "stop" : 1620831910026,
+      "duration" : 11532
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Search page should display all basic field on landing @story1245",
+    "uid" : "536ede1acac1b896",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1620831910448,
+      "stop" : 1620831921384,
+      "duration" : 10936
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Search page should display sidebar links @story1246",
+    "uid" : "2749fe4a136c17f3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1620831921756,
+      "stop" : 1620831927280,
+      "duration" : 5524
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Search page should display menu items",
+    "uid" : "a6073ff2f51d64b2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1620831927677,
+      "stop" : 1620831932763,
+      "duration" : 5086
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Search page should display footer links",
+    "uid" : "bc61f14fe0d82fa1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1620831933242,
+      "stop" : 1620831939082,
+      "duration" : 5840
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Search page feedback should display modal feedback",
+    "uid" : "6de66433cb425ae4",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1620831939505,
+      "stop" : 1620831948164,
+      "duration" : 8659
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Search page terms of use should display modal with terms of usage",
+    "uid" : "5760d7ea6b75fe57",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1620831948567,
+      "stop" : 1620831959630,
+      "duration" : 11063
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Agent should be able to login using their account details on signin page",
+    "uid" : "df716b3a9552124e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1620831960071,
+      "stop" : 1620831978710,
+      "duration" : 18639
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Search page terms of use should display modal with terms of usage @testscenario",
+    "uid" : "46299ad863eac28f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1620831979118,
+      "stop" : 1620831990747,
+      "duration" : 11629
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ]
+}

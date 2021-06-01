@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "1 The dashboard window has not appeared.",
+      "children" : [ {
+        "name" : "EvtProdu Tag flight should throw error when no tags available",
+        "uid" : "4dbeab1fe53f1c6a",
+        "parentUid" : "2f309f6ec7e3a4841532911d92a78042",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620659094306,
+          "stop" : 1620659149620,
+          "duration" : 55314
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2f309f6ec7e3a4841532911d92a78042"
+    }, {
+      "name" : "Unable to verify a value with the property checkpoint, because the target object does not exist.",
+      "children" : [ {
+        "name" : "EvtProdu Assign tag to scheduled booking flight",
+        "uid" : "eb2d8252b0789d80",
+        "parentUid" : "3a101043170d323ea517dbc93696ba99",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620659241281,
+          "stop" : 1620659381666,
+          "duration" : 140385
+        },
+        "flaky" : true,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3a101043170d323ea517dbc93696ba99"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

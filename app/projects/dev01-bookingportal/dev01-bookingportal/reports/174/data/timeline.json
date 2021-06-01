@@ -1,0 +1,226 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "Search page should display all basic field on landing",
+    "uid" : "695faea0615d741b",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1620861764222,
+      "stop" : 1620861785793,
+      "duration" : 21571
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Search page terms of use should display modal with terms of usage @testscenario",
+    "uid" : "d43bbcfed093aa82",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1620861999397,
+      "stop" : 1620862020464,
+      "duration" : 21067
+    },
+    "flaky" : false,
+    "newFailed" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "Search page should display footer links",
+    "uid" : "71593acb7f3566de",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1620861913889,
+      "stop" : 1620861935039,
+      "duration" : 21150
+    },
+    "flaky" : false,
+    "newFailed" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "Freight shipment create page",
+    "uid" : "3de580bb7470f948",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1620861564402,
+      "stop" : 1620861621717,
+      "duration" : 57315
+    },
+    "flaky" : true,
+    "newFailed" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "Validate page headings on create freight page",
+    "uid" : "5b0cc3cb44d73bb2",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1620861621946,
+      "stop" : 1620861663623,
+      "duration" : 41677
+    },
+    "flaky" : true,
+    "newFailed" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "As a user I should see oneway trip booking options @validation",
+    "uid" : "54bc87b51d3b5b36",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1620861786008,
+      "stop" : 1620861807094,
+      "duration" : 21086
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Search page should display all basic field on landing @story1245",
+    "uid" : "49fd1aa27301eb2a",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1620861849939,
+      "stop" : 1620861871023,
+      "duration" : 21084
+    },
+    "flaky" : false,
+    "newFailed" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "As a user I should see validation errors for round trip field @validation",
+    "uid" : "d205b8b5a4706981",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1620861828624,
+      "stop" : 1620861849711,
+      "duration" : 21087
+    },
+    "flaky" : true,
+    "newFailed" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "Agent should be able to login using their account details on signin page",
+    "uid" : "4357b0911c1d121d",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1620861977985,
+      "stop" : 1620861999124,
+      "duration" : 21139
+    },
+    "flaky" : false,
+    "newFailed" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "Search page should display menu items",
+    "uid" : "4ae4a46b3df60d1c",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1620861892536,
+      "stop" : 1620861913626,
+      "duration" : 21090
+    },
+    "flaky" : false,
+    "newFailed" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "Search page feedback should display modal feedback",
+    "uid" : "343343108bd177eb",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1620861935326,
+      "stop" : 1620861956438,
+      "duration" : 21112
+    },
+    "flaky" : false,
+    "newFailed" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "Search page should display sidebar links @story1246",
+    "uid" : "5684d461b5c26215",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1620861871243,
+      "stop" : 1620861892320,
+      "duration" : 21077
+    },
+    "flaky" : false,
+    "newFailed" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "As a user I should be able to create freight shipment",
+    "uid" : "df38cd8e36009d7b",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1620861663703,
+      "stop" : 1620861705301,
+      "duration" : 41598
+    },
+    "flaky" : true,
+    "newFailed" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "Search page terms of use should display modal with terms of usage",
+    "uid" : "6dc035c58d803bd7",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1620861956692,
+      "stop" : 1620861977766,
+      "duration" : 21074
+    },
+    "flaky" : false,
+    "newFailed" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "As a user I should be able to create freight shipment and review the shipment details @prod1",
+    "uid" : "40bc9a11ff9e8d8e",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1620861718796,
+      "stop" : 1620861764099,
+      "duration" : 45303
+    },
+    "flaky" : true,
+    "newFailed" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "As a user I should see validation errors for oneway trip @validation",
+    "uid" : "880a811a5bdb2c64",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1620861807314,
+      "stop" : 1620861828395,
+      "duration" : 21081
+    },
+    "flaky" : true,
+    "newFailed" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "Create freight shipment page should show validation errors when not filled @prod @smoke @prod2",
+    "uid" : "3c097e38d6b8c3ba",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1620861705421,
+      "stop" : 1620861718270,
+      "duration" : 12849
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ]
+}

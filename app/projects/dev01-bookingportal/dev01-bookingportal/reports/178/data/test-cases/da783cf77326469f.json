@@ -1,0 +1,540 @@
+{
+  "uid" : "da783cf77326469f",
+  "name" : "Search page feedback should display modal feedback",
+  "fullName" : "Booking portal search page.Search page feedback should display modal feedback",
+  "historyId" : "3a0ed1fa1db467368249399cc4a23d16",
+  "time" : {
+    "start" : 1621159703533,
+    "stop" : 1621159710006,
+    "duration" : 6473
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I navigate to application ",
+      "time" : {
+        "start" : 1621159705070,
+        "stop" : 1621159707375,
+        "duration" : 2305
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "searchPage: goToSearch ",
+        "time" : {
+          "start" : 1621159705070,
+          "stop" : 1621159707353,
+          "duration" : 2283
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "I am on page \"https://test.tflite.com/Public/SA/Booking/Search\"",
+          "time" : {
+            "start" : 1621159705070,
+            "stop" : 1621159706478,
+            "duration" : 1408
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "I refresh page ",
+          "time" : {
+            "start" : 1621159706478,
+            "stop" : 1621159707174,
+            "duration" : 696
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "I wait for visible \"#submit\"",
+          "time" : {
+            "start" : 1621159707174,
+            "stop" : 1621159707353,
+            "duration" : 179
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 3,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "I see element \"#submit\"",
+        "time" : {
+          "start" : 1621159707353,
+          "stop" : 1621159707375,
+          "duration" : 22
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 5,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When the sidebar page is displayed ",
+      "time" : {
+        "start" : 1621159707375,
+        "stop" : 1621159707421,
+        "duration" : 46
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I see element \".sidebar-right\"",
+        "time" : {
+          "start" : 1621159707375,
+          "stop" : 1621159707420,
+          "duration" : 45
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I should also see feedback link ",
+      "time" : {
+        "start" : 1621159707421,
+        "stop" : 1621159707927,
+        "duration" : 506
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I see \" Feedback\"",
+        "time" : {
+          "start" : 1621159707421,
+          "stop" : 1621159707527,
+          "duration" : 106
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I click on feedback link ",
+      "time" : {
+        "start" : 1621159707927,
+        "stop" : 1621159708580,
+        "duration" : 653
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I click \"a[title=\"Feedback\"]\"",
+        "time" : {
+          "start" : 1621159707927,
+          "stop" : 1621159708580,
+          "duration" : 653
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I should see feedback modal window ",
+      "time" : {
+        "start" : 1621159708580,
+        "stop" : 1621159709006,
+        "duration" : 426
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I see element \"#feedback_modal\"",
+        "time" : {
+          "start" : 1621159708580,
+          "stop" : 1621159708606,
+          "duration" : 26
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I enter feedback details ",
+      "time" : {
+        "start" : 1621159709006,
+        "stop" : 1621159709725,
+        "duration" : 719
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I fill field \"#feedback_text\", \"Test feedback details\"",
+        "time" : {
+          "start" : 1621159709006,
+          "stop" : 1621159709324,
+          "duration" : 318
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I should submit feedback ",
+      "time" : {
+        "start" : 1621159709725,
+        "stop" : 1621159710006,
+        "duration" : 281
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I click \"#feedback_submit\"",
+        "time" : {
+          "start" : 1621159709725,
+          "stop" : 1621159710006,
+          "duration" : 281
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "I save screenshot \"Search_page_feedback_should_display_modal_feedback.png\", true",
+      "time" : {
+        "start" : 1621159710007,
+        "stop" : 1621159710330,
+        "duration" : 323
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "57d800ec7feee483",
+      "name" : "Search_page_feedback_should_display_modal_feedback.png",
+      "source" : "57d800ec7feee483.png",
+      "type" : "image/png",
+      "size" : 64740
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 19,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Booking portal search page"
+  }, {
+    "name" : "testClass",
+    "value" : "Booking portal search page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Search page feedback should display modal feedback"
+  }, {
+    "name" : "package",
+    "value" : "Booking portal search page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 17,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 128,
+        "unknown" : 0,
+        "total" : 145
+      },
+      "items" : [ {
+        "uid" : "edd3c33ab9dc2bab",
+        "reportUrl" : "../177/index.html#testresult/edd3c33ab9dc2bab",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621066713472,
+          "stop" : 1621066719657,
+          "duration" : 6185
+        }
+      }, {
+        "uid" : "bc2c70f40acfad3b",
+        "reportUrl" : "../176/index.html#testresult/bc2c70f40acfad3b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621066713472,
+          "stop" : 1621066719657,
+          "duration" : 6185
+        }
+      }, {
+        "uid" : "e40b136f37b86953",
+        "reportUrl" : "../175/index.html#testresult/e40b136f37b86953",
+        "status" : "failed",
+        "statusDetails" : "element (#submit) still not visible after 20 sec",
+        "time" : {
+          "start" : 1620861935326,
+          "stop" : 1620861956438,
+          "duration" : 21112
+        }
+      }, {
+        "uid" : "343343108bd177eb",
+        "reportUrl" : "../174/index.html#testresult/343343108bd177eb",
+        "status" : "failed",
+        "statusDetails" : "element (#submit) still not visible after 20 sec",
+        "time" : {
+          "start" : 1620861935326,
+          "stop" : 1620861956438,
+          "duration" : 21112
+        }
+      }, {
+        "uid" : "faac697193c9dd25",
+        "reportUrl" : "../173/index.html#testresult/faac697193c9dd25",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620831939505,
+          "stop" : 1620831948164,
+          "duration" : 8659
+        }
+      }, {
+        "uid" : "6de66433cb425ae4",
+        "reportUrl" : "../172/index.html#testresult/6de66433cb425ae4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620831939505,
+          "stop" : 1620831948164,
+          "duration" : 8659
+        }
+      }, {
+        "uid" : "f4c12a712a7e53f3",
+        "reportUrl" : "../171/index.html#testresult/f4c12a712a7e53f3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620745532735,
+          "stop" : 1620745539473,
+          "duration" : 6738
+        }
+      }, {
+        "uid" : "7ab83973de641a0",
+        "reportUrl" : "../170/index.html#testresult/7ab83973de641a0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620745532735,
+          "stop" : 1620745539473,
+          "duration" : 6738
+        }
+      }, {
+        "uid" : "efcab44b2bd77744",
+        "reportUrl" : "../169/index.html#testresult/efcab44b2bd77744",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620706729232,
+          "stop" : 1620706736161,
+          "duration" : 6929
+        }
+      }, {
+        "uid" : "bc78a085a18d630a",
+        "reportUrl" : "../168/index.html#testresult/bc78a085a18d630a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620706729232,
+          "stop" : 1620706736161,
+          "duration" : 6929
+        }
+      }, {
+        "uid" : "749b91f4f91b25df",
+        "reportUrl" : "../167/index.html#testresult/749b91f4f91b25df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620659274673,
+          "stop" : 1620659281792,
+          "duration" : 7119
+        }
+      }, {
+        "uid" : "53c4480736341531",
+        "reportUrl" : "../166/index.html#testresult/53c4480736341531",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620659274673,
+          "stop" : 1620659281792,
+          "duration" : 7119
+        }
+      }, {
+        "uid" : "9aee4b3e4e84d60",
+        "reportUrl" : "../165/index.html#testresult/9aee4b3e4e84d60",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620572938725,
+          "stop" : 1620572945627,
+          "duration" : 6902
+        }
+      }, {
+        "uid" : "b2159a96675d43e8",
+        "reportUrl" : "../164/index.html#testresult/b2159a96675d43e8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620572938725,
+          "stop" : 1620572945627,
+          "duration" : 6902
+        }
+      }, {
+        "uid" : "cf50895668e609b2",
+        "reportUrl" : "../163/index.html#testresult/cf50895668e609b2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620346536030,
+          "stop" : 1620346544134,
+          "duration" : 8104
+        }
+      }, {
+        "uid" : "1eeb117a058d189d",
+        "reportUrl" : "../162/index.html#testresult/1eeb117a058d189d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620346536030,
+          "stop" : 1620346544134,
+          "duration" : 8104
+        }
+      }, {
+        "uid" : "be548271376c157d",
+        "reportUrl" : "../161/index.html#testresult/be548271376c157d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620345587910,
+          "stop" : 1620345594718,
+          "duration" : 6808
+        }
+      }, {
+        "uid" : "6ae20034c27ad342",
+        "reportUrl" : "../160/index.html#testresult/6ae20034c27ad342",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620345587910,
+          "stop" : 1620345594718,
+          "duration" : 6808
+        }
+      }, {
+        "uid" : "a26b87e696a4b99e",
+        "reportUrl" : "../159/index.html#testresult/a26b87e696a4b99e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620339749233,
+          "stop" : 1620339755695,
+          "duration" : 6462
+        }
+      }, {
+        "uid" : "fa75e9cde460b97a",
+        "reportUrl" : "../158/index.html#testresult/fa75e9cde460b97a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620339749233,
+          "stop" : 1620339755695,
+          "duration" : 6462
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "da783cf77326469f.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,139 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "TakeFliteBDD",
+    "children" : [ {
+      "name" : "create quick freight",
+      "uid" : "e4b20ae51998f34d",
+      "parentUid" : "f85b5c63697af39b27b3ace4471ab5cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620489709191,
+        "stop" : 1620489797707,
+        "duration" : 88516
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "create quick freight mandatory office selection",
+      "uid" : "e499e3065e8a1854",
+      "parentUid" : "f85b5c63697af39b27b3ace4471ab5cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620489797727,
+        "stop" : 1620489874050,
+        "duration" : 76323
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "validate add freight mandatory fields",
+      "uid" : "8eaf718c00a35867",
+      "parentUid" : "f85b5c63697af39b27b3ace4471ab5cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620489874060,
+        "stop" : 1620489939942,
+        "duration" : 65882
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Validate add freight window fields",
+      "uid" : "44b305fa393b7402",
+      "parentUid" : "f85b5c63697af39b27b3ace4471ab5cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620489939952,
+        "stop" : 1620490010929,
+        "duration" : 70977
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "search by freights by agent",
+      "uid" : "239c2dcf01c15b61",
+      "parentUid" : "f85b5c63697af39b27b3ace4471ab5cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620490010939,
+        "stop" : 1620490171382,
+        "duration" : 160443
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "freights from kotlik to emmonak",
+      "uid" : "322fbee0427a1900",
+      "parentUid" : "f85b5c63697af39b27b3ace4471ab5cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620490171392,
+        "stop" : 1620490239935,
+        "duration" : 68543
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Search all freights from Kotlik",
+      "uid" : "62ed408b771359b8",
+      "parentUid" : "f85b5c63697af39b27b3ace4471ab5cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620490239945,
+        "stop" : 1620490304486,
+        "duration" : 64541
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "DashboardScreenValidation",
+      "uid" : "4edd89460ce13019",
+      "parentUid" : "f85b5c63697af39b27b3ace4471ab5cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620490304496,
+        "stop" : 1620490364522,
+        "duration" : 60026
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "create new tags",
+      "uid" : "4120209c84038fff",
+      "parentUid" : "f85b5c63697af39b27b3ace4471ab5cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620490364542,
+        "stop" : 1620490435516,
+        "duration" : 70974
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "assign tag to scheduled booking flight_1",
+      "uid" : "3169c8802fc7a492",
+      "parentUid" : "f85b5c63697af39b27b3ace4471ab5cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620490435526,
+        "stop" : 1620490526126,
+        "duration" : 90600
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "f85b5c63697af39b27b3ace4471ab5cc"
+  } ]
+}

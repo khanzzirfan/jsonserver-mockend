@@ -1,0 +1,323 @@
+{
+  "uid" : "539ba46dee477cf1",
+  "name" : "Freight shipment create page",
+  "fullName" : "Create a freight shipment @evtprodu.Freight shipment create page",
+  "historyId" : "63fd7dec27017e855bc22f510929236a",
+  "time" : {
+    "start" : 1621159337671,
+    "stop" : 1621159396583,
+    "duration" : 58912
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "timeout: Timed out receiving message from renderer: -0.000\n                  (Session info: headless chrome=90.0.4430.93)",
+  "statusTrace" : "timeout: Timed out receiving message from renderer: -0.000\n                  (Session info: headless chrome=90.0.4430.93)\n                    at Object.getErrorFromResponseBody (D:\\a\\1\\s\\node_modules\\webdriver\\build\\utils.js:189:12)\n                    at WebDriverRequest._request (D:\\a\\1\\s\\node_modules\\webdriver\\build\\request.js:168:31)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at async Browser.runCommandWithHooks (D:\\a\\1\\s\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:105:25)\n                    at Browser.runCommandWithHooks (D:\\a\\1\\s\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n                    at Browser.wrapCommandFn (D:\\a\\1\\s\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n                    at WebDriver.amOnPage (D:\\a\\1\\s\\node_modules\\codeceptjs\\lib\\helper\\WebDriver.js:843:25)\n                    at Step.run (D:\\a\\1\\s\\node_modules\\codeceptjs\\lib\\step.js:66:47)\n                    at D:\\a\\1\\s\\node_modules\\codeceptjs\\lib\\actor.js:117:23",
+  "flaky" : true,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "timeout: Timed out receiving message from renderer: -0.000\n                  (Session info: headless chrome=90.0.4430.93)",
+    "statusTrace" : "timeout: Timed out receiving message from renderer: -0.000\n                  (Session info: headless chrome=90.0.4430.93)\n                    at Object.getErrorFromResponseBody (D:\\a\\1\\s\\node_modules\\webdriver\\build\\utils.js:189:12)\n                    at WebDriverRequest._request (D:\\a\\1\\s\\node_modules\\webdriver\\build\\request.js:168:31)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at async Browser.runCommandWithHooks (D:\\a\\1\\s\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:105:25)\n                    at Browser.runCommandWithHooks (D:\\a\\1\\s\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n                    at Browser.wrapCommandFn (D:\\a\\1\\s\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n                    at WebDriver.amOnPage (D:\\a\\1\\s\\node_modules\\codeceptjs\\lib\\helper\\WebDriver.js:843:25)\n                    at Step.run (D:\\a\\1\\s\\node_modules\\codeceptjs\\lib\\step.js:66:47)\n                    at D:\\a\\1\\s\\node_modules\\codeceptjs\\lib\\actor.js:117:23",
+    "steps" : [ {
+      "name" : "Given I navigate to evert air application create page ",
+      "time" : {
+        "start" : 1621159356474,
+        "stop" : 1621159396583,
+        "duration" : 40109
+      },
+      "status" : "failed",
+      "statusMessage" : "timeout: Timed out receiving message from renderer: -0.000\n                  (Session info: headless chrome=90.0.4430.93)\n                    at Object.getErrorFromResponseBody (D:\\a\\1\\s\\node_modules\\webdriver\\build\\utils.js:189:12)\n                    at WebDriverRequest._request (D:\\a\\1\\s\\node_modules\\webdriver\\build\\request.js:168:31)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at async Browser.runCommandWithHooks (D:\\a\\1\\s\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:105:25)\n                    at Browser.runCommandWithHooks (D:\\a\\1\\s\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n                    at Browser.wrapCommandFn (D:\\a\\1\\s\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n                    at WebDriver.amOnPage (D:\\a\\1\\s\\node_modules\\codeceptjs\\lib\\helper\\WebDriver.js:843:25)\n                    at Step.run (D:\\a\\1\\s\\node_modules\\codeceptjs\\lib\\step.js:66:47)\n                    at D:\\a\\1\\s\\node_modules\\codeceptjs\\lib\\actor.js:117:23",
+      "steps" : [ {
+        "name" : "createshipmentPage: goto ",
+        "time" : {
+          "start" : 1621159356474,
+          "stop" : 1621159396583,
+          "duration" : 40109
+        },
+        "status" : "failed",
+        "statusMessage" : "timeout: Timed out receiving message from renderer: -0.000\n                  (Session info: headless chrome=90.0.4430.93)\n                    at Object.getErrorFromResponseBody (D:\\a\\1\\s\\node_modules\\webdriver\\build\\utils.js:189:12)\n                    at WebDriverRequest._request (D:\\a\\1\\s\\node_modules\\webdriver\\build\\request.js:168:31)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at async Browser.runCommandWithHooks (D:\\a\\1\\s\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:105:25)\n                    at Browser.runCommandWithHooks (D:\\a\\1\\s\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n                    at Browser.wrapCommandFn (D:\\a\\1\\s\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n                    at WebDriver.amOnPage (D:\\a\\1\\s\\node_modules\\codeceptjs\\lib\\helper\\WebDriver.js:843:25)\n                    at Step.run (D:\\a\\1\\s\\node_modules\\codeceptjs\\lib\\step.js:66:47)\n                    at D:\\a\\1\\s\\node_modules\\codeceptjs\\lib\\actor.js:117:23",
+        "steps" : [ {
+          "name" : "I am on page \"https://test.tflite.com/Public/EVT/Freight/Create\"",
+          "time" : {
+            "start" : 1621159356474,
+            "stop" : 1621159396582,
+            "duration" : 40108
+          },
+          "status" : "failed",
+          "statusMessage" : "timeout: Timed out receiving message from renderer: -0.000\n                  (Session info: headless chrome=90.0.4430.93)\n                    at Object.getErrorFromResponseBody (D:\\a\\1\\s\\node_modules\\webdriver\\build\\utils.js:189:12)\n                    at WebDriverRequest._request (D:\\a\\1\\s\\node_modules\\webdriver\\build\\request.js:168:31)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at async Browser.runCommandWithHooks (D:\\a\\1\\s\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:105:25)\n                    at Browser.runCommandWithHooks (D:\\a\\1\\s\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n                    at Browser.wrapCommandFn (D:\\a\\1\\s\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n                    at WebDriver.amOnPage (D:\\a\\1\\s\\node_modules\\codeceptjs\\lib\\helper\\WebDriver.js:843:25)\n                    at Step.run (D:\\a\\1\\s\\node_modules\\codeceptjs\\lib\\step.js:66:47)\n                    at D:\\a\\1\\s\\node_modules\\codeceptjs\\lib\\actor.js:117:23",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : true,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "127863dde8a53d64",
+      "name" : "Last Seen Screenshot",
+      "source" : "127863dde8a53d64.png",
+      "type" : "image/png",
+      "size" : 3249
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@evtprodu"
+  }, {
+    "name" : "suite",
+    "value" : "Create a freight shipment @evtprodu"
+  }, {
+    "name" : "testClass",
+    "value" : "Create a freight shipment @evtprodu"
+  }, {
+    "name" : "testMethod",
+    "value" : "Freight shipment create page"
+  }, {
+    "name" : "package",
+    "value" : "Create a freight shipment @evtprodu"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 22,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 80,
+        "unknown" : 0,
+        "total" : 102
+      },
+      "items" : [ {
+        "uid" : "56449d0354077587",
+        "reportUrl" : "../178/index.html#testresult/56449d0354077587",
+        "status" : "failed",
+        "statusDetails" : "timeout: Timed out receiving message from renderer: -0.000\n                  (Session info: headless chrome=90.0.4430.93)",
+        "time" : {
+          "start" : 1621159337671,
+          "stop" : 1621159396583,
+          "duration" : 58912
+        }
+      }, {
+        "uid" : "4393f1fb28eb0184",
+        "reportUrl" : "../177/index.html#testresult/4393f1fb28eb0184",
+        "status" : "failed",
+        "statusDetails" : "timeout: Timed out receiving message from renderer: 8.706\n                  (Session info: headless chrome=90.0.4430.93)",
+        "time" : {
+          "start" : 1621066258907,
+          "stop" : 1621066319264,
+          "duration" : 60357
+        }
+      }, {
+        "uid" : "d68104f253149563",
+        "reportUrl" : "../176/index.html#testresult/d68104f253149563",
+        "status" : "failed",
+        "statusDetails" : "timeout: Timed out receiving message from renderer: 8.706\n                  (Session info: headless chrome=90.0.4430.93)",
+        "time" : {
+          "start" : 1621066258907,
+          "stop" : 1621066319264,
+          "duration" : 60357
+        }
+      }, {
+        "uid" : "b18bb4d417157a5",
+        "reportUrl" : "../175/index.html#testresult/b18bb4d417157a5",
+        "status" : "failed",
+        "statusDetails" : "timeout: Timed out receiving message from renderer: -0.000\n                  (Session info: headless chrome=90.0.4430.85)",
+        "time" : {
+          "start" : 1620861564402,
+          "stop" : 1620861621717,
+          "duration" : 57315
+        }
+      }, {
+        "uid" : "3de580bb7470f948",
+        "reportUrl" : "../174/index.html#testresult/3de580bb7470f948",
+        "status" : "failed",
+        "statusDetails" : "timeout: Timed out receiving message from renderer: -0.000\n                  (Session info: headless chrome=90.0.4430.85)",
+        "time" : {
+          "start" : 1620861564402,
+          "stop" : 1620861621717,
+          "duration" : 57315
+        }
+      }, {
+        "uid" : "a41f0328f5126c96",
+        "reportUrl" : "../173/index.html#testresult/a41f0328f5126c96",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620831730029,
+          "stop" : 1620831744670,
+          "duration" : 14641
+        }
+      }, {
+        "uid" : "1e0dce8befea4f6b",
+        "reportUrl" : "../172/index.html#testresult/1e0dce8befea4f6b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620831730029,
+          "stop" : 1620831744670,
+          "duration" : 14641
+        }
+      }, {
+        "uid" : "c367d637563ff658",
+        "reportUrl" : "../171/index.html#testresult/c367d637563ff658",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620745335883,
+          "stop" : 1620745363548,
+          "duration" : 27665
+        }
+      }, {
+        "uid" : "c9e9bbc30a1ea09e",
+        "reportUrl" : "../170/index.html#testresult/c9e9bbc30a1ea09e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620745335883,
+          "stop" : 1620745363548,
+          "duration" : 27665
+        }
+      }, {
+        "uid" : "300f5bde82e20bc3",
+        "reportUrl" : "../169/index.html#testresult/300f5bde82e20bc3",
+        "status" : "failed",
+        "statusDetails" : "timeout: Timed out receiving message from renderer: -0.000\n                  (Session info: headless chrome=90.0.4430.85)",
+        "time" : {
+          "start" : 1620706417091,
+          "stop" : 1620706521270,
+          "duration" : 104179
+        }
+      }, {
+        "uid" : "d8066ba9688f4c20",
+        "reportUrl" : "../168/index.html#testresult/d8066ba9688f4c20",
+        "status" : "failed",
+        "statusDetails" : "timeout: Timed out receiving message from renderer: -0.000\n                  (Session info: headless chrome=90.0.4430.85)",
+        "time" : {
+          "start" : 1620706417091,
+          "stop" : 1620706521270,
+          "duration" : 104179
+        }
+      }, {
+        "uid" : "f23b066f796c54e9",
+        "reportUrl" : "../167/index.html#testresult/f23b066f796c54e9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620658939684,
+          "stop" : 1620658979894,
+          "duration" : 40210
+        }
+      }, {
+        "uid" : "9d1150a327395ae3",
+        "reportUrl" : "../166/index.html#testresult/9d1150a327395ae3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620658939684,
+          "stop" : 1620658979894,
+          "duration" : 40210
+        }
+      }, {
+        "uid" : "7a17487d596974c6",
+        "reportUrl" : "../165/index.html#testresult/7a17487d596974c6",
+        "status" : "failed",
+        "statusDetails" : "timeout: Timed out receiving message from renderer: -0.001\n                  (Session info: headless chrome=90.0.4430.85)",
+        "time" : {
+          "start" : 1620572645956,
+          "stop" : 1620572702231,
+          "duration" : 56275
+        }
+      }, {
+        "uid" : "61ae100f504e20cd",
+        "reportUrl" : "../164/index.html#testresult/61ae100f504e20cd",
+        "status" : "failed",
+        "statusDetails" : "timeout: Timed out receiving message from renderer: -0.001\n                  (Session info: headless chrome=90.0.4430.85)",
+        "time" : {
+          "start" : 1620572645956,
+          "stop" : 1620572702231,
+          "duration" : 56275
+        }
+      }, {
+        "uid" : "173c12dbbf5330e6",
+        "reportUrl" : "../163/index.html#testresult/173c12dbbf5330e6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620346286345,
+          "stop" : 1620346332444,
+          "duration" : 46099
+        }
+      }, {
+        "uid" : "a54706847b3d71af",
+        "reportUrl" : "../162/index.html#testresult/a54706847b3d71af",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620346286345,
+          "stop" : 1620346332444,
+          "duration" : 46099
+        }
+      }, {
+        "uid" : "21d3c6b448ac3107",
+        "reportUrl" : "../161/index.html#testresult/21d3c6b448ac3107",
+        "status" : "failed",
+        "statusDetails" : "timeout: Timed out receiving message from renderer: -0.000\n                  (Session info: headless chrome=90.0.4430.85)",
+        "time" : {
+          "start" : 1620345297414,
+          "stop" : 1620345380242,
+          "duration" : 82828
+        }
+      }, {
+        "uid" : "d044262bf88ff6cb",
+        "reportUrl" : "../160/index.html#testresult/d044262bf88ff6cb",
+        "status" : "failed",
+        "statusDetails" : "timeout: Timed out receiving message from renderer: -0.000\n                  (Session info: headless chrome=90.0.4430.85)",
+        "time" : {
+          "start" : 1620345297414,
+          "stop" : 1620345380242,
+          "duration" : 82828
+        }
+      }, {
+        "uid" : "bc99c30b86467ecf",
+        "reportUrl" : "../159/index.html#testresult/bc99c30b86467ecf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620339475408,
+          "stop" : 1620339551830,
+          "duration" : 76422
+        }
+      } ]
+    },
+    "tags" : [ "@evtprodu" ]
+  },
+  "source" : "539ba46dee477cf1.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,101 @@
+[ {
+  "uid" : "46e0f7e9279a95af",
+  "name" : "validate add freight mandatory fields",
+  "time" : {
+    "start" : 1620662703254,
+    "stop" : 1620662772024,
+    "duration" : 68770
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "69931a478569d163",
+  "name" : "create quick freight",
+  "time" : {
+    "start" : 1620662540368,
+    "stop" : 1620662621755,
+    "duration" : 81387
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f1a15756e2444836",
+  "name" : "create quick freight mandatory office selection",
+  "time" : {
+    "start" : 1620662621765,
+    "stop" : 1620662703244,
+    "duration" : 81479
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a4782cacac903cb8",
+  "name" : "Validate add freight window fields",
+  "time" : {
+    "start" : 1620662772034,
+    "stop" : 1620662845024,
+    "duration" : 72990
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "78ec0117a57175ef",
+  "name" : "assign tag to scheduled booking flight_1",
+  "time" : {
+    "start" : 1620663258793,
+    "stop" : 1620663354909,
+    "duration" : 96116
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bf68f4ef5e3c3a6b",
+  "name" : "Search all freights from Kotlik",
+  "time" : {
+    "start" : 1620663055679,
+    "stop" : 1620663127474,
+    "duration" : 71795
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7747428b272e8ee6",
+  "name" : "create new tags",
+  "time" : {
+    "start" : 1620663189454,
+    "stop" : 1620663258783,
+    "duration" : 69329
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d6acfca921c1e140",
+  "name" : "freights from kotlik to emmonak",
+  "time" : {
+    "start" : 1620662989952,
+    "stop" : 1620663055669,
+    "duration" : 65717
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a93042987ef110b2",
+  "name" : "DashboardScreenValidation",
+  "time" : {
+    "start" : 1620663127484,
+    "stop" : 1620663189444,
+    "duration" : 61960
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5a1c43c909e8d99a",
+  "name" : "search by freights by agent",
+  "time" : {
+    "start" : 1620662845034,
+    "stop" : 1620662989932,
+    "duration" : 144898
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

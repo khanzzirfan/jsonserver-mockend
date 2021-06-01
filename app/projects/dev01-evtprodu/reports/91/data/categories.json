@@ -1,0 +1,56 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "The object \"txtUsername\" does not exist.",
+      "children" : [ {
+        "name" : "Evtprodu anchorage freight search ",
+        "uid" : "70f15568c0f4dacb",
+        "parentUid" : "3b202356a226f89483b1206c7b50d166",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620226871983,
+          "stop" : 1620226892536,
+          "duration" : 20553
+        },
+        "flaky" : true,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3b202356a226f89483b1206c7b50d166"
+    }, {
+      "name" : "Unable to verify a value with the property checkpoint, because the target object does not exist.",
+      "children" : [ {
+        "name" : "EvtProdu Tag flight should throw error when no tags available",
+        "uid" : "bdc32888da476863",
+        "parentUid" : "3a101043170d323ea517dbc93696ba99",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620227024916,
+          "stop" : 1620227157579,
+          "duration" : 132663
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "EvtProdu Assign tag to scheduled booking flight",
+        "uid" : "230814d25bd97b4c",
+        "parentUid" : "3a101043170d323ea517dbc93696ba99",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620227223840,
+          "stop" : 1620227361098,
+          "duration" : 137258
+        },
+        "flaky" : true,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3a101043170d323ea517dbc93696ba99"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

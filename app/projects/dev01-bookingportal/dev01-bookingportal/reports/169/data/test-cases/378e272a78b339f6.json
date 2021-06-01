@@ -1,0 +1,781 @@
+{
+  "uid" : "378e272a78b339f6",
+  "name" : "Search page should display all basic field on landing @story1245",
+  "fullName" : "Booking portal search page.Search page should display all basic field on landing @story1245",
+  "historyId" : "17de41e3fa3e2e411a6c0cffaf7a8914",
+  "time" : {
+    "start" : 1620706706387,
+    "stop" : 1620706715471,
+    "duration" : 9084
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I navigate to application ",
+      "time" : {
+        "start" : 1620706707939,
+        "stop" : 1620706710086,
+        "duration" : 2147
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "searchPage: goToSearch ",
+        "time" : {
+          "start" : 1620706707939,
+          "stop" : 1620706710071,
+          "duration" : 2132
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "I am on page \"https://apps8.tflite.com/Public/SA/Booking/Search\"",
+          "time" : {
+            "start" : 1620706707939,
+            "stop" : 1620706709289,
+            "duration" : 1350
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "I refresh page ",
+          "time" : {
+            "start" : 1620706709289,
+            "stop" : 1620706710054,
+            "duration" : 765
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "I wait for visible \"#submit\"",
+          "time" : {
+            "start" : 1620706710054,
+            "stop" : 1620706710071,
+            "duration" : 17
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 3,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "I see element \"#submit\"",
+        "time" : {
+          "start" : 1620706710071,
+          "stop" : 1620706710086,
+          "duration" : 15
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 5,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I should see round trip radio button ",
+      "time" : {
+        "start" : 1620706710086,
+        "stop" : 1620706710170,
+        "duration" : 84
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I see \"Return Trip\"",
+        "time" : {
+          "start" : 1620706710086,
+          "stop" : 1620706710170,
+          "duration" : 84
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "And I should see Search Icon on the page ",
+      "time" : {
+        "start" : 1620706710170,
+        "stop" : 1620706710199,
+        "duration" : 29
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I see element \"#submit .fa-search\"",
+        "time" : {
+          "start" : 1620706710170,
+          "stop" : 1620706710199,
+          "duration" : 29
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I should see redeem label with arrow left circle icon ",
+      "time" : {
+        "start" : 1620706710199,
+        "stop" : 1620706710287,
+        "duration" : 88
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I see element \".redeemWrapper .fa-arrow-left-circle\"",
+        "time" : {
+          "start" : 1620706710199,
+          "stop" : 1620706710224,
+          "duration" : 25
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I see \"Redeem a 10 Trip Ticket\"",
+        "time" : {
+          "start" : 1620706710224,
+          "stop" : 1620706710287,
+          "duration" : 63
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I should see redeem input box ",
+      "time" : {
+        "start" : 1620706710287,
+        "stop" : 1620706710308,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I see element \"input[id=\"voucher-text\"]\"",
+        "time" : {
+          "start" : 1620706710287,
+          "stop" : 1620706710308,
+          "duration" : 21
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I should see redeem button ",
+      "time" : {
+        "start" : 1620706710308,
+        "stop" : 1620706710331,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I see element \"#btnVoucherGo\"",
+        "time" : {
+          "start" : 1620706710308,
+          "stop" : 1620706710331,
+          "duration" : 23
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I should see departing from dropdown ",
+      "time" : {
+        "start" : 1620706710331,
+        "stop" : 1620706710350,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I see element \"button[data-id=\"from\"]\"",
+        "time" : {
+          "start" : 1620706710331,
+          "stop" : 1620706710350,
+          "duration" : 19
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I should see travelling to dropdown ",
+      "time" : {
+        "start" : 1620706710350,
+        "stop" : 1620706710369,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I see element \"button[data-id=\"to\"]\"",
+        "time" : {
+          "start" : 1620706710350,
+          "stop" : 1620706710369,
+          "duration" : 19
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I should see departing from date options ",
+      "time" : {
+        "start" : 1620706710369,
+        "stop" : 1620706710386,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I see element \"input[id=\"depart_date\"]\"",
+        "time" : {
+          "start" : 1620706710369,
+          "stop" : 1620706710386,
+          "duration" : 17
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I should see travelling to date options ",
+      "time" : {
+        "start" : 1620706710386,
+        "stop" : 1620706710417,
+        "duration" : 31
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I see element \"input[id=\"return_date\"]\"",
+        "time" : {
+          "start" : 1620706710386,
+          "stop" : 1620706710417,
+          "duration" : 31
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I should see adults options ",
+      "time" : {
+        "start" : 1620706710417,
+        "stop" : 1620706710434,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I see element \"input[id=\"adults\"]\"",
+        "time" : {
+          "start" : 1620706710417,
+          "stop" : 1620706710434,
+          "duration" : 17
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I should see children options ",
+      "time" : {
+        "start" : 1620706710434,
+        "stop" : 1620706710451,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I see element \"input[id=\"children\"]\"",
+        "time" : {
+          "start" : 1620706710434,
+          "stop" : 1620706710451,
+          "duration" : 17
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I should see infants options ",
+      "time" : {
+        "start" : 1620706710451,
+        "stop" : 1620706710470,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I see element \"input[id=\"infants\"]\"",
+        "time" : {
+          "start" : 1620706710451,
+          "stop" : 1620706710469,
+          "duration" : 18
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I save the final screenshot ",
+      "time" : {
+        "start" : 1620706710470,
+        "stop" : 1620706715471,
+        "duration" : 5001
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I wait 5",
+        "time" : {
+          "start" : 1620706710470,
+          "stop" : 1620706715471,
+          "duration" : 5001
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "saved screenshot",
+        "time" : {
+          "start" : 1620706715471,
+          "stop" : 1620706715471,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "I save screenshot \"Search_page_should_display_all_basic_field_on_landing_@story1245.png\", true",
+      "time" : {
+        "start" : 1620706715471,
+        "stop" : 1620706715773,
+        "duration" : 302
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "13e9e29c5f7d3d15",
+      "name" : "Search_page_should_display_all_basic_field_on_landing_@story1245.png",
+      "source" : "13e9e29c5f7d3d15.png",
+      "type" : "image/png",
+      "size" : 62532
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 35,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@story1245"
+  }, {
+    "name" : "suite",
+    "value" : "Booking portal search page"
+  }, {
+    "name" : "testClass",
+    "value" : "Booking portal search page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Search page should display all basic field on landing @story1245"
+  }, {
+    "name" : "package",
+    "value" : "Booking portal search page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 17,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 139,
+        "unknown" : 0,
+        "total" : 156
+      },
+      "items" : [ {
+        "uid" : "b363d3be0e6eb70",
+        "reportUrl" : "../168/index.html#testresult/b363d3be0e6eb70",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620706706387,
+          "stop" : 1620706715471,
+          "duration" : 9084
+        }
+      }, {
+        "uid" : "218c9713829b6128",
+        "reportUrl" : "../167/index.html#testresult/218c9713829b6128",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620659239199,
+          "stop" : 1620659254679,
+          "duration" : 15480
+        }
+      }, {
+        "uid" : "1e97a8b96f233af9",
+        "reportUrl" : "../166/index.html#testresult/1e97a8b96f233af9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620659239199,
+          "stop" : 1620659254679,
+          "duration" : 15480
+        }
+      }, {
+        "uid" : "6ca1285dac4faa20",
+        "reportUrl" : "../165/index.html#testresult/6ca1285dac4faa20",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620572911894,
+          "stop" : 1620572921903,
+          "duration" : 10009
+        }
+      }, {
+        "uid" : "35432da9eb8759d1",
+        "reportUrl" : "../164/index.html#testresult/35432da9eb8759d1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620572911894,
+          "stop" : 1620572921903,
+          "duration" : 10009
+        }
+      }, {
+        "uid" : "de77c296e82b2776",
+        "reportUrl" : "../163/index.html#testresult/de77c296e82b2776",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620346504632,
+          "stop" : 1620346516596,
+          "duration" : 11964
+        }
+      }, {
+        "uid" : "c1f136fb7499e567",
+        "reportUrl" : "../162/index.html#testresult/c1f136fb7499e567",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620346504632,
+          "stop" : 1620346516596,
+          "duration" : 11964
+        }
+      }, {
+        "uid" : "ee9aa7d109bdecc9",
+        "reportUrl" : "../161/index.html#testresult/ee9aa7d109bdecc9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620345562150,
+          "stop" : 1620345571802,
+          "duration" : 9652
+        }
+      }, {
+        "uid" : "cdeffce875851a60",
+        "reportUrl" : "../160/index.html#testresult/cdeffce875851a60",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620345562150,
+          "stop" : 1620345571802,
+          "duration" : 9652
+        }
+      }, {
+        "uid" : "44721ddcf00b23a0",
+        "reportUrl" : "../159/index.html#testresult/44721ddcf00b23a0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620339725977,
+          "stop" : 1620339735122,
+          "duration" : 9145
+        }
+      }, {
+        "uid" : "ae0b0d9b0b6c4149",
+        "reportUrl" : "../158/index.html#testresult/ae0b0d9b0b6c4149",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620339725977,
+          "stop" : 1620339735122,
+          "duration" : 9145
+        }
+      }, {
+        "uid" : "de59a220282419d9",
+        "reportUrl" : "../157/index.html#testresult/de59a220282419d9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620338795014,
+          "stop" : 1620338804961,
+          "duration" : 9947
+        }
+      }, {
+        "uid" : "b2961fd5562c1d3d",
+        "reportUrl" : "../156/index.html#testresult/b2961fd5562c1d3d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620338795014,
+          "stop" : 1620338804961,
+          "duration" : 9947
+        }
+      }, {
+        "uid" : "1cac69210706b5bd",
+        "reportUrl" : "../155/index.html#testresult/1cac69210706b5bd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620338266221,
+          "stop" : 1620338275966,
+          "duration" : 9745
+        }
+      }, {
+        "uid" : "36652acc262c906f",
+        "reportUrl" : "../154/index.html#testresult/36652acc262c906f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620338266221,
+          "stop" : 1620338275966,
+          "duration" : 9745
+        }
+      }, {
+        "uid" : "f698e1bb50a3a0f7",
+        "reportUrl" : "../153/index.html#testresult/f698e1bb50a3a0f7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620336587458,
+          "stop" : 1620336597081,
+          "duration" : 9623
+        }
+      }, {
+        "uid" : "abee1cecacc07183",
+        "reportUrl" : "../152/index.html#testresult/abee1cecacc07183",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620336587458,
+          "stop" : 1620336597081,
+          "duration" : 9623
+        }
+      }, {
+        "uid" : "db1a0ad62f3cbb07",
+        "reportUrl" : "../151/index.html#testresult/db1a0ad62f3cbb07",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620331905417,
+          "stop" : 1620331914782,
+          "duration" : 9365
+        }
+      }, {
+        "uid" : "bd588e445ba0dbb9",
+        "reportUrl" : "../150/index.html#testresult/bd588e445ba0dbb9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620331905417,
+          "stop" : 1620331914782,
+          "duration" : 9365
+        }
+      }, {
+        "uid" : "76dd3afe2147d959",
+        "reportUrl" : "../149/index.html#testresult/76dd3afe2147d959",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620227249702,
+          "stop" : 1620227259991,
+          "duration" : 10289
+        }
+      } ]
+    },
+    "tags" : [ "@story1245" ]
+  },
+  "source" : "378e272a78b339f6.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,1614 @@
+{
+  "uid" : "9471d39cc80f6932",
+  "name" : "As a user I should be able to create freight shipment and review the shipment details @prod1",
+  "fullName" : "Review freight shipment @evtprodu.As a user I should be able to create freight shipment and review the shipment details @prod1",
+  "historyId" : "19d0b94ecb8d6d90e5b715e95c9e90d2",
+  "time" : {
+    "start" : 1620659039292,
+    "stop" : 1620659072101,
+    "duration" : 32809
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I navigate to evert air application create page ",
+      "time" : {
+        "start" : 1620659040830,
+        "stop" : 1620659045496,
+        "duration" : 4666
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "createshipmentPage: goto ",
+        "time" : {
+          "start" : 1620659040830,
+          "stop" : 1620659045139,
+          "duration" : 4309
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "I am on page \"https://apps8.tflite.com/Public/EVT/Freight/Create\"",
+          "time" : {
+            "start" : 1620659040830,
+            "stop" : 1620659043490,
+            "duration" : 2660
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "I refresh page ",
+          "time" : {
+            "start" : 1620659043490,
+            "stop" : 1620659045116,
+            "duration" : 1626
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "I wait for visible \"#custom-header\"",
+          "time" : {
+            "start" : 1620659045116,
+            "stop" : 1620659045139,
+            "duration" : 23
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 3,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "I see \"Create Shipment\"",
+        "time" : {
+          "start" : 1620659045139,
+          "stop" : 1620659045496,
+          "duration" : 357
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 5,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When I see page is loaded ",
+      "time" : {
+        "start" : 1620659045496,
+        "stop" : 1620659046282,
+        "duration" : 786
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I see \"Create Shipment\"",
+        "time" : {
+          "start" : 1620659045496,
+          "stop" : 1620659045881,
+          "duration" : 385
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I should fill in shippers account number ",
+      "time" : {
+        "start" : 1620659046282,
+        "stop" : 1620659047029,
+        "duration" : 747
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I fill field \"#shipper_account\", 14831945",
+        "time" : {
+          "start" : 1620659046282,
+          "stop" : 1620659046628,
+          "duration" : 346
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I should fill shippers name ",
+      "time" : {
+        "start" : 1620659047029,
+        "stop" : 1620659047752,
+        "duration" : 723
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I fill field \"#shipper_name\", \"Credit Card Account\"",
+        "time" : {
+          "start" : 1620659047029,
+          "stop" : 1620659047352,
+          "duration" : 323
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I should fill shippers contact address ",
+      "time" : {
+        "start" : 1620659047752,
+        "stop" : 1620659048471,
+        "duration" : 719
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I fill field \"#shipper_address\", \"263 Reinger Path\"",
+        "time" : {
+          "start" : 1620659047752,
+          "stop" : 1620659048070,
+          "duration" : 318
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I should enter shippers phone number ",
+      "time" : {
+        "start" : 1620659048471,
+        "stop" : 1620659049198,
+        "duration" : 727
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I fill field \"#shipper_phone\", \"1-024-461-8191\"",
+        "time" : {
+          "start" : 1620659048471,
+          "stop" : 1620659048797,
+          "duration" : 326
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I should enter consignee account number ",
+      "time" : {
+        "start" : 1620659049198,
+        "stop" : 1620659049920,
+        "duration" : 722
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I fill field \"#consignee_account\", 7435346",
+        "time" : {
+          "start" : 1620659049198,
+          "stop" : 1620659049518,
+          "duration" : 320
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I should enter consignee name ",
+      "time" : {
+        "start" : 1620659049920,
+        "stop" : 1620659050640,
+        "duration" : 720
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I fill field \"#consignee_name\", \"Savings Account\"",
+        "time" : {
+          "start" : 1620659049920,
+          "stop" : 1620659050240,
+          "duration" : 320
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I should enter consignee address ",
+      "time" : {
+        "start" : 1620659050640,
+        "stop" : 1620659051361,
+        "duration" : 721
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I fill field \"#consignee_address\", \"4821 Schmitt Lodge\"",
+        "time" : {
+          "start" : 1620659050640,
+          "stop" : 1620659050961,
+          "duration" : 321
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I should enter consignee phone number ",
+      "time" : {
+        "start" : 1620659051361,
+        "stop" : 1620659051765,
+        "duration" : 404
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I fill field \"#consignee_phone\", \"(537) 205-0852 x9957\"",
+        "time" : {
+          "start" : 1620659051361,
+          "stop" : 1620659051765,
+          "duration" : 404
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I should select priority checkbox ",
+      "time" : {
+        "start" : 1620659051765,
+        "stop" : 1620659053320,
+        "duration" : 1555
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I see \"Check for yes\", \"label\"",
+        "time" : {
+          "start" : 1620659051765,
+          "stop" : 1620659052253,
+          "duration" : 488
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I click \"#priority\"",
+        "time" : {
+          "start" : 1620659052653,
+          "stop" : 1620659052920,
+          "duration" : 267
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I should select service standard prepaid ",
+      "time" : {
+        "start" : 1620659053320,
+        "stop" : 1620659053596,
+        "duration" : 276
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I check option \"Prepaid\"",
+        "time" : {
+          "start" : 1620659053320,
+          "stop" : 1620659053596,
+          "duration" : 276
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I should select shipping from location ",
+      "time" : {
+        "start" : 1620659053596,
+        "stop" : 1620659053657,
+        "duration" : 61
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I select option \"#from\", \"Fairbanks\"",
+        "time" : {
+          "start" : 1620659053596,
+          "stop" : 1620659053657,
+          "duration" : 61
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I should select shipping to location ",
+      "time" : {
+        "start" : 1620659053657,
+        "stop" : 1620659054182,
+        "duration" : 525
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I select option \"#to\", \"Bethel\"",
+        "time" : {
+          "start" : 1620659053657,
+          "stop" : 1620659053781,
+          "duration" : 124
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I should enter purchase order number ",
+      "time" : {
+        "start" : 1620659054182,
+        "stop" : 1620659054884,
+        "duration" : 702
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I fill field \"#po\", 88278",
+        "time" : {
+          "start" : 1620659054182,
+          "stop" : 1620659054484,
+          "duration" : 302
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I should enter booking comments ",
+      "time" : {
+        "start" : 1620659054884,
+        "stop" : 1620659055869,
+        "duration" : 985
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I fill field \"#booking_comment\", \"Ut fugit excepturi deserunt amet beatae voluptas fugiat. Quia quibusdam at delectus minus voluptas. Quae saepe aliquam quo ea eius sequi assumenda necessitatibus cum.\"",
+        "time" : {
+          "start" : 1620659054884,
+          "stop" : 1620659055469,
+          "duration" : 585
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I should enter freight description ",
+      "time" : {
+        "start" : 1620659055869,
+        "stop" : 1620659056928,
+        "duration" : 1059
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I fill field \".freight-description\", \"Commodi odit quidem rem sunt non vitae id accusamus quae. Voluptatem ipsa velit sint quos blanditiis vel dicta qui dicta. Distinctio eum libero est et quae. In libero et labore quae velit ex rerum. Et et tenetur harum. Magnam explicabo omnis voluptatem consectetur molestiae inventore esse voluptatem.\"",
+        "time" : {
+          "start" : 1620659055869,
+          "stop" : 1620659056527,
+          "duration" : 658
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I should enter field declared value ",
+      "time" : {
+        "start" : 1620659056928,
+        "stop" : 1620659057649,
+        "duration" : 721
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I fill field \".freight-declared-value\", \"565.19\"",
+        "time" : {
+          "start" : 1620659056928,
+          "stop" : 1620659057249,
+          "duration" : 321
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I should enter number of pieces ",
+      "time" : {
+        "start" : 1620659057649,
+        "stop" : 1620659058358,
+        "duration" : 709
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I fill field \".freight-pieces\", 4",
+        "time" : {
+          "start" : 1620659057649,
+          "stop" : 1620659057958,
+          "duration" : 309
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I should enter gross weight ",
+      "time" : {
+        "start" : 1620659058358,
+        "stop" : 1620659058666,
+        "duration" : 308
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I fill field \".freight-gross-weight\", 460",
+        "time" : {
+          "start" : 1620659058358,
+          "stop" : 1620659058666,
+          "duration" : 308
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I should enter field freight handling ",
+      "time" : {
+        "start" : 1620659058666,
+        "stop" : 1620659058762,
+        "duration" : 96
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I select option \".freight-handling\", \"Chilled\"",
+        "time" : {
+          "start" : 1620659058666,
+          "stop" : 1620659058762,
+          "duration" : 96
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I should enter length width and height ",
+      "time" : {
+        "start" : 1620659058762,
+        "stop" : 1620659059956,
+        "duration" : 1194
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I see \"Length (Max 17ft)\"",
+        "time" : {
+          "start" : 1620659058762,
+          "stop" : 1620659059198,
+          "duration" : 436
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I see \"Width (Max 80in)\"",
+        "time" : {
+          "start" : 1620659059198,
+          "stop" : 1620659059610,
+          "duration" : 412
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I see \"Height (Max 72in)\"",
+        "time" : {
+          "start" : 1620659059610,
+          "stop" : 1620659059956,
+          "duration" : 346
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I should read disclaimer dangerous goods/Hazmat declaration ",
+      "time" : {
+        "start" : 1620659059956,
+        "stop" : 1620659060285,
+        "duration" : 329
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I see \"Dangerous Goods/Hazmat Declaration*\", \"label\"",
+        "time" : {
+          "start" : 1620659059956,
+          "stop" : 1620659060285,
+          "duration" : 329
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I should make dangers goods selection from dropdown with No option ",
+      "time" : {
+        "start" : 1620659060285,
+        "stop" : 1620659060799,
+        "duration" : 514
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I select option \".freight-dangerous-goods\", \"No\"",
+        "time" : {
+          "start" : 1620659060285,
+          "stop" : 1620659060398,
+          "duration" : 113
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I enter confirm email address ",
+      "time" : {
+        "start" : 1620659060799,
+        "stop" : 1620659061534,
+        "duration" : 735
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I fill field \"#email\", \"Wanda.Von@hotmail.com\"",
+        "time" : {
+          "start" : 1620659060799,
+          "stop" : 1620659061133,
+          "duration" : 334
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I click next button ",
+      "time" : {
+        "start" : 1620659061534,
+        "stop" : 1620659061823,
+        "duration" : 289
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I click \".btn-success\"",
+        "time" : {
+          "start" : 1620659061534,
+          "stop" : 1620659061823,
+          "duration" : 289
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I should see freight confirmation page ",
+      "time" : {
+        "start" : 1620659061823,
+        "stop" : 1620659066834,
+        "duration" : 5011
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I wait 5",
+        "time" : {
+          "start" : 1620659061823,
+          "stop" : 1620659066823,
+          "duration" : 5000
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I see in current url \"/Freight/Confirmation\"",
+        "time" : {
+          "start" : 1620659066823,
+          "stop" : 1620659066834,
+          "duration" : 11
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I should see an alert message ",
+      "time" : {
+        "start" : 1620659066834,
+        "stop" : 1620659066920,
+        "duration" : 86
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I see \"Carefully review the information you have entered before submitting\", \".alert\"",
+        "time" : {
+          "start" : 1620659066834,
+          "stop" : 1620659066887,
+          "duration" : 53
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I see \"Confirmation\", \"h1\"",
+        "time" : {
+          "start" : 1620659066887,
+          "stop" : 1620659066920,
+          "duration" : 33
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I should see shipper information as entered in first page ",
+      "time" : {
+        "start" : 1620659066920,
+        "stop" : 1620659071633,
+        "duration" : 4713
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I see \"Shippers Account Number: 14831945\", \".form-group\"",
+        "time" : {
+          "start" : 1620659066920,
+          "stop" : 1620659067362,
+          "duration" : 442
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I see \"Shippers Name: Credit Card Account\", \".form-group\"",
+        "time" : {
+          "start" : 1620659067362,
+          "stop" : 1620659067632,
+          "duration" : 270
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I see \"Shippers Contact Address: 263 Reinger Path\", \".form-group\"",
+        "time" : {
+          "start" : 1620659067632,
+          "stop" : 1620659067884,
+          "duration" : 252
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I see \"Shippers Phone: 1-024-461-8191\", \".form-group\"",
+        "time" : {
+          "start" : 1620659067884,
+          "stop" : 1620659068215,
+          "duration" : 331
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I see \"Consignee Account Number: 7435346\", \".form-group\"",
+        "time" : {
+          "start" : 1620659068215,
+          "stop" : 1620659068496,
+          "duration" : 281
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I see \"Consignee Name: Savings Account\", \".form-group\"",
+        "time" : {
+          "start" : 1620659068496,
+          "stop" : 1620659068763,
+          "duration" : 267
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I see \"Consignee Contact Address: 4821 Schmitt Lodge\", \".form-group\"",
+        "time" : {
+          "start" : 1620659068763,
+          "stop" : 1620659069025,
+          "duration" : 262
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I see \"Consignee Phone: (537) 205-0852 x9957\", \".form-group\"",
+        "time" : {
+          "start" : 1620659069025,
+          "stop" : 1620659069278,
+          "duration" : 253
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I see \"Shipping From: Fairbanks\", \".form-group\"",
+        "time" : {
+          "start" : 1620659069278,
+          "stop" : 1620659069532,
+          "duration" : 254
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I see \"Shipping To: Bethel\", \".form-group\"",
+        "time" : {
+          "start" : 1620659069532,
+          "stop" : 1620659069860,
+          "duration" : 328
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I see \"Purchase Order OR Job Number: 88278\", \".form-group\"",
+        "time" : {
+          "start" : 1620659069861,
+          "stop" : 1620659070092,
+          "duration" : 231
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I see \"Booking Comments: Ut fugit excepturi deserunt amet beatae voluptas fugiat. Quia quibusdam at delectus minus voluptas. Quae saepe aliquam quo ea eius sequi assumenda necessitatibus cum.\", \".form-group\"",
+        "time" : {
+          "start" : 1620659070092,
+          "stop" : 1620659070331,
+          "duration" : 239
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I see \"Freight Description: Commodi odit quidem rem sunt non vitae id accusamus quae. Voluptatem ipsa velit sint quos blanditiis vel dicta qui dicta. Distinctio eum libero est et quae. In libero et labore quae velit ex rerum. Et et tenetur harum. Magnam explicabo omnis voluptatem consectetur molestiae inventore esse voluptatem.\", \".form-group\"",
+        "time" : {
+          "start" : 1620659070331,
+          "stop" : 1620659070576,
+          "duration" : 245
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I see \"Declared Value: $565.19\", \".form-group\"",
+        "time" : {
+          "start" : 1620659070576,
+          "stop" : 1620659070841,
+          "duration" : 265
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I see \"No of Pieces: 4\", \".form-group\"",
+        "time" : {
+          "start" : 1620659070841,
+          "stop" : 1620659071094,
+          "duration" : 253
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I see \"Service Standard: PP\", \".form-group\"",
+        "time" : {
+          "start" : 1620659071094,
+          "stop" : 1620659071388,
+          "duration" : 294
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I see \"Freight Handling Chilled\", \".form-group\"",
+        "time" : {
+          "start" : 1620659071389,
+          "stop" : 1620659071632,
+          "duration" : 243
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 17,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "And I should see go back to update button ",
+      "time" : {
+        "start" : 1620659071633,
+        "stop" : 1620659071908,
+        "duration" : 275
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I see element \"button[type=\"button\"]\"",
+        "time" : {
+          "start" : 1620659071633,
+          "stop" : 1620659071737,
+          "duration" : 104
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I see \"Go back to update\", \".btn\"",
+        "time" : {
+          "start" : 1620659071737,
+          "stop" : 1620659071908,
+          "duration" : 171
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "And I should see confirm and submit button ",
+      "time" : {
+        "start" : 1620659071908,
+        "stop" : 1620659072100,
+        "duration" : 192
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I see element \".btn-group\"",
+        "time" : {
+          "start" : 1620659071908,
+          "stop" : 1620659071933,
+          "duration" : 25
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I see element \"button[type=\"submit\"]\"",
+        "time" : {
+          "start" : 1620659071933,
+          "stop" : 1620659071959,
+          "duration" : 26
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I see element \".fa-check\"",
+        "time" : {
+          "start" : 1620659071959,
+          "stop" : 1620659071990,
+          "duration" : 31
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I see \"Confirm and Submit\", \".btn\"",
+        "time" : {
+          "start" : 1620659071990,
+          "stop" : 1620659072100,
+          "duration" : 110
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "I save screenshot \"As_a_user_I_should_be_able_to_create_freight_shipment_and_review_the_shipment_details_@prod1.png\", true",
+      "time" : {
+        "start" : 1620659072104,
+        "stop" : 1620659072513,
+        "duration" : 409
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "67d2ce67ae023e3c",
+      "name" : "As_a_user_I_should_be_able_to_create_freight_shipment_and_review_the_shipment_details_@prod1.png",
+      "source" : "67d2ce67ae023e3c.png",
+      "type" : "image/png",
+      "size" : 136475
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 92,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@evtprodu"
+  }, {
+    "name" : "tag",
+    "value" : "@prod1"
+  }, {
+    "name" : "suite",
+    "value" : "Review freight shipment @evtprodu"
+  }, {
+    "name" : "testClass",
+    "value" : "Review freight shipment @evtprodu"
+  }, {
+    "name" : "testMethod",
+    "value" : "As a user I should be able to create freight shipment and review the shipment details @prod1"
+  }, {
+    "name" : "package",
+    "value" : "Review freight shipment @evtprodu"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 16,
+        "unknown" : 0,
+        "total" : 18
+      },
+      "items" : [ {
+        "uid" : "dd8afa0329041ebe",
+        "reportUrl" : "../166/index.html#testresult/dd8afa0329041ebe",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620659039292,
+          "stop" : 1620659072101,
+          "duration" : 32809
+        }
+      }, {
+        "uid" : "199a2235283bdb67",
+        "reportUrl" : "../165/index.html#testresult/199a2235283bdb67",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620572792530,
+          "stop" : 1620572824635,
+          "duration" : 32105
+        }
+      }, {
+        "uid" : "6e69e1df16cf848d",
+        "reportUrl" : "../164/index.html#testresult/6e69e1df16cf848d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620572792530,
+          "stop" : 1620572824635,
+          "duration" : 32105
+        }
+      }, {
+        "uid" : "6e9a719f7f4c3665",
+        "reportUrl" : "../163/index.html#testresult/6e9a719f7f4c3665",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620346386855,
+          "stop" : 1620346425365,
+          "duration" : 38510
+        }
+      }, {
+        "uid" : "8542b6e3de2721aa",
+        "reportUrl" : "../162/index.html#testresult/8542b6e3de2721aa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620346386855,
+          "stop" : 1620346425365,
+          "duration" : 38510
+        }
+      }, {
+        "uid" : "6a7e07166aa02266",
+        "reportUrl" : "../161/index.html#testresult/6a7e07166aa02266",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620345451358,
+          "stop" : 1620345484504,
+          "duration" : 33146
+        }
+      }, {
+        "uid" : "85eb2a449ee97f8f",
+        "reportUrl" : "../160/index.html#testresult/85eb2a449ee97f8f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620345451358,
+          "stop" : 1620345484504,
+          "duration" : 33146
+        }
+      }, {
+        "uid" : "c0c53be03d3d9d62",
+        "reportUrl" : "../159/index.html#testresult/c0c53be03d3d9d62",
+        "status" : "failed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1620339607181,
+          "stop" : 1620339637674,
+          "duration" : 30493
+        }
+      }, {
+        "uid" : "6da867c16d314f4f",
+        "reportUrl" : "../158/index.html#testresult/6da867c16d314f4f",
+        "status" : "failed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1620339607181,
+          "stop" : 1620339637674,
+          "duration" : 30493
+        }
+      }, {
+        "uid" : "84a5666cb14d30d4",
+        "reportUrl" : "../157/index.html#testresult/84a5666cb14d30d4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620338685573,
+          "stop" : 1620338718093,
+          "duration" : 32520
+        }
+      }, {
+        "uid" : "77c520fa0c417f97",
+        "reportUrl" : "../156/index.html#testresult/77c520fa0c417f97",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620338685573,
+          "stop" : 1620338718093,
+          "duration" : 32520
+        }
+      }, {
+        "uid" : "c56654eb105e5c67",
+        "reportUrl" : "../155/index.html#testresult/c56654eb105e5c67",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620338165996,
+          "stop" : 1620338196535,
+          "duration" : 30539
+        }
+      }, {
+        "uid" : "c7157afb72dc732f",
+        "reportUrl" : "../154/index.html#testresult/c7157afb72dc732f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620338165996,
+          "stop" : 1620338196535,
+          "duration" : 30539
+        }
+      }, {
+        "uid" : "829b4e7686199771",
+        "reportUrl" : "../153/index.html#testresult/829b4e7686199771",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620336486202,
+          "stop" : 1620336517434,
+          "duration" : 31232
+        }
+      }, {
+        "uid" : "73c08b778cf3e76a",
+        "reportUrl" : "../152/index.html#testresult/73c08b778cf3e76a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620336486202,
+          "stop" : 1620336517434,
+          "duration" : 31232
+        }
+      }, {
+        "uid" : "a8301d9dcb7330f",
+        "reportUrl" : "../151/index.html#testresult/a8301d9dcb7330f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620331807079,
+          "stop" : 1620331836891,
+          "duration" : 29812
+        }
+      }, {
+        "uid" : "ac926c945fbc85d",
+        "reportUrl" : "../150/index.html#testresult/ac926c945fbc85d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620331807079,
+          "stop" : 1620331836891,
+          "duration" : 29812
+        }
+      } ]
+    },
+    "tags" : [ "@evtprodu", "@prod1" ]
+  },
+  "source" : "9471d39cc80f6932.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,171 @@
+[ {
+  "uid" : "dd8afa0329041ebe",
+  "name" : "As a user I should be able to create freight shipment and review the shipment details @prod1",
+  "time" : {
+    "start" : 1620659039292,
+    "stop" : 1620659072101,
+    "duration" : 32809
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "da444d086856d4da",
+  "name" : "Search page terms of use should display modal with terms of usage @testscenario",
+  "time" : {
+    "start" : 1620659312161,
+    "stop" : 1620659323922,
+    "duration" : 11761
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "53c4480736341531",
+  "name" : "Search page feedback should display modal feedback",
+  "time" : {
+    "start" : 1620659274673,
+    "stop" : 1620659281792,
+    "duration" : 7119
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d72fd4260387f811",
+  "name" : "Search page terms of use should display modal with terms of usage",
+  "time" : {
+    "start" : 1620659282154,
+    "stop" : 1620659289326,
+    "duration" : 7172
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "54466a9b2aaf2c1d",
+  "name" : "Search page should display footer links",
+  "time" : {
+    "start" : 1620659267411,
+    "stop" : 1620659274217,
+    "duration" : 6806
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fc3898d64e80fc39",
+  "name" : "As a user I should see oneway trip booking options @validation",
+  "time" : {
+    "start" : 1620659114242,
+    "stop" : 1620659155798,
+    "duration" : 41556
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "9aa41f115577a79e",
+  "name" : "Validate page headings on create freight page",
+  "time" : {
+    "start" : 1620658980439,
+    "stop" : 1620658988937,
+    "duration" : 8498
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "305b2d4e1dcca08a",
+  "name" : "Create freight shipment page should show validation errors when not filled @prod",
+  "time" : {
+    "start" : 1620659021351,
+    "stop" : 1620659038775,
+    "duration" : 17424
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1e97a8b96f233af9",
+  "name" : "Search page should display all basic field on landing @story1245",
+  "time" : {
+    "start" : 1620659239199,
+    "stop" : 1620659254679,
+    "duration" : 15480
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9d1150a327395ae3",
+  "name" : "Freight shipment create page",
+  "time" : {
+    "start" : 1620658939684,
+    "stop" : 1620658979894,
+    "duration" : 40210
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e4e77c136f6e3892",
+  "name" : "Search page should display all basic field on landing",
+  "time" : {
+    "start" : 1620659072567,
+    "stop" : 1620659114157,
+    "duration" : 41590
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "84e37fba4445898a",
+  "name" : "Search page should display menu items",
+  "time" : {
+    "start" : 1620659261610,
+    "stop" : 1620659267035,
+    "duration" : 5425
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f534728ac7615860",
+  "name" : "As a user I should be able to create freight shipment",
+  "time" : {
+    "start" : 1620658989417,
+    "stop" : 1620659021237,
+    "duration" : 31820
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "884eb92f64493504",
+  "name" : "Agent should be able to login using their account details on signin page",
+  "time" : {
+    "start" : 1620659289741,
+    "stop" : 1620659311766,
+    "duration" : 22025
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ee9a06ab538bd05e",
+  "name" : "As a user I should see validation errors for oneway trip @validation",
+  "time" : {
+    "start" : 1620659155875,
+    "stop" : 1620659197478,
+    "duration" : 41603
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "e8e1bb5353113585",
+  "name" : "As a user I should see validation errors for round trip field @validation",
+  "time" : {
+    "start" : 1620659197557,
+    "stop" : 1620659239112,
+    "duration" : 41555
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "f8cfd73aeded93b",
+  "name" : "Search page should display sidebar links @story1246",
+  "time" : {
+    "start" : 1620659255050,
+    "stop" : 1620659261160,
+    "duration" : 6110
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

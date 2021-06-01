@@ -1,0 +1,257 @@
+{
+  "uid" : "794a9c90bac3af9",
+  "name" : "LoginScenarios",
+  "fullName" : "TakeFliteBDD.LoginScenarios",
+  "historyId" : "TakeFliteBDD.LoginScenarios",
+  "time" : {
+    "start" : 1620583307965,
+    "stop" : 1620583353593,
+    "duration" : 45628
+  },
+  "status" : "failed",
+  "statusMessage" : "TypeError: aqUtils is not a function",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "TakeFliteBDD"
+  }, {
+    "name" : "testClass",
+    "value" : "TakeFliteBDD"
+  }, {
+    "name" : "package",
+    "value" : "TakeFliteBDD"
+  }, {
+    "name" : "resultFormat",
+    "value" : "trx"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 52,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 124,
+        "unknown" : 0,
+        "total" : 176
+      },
+      "items" : [ {
+        "uid" : "8939faa501f38a62",
+        "reportUrl" : "../185/index.html#testresult/8939faa501f38a62",
+        "status" : "failed",
+        "statusDetails" : "TypeError: aqUtils is not a function",
+        "time" : {
+          "start" : 1620496891692,
+          "stop" : 1620496937558,
+          "duration" : 45866
+        }
+      }, {
+        "uid" : "293b84deff2e9682",
+        "reportUrl" : "../184/index.html#testresult/293b84deff2e9682",
+        "status" : "failed",
+        "statusDetails" : "TypeError: aqUtils is not a function",
+        "time" : {
+          "start" : 1620496891692,
+          "stop" : 1620496937558,
+          "duration" : 45866
+        }
+      }, {
+        "uid" : "ddf6d939906ccc00",
+        "reportUrl" : "../183/index.html#testresult/ddf6d939906ccc00",
+        "status" : "failed",
+        "statusDetails" : "TypeError: aqUtils is not a function",
+        "time" : {
+          "start" : 1620410510713,
+          "stop" : 1620410555580,
+          "duration" : 44867
+        }
+      }, {
+        "uid" : "556d4a62fe32d806",
+        "reportUrl" : "../182/index.html#testresult/556d4a62fe32d806",
+        "status" : "failed",
+        "statusDetails" : "TypeError: aqUtils is not a function",
+        "time" : {
+          "start" : 1620410510713,
+          "stop" : 1620410555580,
+          "duration" : 44867
+        }
+      }, {
+        "uid" : "551918af7fd9a688",
+        "reportUrl" : "../181/index.html#testresult/551918af7fd9a688",
+        "status" : "failed",
+        "statusDetails" : "TypeError: aqUtils is not a function",
+        "time" : {
+          "start" : 1620324134651,
+          "stop" : 1620324183793,
+          "duration" : 49142
+        }
+      }, {
+        "uid" : "c48a0916b2b3312d",
+        "reportUrl" : "../180/index.html#testresult/c48a0916b2b3312d",
+        "status" : "failed",
+        "statusDetails" : "TypeError: aqUtils is not a function",
+        "time" : {
+          "start" : 1620237720819,
+          "stop" : 1620237765756,
+          "duration" : 44937
+        }
+      }, {
+        "uid" : "8c4f00d716a4cb4d",
+        "reportUrl" : "../179/index.html#testresult/8c4f00d716a4cb4d",
+        "status" : "failed",
+        "statusDetails" : "TypeError: aqUtils is not a function",
+        "time" : {
+          "start" : 1620237720819,
+          "stop" : 1620237765756,
+          "duration" : 44937
+        }
+      }, {
+        "uid" : "e5deba3b9dec174a",
+        "reportUrl" : "../178/index.html#testresult/e5deba3b9dec174a",
+        "status" : "failed",
+        "statusDetails" : "TypeError: aqUtils is not a function",
+        "time" : {
+          "start" : 1620151330063,
+          "stop" : 1620151374360,
+          "duration" : 44297
+        }
+      }, {
+        "uid" : "db7b3f4d09e09347",
+        "reportUrl" : "../177/index.html#testresult/db7b3f4d09e09347",
+        "status" : "failed",
+        "statusDetails" : "TypeError: aqUtils is not a function",
+        "time" : {
+          "start" : 1620064904052,
+          "stop" : 1620064949170,
+          "duration" : 45118
+        }
+      }, {
+        "uid" : "6df60a98e279d9a2",
+        "reportUrl" : "../176/index.html#testresult/6df60a98e279d9a2",
+        "status" : "failed",
+        "statusDetails" : "TypeError: aqUtils is not a function",
+        "time" : {
+          "start" : 1619978497331,
+          "stop" : 1619978544300,
+          "duration" : 46969
+        }
+      }, {
+        "uid" : "cbb980b173b1a2e8",
+        "reportUrl" : "../175/index.html#testresult/cbb980b173b1a2e8",
+        "status" : "failed",
+        "statusDetails" : "TypeError: aqUtils is not a function",
+        "time" : {
+          "start" : 1619978497331,
+          "stop" : 1619978544300,
+          "duration" : 46969
+        }
+      }, {
+        "uid" : "2042435320b7b2b0",
+        "reportUrl" : "../174/index.html#testresult/2042435320b7b2b0",
+        "status" : "failed",
+        "statusDetails" : "TypeError: aqUtils is not a function",
+        "time" : {
+          "start" : 1619892113433,
+          "stop" : 1619892160909,
+          "duration" : 47476
+        }
+      }, {
+        "uid" : "ddaf9c393c8e4711",
+        "reportUrl" : "../173/index.html#testresult/ddaf9c393c8e4711",
+        "status" : "failed",
+        "statusDetails" : "TypeError: aqUtils is not a function",
+        "time" : {
+          "start" : 1619805744992,
+          "stop" : 1619805797693,
+          "duration" : 52701
+        }
+      }, {
+        "uid" : "c0431c73691e4157",
+        "reportUrl" : "../172/index.html#testresult/c0431c73691e4157",
+        "status" : "failed",
+        "statusDetails" : "TypeError: aqUtils is not a function",
+        "time" : {
+          "start" : 1619805744992,
+          "stop" : 1619805797693,
+          "duration" : 52701
+        }
+      }, {
+        "uid" : "cdf24f715f928d94",
+        "reportUrl" : "../171/index.html#testresult/cdf24f715f928d94",
+        "status" : "failed",
+        "statusDetails" : "TypeError: aqUtils is not a function",
+        "time" : {
+          "start" : 1619719335060,
+          "stop" : 1619719382339,
+          "duration" : 47279
+        }
+      }, {
+        "uid" : "b4a3e51380abf29c",
+        "reportUrl" : "../170/index.html#testresult/b4a3e51380abf29c",
+        "status" : "failed",
+        "statusDetails" : "TypeError: aqUtils is not a function",
+        "time" : {
+          "start" : 1619632928577,
+          "stop" : 1619632974334,
+          "duration" : 45757
+        }
+      }, {
+        "uid" : "e79e879b8844b32e",
+        "reportUrl" : "../169/index.html#testresult/e79e879b8844b32e",
+        "status" : "failed",
+        "statusDetails" : "TypeError: aqUtils is not a function",
+        "time" : {
+          "start" : 1619632928577,
+          "stop" : 1619632974334,
+          "duration" : 45757
+        }
+      }, {
+        "uid" : "6b8a7645153ccc74",
+        "reportUrl" : "../168/index.html#testresult/6b8a7645153ccc74",
+        "status" : "failed",
+        "statusDetails" : "TypeError: aqUtils is not a function",
+        "time" : {
+          "start" : 1619546522737,
+          "stop" : 1619546569026,
+          "duration" : 46289
+        }
+      }, {
+        "uid" : "afb11834030da9ec",
+        "reportUrl" : "../167/index.html#testresult/afb11834030da9ec",
+        "status" : "failed",
+        "statusDetails" : "TypeError: aqUtils is not a function",
+        "time" : {
+          "start" : 1619546522737,
+          "stop" : 1619546569026,
+          "duration" : 46289
+        }
+      }, {
+        "uid" : "177abef4ee7a68fd",
+        "reportUrl" : "../166/index.html#testresult/177abef4ee7a68fd",
+        "status" : "failed",
+        "statusDetails" : "TypeError: aqUtils is not a function",
+        "time" : {
+          "start" : 1619460131471,
+          "stop" : 1619460176632,
+          "duration" : 45161
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "794a9c90bac3af9.json",
+  "parameterValues" : [ ]
+}

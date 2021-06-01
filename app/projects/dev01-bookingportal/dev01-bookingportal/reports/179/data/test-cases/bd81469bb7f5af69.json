@@ -1,0 +1,631 @@
+{
+  "uid" : "bd81469bb7f5af69",
+  "name" : "Agent should be able to login using their account details on signin page",
+  "fullName" : "Booking portal signin page @signin.Agent should be able to login using their account details on signin page",
+  "historyId" : "f0a0061f7d07d159297881785807d69b",
+  "time" : {
+    "start" : 1621159717593,
+    "stop" : 1621159738553,
+    "duration" : 20960
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "",
+    "statusTrace" : "undefined",
+    "steps" : [ {
+      "name" : "Given I navigate to application ",
+      "time" : {
+        "start" : 1621159719151,
+        "stop" : 1621159721672,
+        "duration" : 2521
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "searchPage: goToSearch ",
+        "time" : {
+          "start" : 1621159719151,
+          "stop" : 1621159721650,
+          "duration" : 2499
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "I am on page \"https://test.tflite.com/Public/SA/Booking/Search\"",
+          "time" : {
+            "start" : 1621159719151,
+            "stop" : 1621159720642,
+            "duration" : 1491
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "I refresh page ",
+          "time" : {
+            "start" : 1621159720642,
+            "stop" : 1621159721628,
+            "duration" : 986
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "I wait for visible \"#submit\"",
+          "time" : {
+            "start" : 1621159721628,
+            "stop" : 1621159721650,
+            "duration" : 22
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 3,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "I see element \"#submit\"",
+        "time" : {
+          "start" : 1621159721650,
+          "stop" : 1621159721672,
+          "duration" : 22
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 5,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When I see sign in button on the page ",
+      "time" : {
+        "start" : 1621159721672,
+        "stop" : 1621159722097,
+        "duration" : 425
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I see element \"#login\"",
+        "time" : {
+          "start" : 1621159721672,
+          "stop" : 1621159721696,
+          "duration" : 24
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I navigate to sigin in page by clicking signin button ",
+      "time" : {
+        "start" : 1621159722097,
+        "stop" : 1621159725903,
+        "duration" : 3806
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I click \"#login\"",
+        "time" : {
+          "start" : 1621159722097,
+          "stop" : 1621159723903,
+          "duration" : 1806
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I wait 2",
+        "time" : {
+          "start" : 1621159723903,
+          "stop" : 1621159725903,
+          "duration" : 2000
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I should see sign in form ",
+      "time" : {
+        "start" : 1621159725903,
+        "stop" : 1621159726430,
+        "duration" : 527
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I see in current url \"/Account/Login\"",
+        "time" : {
+          "start" : 1621159725903,
+          "stop" : 1621159725911,
+          "duration" : 8
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I see \"Sign In\"",
+        "time" : {
+          "start" : 1621159725911,
+          "stop" : 1621159726030,
+          "duration" : 119
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I should fill in username and password to login ",
+      "time" : {
+        "start" : 1621159726430,
+        "stop" : 1621159733617,
+        "duration" : 7187
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I fill field \"#username\", \"Agent\"",
+        "time" : {
+          "start" : 1621159726430,
+          "stop" : 1621159726724,
+          "duration" : 294
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I fill field \"#password\", \"123456\"",
+        "time" : {
+          "start" : 1621159727125,
+          "stop" : 1621159727522,
+          "duration" : 397
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I see element \"button[type=\"submit\"]\"",
+        "time" : {
+          "start" : 1621159727522,
+          "stop" : 1621159727548,
+          "duration" : 26
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I click \"#submit\"",
+        "time" : {
+          "start" : 1621159727951,
+          "stop" : 1621159728216,
+          "duration" : 265
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I wait 5",
+        "time" : {
+          "start" : 1621159728216,
+          "stop" : 1621159733217,
+          "duration" : 5001
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 5,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I click on login button ",
+      "time" : {
+        "start" : 1621159733617,
+        "stop" : 1621159733866,
+        "duration" : 249
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I click \"#submit\"",
+        "time" : {
+          "start" : 1621159733617,
+          "stop" : 1621159733866,
+          "duration" : 249
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I should successfuly navigate to search page ",
+      "time" : {
+        "start" : 1621159733866,
+        "stop" : 1621159738553,
+        "duration" : 4687
+      },
+      "status" : "failed",
+      "statusMessage" : "undefined",
+      "steps" : [ {
+        "name" : "I see in current url \"/Booking/Search\"",
+        "time" : {
+          "start" : 1621159733866,
+          "stop" : 1621159738552,
+          "duration" : 4686
+        },
+        "status" : "failed",
+        "statusMessage" : "undefined",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : true,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "eafa11646b9d64c",
+      "name" : "Last Seen Screenshot",
+      "source" : "eafa11646b9d64c.png",
+      "type" : "image/png",
+      "size" : 27339
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 24,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@signin"
+  }, {
+    "name" : "suite",
+    "value" : "Booking portal signin page @signin"
+  }, {
+    "name" : "testClass",
+    "value" : "Booking portal signin page @signin"
+  }, {
+    "name" : "testMethod",
+    "value" : "Agent should be able to login using their account details on signin page"
+  }, {
+    "name" : "package",
+    "value" : "Booking portal signin page @signin"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 34,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 88,
+        "unknown" : 0,
+        "total" : 122
+      },
+      "items" : [ {
+        "uid" : "c38887e2d6694333",
+        "reportUrl" : "../178/index.html#testresult/c38887e2d6694333",
+        "status" : "failed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1621159717593,
+          "stop" : 1621159738553,
+          "duration" : 20960
+        }
+      }, {
+        "uid" : "4e57495894c5dc6c",
+        "reportUrl" : "../177/index.html#testresult/4e57495894c5dc6c",
+        "status" : "failed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1621066726547,
+          "stop" : 1621066746756,
+          "duration" : 20209
+        }
+      }, {
+        "uid" : "9528237978c51033",
+        "reportUrl" : "../176/index.html#testresult/9528237978c51033",
+        "status" : "failed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1621066726547,
+          "stop" : 1621066746756,
+          "duration" : 20209
+        }
+      }, {
+        "uid" : "292c1713e369aa3a",
+        "reportUrl" : "../175/index.html#testresult/292c1713e369aa3a",
+        "status" : "failed",
+        "statusDetails" : "element (#submit) still not visible after 20 sec",
+        "time" : {
+          "start" : 1620861977985,
+          "stop" : 1620861999124,
+          "duration" : 21139
+        }
+      }, {
+        "uid" : "4357b0911c1d121d",
+        "reportUrl" : "../174/index.html#testresult/4357b0911c1d121d",
+        "status" : "failed",
+        "statusDetails" : "element (#submit) still not visible after 20 sec",
+        "time" : {
+          "start" : 1620861977985,
+          "stop" : 1620861999124,
+          "duration" : 21139
+        }
+      }, {
+        "uid" : "e7206f6cd7faa786",
+        "reportUrl" : "../173/index.html#testresult/e7206f6cd7faa786",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620831960071,
+          "stop" : 1620831978710,
+          "duration" : 18639
+        }
+      }, {
+        "uid" : "df716b3a9552124e",
+        "reportUrl" : "../172/index.html#testresult/df716b3a9552124e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620831960071,
+          "stop" : 1620831978710,
+          "duration" : 18639
+        }
+      }, {
+        "uid" : "15e3c25d0ed45b3",
+        "reportUrl" : "../171/index.html#testresult/15e3c25d0ed45b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620745547015,
+          "stop" : 1620745563056,
+          "duration" : 16041
+        }
+      }, {
+        "uid" : "39c99034856491cd",
+        "reportUrl" : "../170/index.html#testresult/39c99034856491cd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620745547015,
+          "stop" : 1620745563056,
+          "duration" : 16041
+        }
+      }, {
+        "uid" : "514aaf67de5dba6e",
+        "reportUrl" : "../169/index.html#testresult/514aaf67de5dba6e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620706743192,
+          "stop" : 1620706758843,
+          "duration" : 15651
+        }
+      }, {
+        "uid" : "d84e52f50690260e",
+        "reportUrl" : "../168/index.html#testresult/d84e52f50690260e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620706743192,
+          "stop" : 1620706758843,
+          "duration" : 15651
+        }
+      }, {
+        "uid" : "4e3b0784d854ab71",
+        "reportUrl" : "../167/index.html#testresult/4e3b0784d854ab71",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620659289741,
+          "stop" : 1620659311766,
+          "duration" : 22025
+        }
+      }, {
+        "uid" : "884eb92f64493504",
+        "reportUrl" : "../166/index.html#testresult/884eb92f64493504",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620659289741,
+          "stop" : 1620659311766,
+          "duration" : 22025
+        }
+      }, {
+        "uid" : "4e12b08d39833100",
+        "reportUrl" : "../165/index.html#testresult/4e12b08d39833100",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620572953024,
+          "stop" : 1620572969384,
+          "duration" : 16360
+        }
+      }, {
+        "uid" : "708baf383e2be743",
+        "reportUrl" : "../164/index.html#testresult/708baf383e2be743",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620572953024,
+          "stop" : 1620572969384,
+          "duration" : 16360
+        }
+      }, {
+        "uid" : "3acb6b95b3cdc3f9",
+        "reportUrl" : "../163/index.html#testresult/3acb6b95b3cdc3f9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620346552566,
+          "stop" : 1620346569691,
+          "duration" : 17125
+        }
+      }, {
+        "uid" : "889ebadc0bc8555e",
+        "reportUrl" : "../162/index.html#testresult/889ebadc0bc8555e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620346552566,
+          "stop" : 1620346569691,
+          "duration" : 17125
+        }
+      }, {
+        "uid" : "cc3eddf18963a174",
+        "reportUrl" : "../161/index.html#testresult/cc3eddf18963a174",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620345602152,
+          "stop" : 1620345618243,
+          "duration" : 16091
+        }
+      }, {
+        "uid" : "178e8e5cc98d4358",
+        "reportUrl" : "../160/index.html#testresult/178e8e5cc98d4358",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620345602152,
+          "stop" : 1620345618243,
+          "duration" : 16091
+        }
+      }, {
+        "uid" : "2a703c0fd809e79",
+        "reportUrl" : "../159/index.html#testresult/2a703c0fd809e79",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620339762488,
+          "stop" : 1620339780619,
+          "duration" : 18131
+        }
+      } ]
+    },
+    "tags" : [ "@signin" ]
+  },
+  "source" : "bd81469bb7f5af69.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,241 @@
+{
+  "uid" : "c5073984f9cb2b63",
+  "name" : "CreateScheduleBookingCCPayment - SuccessScenario",
+  "fullName" : "TakeFliteBDD.CreateScheduleBookingCCPayment - SuccessScenario",
+  "historyId" : "TakeFliteBDD.CreateScheduleBookingCCPayment - SuccessScenario",
+  "time" : {
+    "start" : 1621103180142,
+    "stop" : 1621103299900,
+    "duration" : 119758
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "TakeFliteBDD"
+  }, {
+    "name" : "testClass",
+    "value" : "TakeFliteBDD"
+  }, {
+    "name" : "package",
+    "value" : "TakeFliteBDD"
+  }, {
+    "name" : "resultFormat",
+    "value" : "trx"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 121,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 56,
+        "unknown" : 0,
+        "total" : 177
+      },
+      "items" : [ {
+        "uid" : "719c3bae7250794",
+        "reportUrl" : "../195/index.html#testresult/719c3bae7250794",
+        "status" : "failed",
+        "statusDetails" : "Unable to verify a value with the property checkpoint, because the target object does not exist.",
+        "time" : {
+          "start" : 1621016826313,
+          "stop" : 1621016950220,
+          "duration" : 123907
+        }
+      }, {
+        "uid" : "70cc738b80cae8c4",
+        "reportUrl" : "../194/index.html#testresult/70cc738b80cae8c4",
+        "status" : "failed",
+        "statusDetails" : "Unable to verify a value with the property checkpoint, because the target object does not exist.",
+        "time" : {
+          "start" : 1621016826313,
+          "stop" : 1621016950220,
+          "duration" : 123907
+        }
+      }, {
+        "uid" : "191760ad0c20efaf",
+        "reportUrl" : "../193/index.html#testresult/191760ad0c20efaf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620930419803,
+          "stop" : 1620930543574,
+          "duration" : 123771
+        }
+      }, {
+        "uid" : "a863f1482685cc99",
+        "reportUrl" : "../192/index.html#testresult/a863f1482685cc99",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620930419803,
+          "stop" : 1620930543574,
+          "duration" : 123771
+        }
+      }, {
+        "uid" : "bf089e6aa323c4dd",
+        "reportUrl" : "../191/index.html#testresult/bf089e6aa323c4dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620844027697,
+          "stop" : 1620844150527,
+          "duration" : 122830
+        }
+      }, {
+        "uid" : "bd74d3e0fe106237",
+        "reportUrl" : "../190/index.html#testresult/bd74d3e0fe106237",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620757646746,
+          "stop" : 1620757771266,
+          "duration" : 124520
+        }
+      }, {
+        "uid" : "8e265f4fb48442dc",
+        "reportUrl" : "../189/index.html#testresult/8e265f4fb48442dc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620757646746,
+          "stop" : 1620757771266,
+          "duration" : 124520
+        }
+      }, {
+        "uid" : "19ee526322c32e04",
+        "reportUrl" : "../188/index.html#testresult/19ee526322c32e04",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620671257618,
+          "stop" : 1620671378401,
+          "duration" : 120783
+        }
+      }, {
+        "uid" : "f0c2fbca0ddf9a9b",
+        "reportUrl" : "../187/index.html#testresult/f0c2fbca0ddf9a9b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620671257618,
+          "stop" : 1620671378401,
+          "duration" : 120783
+        }
+      }, {
+        "uid" : "2bbfe0040abb4d8d",
+        "reportUrl" : "../186/index.html#testresult/2bbfe0040abb4d8d",
+        "status" : "failed",
+        "statusDetails" : "Unable to find the object \"#PxPayAuthMain .DpsUiPanelLegend\". See Details for additional information.",
+        "time" : {
+          "start" : 1620584674447,
+          "stop" : 1620584788021,
+          "duration" : 113574
+        }
+      }, {
+        "uid" : "94354d2153962a8c",
+        "reportUrl" : "../185/index.html#testresult/94354d2153962a8c",
+        "status" : "failed",
+        "statusDetails" : "Unable to find the object \"#PxPayAuthMain .DpsUiPanelLegend\". See Details for additional information.",
+        "time" : {
+          "start" : 1620498353621,
+          "stop" : 1620498463454,
+          "duration" : 109833
+        }
+      }, {
+        "uid" : "53f01a8480771c87",
+        "reportUrl" : "../184/index.html#testresult/53f01a8480771c87",
+        "status" : "failed",
+        "statusDetails" : "Unable to find the object \"#PxPayAuthMain .DpsUiPanelLegend\". See Details for additional information.",
+        "time" : {
+          "start" : 1620498353621,
+          "stop" : 1620498463454,
+          "duration" : 109833
+        }
+      }, {
+        "uid" : "54520152078ee5e2",
+        "reportUrl" : "../183/index.html#testresult/54520152078ee5e2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620411999357,
+          "stop" : 1620412125441,
+          "duration" : 126084
+        }
+      }, {
+        "uid" : "8c4f62afeb8cdfa8",
+        "reportUrl" : "../182/index.html#testresult/8c4f62afeb8cdfa8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620411999357,
+          "stop" : 1620412125441,
+          "duration" : 126084
+        }
+      }, {
+        "uid" : "52bd2e85da68f63",
+        "reportUrl" : "../181/index.html#testresult/52bd2e85da68f63",
+        "status" : "failed",
+        "statusDetails" : "Unable to verify a value with the property checkpoint, because the target object does not exist.",
+        "time" : {
+          "start" : 1620325657523,
+          "stop" : 1620325779319,
+          "duration" : 121796
+        }
+      }, {
+        "uid" : "ae6832f81c9d27ad",
+        "reportUrl" : "../180/index.html#testresult/ae6832f81c9d27ad",
+        "status" : "failed",
+        "statusDetails" : "Unable to find the object \"#PxPayAuthMain .DpsUiPanelLegend\". See Details for additional information.",
+        "time" : {
+          "start" : 1620239195936,
+          "stop" : 1620239309682,
+          "duration" : 113746
+        }
+      }, {
+        "uid" : "f88d6a61c757a836",
+        "reportUrl" : "../179/index.html#testresult/f88d6a61c757a836",
+        "status" : "failed",
+        "statusDetails" : "Unable to find the object \"#PxPayAuthMain .DpsUiPanelLegend\". See Details for additional information.",
+        "time" : {
+          "start" : 1620239195936,
+          "stop" : 1620239309682,
+          "duration" : 113746
+        }
+      }, {
+        "uid" : "92958cd1b33c1370",
+        "reportUrl" : "../178/index.html#testresult/92958cd1b33c1370",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620152872505,
+          "stop" : 1620152993381,
+          "duration" : 120876
+        }
+      }, {
+        "uid" : "1005eea51a48a1ce",
+        "reportUrl" : "../177/index.html#testresult/1005eea51a48a1ce",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620066400326,
+          "stop" : 1620066519993,
+          "duration" : 119667
+        }
+      }, {
+        "uid" : "e2023110933096",
+        "reportUrl" : "../176/index.html#testresult/e2023110933096",
+        "status" : "failed",
+        "statusDetails" : "Unable to find the object \"#PxPayAuthMain .DpsUiPanelLegend\". See Details for additional information.",
+        "time" : {
+          "start" : 1619979979511,
+          "stop" : 1619980088897,
+          "duration" : 109386
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "c5073984f9cb2b63.json",
+  "parameterValues" : [ ]
+}

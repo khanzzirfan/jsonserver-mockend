@@ -1,0 +1,116 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "timeout: Timed out receiving message from renderer: -0.000\n                  (Session info: headless chrome=90.0.4430.93)",
+      "children" : [ {
+        "name" : "Freight shipment create page",
+        "uid" : "b470a41c80cca684",
+        "parentUid" : "cd19c8d37c7ab6ef6972a251611f4a25",
+        "status" : "failed",
+        "time" : {
+          "start" : 1621287583441,
+          "stop" : 1621287628386,
+          "duration" : 44945
+        },
+        "flaky" : true,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "As a user I should be able to create hinterland flight booking",
+        "uid" : "bdbfe6c0aa14764",
+        "parentUid" : "cd19c8d37c7ab6ef6972a251611f4a25",
+        "status" : "failed",
+        "time" : {
+          "start" : 1621287847936,
+          "stop" : 1621287889528,
+          "duration" : 41592
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cd19c8d37c7ab6ef6972a251611f4a25"
+    }, {
+      "name" : "timeout: Timed out receiving message from renderer: 9.148\n                  (Session info: headless chrome=90.0.4430.93)",
+      "children" : [ {
+        "name" : "Validate page headings on create freight page",
+        "uid" : "a8bd39090f7bcd00",
+        "parentUid" : "626b0328853f8aa21713f3c87aaeffa9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1621287628527,
+          "stop" : 1621287670193,
+          "duration" : 41666
+        },
+        "flaky" : true,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "626b0328853f8aa21713f3c87aaeffa9"
+    }, {
+      "name" : "",
+      "children" : [ {
+        "name" : "As a user I should be able to create freight shipment",
+        "uid" : "4a346e106aac2c5d",
+        "parentUid" : "ac137dbdc3eb70d55d947f065b65fff1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1621287670357,
+          "stop" : 1621287735996,
+          "duration" : 65639
+        },
+        "flaky" : true,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Search page should display all basic field on landing",
+        "uid" : "fba4b40efb934711",
+        "parentUid" : "ac137dbdc3eb70d55d947f065b65fff1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1621287782229,
+          "stop" : 1621287816144,
+          "duration" : 33915
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Agent should be able to login using their account details on signin page",
+        "uid" : "a87341f2d19237bc",
+        "parentUid" : "ac137dbdc3eb70d55d947f065b65fff1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1621287932495,
+          "stop" : 1621287953279,
+          "duration" : 20784
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ac137dbdc3eb70d55d947f065b65fff1"
+    }, {
+      "name" : "Element \"#return_date\" was not found by text|CSS|XPath",
+      "children" : [ {
+        "name" : "As a user I should see oneway trip booking options @validation",
+        "uid" : "2261c35cf36e94c",
+        "parentUid" : "4bcd2437d01374a18cb14fd3ad79881d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1621287816245,
+          "stop" : 1621287833913,
+          "duration" : 17668
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4bcd2437d01374a18cb14fd3ad79881d"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

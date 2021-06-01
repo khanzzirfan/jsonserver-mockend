@@ -1,0 +1,316 @@
+{
+  "uid" : "e50c52ccda8215e8",
+  "name" : "As a user I should see validation errors for oneway trip @validation",
+  "fullName" : "Book a flight and complete the payments @flightbooking.As a user I should see validation errors for oneway trip @validation",
+  "historyId" : "5f497c144b09e72939b07f3b783729",
+  "time" : {
+    "start" : 1620659155875,
+    "stop" : 1620659197478,
+    "duration" : 41603
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "timeout: Timed out receiving message from renderer: -0.000\n                  (Session info: headless chrome=90.0.4430.85)",
+  "statusTrace" : "timeout: Timed out receiving message from renderer: -0.000\n                  (Session info: headless chrome=90.0.4430.85)\n                    at Object.getErrorFromResponseBody (D:\\a\\r1\\a\\_BookingPortal\\node_modules\\webdriver\\build\\utils.js:189:12)\n                    at WebDriverRequest._request (D:\\a\\r1\\a\\_BookingPortal\\node_modules\\webdriver\\build\\request.js:168:31)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at async Browser.runCommandWithHooks (D:\\a\\r1\\a\\_BookingPortal\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:105:25)\n                    at Browser.runCommandWithHooks (D:\\a\\r1\\a\\_BookingPortal\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n                    at Browser.wrapCommandFn (D:\\a\\r1\\a\\_BookingPortal\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n                    at WebDriver.amOnPage (D:\\a\\r1\\a\\_BookingPortal\\node_modules\\codeceptjs\\lib\\helper\\WebDriver.js:843:25)\n                    at Step.run (D:\\a\\r1\\a\\_BookingPortal\\node_modules\\codeceptjs\\lib\\step.js:66:47)\n                    at D:\\a\\r1\\a\\_BookingPortal\\node_modules\\codeceptjs\\lib\\actor.js:117:23",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "timeout: Timed out receiving message from renderer: -0.000\n                  (Session info: headless chrome=90.0.4430.85)",
+    "statusTrace" : "timeout: Timed out receiving message from renderer: -0.000\n                  (Session info: headless chrome=90.0.4430.85)\n                    at Object.getErrorFromResponseBody (D:\\a\\r1\\a\\_BookingPortal\\node_modules\\webdriver\\build\\utils.js:189:12)\n                    at WebDriverRequest._request (D:\\a\\r1\\a\\_BookingPortal\\node_modules\\webdriver\\build\\request.js:168:31)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at async Browser.runCommandWithHooks (D:\\a\\r1\\a\\_BookingPortal\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:105:25)\n                    at Browser.runCommandWithHooks (D:\\a\\r1\\a\\_BookingPortal\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n                    at Browser.wrapCommandFn (D:\\a\\r1\\a\\_BookingPortal\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n                    at WebDriver.amOnPage (D:\\a\\r1\\a\\_BookingPortal\\node_modules\\codeceptjs\\lib\\helper\\WebDriver.js:843:25)\n                    at Step.run (D:\\a\\r1\\a\\_BookingPortal\\node_modules\\codeceptjs\\lib\\step.js:66:47)\n                    at D:\\a\\r1\\a\\_BookingPortal\\node_modules\\codeceptjs\\lib\\actor.js:117:23",
+    "steps" : [ {
+      "name" : "Given I navigate to application ",
+      "time" : {
+        "start" : 1620659157445,
+        "stop" : 1620659197478,
+        "duration" : 40033
+      },
+      "status" : "failed",
+      "statusMessage" : "timeout: Timed out receiving message from renderer: -0.000\n                  (Session info: headless chrome=90.0.4430.85)\n                    at Object.getErrorFromResponseBody (D:\\a\\r1\\a\\_BookingPortal\\node_modules\\webdriver\\build\\utils.js:189:12)\n                    at WebDriverRequest._request (D:\\a\\r1\\a\\_BookingPortal\\node_modules\\webdriver\\build\\request.js:168:31)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at async Browser.runCommandWithHooks (D:\\a\\r1\\a\\_BookingPortal\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:105:25)\n                    at Browser.runCommandWithHooks (D:\\a\\r1\\a\\_BookingPortal\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n                    at Browser.wrapCommandFn (D:\\a\\r1\\a\\_BookingPortal\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n                    at WebDriver.amOnPage (D:\\a\\r1\\a\\_BookingPortal\\node_modules\\codeceptjs\\lib\\helper\\WebDriver.js:843:25)\n                    at Step.run (D:\\a\\r1\\a\\_BookingPortal\\node_modules\\codeceptjs\\lib\\step.js:66:47)\n                    at D:\\a\\r1\\a\\_BookingPortal\\node_modules\\codeceptjs\\lib\\actor.js:117:23",
+      "steps" : [ {
+        "name" : "searchPage: goToSearch ",
+        "time" : {
+          "start" : 1620659157445,
+          "stop" : 1620659197478,
+          "duration" : 40033
+        },
+        "status" : "failed",
+        "statusMessage" : "timeout: Timed out receiving message from renderer: -0.000\n                  (Session info: headless chrome=90.0.4430.85)\n                    at Object.getErrorFromResponseBody (D:\\a\\r1\\a\\_BookingPortal\\node_modules\\webdriver\\build\\utils.js:189:12)\n                    at WebDriverRequest._request (D:\\a\\r1\\a\\_BookingPortal\\node_modules\\webdriver\\build\\request.js:168:31)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at async Browser.runCommandWithHooks (D:\\a\\r1\\a\\_BookingPortal\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:105:25)\n                    at Browser.runCommandWithHooks (D:\\a\\r1\\a\\_BookingPortal\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n                    at Browser.wrapCommandFn (D:\\a\\r1\\a\\_BookingPortal\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n                    at WebDriver.amOnPage (D:\\a\\r1\\a\\_BookingPortal\\node_modules\\codeceptjs\\lib\\helper\\WebDriver.js:843:25)\n                    at Step.run (D:\\a\\r1\\a\\_BookingPortal\\node_modules\\codeceptjs\\lib\\step.js:66:47)\n                    at D:\\a\\r1\\a\\_BookingPortal\\node_modules\\codeceptjs\\lib\\actor.js:117:23",
+        "steps" : [ {
+          "name" : "I am on page \"https://apps8.tflite.com/Public/SA/Booking/Search\"",
+          "time" : {
+            "start" : 1620659157445,
+            "stop" : 1620659197477,
+            "duration" : 40032
+          },
+          "status" : "failed",
+          "statusMessage" : "timeout: Timed out receiving message from renderer: -0.000\n                  (Session info: headless chrome=90.0.4430.85)\n                    at Object.getErrorFromResponseBody (D:\\a\\r1\\a\\_BookingPortal\\node_modules\\webdriver\\build\\utils.js:189:12)\n                    at WebDriverRequest._request (D:\\a\\r1\\a\\_BookingPortal\\node_modules\\webdriver\\build\\request.js:168:31)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at async Browser.runCommandWithHooks (D:\\a\\r1\\a\\_BookingPortal\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:105:25)\n                    at Browser.runCommandWithHooks (D:\\a\\r1\\a\\_BookingPortal\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n                    at Browser.wrapCommandFn (D:\\a\\r1\\a\\_BookingPortal\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n                    at WebDriver.amOnPage (D:\\a\\r1\\a\\_BookingPortal\\node_modules\\codeceptjs\\lib\\helper\\WebDriver.js:843:25)\n                    at Step.run (D:\\a\\r1\\a\\_BookingPortal\\node_modules\\codeceptjs\\lib\\step.js:66:47)\n                    at D:\\a\\r1\\a\\_BookingPortal\\node_modules\\codeceptjs\\lib\\actor.js:117:23",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : true,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "e6c8e32c33e7752d",
+      "name" : "Last Seen Screenshot",
+      "source" : "e6c8e32c33e7752d.png",
+      "type" : "image/png",
+      "size" : 3249
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@flightbooking"
+  }, {
+    "name" : "tag",
+    "value" : "@validation"
+  }, {
+    "name" : "suite",
+    "value" : "Book a flight and complete the payments @flightbooking"
+  }, {
+    "name" : "testClass",
+    "value" : "Book a flight and complete the payments @flightbooking"
+  }, {
+    "name" : "testMethod",
+    "value" : "As a user I should see validation errors for oneway trip @validation"
+  }, {
+    "name" : "package",
+    "value" : "Book a flight and complete the payments @flightbooking"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 4,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 24,
+        "unknown" : 0,
+        "total" : 28
+      },
+      "items" : [ {
+        "uid" : "ee9a06ab538bd05e",
+        "reportUrl" : "../166/index.html#testresult/ee9a06ab538bd05e",
+        "status" : "failed",
+        "statusDetails" : "timeout: Timed out receiving message from renderer: -0.000\n                  (Session info: headless chrome=90.0.4430.85)",
+        "time" : {
+          "start" : 1620659155875,
+          "stop" : 1620659197478,
+          "duration" : 41603
+        }
+      }, {
+        "uid" : "705af8a89897bf35",
+        "reportUrl" : "../165/index.html#testresult/705af8a89897bf35",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620572898661,
+          "stop" : 1620572905730,
+          "duration" : 7069
+        }
+      }, {
+        "uid" : "aab392e576b821d1",
+        "reportUrl" : "../164/index.html#testresult/aab392e576b821d1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620572898661,
+          "stop" : 1620572905730,
+          "duration" : 7069
+        }
+      }, {
+        "uid" : "3783612ffc53b6ce",
+        "reportUrl" : "../163/index.html#testresult/3783612ffc53b6ce",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620346489339,
+          "stop" : 1620346497679,
+          "duration" : 8340
+        }
+      }, {
+        "uid" : "6f8c7225c8ec08c1",
+        "reportUrl" : "../162/index.html#testresult/6f8c7225c8ec08c1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620346489339,
+          "stop" : 1620346497679,
+          "duration" : 8340
+        }
+      }, {
+        "uid" : "3565ac4b071da1e6",
+        "reportUrl" : "../161/index.html#testresult/3565ac4b071da1e6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620345548980,
+          "stop" : 1620345556240,
+          "duration" : 7260
+        }
+      }, {
+        "uid" : "ce0a2bd93536dc53",
+        "reportUrl" : "../160/index.html#testresult/ce0a2bd93536dc53",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620345548980,
+          "stop" : 1620345556240,
+          "duration" : 7260
+        }
+      }, {
+        "uid" : "c01cf3064dd152b7",
+        "reportUrl" : "../159/index.html#testresult/c01cf3064dd152b7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620339714010,
+          "stop" : 1620339720375,
+          "duration" : 6365
+        }
+      }, {
+        "uid" : "dda3e30174a6118d",
+        "reportUrl" : "../158/index.html#testresult/dda3e30174a6118d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620339714010,
+          "stop" : 1620339720375,
+          "duration" : 6365
+        }
+      }, {
+        "uid" : "c2db7f8f8d29ac3a",
+        "reportUrl" : "../157/index.html#testresult/c2db7f8f8d29ac3a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620338782007,
+          "stop" : 1620338788791,
+          "duration" : 6784
+        }
+      }, {
+        "uid" : "5828cec9747b1e23",
+        "reportUrl" : "../156/index.html#testresult/5828cec9747b1e23",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620338782007,
+          "stop" : 1620338788791,
+          "duration" : 6784
+        }
+      }, {
+        "uid" : "8ec83257eb63870e",
+        "reportUrl" : "../155/index.html#testresult/8ec83257eb63870e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620338253437,
+          "stop" : 1620338260271,
+          "duration" : 6834
+        }
+      }, {
+        "uid" : "f7cc72786916ca6f",
+        "reportUrl" : "../154/index.html#testresult/f7cc72786916ca6f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620338253437,
+          "stop" : 1620338260271,
+          "duration" : 6834
+        }
+      }, {
+        "uid" : "b8e74ba85d38a2f4",
+        "reportUrl" : "../153/index.html#testresult/b8e74ba85d38a2f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620336574191,
+          "stop" : 1620336581297,
+          "duration" : 7106
+        }
+      }, {
+        "uid" : "56d2e1fccbe7247b",
+        "reportUrl" : "../152/index.html#testresult/56d2e1fccbe7247b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620336574191,
+          "stop" : 1620336581297,
+          "duration" : 7106
+        }
+      }, {
+        "uid" : "eb630b4dfc2c394b",
+        "reportUrl" : "../151/index.html#testresult/eb630b4dfc2c394b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620331892513,
+          "stop" : 1620331899222,
+          "duration" : 6709
+        }
+      }, {
+        "uid" : "4f679e6e0c6d5ce8",
+        "reportUrl" : "../150/index.html#testresult/4f679e6e0c6d5ce8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620331892513,
+          "stop" : 1620331899222,
+          "duration" : 6709
+        }
+      }, {
+        "uid" : "fe0028bb2ee7afc7",
+        "reportUrl" : "../149/index.html#testresult/fe0028bb2ee7afc7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620227235606,
+          "stop" : 1620227243342,
+          "duration" : 7736
+        }
+      }, {
+        "uid" : "cbc2ff388cee2ae7",
+        "reportUrl" : "../148/index.html#testresult/cbc2ff388cee2ae7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620227235606,
+          "stop" : 1620227243342,
+          "duration" : 7736
+        }
+      }, {
+        "uid" : "4f0d3b1799f8d187",
+        "reportUrl" : "../147/index.html#testresult/4f0d3b1799f8d187",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620169001801,
+          "stop" : 1620169008778,
+          "duration" : 6977
+        }
+      } ]
+    },
+    "tags" : [ "@flightbooking", "@validation" ]
+  },
+  "source" : "e50c52ccda8215e8.json",
+  "parameterValues" : [ ]
+}

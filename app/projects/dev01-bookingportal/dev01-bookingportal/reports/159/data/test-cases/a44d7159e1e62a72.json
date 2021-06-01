@@ -1,0 +1,620 @@
+{
+  "uid" : "a44d7159e1e62a72",
+  "name" : "Validate page headings on create freight page",
+  "fullName" : "Create a freight shipment @evtprodu.Validate page headings on create freight page",
+  "historyId" : "d85e328c807a11f1ce4a591ffac04d4c",
+  "time" : {
+    "start" : 1620339552408,
+    "stop" : 1620339572930,
+    "duration" : 20522
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I navigate to evert air application create page ",
+      "time" : {
+        "start" : 1620339554073,
+        "stop" : 1620339571695,
+        "duration" : 17622
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "createshipmentPage: goto ",
+        "time" : {
+          "start" : 1620339554074,
+          "stop" : 1620339571350,
+          "duration" : 17276
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "I am on page \"https://apps8.tflite.com/Public/EVT/Freight/Create\"",
+          "time" : {
+            "start" : 1620339554074,
+            "stop" : 1620339570129,
+            "duration" : 16055
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "I refresh page ",
+          "time" : {
+            "start" : 1620339570129,
+            "stop" : 1620339571093,
+            "duration" : 964
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "I wait for visible \"#custom-header\"",
+          "time" : {
+            "start" : 1620339571095,
+            "stop" : 1620339571350,
+            "duration" : 255
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 3,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "I see \"Create Shipment\"",
+        "time" : {
+          "start" : 1620339571350,
+          "stop" : 1620339571695,
+          "duration" : 345
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 5,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When I see page is loaded ",
+      "time" : {
+        "start" : 1620339571695,
+        "stop" : 1620339572044,
+        "duration" : 349
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I see \"Create Shipment\"",
+        "time" : {
+          "start" : 1620339571695,
+          "stop" : 1620339572044,
+          "duration" : 349
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I should see shippers information heading ",
+      "time" : {
+        "start" : 1620339572044,
+        "stop" : 1620339572268,
+        "duration" : 224
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I see \"Shipper Information\", \"h4\"",
+        "time" : {
+          "start" : 1620339572044,
+          "stop" : 1620339572268,
+          "duration" : 224
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I should see Consignee information heading ",
+      "time" : {
+        "start" : 1620339572268,
+        "stop" : 1620339572402,
+        "duration" : 134
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I see \"Consignee Information\", \"h4\"",
+        "time" : {
+          "start" : 1620339572268,
+          "stop" : 1620339572402,
+          "duration" : 134
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I should see shipping instructions heading ",
+      "time" : {
+        "start" : 1620339572402,
+        "stop" : 1620339572585,
+        "duration" : 183
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I see \"Shipping Instructions\", \"h4\"",
+        "time" : {
+          "start" : 1620339572402,
+          "stop" : 1620339572585,
+          "duration" : 183
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I should see freight item heading ",
+      "time" : {
+        "start" : 1620339572585,
+        "stop" : 1620339572728,
+        "duration" : 143
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I see \"Freight Item #1\", \"h4\"",
+        "time" : {
+          "start" : 1620339572585,
+          "stop" : 1620339572727,
+          "duration" : 142
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I should also see add new freight item button ",
+      "time" : {
+        "start" : 1620339572728,
+        "stop" : 1620339572783,
+        "duration" : 55
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I see element \"#btn-add-panel\"",
+        "time" : {
+          "start" : 1620339572728,
+          "stop" : 1620339572754,
+          "duration" : 26
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I see \"Add New Freight Item\", \"#btn-add-panel\"",
+        "time" : {
+          "start" : 1620339572754,
+          "stop" : 1620339572783,
+          "duration" : 29
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I should see confirm email address heading ",
+      "time" : {
+        "start" : 1620339572783,
+        "stop" : 1620339572895,
+        "duration" : 112
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I see \"Confirmation Email Address\", \"h4\"",
+        "time" : {
+          "start" : 1620339572783,
+          "stop" : 1620339572895,
+          "duration" : 112
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "And I should see next button ",
+      "time" : {
+        "start" : 1620339572895,
+        "stop" : 1620339572930,
+        "duration" : 35
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I see element \".btn-success\"",
+        "time" : {
+          "start" : 1620339572895,
+          "stop" : 1620339572930,
+          "duration" : 35
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "I save screenshot \"Validate_page_headings_on_create_freight_page.png\", true",
+      "time" : {
+        "start" : 1620339572931,
+        "stop" : 1620339573397,
+        "duration" : 466
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "cdad03f567fb42f3",
+      "name" : "Validate_page_headings_on_create_freight_page.png",
+      "source" : "cdad03f567fb42f3.png",
+      "type" : "image/png",
+      "size" : 129545
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 24,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@evtprodu"
+  }, {
+    "name" : "suite",
+    "value" : "Create a freight shipment @evtprodu"
+  }, {
+    "name" : "testClass",
+    "value" : "Create a freight shipment @evtprodu"
+  }, {
+    "name" : "testMethod",
+    "value" : "Validate page headings on create freight page"
+  }, {
+    "name" : "package",
+    "value" : "Create a freight shipment @evtprodu"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 10,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 72,
+        "unknown" : 0,
+        "total" : 82
+      },
+      "items" : [ {
+        "uid" : "4cacbd816876b547",
+        "reportUrl" : "../158/index.html#testresult/4cacbd816876b547",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620339552408,
+          "stop" : 1620339572930,
+          "duration" : 20522
+        }
+      }, {
+        "uid" : "2387f4813303b5e4",
+        "reportUrl" : "../157/index.html#testresult/2387f4813303b5e4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620338641328,
+          "stop" : 1620338649388,
+          "duration" : 8060
+        }
+      }, {
+        "uid" : "7e0b5a4891718280",
+        "reportUrl" : "../156/index.html#testresult/7e0b5a4891718280",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620338641328,
+          "stop" : 1620338649388,
+          "duration" : 8060
+        }
+      }, {
+        "uid" : "a3340fbe4214df01",
+        "reportUrl" : "../155/index.html#testresult/a3340fbe4214df01",
+        "status" : "failed",
+        "statusDetails" : "timeout: Timed out receiving message from renderer: 6.514\n                  (Session info: headless chrome=90.0.4430.85)",
+        "time" : {
+          "start" : 1620338088938,
+          "stop" : 1620338130687,
+          "duration" : 41749
+        }
+      }, {
+        "uid" : "2c092e419712a6ce",
+        "reportUrl" : "../154/index.html#testresult/2c092e419712a6ce",
+        "status" : "failed",
+        "statusDetails" : "timeout: Timed out receiving message from renderer: 6.514\n                  (Session info: headless chrome=90.0.4430.85)",
+        "time" : {
+          "start" : 1620338088938,
+          "stop" : 1620338130687,
+          "duration" : 41749
+        }
+      }, {
+        "uid" : "1aa4631af7ba01d6",
+        "reportUrl" : "../153/index.html#testresult/1aa4631af7ba01d6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620336445828,
+          "stop" : 1620336452086,
+          "duration" : 6258
+        }
+      }, {
+        "uid" : "a2e46c4eb9fa359d",
+        "reportUrl" : "../152/index.html#testresult/a2e46c4eb9fa359d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620336445828,
+          "stop" : 1620336452086,
+          "duration" : 6258
+        }
+      }, {
+        "uid" : "4888664fbaceeeba",
+        "reportUrl" : "../151/index.html#testresult/4888664fbaceeeba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620331768557,
+          "stop" : 1620331774309,
+          "duration" : 5752
+        }
+      }, {
+        "uid" : "14aab0bc4735c183",
+        "reportUrl" : "../150/index.html#testresult/14aab0bc4735c183",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620331768557,
+          "stop" : 1620331774309,
+          "duration" : 5752
+        }
+      }, {
+        "uid" : "97d414a15e096fe6",
+        "reportUrl" : "../149/index.html#testresult/97d414a15e096fe6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620227129600,
+          "stop" : 1620227136410,
+          "duration" : 6810
+        }
+      }, {
+        "uid" : "f789ec62f036b689",
+        "reportUrl" : "../148/index.html#testresult/f789ec62f036b689",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620227129600,
+          "stop" : 1620227136410,
+          "duration" : 6810
+        }
+      }, {
+        "uid" : "5843dc53040f5ae1",
+        "reportUrl" : "../147/index.html#testresult/5843dc53040f5ae1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620168904462,
+          "stop" : 1620168910514,
+          "duration" : 6052
+        }
+      }, {
+        "uid" : "a17442902c37094e",
+        "reportUrl" : "../146/index.html#testresult/a17442902c37094e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620168904462,
+          "stop" : 1620168910514,
+          "duration" : 6052
+        }
+      }, {
+        "uid" : "e054a1358957c4ca",
+        "reportUrl" : "../145/index.html#testresult/e054a1358957c4ca",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620165493032,
+          "stop" : 1620165501104,
+          "duration" : 8072
+        }
+      }, {
+        "uid" : "e82691944293ec21",
+        "reportUrl" : "../144/index.html#testresult/e82691944293ec21",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620165493032,
+          "stop" : 1620165501104,
+          "duration" : 8072
+        }
+      }, {
+        "uid" : "35c1a756a7649989",
+        "reportUrl" : "../143/index.html#testresult/35c1a756a7649989",
+        "status" : "failed",
+        "statusDetails" : "Cannot read property 'url' of undefined",
+        "time" : {
+          "start" : 1620141433576,
+          "stop" : 1620141436227,
+          "duration" : 2651
+        }
+      }, {
+        "uid" : "f09924eb696fb9cf",
+        "reportUrl" : "../142/index.html#testresult/f09924eb696fb9cf",
+        "status" : "failed",
+        "statusDetails" : "Cannot read property 'url' of undefined",
+        "time" : {
+          "start" : 1620141433576,
+          "stop" : 1620141436227,
+          "duration" : 2651
+        }
+      }, {
+        "uid" : "2e1a7c4c1af235a3",
+        "reportUrl" : "../141/index.html#testresult/2e1a7c4c1af235a3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620074896237,
+          "stop" : 1620074929400,
+          "duration" : 33163
+        }
+      }, {
+        "uid" : "2e1e85bec12259fe",
+        "reportUrl" : "../140/index.html#testresult/2e1e85bec12259fe",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620074896237,
+          "stop" : 1620074929400,
+          "duration" : 33163
+        }
+      }, {
+        "uid" : "4ba8fcbca1a07d18",
+        "reportUrl" : "../139/index.html#testresult/4ba8fcbca1a07d18",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620070946192,
+          "stop" : 1620070981259,
+          "duration" : 35067
+        }
+      } ]
+    },
+    "tags" : [ "@evtprodu" ]
+  },
+  "source" : "a44d7159e1e62a72.json",
+  "parameterValues" : [ ]
+}

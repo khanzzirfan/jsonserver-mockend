@@ -1,0 +1,278 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "LoginScenarios",
+    "uid" : "29cc69632d3993a6",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1620669718961,
+      "stop" : 1620669764098,
+      "duration" : 45137
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "FindBooking - See all default booking filter options",
+    "uid" : "e5543e29299a843f",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1620671074654,
+      "stop" : 1620671162746,
+      "duration" : 88092
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "FindBooking - User should be search bookings for a specific transaction",
+    "uid" : "6b657f4528bfedc8",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1620670523215,
+      "stop" : 1620670710120,
+      "duration" : 186905
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "SelectFlight- Search should show blenheim to wellington only results",
+    "uid" : "180907ed53abdbd3",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1620670285412,
+      "stop" : 1620670363162,
+      "duration" : 77750
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "SelectFlight-Search results should be cleared on options change",
+    "uid" : "84f85b94e7ea64ae",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1620670442343,
+      "stop" : 1620670523205,
+      "duration" : 80862
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "SelectFlight Validate screenshot for freightonly",
+    "uid" : "92ce44732c7f04f9",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1620670065173,
+      "stop" : 1620670139277,
+      "duration" : 74104
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "FindBooking- Search with more filters",
+    "uid" : "7c8a7b7ec41d25c0",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1620670915797,
+      "stop" : 1620670994902,
+      "duration" : 79105
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "SelectFlight-Popwindow when no flight selected",
+    "uid" : "3fe1a514ab913521",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1620670213816,
+      "stop" : 1620670285402,
+      "duration" : 71586
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "CreateScheduleBookingCCPayment - UnsuccessfulScenario",
+    "uid" : "61b913dcf6667619",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1620671378412,
+      "stop" : 1620671477271,
+      "duration" : 98859
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "OpsManagerDashboard",
+    "uid" : "839a46575819e20b",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1620669774057,
+      "stop" : 1620669811224,
+      "duration" : 37167
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "SelectFlight- Search should show blenheim to wellington and  return way results",
+    "uid" : "2cafa8e33d5c86f0",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1620670363182,
+      "stop" : 1620670442333,
+      "duration" : 79151
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "FindBooking- Search booking by name",
+    "uid" : "8dc6d937fc271cbd",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1620670994922,
+      "stop" : 1620671074634,
+      "duration" : 79712
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "CreateScheduleBookingCCPayment - SuccessScenario",
+    "uid" : "f0c2fbca0ddf9a9b",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1620671257618,
+      "stop" : 1620671378401,
+      "duration" : 120783
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "SelectFlight Validate screenshot for return way and freightonly selection",
+    "uid" : "7af51ad6bbab175f",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1620670139287,
+      "stop" : 1620670213796,
+      "duration" : 74509
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "LoginScreen",
+    "uid" : "7ec0e3f39c579a80",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1620669764108,
+      "stop" : 1620669774047,
+      "duration" : 9939
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "CreateScheduleBookingCash",
+    "uid" : "acdf9618e9a7822a",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1620671162766,
+      "stop" : 1620671257598,
+      "duration" : 94832
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "SelectFlight-ValidateAllAirports",
+    "uid" : "2c7e48d0af2d7656",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1620669875530,
+      "stop" : 1620669957597,
+      "duration" : 82067
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "FindBooking - Searchbooking for a one month",
+    "uid" : "84412a7bd8a6e1fc",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1620670783761,
+      "stop" : 1620670915787,
+      "duration" : 132026
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "FindBooking - see all default filter options",
+    "uid" : "d6b5b5aa2ec2b80a",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1620670710150,
+      "stop" : 1620670783751,
+      "duration" : 73601
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "SelectFlight Validate screenshot for default fields",
+    "uid" : "f8ecc8ac017961f1",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1620669811234,
+      "stop" : 1620669875510,
+      "duration" : 64276
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "SelectFlight Validate screenshot for return way",
+    "uid" : "d52b671d8f769764",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1620669957617,
+      "stop" : 1620670065151,
+      "duration" : 107534
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ]
+}

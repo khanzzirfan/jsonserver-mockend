@@ -1,0 +1,327 @@
+{
+  "uid" : "5684d461b5c26215",
+  "name" : "Search page should display sidebar links @story1246",
+  "fullName" : "Booking portal search page.Search page should display sidebar links @story1246",
+  "historyId" : "332c6ed1c97a970102e846c69301caf5",
+  "time" : {
+    "start" : 1620861871243,
+    "stop" : 1620861892320,
+    "duration" : 21077
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "element (#submit) still not visible after 20 sec",
+  "statusTrace" : "Error: element (#submit) still not visible after 20 sec\n                    at D:\\a\\1\\s\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:66:23",
+  "flaky" : false,
+  "newFailed" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "element (#submit) still not visible after 20 sec",
+    "statusTrace" : "Error: element (#submit) still not visible after 20 sec\n                    at D:\\a\\1\\s\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:66:23",
+    "steps" : [ {
+      "name" : "Given I navigate to application ",
+      "time" : {
+        "start" : 1620861872306,
+        "stop" : 1620861892320,
+        "duration" : 20014
+      },
+      "status" : "failed",
+      "statusMessage" : "Error: element (#submit) still not visible after 20 sec\n                    at D:\\a\\1\\s\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:66:23",
+      "steps" : [ {
+        "name" : "searchPage: goToSearch ",
+        "time" : {
+          "start" : 1620861872306,
+          "stop" : 1620861892320,
+          "duration" : 20014
+        },
+        "status" : "failed",
+        "statusMessage" : "Error: element (#submit) still not visible after 20 sec\n                    at D:\\a\\1\\s\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:66:23",
+        "steps" : [ {
+          "name" : "I refresh page ",
+          "time" : {
+            "start" : 1620861872306,
+            "stop" : 1620861872319,
+            "duration" : 13
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "I wait for visible \"#submit\"",
+          "time" : {
+            "start" : 1620861872319,
+            "stop" : 1620861892320,
+            "duration" : 20001
+          },
+          "status" : "failed",
+          "statusMessage" : "Error: element (#submit) still not visible after 20 sec\n                    at D:\\a\\1\\s\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:66:23",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : true,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "4342d9ff508c59bc",
+      "name" : "Last Seen Screenshot",
+      "source" : "4342d9ff508c59bc.png",
+      "type" : "image/png",
+      "size" : 3249
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@story1246"
+  }, {
+    "name" : "suite",
+    "value" : "Booking portal search page"
+  }, {
+    "name" : "testClass",
+    "value" : "Booking portal search page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Search page should display sidebar links @story1246"
+  }, {
+    "name" : "package",
+    "value" : "Booking portal search page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 9,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 108,
+        "unknown" : 0,
+        "total" : 117
+      },
+      "items" : [ {
+        "uid" : "cab7d4252643a727",
+        "reportUrl" : "../173/index.html#testresult/cab7d4252643a727",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620831921756,
+          "stop" : 1620831927280,
+          "duration" : 5524
+        }
+      }, {
+        "uid" : "2749fe4a136c17f3",
+        "reportUrl" : "../172/index.html#testresult/2749fe4a136c17f3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620831921756,
+          "stop" : 1620831927280,
+          "duration" : 5524
+        }
+      }, {
+        "uid" : "289ebfa137c4c324",
+        "reportUrl" : "../171/index.html#testresult/289ebfa137c4c324",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620745516740,
+          "stop" : 1620745521615,
+          "duration" : 4875
+        }
+      }, {
+        "uid" : "7df78b7fabb5d491",
+        "reportUrl" : "../170/index.html#testresult/7df78b7fabb5d491",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620745516740,
+          "stop" : 1620745521615,
+          "duration" : 4875
+        }
+      }, {
+        "uid" : "6fda22c36a30aebc",
+        "reportUrl" : "../169/index.html#testresult/6fda22c36a30aebc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620706715797,
+          "stop" : 1620706719876,
+          "duration" : 4079
+        }
+      }, {
+        "uid" : "d321bd264b5d3935",
+        "reportUrl" : "../168/index.html#testresult/d321bd264b5d3935",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620706715797,
+          "stop" : 1620706719876,
+          "duration" : 4079
+        }
+      }, {
+        "uid" : "6cb4a70c259e7691",
+        "reportUrl" : "../167/index.html#testresult/6cb4a70c259e7691",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620659255050,
+          "stop" : 1620659261160,
+          "duration" : 6110
+        }
+      }, {
+        "uid" : "f8cfd73aeded93b",
+        "reportUrl" : "../166/index.html#testresult/f8cfd73aeded93b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620659255050,
+          "stop" : 1620659261160,
+          "duration" : 6110
+        }
+      }, {
+        "uid" : "904d77a791d48c30",
+        "reportUrl" : "../165/index.html#testresult/904d77a791d48c30",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620572922266,
+          "stop" : 1620572927542,
+          "duration" : 5276
+        }
+      }, {
+        "uid" : "c29b4be563b222c2",
+        "reportUrl" : "../164/index.html#testresult/c29b4be563b222c2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620572922266,
+          "stop" : 1620572927542,
+          "duration" : 5276
+        }
+      }, {
+        "uid" : "bab9d4b0ee71b7b2",
+        "reportUrl" : "../163/index.html#testresult/bab9d4b0ee71b7b2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620346516992,
+          "stop" : 1620346523114,
+          "duration" : 6122
+        }
+      }, {
+        "uid" : "6e795625c0b5559a",
+        "reportUrl" : "../162/index.html#testresult/6e795625c0b5559a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620346516992,
+          "stop" : 1620346523114,
+          "duration" : 6122
+        }
+      }, {
+        "uid" : "72062308ea67757a",
+        "reportUrl" : "../161/index.html#testresult/72062308ea67757a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620345572159,
+          "stop" : 1620345577026,
+          "duration" : 4867
+        }
+      }, {
+        "uid" : "32fd2c357f49a3c1",
+        "reportUrl" : "../160/index.html#testresult/32fd2c357f49a3c1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620345572159,
+          "stop" : 1620345577026,
+          "duration" : 4867
+        }
+      }, {
+        "uid" : "8cb18dac66649bae",
+        "reportUrl" : "../159/index.html#testresult/8cb18dac66649bae",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620339735489,
+          "stop" : 1620339739743,
+          "duration" : 4254
+        }
+      }, {
+        "uid" : "ca871123ae5bdd2c",
+        "reportUrl" : "../158/index.html#testresult/ca871123ae5bdd2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620339735489,
+          "stop" : 1620339739743,
+          "duration" : 4254
+        }
+      }, {
+        "uid" : "4f64fee94c6563b",
+        "reportUrl" : "../157/index.html#testresult/4f64fee94c6563b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620338805325,
+          "stop" : 1620338812970,
+          "duration" : 7645
+        }
+      }, {
+        "uid" : "bc31a754e960412c",
+        "reportUrl" : "../156/index.html#testresult/bc31a754e960412c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620338805325,
+          "stop" : 1620338812970,
+          "duration" : 7645
+        }
+      }, {
+        "uid" : "4f1e0512e4f55fba",
+        "reportUrl" : "../155/index.html#testresult/4f1e0512e4f55fba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620338276303,
+          "stop" : 1620338280850,
+          "duration" : 4547
+        }
+      }, {
+        "uid" : "81016a4de9391bcc",
+        "reportUrl" : "../154/index.html#testresult/81016a4de9391bcc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620338276303,
+          "stop" : 1620338280850,
+          "duration" : 4547
+        }
+      } ]
+    },
+    "tags" : [ "@story1246" ]
+  },
+  "source" : "5684d461b5c26215.json",
+  "parameterValues" : [ ]
+}

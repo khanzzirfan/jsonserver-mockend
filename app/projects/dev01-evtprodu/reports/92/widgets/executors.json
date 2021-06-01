@@ -1,0 +1,9 @@
+[ {
+  "name" : "Automatic Execution",
+  "type" : "another",
+  "buildOrder" : 92,
+  "buildName" : "dev01-evtprodu #92",
+  "buildUrl" : "",
+  "reportName" : "dev01-evtprodu",
+  "reportUrl" : "../92/index.html"
+} ]

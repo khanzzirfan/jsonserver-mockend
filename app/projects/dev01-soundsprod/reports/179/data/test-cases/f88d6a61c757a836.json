@@ -1,0 +1,248 @@
+{
+  "uid" : "f88d6a61c757a836",
+  "name" : "CreateScheduleBookingCCPayment - SuccessScenario",
+  "fullName" : "TakeFliteBDD.CreateScheduleBookingCCPayment - SuccessScenario",
+  "historyId" : "TakeFliteBDD.CreateScheduleBookingCCPayment - SuccessScenario",
+  "time" : {
+    "start" : 1620239195936,
+    "stop" : 1620239309682,
+    "duration" : 113746
+  },
+  "status" : "failed",
+  "statusMessage" : "Unable to find the object \"#PxPayAuthMain .DpsUiPanelLegend\". See Details for additional information.",
+  "flaky" : true,
+  "newFailed" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "TakeFliteBDD"
+  }, {
+    "name" : "testClass",
+    "value" : "TakeFliteBDD"
+  }, {
+    "name" : "package",
+    "value" : "TakeFliteBDD"
+  }, {
+    "name" : "resultFormat",
+    "value" : "trx"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 114,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 46,
+        "unknown" : 0,
+        "total" : 160
+      },
+      "items" : [ {
+        "uid" : "92958cd1b33c1370",
+        "reportUrl" : "../178/index.html#testresult/92958cd1b33c1370",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620152872505,
+          "stop" : 1620152993381,
+          "duration" : 120876
+        }
+      }, {
+        "uid" : "1005eea51a48a1ce",
+        "reportUrl" : "../177/index.html#testresult/1005eea51a48a1ce",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620066400326,
+          "stop" : 1620066519993,
+          "duration" : 119667
+        }
+      }, {
+        "uid" : "e2023110933096",
+        "reportUrl" : "../176/index.html#testresult/e2023110933096",
+        "status" : "failed",
+        "statusDetails" : "Unable to find the object \"#PxPayAuthMain .DpsUiPanelLegend\". See Details for additional information.",
+        "time" : {
+          "start" : 1619979979511,
+          "stop" : 1619980088897,
+          "duration" : 109386
+        }
+      }, {
+        "uid" : "3dbc947e93a1c77d",
+        "reportUrl" : "../175/index.html#testresult/3dbc947e93a1c77d",
+        "status" : "failed",
+        "statusDetails" : "Unable to find the object \"#PxPayAuthMain .DpsUiPanelLegend\". See Details for additional information.",
+        "time" : {
+          "start" : 1619979979511,
+          "stop" : 1619980088897,
+          "duration" : 109386
+        }
+      }, {
+        "uid" : "faa34d2cee9c1341",
+        "reportUrl" : "../174/index.html#testresult/faa34d2cee9c1341",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619893604740,
+          "stop" : 1619893722900,
+          "duration" : 118160
+        }
+      }, {
+        "uid" : "26e8c285c185564a",
+        "reportUrl" : "../173/index.html#testresult/26e8c285c185564a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619807269844,
+          "stop" : 1619807390769,
+          "duration" : 120925
+        }
+      }, {
+        "uid" : "11c585c0a6394bf1",
+        "reportUrl" : "../172/index.html#testresult/11c585c0a6394bf1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619807269844,
+          "stop" : 1619807390769,
+          "duration" : 120925
+        }
+      }, {
+        "uid" : "61f2d478ed4466b6",
+        "reportUrl" : "../171/index.html#testresult/61f2d478ed4466b6",
+        "status" : "failed",
+        "statusDetails" : "Unable to verify a value with the property checkpoint, because the target object does not exist.",
+        "time" : {
+          "start" : 1619720852611,
+          "stop" : 1619720975138,
+          "duration" : 122527
+        }
+      }, {
+        "uid" : "b0db730d621fda24",
+        "reportUrl" : "../170/index.html#testresult/b0db730d621fda24",
+        "status" : "failed",
+        "statusDetails" : "Unable to find the object \"#PxPayAuthMain .DpsUiPanelLegend\". See Details for additional information.",
+        "time" : {
+          "start" : 1619634428114,
+          "stop" : 1619634537979,
+          "duration" : 109865
+        }
+      }, {
+        "uid" : "5697011ff6e1fd06",
+        "reportUrl" : "../169/index.html#testresult/5697011ff6e1fd06",
+        "status" : "failed",
+        "statusDetails" : "Unable to find the object \"#PxPayAuthMain .DpsUiPanelLegend\". See Details for additional information.",
+        "time" : {
+          "start" : 1619634428114,
+          "stop" : 1619634537979,
+          "duration" : 109865
+        }
+      }, {
+        "uid" : "49bd2e22adbf0d81",
+        "reportUrl" : "../168/index.html#testresult/49bd2e22adbf0d81",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619548027608,
+          "stop" : 1619548148019,
+          "duration" : 120411
+        }
+      }, {
+        "uid" : "cc997bff99e77387",
+        "reportUrl" : "../167/index.html#testresult/cc997bff99e77387",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619548027608,
+          "stop" : 1619548148019,
+          "duration" : 120411
+        }
+      }, {
+        "uid" : "905916892741fa9d",
+        "reportUrl" : "../166/index.html#testresult/905916892741fa9d",
+        "status" : "failed",
+        "statusDetails" : "Unable to find the object \"#PxPayAuthMain .DpsUiPanelLegend\". See Details for additional information.",
+        "time" : {
+          "start" : 1619461690694,
+          "stop" : 1619461801143,
+          "duration" : 110449
+        }
+      }, {
+        "uid" : "510436356889be7e",
+        "reportUrl" : "../165/index.html#testresult/510436356889be7e",
+        "status" : "failed",
+        "statusDetails" : "Unable to find the object \"#PxPayAuthMain .DpsUiPanelLegend\". See Details for additional information.",
+        "time" : {
+          "start" : 1619461690694,
+          "stop" : 1619461801143,
+          "duration" : 110449
+        }
+      }, {
+        "uid" : "f3a57da570712537",
+        "reportUrl" : "../164/index.html#testresult/f3a57da570712537",
+        "status" : "failed",
+        "statusDetails" : "Unable to find the object \"#PxPayAuthMain .DpsUiPanelLegend\". See Details for additional information.",
+        "time" : {
+          "start" : 1619461690694,
+          "stop" : 1619461801143,
+          "duration" : 110449
+        }
+      }, {
+        "uid" : "681226986c117c96",
+        "reportUrl" : "../163/index.html#testresult/681226986c117c96",
+        "status" : "failed",
+        "statusDetails" : "Unable to find the object \"#PxPayAuthMain .DpsUiPanelLegend\". See Details for additional information.",
+        "time" : {
+          "start" : 1619461690694,
+          "stop" : 1619461801143,
+          "duration" : 110449
+        }
+      }, {
+        "uid" : "be878cf3c062870",
+        "reportUrl" : "../162/index.html#testresult/be878cf3c062870",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619375199383,
+          "stop" : 1619375318754,
+          "duration" : 119371
+        }
+      }, {
+        "uid" : "4e4b95d348c84733",
+        "reportUrl" : "../161/index.html#testresult/4e4b95d348c84733",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619375199383,
+          "stop" : 1619375318754,
+          "duration" : 119371
+        }
+      }, {
+        "uid" : "a2d5b8620aef293",
+        "reportUrl" : "../160/index.html#testresult/a2d5b8620aef293",
+        "status" : "failed",
+        "statusDetails" : "The page 'https://uat.paymentexpress.com/pxmi3/*' was not found.",
+        "time" : {
+          "start" : 1619288825234,
+          "stop" : 1619288937408,
+          "duration" : 112174
+        }
+      }, {
+        "uid" : "cf135088a84b4bc2",
+        "reportUrl" : "../159/index.html#testresult/cf135088a84b4bc2",
+        "status" : "failed",
+        "statusDetails" : "The page 'https://uat.paymentexpress.com/pxmi3/*' was not found.",
+        "time" : {
+          "start" : 1619288825234,
+          "stop" : 1619288937408,
+          "duration" : 112174
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "f88d6a61c757a836.json",
+  "parameterValues" : [ ]
+}

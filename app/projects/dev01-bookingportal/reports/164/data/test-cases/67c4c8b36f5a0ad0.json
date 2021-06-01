@@ -1,0 +1,589 @@
+{
+  "uid" : "67c4c8b36f5a0ad0",
+  "name" : "Create freight shipment page should show validation errors when not filled @prod",
+  "fullName" : "Create a freight shipment @evtprodu.Create freight shipment page should show validation errors when not filled @prod",
+  "historyId" : "18fa0f58dea43f9d03ec6bc9376e2954",
+  "time" : {
+    "start" : 1620572785466,
+    "stop" : 1620572791988,
+    "duration" : 6522
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I navigate to evert air application create page ",
+      "time" : {
+        "start" : 1620572787105,
+        "stop" : 1620572790431,
+        "duration" : 3326
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "createshipmentPage: goto ",
+        "time" : {
+          "start" : 1620572787105,
+          "stop" : 1620572790112,
+          "duration" : 3007
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "I am on page \"https://apps8.tflite.com/Public/EVT/Freight/Create\"",
+          "time" : {
+            "start" : 1620572787105,
+            "stop" : 1620572788829,
+            "duration" : 1724
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "I refresh page ",
+          "time" : {
+            "start" : 1620572788829,
+            "stop" : 1620572789967,
+            "duration" : 1138
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "I wait for visible \"#custom-header\"",
+          "time" : {
+            "start" : 1620572789967,
+            "stop" : 1620572790112,
+            "duration" : 145
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 3,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "I see \"Create Shipment\"",
+        "time" : {
+          "start" : 1620572790112,
+          "stop" : 1620572790431,
+          "duration" : 319
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 5,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When I see page is loaded ",
+      "time" : {
+        "start" : 1620572790431,
+        "stop" : 1620572791160,
+        "duration" : 729
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I see \"Create Shipment\"",
+        "time" : {
+          "start" : 1620572790431,
+          "stop" : 1620572790760,
+          "duration" : 329
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I click next button ",
+      "time" : {
+        "start" : 1620572791160,
+        "stop" : 1620572791631,
+        "duration" : 471
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I click \".btn-success\"",
+        "time" : {
+          "start" : 1620572791160,
+          "stop" : 1620572791631,
+          "duration" : 471
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I should see all the following fields has validation errors ",
+      "time" : {
+        "start" : 1620572791631,
+        "stop" : 1620572791988,
+        "duration" : 357
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I grab attribute from \"#shipper_name\", \"required\"",
+        "time" : {
+          "start" : 1620572791631,
+          "stop" : 1620572791667,
+          "duration" : 36
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I grab attribute from \"#shipper_address\", \"required\"",
+        "time" : {
+          "start" : 1620572791668,
+          "stop" : 1620572791707,
+          "duration" : 39
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I grab attribute from \"#shipper_phone\", \"required\"",
+        "time" : {
+          "start" : 1620572791707,
+          "stop" : 1620572791741,
+          "duration" : 34
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I grab attribute from \"#consignee_name\", \"required\"",
+        "time" : {
+          "start" : 1620572791742,
+          "stop" : 1620572791777,
+          "duration" : 35
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I grab attribute from \"#consignee_address\", \"required\"",
+        "time" : {
+          "start" : 1620572791777,
+          "stop" : 1620572791822,
+          "duration" : 45
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I grab attribute from \"#consignee_phone\", \"required\"",
+        "time" : {
+          "start" : 1620572791822,
+          "stop" : 1620572791854,
+          "duration" : 32
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I grab attribute from \"#from\", \"required\"",
+        "time" : {
+          "start" : 1620572791854,
+          "stop" : 1620572791888,
+          "duration" : 34
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I grab attribute from \"#to\", \"required\"",
+        "time" : {
+          "start" : 1620572791888,
+          "stop" : 1620572791921,
+          "duration" : 33
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I grab attribute from \".freight-description\", \"required\"",
+        "time" : {
+          "start" : 1620572791921,
+          "stop" : 1620572791953,
+          "duration" : 32
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I grab attribute from \"#email\", \"required\"",
+        "time" : {
+          "start" : 1620572791953,
+          "stop" : 1620572791988,
+          "duration" : 35
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 10,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "I save screenshot \"Create_freight_shipment_page_should_show_validation_errors_when_not_filled_@prod.png\", true",
+      "time" : {
+        "start" : 1620572791988,
+        "stop" : 1620572792421,
+        "duration" : 433
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "256407cf53fae7a7",
+      "name" : "Create_freight_shipment_page_should_show_validation_errors_when_not_filled_@prod.png",
+      "source" : "256407cf53fae7a7.png",
+      "type" : "image/png",
+      "size" : 129634
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 22,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@evtprodu"
+  }, {
+    "name" : "tag",
+    "value" : "@prod"
+  }, {
+    "name" : "suite",
+    "value" : "Create a freight shipment @evtprodu"
+  }, {
+    "name" : "testClass",
+    "value" : "Create a freight shipment @evtprodu"
+  }, {
+    "name" : "testMethod",
+    "value" : "Create freight shipment page should show validation errors when not filled @prod"
+  }, {
+    "name" : "package",
+    "value" : "Create a freight shipment @evtprodu"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 23,
+        "unknown" : 0,
+        "total" : 25
+      },
+      "items" : [ {
+        "uid" : "b1ed9dc9d0ec3f12",
+        "reportUrl" : "../163/index.html#testresult/b1ed9dc9d0ec3f12",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620346379007,
+          "stop" : 1620346386270,
+          "duration" : 7263
+        }
+      }, {
+        "uid" : "c473ef6e40730d59",
+        "reportUrl" : "../162/index.html#testresult/c473ef6e40730d59",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620346379007,
+          "stop" : 1620346386270,
+          "duration" : 7263
+        }
+      }, {
+        "uid" : "7e252357e48e14c4",
+        "reportUrl" : "../161/index.html#testresult/7e252357e48e14c4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620345444047,
+          "stop" : 1620345450405,
+          "duration" : 6358
+        }
+      }, {
+        "uid" : "76d1bace7f2013d7",
+        "reportUrl" : "../160/index.html#testresult/76d1bace7f2013d7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620345444047,
+          "stop" : 1620345450405,
+          "duration" : 6358
+        }
+      }, {
+        "uid" : "9967ef4ebf21d083",
+        "reportUrl" : "../159/index.html#testresult/9967ef4ebf21d083",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620339600594,
+          "stop" : 1620339606692,
+          "duration" : 6098
+        }
+      }, {
+        "uid" : "f867f2f6502732fd",
+        "reportUrl" : "../158/index.html#testresult/f867f2f6502732fd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620339600594,
+          "stop" : 1620339606692,
+          "duration" : 6098
+        }
+      }, {
+        "uid" : "5c8bd754c02f7ce3",
+        "reportUrl" : "../157/index.html#testresult/5c8bd754c02f7ce3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620338678521,
+          "stop" : 1620338685079,
+          "duration" : 6558
+        }
+      }, {
+        "uid" : "17e6382c5266ed9b",
+        "reportUrl" : "../156/index.html#testresult/17e6382c5266ed9b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620338678521,
+          "stop" : 1620338685079,
+          "duration" : 6558
+        }
+      }, {
+        "uid" : "2b27b42ebe52c533",
+        "reportUrl" : "../155/index.html#testresult/2b27b42ebe52c533",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620338159602,
+          "stop" : 1620338165505,
+          "duration" : 5903
+        }
+      }, {
+        "uid" : "579c187d1aae9804",
+        "reportUrl" : "../154/index.html#testresult/579c187d1aae9804",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620338159602,
+          "stop" : 1620338165505,
+          "duration" : 5903
+        }
+      }, {
+        "uid" : "4a43e28d6b6bf55b",
+        "reportUrl" : "../153/index.html#testresult/4a43e28d6b6bf55b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620336479447,
+          "stop" : 1620336485683,
+          "duration" : 6236
+        }
+      }, {
+        "uid" : "6c94d2c21d160a10",
+        "reportUrl" : "../152/index.html#testresult/6c94d2c21d160a10",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620336479447,
+          "stop" : 1620336485683,
+          "duration" : 6236
+        }
+      }, {
+        "uid" : "1bf21fc429a033dd",
+        "reportUrl" : "../151/index.html#testresult/1bf21fc429a033dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620331800857,
+          "stop" : 1620331806602,
+          "duration" : 5745
+        }
+      }, {
+        "uid" : "a3f38dc518194113",
+        "reportUrl" : "../150/index.html#testresult/a3f38dc518194113",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620331800857,
+          "stop" : 1620331806602,
+          "duration" : 5745
+        }
+      }, {
+        "uid" : "4241647d984024b",
+        "reportUrl" : "../149/index.html#testresult/4241647d984024b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620227164355,
+          "stop" : 1620227172075,
+          "duration" : 7720
+        }
+      }, {
+        "uid" : "f62d5237c6d91794",
+        "reportUrl" : "../148/index.html#testresult/f62d5237c6d91794",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620227164355,
+          "stop" : 1620227172075,
+          "duration" : 7720
+        }
+      }, {
+        "uid" : "a20390acc7b88a54",
+        "reportUrl" : "../147/index.html#testresult/a20390acc7b88a54",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620168937257,
+          "stop" : 1620168943204,
+          "duration" : 5947
+        }
+      }, {
+        "uid" : "23529e6591d2fc0a",
+        "reportUrl" : "../146/index.html#testresult/23529e6591d2fc0a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620168937257,
+          "stop" : 1620168943204,
+          "duration" : 5947
+        }
+      }, {
+        "uid" : "1bf91a15fa8c4ac0",
+        "reportUrl" : "../145/index.html#testresult/1bf91a15fa8c4ac0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620165532365,
+          "stop" : 1620165540276,
+          "duration" : 7911
+        }
+      }, {
+        "uid" : "5c3a76969c1b14ff",
+        "reportUrl" : "../144/index.html#testresult/5c3a76969c1b14ff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620165532365,
+          "stop" : 1620165540276,
+          "duration" : 7911
+        }
+      } ]
+    },
+    "tags" : [ "@evtprodu", "@prod" ]
+  },
+  "source" : "67c4c8b36f5a0ad0.json",
+  "parameterValues" : [ ]
+}

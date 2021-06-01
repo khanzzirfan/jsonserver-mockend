@@ -1,0 +1,101 @@
+[ {
+  "uid" : "2c3f5567ebaca07d",
+  "name" : "validate add freight mandatory fields",
+  "time" : {
+    "start" : 1621094679212,
+    "stop" : 1621094746511,
+    "duration" : 67299
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4e8b3709563cdcb9",
+  "name" : "create quick freight mandatory office selection",
+  "time" : {
+    "start" : 1621094601897,
+    "stop" : 1621094679202,
+    "duration" : 77305
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d0ded8cff052c6eb",
+  "name" : "DashboardScreenValidation",
+  "time" : {
+    "start" : 1621095125847,
+    "stop" : 1621095186179,
+    "duration" : 60332
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b9ea6b5a6144e864",
+  "name" : "search by freights by agent",
+  "time" : {
+    "start" : 1621094817502,
+    "stop" : 1621094977423,
+    "duration" : 159921
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8f8cc0cd16df53c3",
+  "name" : "freights from kotlik to emmonak",
+  "time" : {
+    "start" : 1621094977433,
+    "stop" : 1621095047003,
+    "duration" : 69570
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a4636ad62cba500c",
+  "name" : "Validate add freight window fields",
+  "time" : {
+    "start" : 1621094746521,
+    "stop" : 1621094817492,
+    "duration" : 70971
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "159bd53e64a87ca6",
+  "name" : "create quick freight",
+  "time" : {
+    "start" : 1621094511996,
+    "stop" : 1621094601884,
+    "duration" : 89888
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "78866f37371c0000",
+  "name" : "Search all freights from Kotlik",
+  "time" : {
+    "start" : 1621095047013,
+    "stop" : 1621095125837,
+    "duration" : 78824
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ca3b2299f95ca5b8",
+  "name" : "assign tag to scheduled booking flight_1",
+  "time" : {
+    "start" : 1621095257979,
+    "stop" : 1621095357305,
+    "duration" : 99326
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b683de1541827a06",
+  "name" : "create new tags",
+  "time" : {
+    "start" : 1621095186189,
+    "stop" : 1621095257957,
+    "duration" : 71768
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

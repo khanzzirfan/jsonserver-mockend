@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Mon May 10 15:04:54 UTC 2021","Mon May 10 15:05:49 UTC 2021","55314","","TakeFliteBDD","","TakeFliteBDD","","EvtProdu Tag flight should throw error when no tags available",""
+"passed","Mon May 10 15:02:34 UTC 2021","Mon May 10 15:03:41 UTC 2021","67026","","TakeFliteBDD","","TakeFliteBDD","","EvtProdu dashboard screen validation",""
+"passed","Mon May 10 15:03:41 UTC 2021","Mon May 10 15:04:54 UTC 2021","72414","","TakeFliteBDD","","TakeFliteBDD","","EvtProdu CreateQuickFreight-Validatefields",""
+"failed","Mon May 10 15:07:21 UTC 2021","Mon May 10 15:09:41 UTC 2021","140385","","TakeFliteBDD","","TakeFliteBDD","","EvtProdu Assign tag to scheduled booking flight",""
+"passed","Mon May 10 15:05:49 UTC 2021","Mon May 10 15:07:21 UTC 2021","91641","","TakeFliteBDD","","TakeFliteBDD","","EvtProdu CreateNew Tags",""
+"passed","Mon May 10 15:01:12 UTC 2021","Mon May 10 15:02:34 UTC 2021","82841","","TakeFliteBDD","","TakeFliteBDD","","Evtprodu anchorage freight search ",""

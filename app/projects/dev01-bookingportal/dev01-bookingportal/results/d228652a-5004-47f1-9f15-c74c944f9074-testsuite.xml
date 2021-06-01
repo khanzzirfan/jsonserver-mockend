@@ -1,0 +1,142 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1621288573866' stop='1621288585667'>
+    <name>Simple test feature file @testfeature</name>
+    <title>Simple test feature file @testfeature</title>
+    <test-cases>
+        <test-case start='1621288573866' status='passed' stop='1621288585330'>
+            <name>Search page terms of use should display modal with terms of usage @testscenario</name>
+            <title>Search page terms of use should display modal with terms of usage @testscenario</title>
+            <labels>
+                <label name='tag' value='@testfeature'/>
+                <label name='tag' value='@testscenario'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1621288575392' status='passed' stop='1621288577891'>
+                    <name>Given I navigate to application </name>
+                    <title>Given I navigate to application </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288575392' status='passed' stop='1621288577874'>
+                            <name>searchPage: goToSearch </name>
+                            <title>searchPage: goToSearch </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1621288575392' status='passed' stop='1621288577041'>
+                                    <name>I am on page "https://test.tflite.com/Public/SA/Booking/Search"</name>
+                                    <title>I am on page "https://test.tflite.com/Public/SA/Booking/Search"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1621288577041' status='passed' stop='1621288577711'>
+                                    <name>I refresh page </name>
+                                    <title>I refresh page </title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1621288577712' status='passed' stop='1621288577874'>
+                                    <name>I wait for visible "#submit"</name>
+                                    <title>I wait for visible "#submit"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1621288577874' status='passed' stop='1621288577891'>
+                            <name>I see element "#submit"</name>
+                            <title>I see element "#submit"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288577891' status='passed' stop='1621288578317'>
+                    <name>When the sidebar page is displayed </name>
+                    <title>When the sidebar page is displayed </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288577891' status='passed' stop='1621288577916'>
+                            <name>I see element ".sidebar-right"</name>
+                            <title>I see element ".sidebar-right"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288578317' status='passed' stop='1621288579119'>
+                    <name>Then I should click on terms of use </name>
+                    <title>Then I should click on terms of use </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288578317' status='passed' stop='1621288579119'>
+                            <name>I click "a[data-target="#termsofuse_modal"]"</name>
+                            <title>I click "a[data-target="#termsofuse_modal"]"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288579119' status='passed' stop='1621288579142'>
+                    <name>Then I should see modal with terms of usage </name>
+                    <title>Then I should see modal with terms of usage </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288579119' status='passed' stop='1621288579141'>
+                            <name>I see element "a[data-target="#termsofuse_modal"]"</name>
+                            <title>I see element "a[data-target="#termsofuse_modal"]"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288579142' status='passed' stop='1621288580327'>
+                    <name>Then I should close the modal window </name>
+                    <title>Then I should close the modal window </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288579142' status='passed' stop='1621288579671'>
+                            <name>I wait for clickable "#termsofuse_modal button[data-dismiss="modal"]", 5</name>
+                            <title>I wait for clickable "#termsofuse_modal button[data-dismiss="modal"]", 5</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1621288580071' status='passed' stop='1621288580327'>
+                            <name>I click "#termsofuse_modal button[data-dismiss="modal"]"</name>
+                            <title>I click "#termsofuse_modal button[data-dismiss="modal"]"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288580327' status='passed' stop='1621288585330'>
+                    <name>Then I save the final screenshot </name>
+                    <title>Then I save the final screenshot </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288580327' status='passed' stop='1621288585330'>
+                            <name>I wait 5</name>
+                            <title>I wait 5</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1621288585330' status='passed' stop='1621288585330'>
+                            <name>saved screenshot</name>
+                            <title>saved screenshot</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288585330' status='passed' stop='1621288585652'>
+                    <name>I save screenshot "Search_page_terms_of_use_should_display_modal_with_terms_of_usage_@testscenario.png", true</name>
+                    <title>I save screenshot "Search_page_terms_of_use_should_display_modal_with_terms_of_usage_@testscenario.png", true</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Search_page_terms_of_use_should_display_modal_with_terms_of_usage_@testscenario.png' source='1ea8f9aa-7cbd-4ba9-91e3-0dc5f57fef08-attachment.png' type='image/png' size='62314'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

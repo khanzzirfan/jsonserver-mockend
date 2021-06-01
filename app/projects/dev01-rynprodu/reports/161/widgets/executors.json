@@ -1,0 +1,9 @@
+[ {
+  "name" : "Automatic Execution",
+  "type" : "another",
+  "buildOrder" : 161,
+  "buildName" : "dev01-rynprodu #161",
+  "buildUrl" : "",
+  "reportName" : "dev01-rynprodu",
+  "reportUrl" : "../161/index.html"
+} ]

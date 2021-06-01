@@ -1,0 +1,516 @@
+{
+  "uid" : "6f8c7225c8ec08c1",
+  "name" : "As a user I should see validation errors for oneway trip @validation",
+  "fullName" : "Book a flight and complete the payments @flightbooking.As a user I should see validation errors for oneway trip @validation",
+  "historyId" : "5f497c144b09e72939b07f3b783729",
+  "time" : {
+    "start" : 1620346489339,
+    "stop" : 1620346497679,
+    "duration" : 8340
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I navigate to application ",
+      "time" : {
+        "start" : 1620346491052,
+        "stop" : 1620346494790,
+        "duration" : 3738
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "searchPage: goToSearch ",
+        "time" : {
+          "start" : 1620346491052,
+          "stop" : 1620346494740,
+          "duration" : 3688
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "I am on page \"https://apps8.tflite.com/Public/SA/Booking/Search\"",
+          "time" : {
+            "start" : 1620346491052,
+            "stop" : 1620346493271,
+            "duration" : 2219
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "I refresh page ",
+          "time" : {
+            "start" : 1620346493272,
+            "stop" : 1620346494685,
+            "duration" : 1413
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "I wait for visible \"#submit\"",
+          "time" : {
+            "start" : 1620346494685,
+            "stop" : 1620346494740,
+            "duration" : 55
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 3,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "I see element \"#submit\"",
+        "time" : {
+          "start" : 1620346494740,
+          "stop" : 1620346494790,
+          "duration" : 50
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 5,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When I see sigin button ",
+      "time" : {
+        "start" : 1620346494790,
+        "stop" : 1620346494873,
+        "duration" : 83
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I see element \"#login\"",
+        "time" : {
+          "start" : 1620346494790,
+          "stop" : 1620346494873,
+          "duration" : 83
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I click on oneway ",
+      "time" : {
+        "start" : 1620346494873,
+        "stop" : 1620346497310,
+        "duration" : 2437
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I execute script function () {\n                                // now we are inside browser context\n                                $('#onway').click();\n                              }",
+        "time" : {
+          "start" : 1620346494873,
+          "stop" : 1620346494885,
+          "duration" : 12
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I wait 2",
+        "time" : {
+          "start" : 1620346494886,
+          "stop" : 1620346496886,
+          "duration" : 2000
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I execute script function () {\n                                // now we are inside browser context\n                                $('#return').click();\n                              }",
+        "time" : {
+          "start" : 1620346496886,
+          "stop" : 1620346496908,
+          "duration" : 22
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I click on search button ",
+      "time" : {
+        "start" : 1620346497310,
+        "stop" : 1620346497651,
+        "duration" : 341
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I click \"#submit\"",
+        "time" : {
+          "start" : 1620346497310,
+          "stop" : 1620346497650,
+          "duration" : 340
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I should see following fields are required for oneway trip on search page ",
+      "time" : {
+        "start" : 1620346497651,
+        "stop" : 1620346497679,
+        "duration" : 28
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I see number of elements \".parsley-required\", 2",
+        "time" : {
+          "start" : 1620346497651,
+          "stop" : 1620346497679,
+          "duration" : 28
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "I save screenshot \"As_a_user_I_should_see_validation_errors_for_oneway_trip_@validation.png\", true",
+      "time" : {
+        "start" : 1620346497680,
+        "stop" : 1620346498093,
+        "duration" : 413
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "d7355fbd6229f13a",
+      "name" : "As_a_user_I_should_see_validation_errors_for_oneway_trip_@validation.png",
+      "source" : "d7355fbd6229f13a.png",
+      "type" : "image/png",
+      "size" : 66161
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 17,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@flightbooking"
+  }, {
+    "name" : "tag",
+    "value" : "@validation"
+  }, {
+    "name" : "suite",
+    "value" : "Book a flight and complete the payments @flightbooking"
+  }, {
+    "name" : "testClass",
+    "value" : "Book a flight and complete the payments @flightbooking"
+  }, {
+    "name" : "testMethod",
+    "value" : "As a user I should see validation errors for oneway trip @validation"
+  }, {
+    "name" : "package",
+    "value" : "Book a flight and complete the payments @flightbooking"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 21,
+        "unknown" : 0,
+        "total" : 23
+      },
+      "items" : [ {
+        "uid" : "3565ac4b071da1e6",
+        "reportUrl" : "../161/index.html#testresult/3565ac4b071da1e6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620345548980,
+          "stop" : 1620345556240,
+          "duration" : 7260
+        }
+      }, {
+        "uid" : "ce0a2bd93536dc53",
+        "reportUrl" : "../160/index.html#testresult/ce0a2bd93536dc53",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620345548980,
+          "stop" : 1620345556240,
+          "duration" : 7260
+        }
+      }, {
+        "uid" : "c01cf3064dd152b7",
+        "reportUrl" : "../159/index.html#testresult/c01cf3064dd152b7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620339714010,
+          "stop" : 1620339720375,
+          "duration" : 6365
+        }
+      }, {
+        "uid" : "dda3e30174a6118d",
+        "reportUrl" : "../158/index.html#testresult/dda3e30174a6118d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620339714010,
+          "stop" : 1620339720375,
+          "duration" : 6365
+        }
+      }, {
+        "uid" : "c2db7f8f8d29ac3a",
+        "reportUrl" : "../157/index.html#testresult/c2db7f8f8d29ac3a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620338782007,
+          "stop" : 1620338788791,
+          "duration" : 6784
+        }
+      }, {
+        "uid" : "5828cec9747b1e23",
+        "reportUrl" : "../156/index.html#testresult/5828cec9747b1e23",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620338782007,
+          "stop" : 1620338788791,
+          "duration" : 6784
+        }
+      }, {
+        "uid" : "8ec83257eb63870e",
+        "reportUrl" : "../155/index.html#testresult/8ec83257eb63870e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620338253437,
+          "stop" : 1620338260271,
+          "duration" : 6834
+        }
+      }, {
+        "uid" : "f7cc72786916ca6f",
+        "reportUrl" : "../154/index.html#testresult/f7cc72786916ca6f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620338253437,
+          "stop" : 1620338260271,
+          "duration" : 6834
+        }
+      }, {
+        "uid" : "b8e74ba85d38a2f4",
+        "reportUrl" : "../153/index.html#testresult/b8e74ba85d38a2f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620336574191,
+          "stop" : 1620336581297,
+          "duration" : 7106
+        }
+      }, {
+        "uid" : "56d2e1fccbe7247b",
+        "reportUrl" : "../152/index.html#testresult/56d2e1fccbe7247b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620336574191,
+          "stop" : 1620336581297,
+          "duration" : 7106
+        }
+      }, {
+        "uid" : "eb630b4dfc2c394b",
+        "reportUrl" : "../151/index.html#testresult/eb630b4dfc2c394b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620331892513,
+          "stop" : 1620331899222,
+          "duration" : 6709
+        }
+      }, {
+        "uid" : "4f679e6e0c6d5ce8",
+        "reportUrl" : "../150/index.html#testresult/4f679e6e0c6d5ce8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620331892513,
+          "stop" : 1620331899222,
+          "duration" : 6709
+        }
+      }, {
+        "uid" : "fe0028bb2ee7afc7",
+        "reportUrl" : "../149/index.html#testresult/fe0028bb2ee7afc7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620227235606,
+          "stop" : 1620227243342,
+          "duration" : 7736
+        }
+      }, {
+        "uid" : "cbc2ff388cee2ae7",
+        "reportUrl" : "../148/index.html#testresult/cbc2ff388cee2ae7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620227235606,
+          "stop" : 1620227243342,
+          "duration" : 7736
+        }
+      }, {
+        "uid" : "4f0d3b1799f8d187",
+        "reportUrl" : "../147/index.html#testresult/4f0d3b1799f8d187",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620169001801,
+          "stop" : 1620169008778,
+          "duration" : 6977
+        }
+      }, {
+        "uid" : "d849eb0db16a2559",
+        "reportUrl" : "../146/index.html#testresult/d849eb0db16a2559",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620169001801,
+          "stop" : 1620169008778,
+          "duration" : 6977
+        }
+      }, {
+        "uid" : "d427a6a4e7054e70",
+        "reportUrl" : "../145/index.html#testresult/d427a6a4e7054e70",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620165625154,
+          "stop" : 1620165633036,
+          "duration" : 7882
+        }
+      }, {
+        "uid" : "6086b4837cd1bc5f",
+        "reportUrl" : "../144/index.html#testresult/6086b4837cd1bc5f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620165625154,
+          "stop" : 1620165633036,
+          "duration" : 7882
+        }
+      }, {
+        "uid" : "5fc55d48cbfb9216",
+        "reportUrl" : "../143/index.html#testresult/5fc55d48cbfb9216",
+        "status" : "failed",
+        "statusDetails" : "Cannot read property 'url' of undefined",
+        "time" : {
+          "start" : 1620141448999,
+          "stop" : 1620141451144,
+          "duration" : 2145
+        }
+      }, {
+        "uid" : "cb148b81351cf31b",
+        "reportUrl" : "../142/index.html#testresult/cb148b81351cf31b",
+        "status" : "failed",
+        "statusDetails" : "Cannot read property 'url' of undefined",
+        "time" : {
+          "start" : 1620141448999,
+          "stop" : 1620141451144,
+          "duration" : 2145
+        }
+      } ]
+    },
+    "tags" : [ "@flightbooking", "@validation" ]
+  },
+  "source" : "6f8c7225c8ec08c1.json",
+  "parameterValues" : [ ]
+}

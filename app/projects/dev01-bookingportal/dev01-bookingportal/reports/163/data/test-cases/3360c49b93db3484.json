@@ -1,0 +1,514 @@
+{
+  "uid" : "3360c49b93db3484",
+  "name" : "As a user I should see oneway trip booking options @validation",
+  "fullName" : "Book a flight and complete the payments @flightbooking.As a user I should see oneway trip booking options @validation",
+  "historyId" : "38a01f19e6a9c6d5d5f01c686a9c802",
+  "time" : {
+    "start" : 1620346477457,
+    "stop" : 1620346489204,
+    "duration" : 11747
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Element \"#return_date\" was not found by text|CSS|XPath",
+  "statusTrace" : "Error: Element \"#return_date\" was not found by text|CSS|XPath\n                    at new ElementNotFound (D:\\a\\r1\\a\\_BookingPortal\\node_modules\\codeceptjs\\lib\\helper\\errors\\ElementNotFound.js:14:11)\n                    at assertElementExists (D:\\a\\r1\\a\\_BookingPortal\\node_modules\\codeceptjs\\lib\\helper\\WebDriver.js:2770:11)\n                    at WebDriver.grabAttributeFrom (D:\\a\\r1\\a\\_BookingPortal\\node_modules\\codeceptjs\\lib\\helper\\WebDriver.js:1211:5)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at async D:\\a\\r1\\a\\_BookingPortal\\e2e\\steps\\flightbooking.steps.js:261:26\n                    at async runSteps (D:\\a\\r1\\a\\_BookingPortal\\node_modules\\codeceptjs\\lib\\interfaces\\gherkin.js:57:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Element \"#return_date\" was not found by text|CSS|XPath",
+    "statusTrace" : "Error: Element \"#return_date\" was not found by text|CSS|XPath\n                    at new ElementNotFound (D:\\a\\r1\\a\\_BookingPortal\\node_modules\\codeceptjs\\lib\\helper\\errors\\ElementNotFound.js:14:11)\n                    at assertElementExists (D:\\a\\r1\\a\\_BookingPortal\\node_modules\\codeceptjs\\lib\\helper\\WebDriver.js:2770:11)\n                    at WebDriver.grabAttributeFrom (D:\\a\\r1\\a\\_BookingPortal\\node_modules\\codeceptjs\\lib\\helper\\WebDriver.js:1211:5)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at async D:\\a\\r1\\a\\_BookingPortal\\e2e\\steps\\flightbooking.steps.js:261:26\n                    at async runSteps (D:\\a\\r1\\a\\_BookingPortal\\node_modules\\codeceptjs\\lib\\interfaces\\gherkin.js:57:9)",
+    "steps" : [ {
+      "name" : "Given I navigate to application ",
+      "time" : {
+        "start" : 1620346479087,
+        "stop" : 1620346482088,
+        "duration" : 3001
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "searchPage: goToSearch ",
+        "time" : {
+          "start" : 1620346479087,
+          "stop" : 1620346482054,
+          "duration" : 2967
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "I am on page \"https://apps8.tflite.com/Public/SA/Booking/Search\"",
+          "time" : {
+            "start" : 1620346479087,
+            "stop" : 1620346481070,
+            "duration" : 1983
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "I refresh page ",
+          "time" : {
+            "start" : 1620346481070,
+            "stop" : 1620346481887,
+            "duration" : 817
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "I wait for visible \"#submit\"",
+          "time" : {
+            "start" : 1620346481887,
+            "stop" : 1620346482054,
+            "duration" : 167
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 3,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "I see element \"#submit\"",
+        "time" : {
+          "start" : 1620346482054,
+          "stop" : 1620346482088,
+          "duration" : 34
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 5,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When I see sigin button ",
+      "time" : {
+        "start" : 1620346482088,
+        "stop" : 1620346482131,
+        "duration" : 43
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I see element \"#login\"",
+        "time" : {
+          "start" : 1620346482088,
+          "stop" : 1620346482131,
+          "duration" : 43
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I click on oneway ",
+      "time" : {
+        "start" : 1620346482131,
+        "stop" : 1620346484181,
+        "duration" : 2050
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I execute script function () {\n                                // now we are inside browser context\n                                $('#onway').click();\n                              }",
+        "time" : {
+          "start" : 1620346482131,
+          "stop" : 1620346482161,
+          "duration" : 30
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I wait 2",
+        "time" : {
+          "start" : 1620346482161,
+          "stop" : 1620346484162,
+          "duration" : 2001
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I execute script function () {\n                                // now we are inside browser context\n                                $('#return').click();\n                              }",
+        "time" : {
+          "start" : 1620346484162,
+          "stop" : 1620346484181,
+          "duration" : 19
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I see the following fields are disabled on search page for oneway trip ",
+      "time" : {
+        "start" : 1620346484181,
+        "stop" : 1620346489204,
+        "duration" : 5023
+      },
+      "status" : "failed",
+      "statusMessage" : "Error: Element \"#return_date\" was not found by text|CSS|XPath\n                    at new ElementNotFound (D:\\a\\r1\\a\\_BookingPortal\\node_modules\\codeceptjs\\lib\\helper\\errors\\ElementNotFound.js:14:11)\n                    at assertElementExists (D:\\a\\r1\\a\\_BookingPortal\\node_modules\\codeceptjs\\lib\\helper\\WebDriver.js:2770:11)\n                    at WebDriver.grabAttributeFrom (D:\\a\\r1\\a\\_BookingPortal\\node_modules\\codeceptjs\\lib\\helper\\WebDriver.js:1211:5)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at async D:\\a\\r1\\a\\_BookingPortal\\e2e\\steps\\flightbooking.steps.js:261:26\n                    at async runSteps (D:\\a\\r1\\a\\_BookingPortal\\node_modules\\codeceptjs\\lib\\interfaces\\gherkin.js:57:9)",
+      "steps" : [ {
+        "name" : "I grab attribute from \"#to\", \"disabled\"",
+        "time" : {
+          "start" : 1620346484181,
+          "stop" : 1620346484254,
+          "duration" : 73
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I grab attribute from \"#return_date\", \"disabled\"",
+        "time" : {
+          "start" : 1620346484255,
+          "stop" : 1620346489203,
+          "duration" : 4948
+        },
+        "status" : "failed",
+        "statusMessage" : "Error: Element \"#return_date\" was not found by text|CSS|XPath\n                    at new ElementNotFound (D:\\a\\r1\\a\\_BookingPortal\\node_modules\\codeceptjs\\lib\\helper\\errors\\ElementNotFound.js:14:11)\n                    at assertElementExists (D:\\a\\r1\\a\\_BookingPortal\\node_modules\\codeceptjs\\lib\\helper\\WebDriver.js:2770:11)\n                    at WebDriver.grabAttributeFrom (D:\\a\\r1\\a\\_BookingPortal\\node_modules\\codeceptjs\\lib\\helper\\WebDriver.js:1211:5)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at async D:\\a\\r1\\a\\_BookingPortal\\e2e\\steps\\flightbooking.steps.js:261:26\n                    at async runSteps (D:\\a\\r1\\a\\_BookingPortal\\node_modules\\codeceptjs\\lib\\interfaces\\gherkin.js:57:9)",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : true,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "5b17a796ea8e6f07",
+      "name" : "Last Seen Screenshot",
+      "source" : "5b17a796ea8e6f07.png",
+      "type" : "image/png",
+      "size" : 37425
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 15,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@flightbooking"
+  }, {
+    "name" : "tag",
+    "value" : "@validation"
+  }, {
+    "name" : "suite",
+    "value" : "Book a flight and complete the payments @flightbooking"
+  }, {
+    "name" : "testClass",
+    "value" : "Book a flight and complete the payments @flightbooking"
+  }, {
+    "name" : "testMethod",
+    "value" : "As a user I should see oneway trip booking options @validation"
+  }, {
+    "name" : "package",
+    "value" : "Book a flight and complete the payments @flightbooking"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 24,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 24
+      },
+      "items" : [ {
+        "uid" : "fd2c7443b00fcb7b",
+        "reportUrl" : "../162/index.html#testresult/fd2c7443b00fcb7b",
+        "status" : "failed",
+        "statusDetails" : "Element \"#return_date\" was not found by text|CSS|XPath",
+        "time" : {
+          "start" : 1620346477457,
+          "stop" : 1620346489204,
+          "duration" : 11747
+        }
+      }, {
+        "uid" : "1149222ee168ccf2",
+        "reportUrl" : "../161/index.html#testresult/1149222ee168ccf2",
+        "status" : "failed",
+        "statusDetails" : "Element \"#return_date\" was not found by text|CSS|XPath",
+        "time" : {
+          "start" : 1620345537441,
+          "stop" : 1620345548904,
+          "duration" : 11463
+        }
+      }, {
+        "uid" : "1db2c35b0969beef",
+        "reportUrl" : "../160/index.html#testresult/1db2c35b0969beef",
+        "status" : "failed",
+        "statusDetails" : "Element \"#return_date\" was not found by text|CSS|XPath",
+        "time" : {
+          "start" : 1620345537441,
+          "stop" : 1620345548904,
+          "duration" : 11463
+        }
+      }, {
+        "uid" : "843ceab1f49b66ec",
+        "reportUrl" : "../159/index.html#testresult/843ceab1f49b66ec",
+        "status" : "failed",
+        "statusDetails" : "Element \"#return_date\" was not found by text|CSS|XPath",
+        "time" : {
+          "start" : 1620339703082,
+          "stop" : 1620339713896,
+          "duration" : 10814
+        }
+      }, {
+        "uid" : "3e74b4fad08e8380",
+        "reportUrl" : "../158/index.html#testresult/3e74b4fad08e8380",
+        "status" : "failed",
+        "statusDetails" : "Element \"#return_date\" was not found by text|CSS|XPath",
+        "time" : {
+          "start" : 1620339703082,
+          "stop" : 1620339713896,
+          "duration" : 10814
+        }
+      }, {
+        "uid" : "54457ef38e433ca3",
+        "reportUrl" : "../157/index.html#testresult/54457ef38e433ca3",
+        "status" : "failed",
+        "statusDetails" : "Element \"#return_date\" was not found by text|CSS|XPath",
+        "time" : {
+          "start" : 1620338768752,
+          "stop" : 1620338781928,
+          "duration" : 13176
+        }
+      }, {
+        "uid" : "abdbcde50654fc09",
+        "reportUrl" : "../156/index.html#testresult/abdbcde50654fc09",
+        "status" : "failed",
+        "statusDetails" : "Element \"#return_date\" was not found by text|CSS|XPath",
+        "time" : {
+          "start" : 1620338768752,
+          "stop" : 1620338781928,
+          "duration" : 13176
+        }
+      }, {
+        "uid" : "b5e949409af6d8de",
+        "reportUrl" : "../155/index.html#testresult/b5e949409af6d8de",
+        "status" : "failed",
+        "statusDetails" : "Element \"#return_date\" was not found by text|CSS|XPath",
+        "time" : {
+          "start" : 1620338242188,
+          "stop" : 1620338253349,
+          "duration" : 11161
+        }
+      }, {
+        "uid" : "afe3a70749509fc1",
+        "reportUrl" : "../154/index.html#testresult/afe3a70749509fc1",
+        "status" : "failed",
+        "statusDetails" : "Element \"#return_date\" was not found by text|CSS|XPath",
+        "time" : {
+          "start" : 1620338242188,
+          "stop" : 1620338253349,
+          "duration" : 11161
+        }
+      }, {
+        "uid" : "1fcc36a6036c189d",
+        "reportUrl" : "../153/index.html#testresult/1fcc36a6036c189d",
+        "status" : "failed",
+        "statusDetails" : "Element \"#return_date\" was not found by text|CSS|XPath",
+        "time" : {
+          "start" : 1620336562980,
+          "stop" : 1620336574091,
+          "duration" : 11111
+        }
+      }, {
+        "uid" : "1576d44fbf7d0e91",
+        "reportUrl" : "../152/index.html#testresult/1576d44fbf7d0e91",
+        "status" : "failed",
+        "statusDetails" : "Element \"#return_date\" was not found by text|CSS|XPath",
+        "time" : {
+          "start" : 1620336562980,
+          "stop" : 1620336574091,
+          "duration" : 11111
+        }
+      }, {
+        "uid" : "e0949c36b83c78e3",
+        "reportUrl" : "../151/index.html#testresult/e0949c36b83c78e3",
+        "status" : "failed",
+        "statusDetails" : "Element \"#return_date\" was not found by text|CSS|XPath",
+        "time" : {
+          "start" : 1620331881708,
+          "stop" : 1620331892429,
+          "duration" : 10721
+        }
+      }, {
+        "uid" : "e16e156822e48bcc",
+        "reportUrl" : "../150/index.html#testresult/e16e156822e48bcc",
+        "status" : "failed",
+        "statusDetails" : "Element \"#return_date\" was not found by text|CSS|XPath",
+        "time" : {
+          "start" : 1620331881708,
+          "stop" : 1620331892429,
+          "duration" : 10721
+        }
+      }, {
+        "uid" : "1193fc8042d8d87e",
+        "reportUrl" : "../149/index.html#testresult/1193fc8042d8d87e",
+        "status" : "failed",
+        "statusDetails" : "Element \"#return_date\" was not found by text|CSS|XPath",
+        "time" : {
+          "start" : 1620227224643,
+          "stop" : 1620227235512,
+          "duration" : 10869
+        }
+      }, {
+        "uid" : "83094601f8cf5813",
+        "reportUrl" : "../148/index.html#testresult/83094601f8cf5813",
+        "status" : "failed",
+        "statusDetails" : "Element \"#return_date\" was not found by text|CSS|XPath",
+        "time" : {
+          "start" : 1620227224643,
+          "stop" : 1620227235512,
+          "duration" : 10869
+        }
+      }, {
+        "uid" : "18212f165aa76c75",
+        "reportUrl" : "../147/index.html#testresult/18212f165aa76c75",
+        "status" : "failed",
+        "statusDetails" : "Element \"#return_date\" was not found by text|CSS|XPath",
+        "time" : {
+          "start" : 1620168990483,
+          "stop" : 1620169001728,
+          "duration" : 11245
+        }
+      }, {
+        "uid" : "dd29518f4b1f7f00",
+        "reportUrl" : "../146/index.html#testresult/dd29518f4b1f7f00",
+        "status" : "failed",
+        "statusDetails" : "Element \"#return_date\" was not found by text|CSS|XPath",
+        "time" : {
+          "start" : 1620168990483,
+          "stop" : 1620169001728,
+          "duration" : 11245
+        }
+      }, {
+        "uid" : "c4723f06ec10d438",
+        "reportUrl" : "../145/index.html#testresult/c4723f06ec10d438",
+        "status" : "failed",
+        "statusDetails" : "Element \"#return_date\" was not found by text|CSS|XPath",
+        "time" : {
+          "start" : 1620165608597,
+          "stop" : 1620165625030,
+          "duration" : 16433
+        }
+      }, {
+        "uid" : "2c0bb2fdda5d73d4",
+        "reportUrl" : "../144/index.html#testresult/2c0bb2fdda5d73d4",
+        "status" : "failed",
+        "statusDetails" : "Element \"#return_date\" was not found by text|CSS|XPath",
+        "time" : {
+          "start" : 1620165608597,
+          "stop" : 1620165625030,
+          "duration" : 16433
+        }
+      }, {
+        "uid" : "713fa2fdfdf7dcf6",
+        "reportUrl" : "../143/index.html#testresult/713fa2fdfdf7dcf6",
+        "status" : "failed",
+        "statusDetails" : "Cannot read property 'url' of undefined",
+        "time" : {
+          "start" : 1620141446181,
+          "stop" : 1620141448998,
+          "duration" : 2817
+        }
+      } ]
+    },
+    "tags" : [ "@flightbooking", "@validation" ]
+  },
+  "source" : "3360c49b93db3484.json",
+  "parameterValues" : [ ]
+}

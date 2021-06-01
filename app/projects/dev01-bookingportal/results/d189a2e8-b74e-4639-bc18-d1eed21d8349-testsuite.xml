@@ -1,0 +1,514 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1621288403916' stop='1621288445724'>
+    <name>Book a flight and complete the payments @flightbooking</name>
+    <title>Book a flight and complete the payments @flightbooking</title>
+    <test-cases>
+        <test-case start='1621288403916' status='failed' stop='1621288421266'>
+            <name>Search page should display all basic field on landing</name>
+            <title>Search page should display all basic field on landing</title>
+            <labels>
+                <label name='tag' value='@flightbooking'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1621288405491' status='passed' stop='1621288408266'>
+                    <name>Given I navigate to application </name>
+                    <title>Given I navigate to application </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288405491' status='passed' stop='1621288408246'>
+                            <name>searchPage: goToSearch </name>
+                            <title>searchPage: goToSearch </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1621288405491' status='passed' stop='1621288407326'>
+                                    <name>I am on page "https://test.tflite.com/Public/SA/Booking/Search"</name>
+                                    <title>I am on page "https://test.tflite.com/Public/SA/Booking/Search"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1621288407326' status='passed' stop='1621288408059'>
+                                    <name>I refresh page </name>
+                                    <title>I refresh page </title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1621288408060' status='passed' stop='1621288408246'>
+                                    <name>I wait for visible "#submit"</name>
+                                    <title>I wait for visible "#submit"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1621288408246' status='passed' stop='1621288408266'>
+                            <name>I see element "#submit"</name>
+                            <title>I see element "#submit"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288408266' status='passed' stop='1621288408688'>
+                    <name>When I see sigin button </name>
+                    <title>When I see sigin button </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288408266' status='passed' stop='1621288408287'>
+                            <name>I see element "#login"</name>
+                            <title>I see element "#login"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288408688' status='passed' stop='1621288410497'>
+                    <name>Then I click on signin button </name>
+                    <title>Then I click on signin button </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288408688' status='passed' stop='1621288410497'>
+                            <name>I click "#login"</name>
+                            <title>I click "#login"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288410497' status='passed' stop='1621288414312'>
+                    <name>Then I should enter agent username and password </name>
+                    <title>Then I should enter agent username and password </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288410497' status='passed' stop='1621288412497'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1621288412898' status='passed' stop='1621288413199'>
+                            <name>I fill field "#username", "Agent"</name>
+                            <title>I fill field "#username", "Agent"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1621288413600' status='passed' stop='1621288413912'>
+                            <name>I fill field "#password", "123456"</name>
+                            <title>I fill field "#password", "123456"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288414312' status='passed' stop='1621288414570'>
+                    <name>Then I click on login button </name>
+                    <title>Then I click on login button </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288414312' status='passed' stop='1621288414570'>
+                            <name>I click "#submit"</name>
+                            <title>I click "#submit"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288414570' status='failed' stop='1621288421266'>
+                    <name>Then I should see application navigated to search flight page </name>
+                    <title>Then I should see application navigated to search flight page </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288414570' status='passed' stop='1621288416570'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1621288416570' status='failed' stop='1621288421266'>
+                            <name>I see in current url "/Booking/Search"</name>
+                            <title>I see in current url "/Booking/Search"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='dba9e32c-c1ec-457b-9765-3511a3c2b441-attachment.png' type='image/png' size='25876'/>
+            </attachments>
+            <failure>
+                <message></message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1621288421403' status='failed' stop='1621288432494'>
+            <name>As a user I should see oneway trip booking options @validation</name>
+            <title>As a user I should see oneway trip booking options @validation</title>
+            <labels>
+                <label name='tag' value='@flightbooking'/>
+                <label name='tag' value='@validation'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1621288422922' status='passed' stop='1621288425603'>
+                    <name>Given I navigate to application </name>
+                    <title>Given I navigate to application </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288422922' status='passed' stop='1621288425578'>
+                            <name>searchPage: goToSearch </name>
+                            <title>searchPage: goToSearch </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1621288422922' status='passed' stop='1621288424742'>
+                                    <name>I am on page "https://test.tflite.com/Public/SA/Booking/Search"</name>
+                                    <title>I am on page "https://test.tflite.com/Public/SA/Booking/Search"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1621288424743' status='passed' stop='1621288425371'>
+                                    <name>I refresh page </name>
+                                    <title>I refresh page </title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1621288425371' status='passed' stop='1621288425578'>
+                                    <name>I wait for visible "#submit"</name>
+                                    <title>I wait for visible "#submit"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1621288425578' status='passed' stop='1621288425603'>
+                            <name>I see element "#submit"</name>
+                            <title>I see element "#submit"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288425603' status='passed' stop='1621288425626'>
+                    <name>When I see sigin button </name>
+                    <title>When I see sigin button </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288425603' status='passed' stop='1621288425626'>
+                            <name>I see element "#login"</name>
+                            <title>I see element "#login"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288425626' status='passed' stop='1621288427668'>
+                    <name>Then I click on oneway </name>
+                    <title>Then I click on oneway </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288425626' status='passed' stop='1621288425657'>
+                            <name>I execute script function () {
+                                // now we are inside browser context
+                                $('#onway').click();
+                              }</name>
+                            <title>I execute script function () {
+                                // now we are inside browser context
+                                $('#onway').click();
+                              }</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1621288425657' status='passed' stop='1621288427657'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1621288427657' status='passed' stop='1621288427668'>
+                            <name>I execute script function () {
+                                // now we are inside browser context
+                                $('#return').click();
+                              }</name>
+                            <title>I execute script function () {
+                                // now we are inside browser context
+                                $('#return').click();
+                              }</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288427668' status='failed' stop='1621288432494'>
+                    <name>Then I see the following fields are disabled on search page for oneway trip </name>
+                    <title>Then I see the following fields are disabled on search page for oneway trip </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288427668' status='passed' stop='1621288427702'>
+                            <name>I grab attribute from "#to", "disabled"</name>
+                            <title>I grab attribute from "#to", "disabled"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1621288427702' status='failed' stop='1621288432494'>
+                            <name>I grab attribute from "#return_date", "disabled"</name>
+                            <title>I grab attribute from "#return_date", "disabled"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='3e8feb8c-f09d-463e-bf79-809dda1fd3f0-attachment.png' type='image/png' size='37180'/>
+            </attachments>
+            <failure>
+                <message>Element "#return_date" was not found by text|CSS|XPath</message>
+                <stack-trace>Error: Element "#return_date" was not found by text|CSS|XPath
+                    at new ElementNotFound (D:\a\1\s\node_modules\codeceptjs\lib\helper\errors\ElementNotFound.js:14:11)
+                    at assertElementExists (D:\a\1\s\node_modules\codeceptjs\lib\helper\WebDriver.js:2770:11)
+                    at WebDriver.grabAttributeFrom (D:\a\1\s\node_modules\codeceptjs\lib\helper\WebDriver.js:1211:5)
+                    at runMicrotasks (&lt;anonymous>)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at async D:\a\1\s\e2e\steps\flightbooking.steps.js:261:26
+                    at async runSteps (D:\a\1\s\node_modules\codeceptjs\lib\interfaces\gherkin.js:57:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1621288432583' status='passed' stop='1621288439557'>
+            <name>As a user I should see validation errors for oneway trip @validation</name>
+            <title>As a user I should see validation errors for oneway trip @validation</title>
+            <labels>
+                <label name='tag' value='@flightbooking'/>
+                <label name='tag' value='@validation'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1621288434125' status='passed' stop='1621288436823'>
+                    <name>Given I navigate to application </name>
+                    <title>Given I navigate to application </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288434125' status='passed' stop='1621288436803'>
+                            <name>searchPage: goToSearch </name>
+                            <title>searchPage: goToSearch </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1621288434125' status='passed' stop='1621288435752'>
+                                    <name>I am on page "https://test.tflite.com/Public/SA/Booking/Search"</name>
+                                    <title>I am on page "https://test.tflite.com/Public/SA/Booking/Search"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1621288435752' status='passed' stop='1621288436616'>
+                                    <name>I refresh page </name>
+                                    <title>I refresh page </title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1621288436616' status='passed' stop='1621288436803'>
+                                    <name>I wait for visible "#submit"</name>
+                                    <title>I wait for visible "#submit"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1621288436803' status='passed' stop='1621288436823'>
+                            <name>I see element "#submit"</name>
+                            <title>I see element "#submit"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288436823' status='passed' stop='1621288436844'>
+                    <name>When I see sigin button </name>
+                    <title>When I see sigin button </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288436823' status='passed' stop='1621288436844'>
+                            <name>I see element "#login"</name>
+                            <title>I see element "#login"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288436844' status='passed' stop='1621288439266'>
+                    <name>Then I click on oneway </name>
+                    <title>Then I click on oneway </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288436844' status='passed' stop='1621288436854'>
+                            <name>I execute script function () {
+                                // now we are inside browser context
+                                $('#onway').click();
+                              }</name>
+                            <title>I execute script function () {
+                                // now we are inside browser context
+                                $('#onway').click();
+                              }</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1621288436854' status='passed' stop='1621288438855'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1621288438855' status='passed' stop='1621288438865'>
+                            <name>I execute script function () {
+                                // now we are inside browser context
+                                $('#return').click();
+                              }</name>
+                            <title>I execute script function () {
+                                // now we are inside browser context
+                                $('#return').click();
+                              }</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288439266' status='passed' stop='1621288439540'>
+                    <name>Then I click on search button </name>
+                    <title>Then I click on search button </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288439266' status='passed' stop='1621288439540'>
+                            <name>I click "#submit"</name>
+                            <title>I click "#submit"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288439540' status='passed' stop='1621288439557'>
+                    <name>Then I should see following fields are required for oneway trip on search page </name>
+                    <title>Then I should see following fields are required for oneway trip on search page </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288439540' status='passed' stop='1621288439557'>
+                            <name>I see number of elements ".parsley-required", 2</name>
+                            <title>I see number of elements ".parsley-required", 2</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288439558' status='passed' stop='1621288439939'>
+                    <name>I save screenshot "As_a_user_I_should_see_validation_errors_for_oneway_trip_@validation.png", true</name>
+                    <title>I save screenshot "As_a_user_I_should_see_validation_errors_for_oneway_trip_@validation.png", true</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='As_a_user_I_should_see_validation_errors_for_oneway_trip_@validation.png' source='77512d35-20aa-4667-8712-40ead233a617-attachment.png' type='image/png' size='65869'/>
+            </attachments>
+        </test-case>
+        <test-case start='1621288439963' status='passed' stop='1621288445364'>
+            <name>As a user I should see validation errors for round trip field @validation</name>
+            <title>As a user I should see validation errors for round trip field @validation</title>
+            <labels>
+                <label name='tag' value='@flightbooking'/>
+                <label name='tag' value='@validation'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1621288441519' status='passed' stop='1621288444085'>
+                    <name>Given I navigate to application </name>
+                    <title>Given I navigate to application </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288441519' status='passed' stop='1621288444062'>
+                            <name>searchPage: goToSearch </name>
+                            <title>searchPage: goToSearch </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1621288441520' status='passed' stop='1621288443159'>
+                                    <name>I am on page "https://test.tflite.com/Public/SA/Booking/Search"</name>
+                                    <title>I am on page "https://test.tflite.com/Public/SA/Booking/Search"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1621288443160' status='passed' stop='1621288443881'>
+                                    <name>I refresh page </name>
+                                    <title>I refresh page </title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1621288443881' status='passed' stop='1621288444062'>
+                                    <name>I wait for visible "#submit"</name>
+                                    <title>I wait for visible "#submit"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1621288444062' status='passed' stop='1621288444084'>
+                            <name>I see element "#submit"</name>
+                            <title>I see element "#submit"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288444085' status='passed' stop='1621288444509'>
+                    <name>When I see sigin button </name>
+                    <title>When I see sigin button </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288444085' status='passed' stop='1621288444108'>
+                            <name>I see element "#login"</name>
+                            <title>I see element "#login"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288444509' status='passed' stop='1621288445335'>
+                    <name>Then I click on search button </name>
+                    <title>Then I click on search button </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288444509' status='passed' stop='1621288445335'>
+                            <name>I click "#submit"</name>
+                            <title>I click "#submit"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288445335' status='passed' stop='1621288445364'>
+                    <name>Then I should see following fields are required for round trip on search page </name>
+                    <title>Then I should see following fields are required for round trip on search page </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621288445335' status='passed' stop='1621288445350'>
+                            <name>I see number of elements ".parsley-required", 2</name>
+                            <title>I see number of elements ".parsley-required", 2</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1621288445350' status='passed' stop='1621288445364'>
+                            <name>I see number of elements ".parsley-custom-error-message", 2</name>
+                            <title>I see number of elements ".parsley-custom-error-message", 2</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1621288445365' status='passed' stop='1621288445697'>
+                    <name>I save screenshot "As_a_user_I_should_see_validation_errors_for_round_trip_field_@validation.png", true</name>
+                    <title>I save screenshot "As_a_user_I_should_see_validation_errors_for_round_trip_field_@validation.png", true</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='As_a_user_I_should_see_validation_errors_for_round_trip_field_@validation.png' source='e088c4d5-d300-42cb-8936-f729a04baabb-attachment.png' type='image/png' size='65873'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

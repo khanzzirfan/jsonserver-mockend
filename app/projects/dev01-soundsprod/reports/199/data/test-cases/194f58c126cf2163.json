@@ -1,0 +1,232 @@
+{
+  "uid" : "194f58c126cf2163",
+  "name" : "SelectFlight- Search should show blenheim to wellington only results",
+  "fullName" : "TakeFliteBDD.SelectFlight- Search should show blenheim to wellington only results",
+  "historyId" : "TakeFliteBDD.SelectFlight- Search should show blenheim to wellington only results",
+  "time" : {
+    "start" : 1621275091524,
+    "stop" : 1621275169089,
+    "duration" : 77565
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "TakeFliteBDD"
+  }, {
+    "name" : "testClass",
+    "value" : "TakeFliteBDD"
+  }, {
+    "name" : "package",
+    "value" : "TakeFliteBDD"
+  }, {
+    "name" : "resultFormat",
+    "value" : "trx"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 47,
+        "unknown" : 0,
+        "total" : 47
+      },
+      "items" : [ {
+        "uid" : "d375adb575b7ef7c",
+        "reportUrl" : "../198/index.html#testresult/d375adb575b7ef7c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621188701541,
+          "stop" : 1621188783655,
+          "duration" : 82114
+        }
+      }, {
+        "uid" : "5fe40dda7e1088a0",
+        "reportUrl" : "../197/index.html#testresult/5fe40dda7e1088a0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621188701541,
+          "stop" : 1621188783655,
+          "duration" : 82114
+        }
+      }, {
+        "uid" : "669e73a6f6d735eb",
+        "reportUrl" : "../196/index.html#testresult/669e73a6f6d735eb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621102268423,
+          "stop" : 1621102345485,
+          "duration" : 77062
+        }
+      }, {
+        "uid" : "862f9fc3eab2a1fd",
+        "reportUrl" : "../195/index.html#testresult/862f9fc3eab2a1fd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621015887780,
+          "stop" : 1621015966452,
+          "duration" : 78672
+        }
+      }, {
+        "uid" : "c573da65e4b7a58e",
+        "reportUrl" : "../194/index.html#testresult/c573da65e4b7a58e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621015887780,
+          "stop" : 1621015966452,
+          "duration" : 78672
+        }
+      }, {
+        "uid" : "52495a0a7ed8ddc5",
+        "reportUrl" : "../193/index.html#testresult/52495a0a7ed8ddc5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620929493675,
+          "stop" : 1620929573583,
+          "duration" : 79908
+        }
+      }, {
+        "uid" : "7c60e58e4959bde4",
+        "reportUrl" : "../192/index.html#testresult/7c60e58e4959bde4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620929493675,
+          "stop" : 1620929573583,
+          "duration" : 79908
+        }
+      }, {
+        "uid" : "e25dc5e073b820e3",
+        "reportUrl" : "../191/index.html#testresult/e25dc5e073b820e3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620843086019,
+          "stop" : 1620843179253,
+          "duration" : 93234
+        }
+      }, {
+        "uid" : "7f3777f90eb15523",
+        "reportUrl" : "../190/index.html#testresult/7f3777f90eb15523",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620756721499,
+          "stop" : 1620756797138,
+          "duration" : 75639
+        }
+      }, {
+        "uid" : "522d2060f7a658ad",
+        "reportUrl" : "../189/index.html#testresult/522d2060f7a658ad",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620756721499,
+          "stop" : 1620756797138,
+          "duration" : 75639
+        }
+      }, {
+        "uid" : "20e24874d8c67533",
+        "reportUrl" : "../188/index.html#testresult/20e24874d8c67533",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620670285412,
+          "stop" : 1620670363162,
+          "duration" : 77750
+        }
+      }, {
+        "uid" : "180907ed53abdbd3",
+        "reportUrl" : "../187/index.html#testresult/180907ed53abdbd3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620670285412,
+          "stop" : 1620670363162,
+          "duration" : 77750
+        }
+      }, {
+        "uid" : "8f8aaf2b28d1a423",
+        "reportUrl" : "../186/index.html#testresult/8f8aaf2b28d1a423",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620583887469,
+          "stop" : 1620583966560,
+          "duration" : 79091
+        }
+      }, {
+        "uid" : "9aa7aba7520137ff",
+        "reportUrl" : "../185/index.html#testresult/9aa7aba7520137ff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620497447389,
+          "stop" : 1620497524398,
+          "duration" : 77009
+        }
+      }, {
+        "uid" : "1bf4e80965dfa476",
+        "reportUrl" : "../184/index.html#testresult/1bf4e80965dfa476",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620497447389,
+          "stop" : 1620497524398,
+          "duration" : 77009
+        }
+      }, {
+        "uid" : "f11fa33a6328b81b",
+        "reportUrl" : "../183/index.html#testresult/f11fa33a6328b81b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620411077025,
+          "stop" : 1620411155909,
+          "duration" : 78884
+        }
+      }, {
+        "uid" : "c928294fa571638f",
+        "reportUrl" : "../182/index.html#testresult/c928294fa571638f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620411077025,
+          "stop" : 1620411155909,
+          "duration" : 78884
+        }
+      }, {
+        "uid" : "780f800062c0e9d2",
+        "reportUrl" : "../181/index.html#testresult/780f800062c0e9d2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620324719039,
+          "stop" : 1620324800162,
+          "duration" : 81123
+        }
+      }, {
+        "uid" : "db0473baa3e1621b",
+        "reportUrl" : "../180/index.html#testresult/db0473baa3e1621b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620238283070,
+          "stop" : 1620238360164,
+          "duration" : 77094
+        }
+      }, {
+        "uid" : "6284594ba644014a",
+        "reportUrl" : "../179/index.html#testresult/6284594ba644014a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620238283070,
+          "stop" : 1620238360164,
+          "duration" : 77094
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "194f58c126cf2163.json",
+  "parameterValues" : [ ]
+}

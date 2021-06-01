@@ -1,0 +1,1382 @@
+{
+  "TakeFliteBDD.EvtProdu CreateNew Tags" : {
+    "statistic" : {
+      "failed" : 9,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 76,
+      "unknown" : 0,
+      "total" : 85
+    },
+    "items" : [ {
+      "uid" : "473f8457af0d7d6b",
+      "reportUrl" : "../107/index.html#testresult/473f8457af0d7d6b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621264028757,
+        "stop" : 1621264101300,
+        "duration" : 72543
+      }
+    }, {
+      "uid" : "276dfbc719859f53",
+      "reportUrl" : "../106/index.html#testresult/276dfbc719859f53",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621177616693,
+        "stop" : 1621177680197,
+        "duration" : 63504
+      }
+    }, {
+      "uid" : "67d950028963f1d0",
+      "reportUrl" : "../105/index.html#testresult/67d950028963f1d0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621177616693,
+        "stop" : 1621177680197,
+        "duration" : 63504
+      }
+    }, {
+      "uid" : "6a83a772324fb0a",
+      "reportUrl" : "../104/index.html#testresult/6a83a772324fb0a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620918435054,
+        "stop" : 1620918499346,
+        "duration" : 64292
+      }
+    }, {
+      "uid" : "f5c2f8b870f6868d",
+      "reportUrl" : "../103/index.html#testresult/f5c2f8b870f6868d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620918435054,
+        "stop" : 1620918499346,
+        "duration" : 64292
+      }
+    }, {
+      "uid" : "8bde8569ce4a4e38",
+      "reportUrl" : "../102/index.html#testresult/8bde8569ce4a4e38",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620832037453,
+        "stop" : 1620832102573,
+        "duration" : 65120
+      }
+    }, {
+      "uid" : "cdff42926159d5e6",
+      "reportUrl" : "../101/index.html#testresult/cdff42926159d5e6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620832037453,
+        "stop" : 1620832102573,
+        "duration" : 65120
+      }
+    }, {
+      "uid" : "1fecead99ecf49e2",
+      "reportUrl" : "../100/index.html#testresult/1fecead99ecf49e2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620745663994,
+        "stop" : 1620745730893,
+        "duration" : 66899
+      }
+    }, {
+      "uid" : "5c341f02c62478f3",
+      "reportUrl" : "../99/index.html#testresult/5c341f02c62478f3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620745663994,
+        "stop" : 1620745730893,
+        "duration" : 66899
+      }
+    }, {
+      "uid" : "10cb73df1f558da1",
+      "reportUrl" : "../98/index.html#testresult/10cb73df1f558da1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620659149630,
+        "stop" : 1620659241271,
+        "duration" : 91641
+      }
+    }, {
+      "uid" : "ccfd366c9be4897d",
+      "reportUrl" : "../97/index.html#testresult/ccfd366c9be4897d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620659149630,
+        "stop" : 1620659241271,
+        "duration" : 91641
+      }
+    }, {
+      "uid" : "e91658e3407c546a",
+      "reportUrl" : "../96/index.html#testresult/e91658e3407c546a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620572818769,
+        "stop" : 1620572886575,
+        "duration" : 67806
+      }
+    }, {
+      "uid" : "6faee9d5c7edf1d",
+      "reportUrl" : "../95/index.html#testresult/6faee9d5c7edf1d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620572818769,
+        "stop" : 1620572886575,
+        "duration" : 67806
+      }
+    }, {
+      "uid" : "6637db25c8b8620f",
+      "reportUrl" : "../94/index.html#testresult/6637db25c8b8620f",
+      "status" : "failed",
+      "statusDetails" : "Unexpected window: 'Takeflite Ops - Dev - Daily Overview - v5.6.11.0 - ctladmin - evtprodu (BACKUP/TRAINING MODE). Database Restored 13 days 6 hours 27 minutes ago. Time in master timezone is 06/May/2021 07:03.'",
+      "time" : {
+        "start" : 1620313403080,
+        "stop" : 1620313438550,
+        "duration" : 35470
+      }
+    }, {
+      "uid" : "eea17275e8805b2d",
+      "reportUrl" : "../93/index.html#testresult/eea17275e8805b2d",
+      "status" : "failed",
+      "statusDetails" : "Unexpected window: 'Takeflite Ops - Dev - Daily Overview - v5.6.11.0 - ctladmin - evtprodu (BACKUP/TRAINING MODE). Database Restored 13 days 6 hours 27 minutes ago. Time in master timezone is 06/May/2021 07:03.'",
+      "time" : {
+        "start" : 1620313403080,
+        "stop" : 1620313438550,
+        "duration" : 35470
+      }
+    }, {
+      "uid" : "390d0dddf77104ed",
+      "reportUrl" : "../92/index.html#testresult/390d0dddf77104ed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620227157579,
+        "stop" : 1620227223840,
+        "duration" : 66261
+      }
+    }, {
+      "uid" : "a4d22c4cd02638e8",
+      "reportUrl" : "../91/index.html#testresult/a4d22c4cd02638e8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620227157579,
+        "stop" : 1620227223840,
+        "duration" : 66261
+      }
+    }, {
+      "uid" : "d68e23737e850ecb",
+      "reportUrl" : "../90/index.html#testresult/d68e23737e850ecb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620140832497,
+        "stop" : 1620140897379,
+        "duration" : 64882
+      }
+    }, {
+      "uid" : "5b3ed6ecc6aefbc8",
+      "reportUrl" : "../89/index.html#testresult/5b3ed6ecc6aefbc8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620140832497,
+        "stop" : 1620140897379,
+        "duration" : 64882
+      }
+    }, {
+      "uid" : "c87bb7a1d06e0e27",
+      "reportUrl" : "../88/index.html#testresult/c87bb7a1d06e0e27",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620054367182,
+        "stop" : 1620054433599,
+        "duration" : 66417
+      }
+    } ]
+  },
+  "TakeFliteBDD.EvtProdu dashboard screen validation" : {
+    "statistic" : {
+      "failed" : 11,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 96,
+      "unknown" : 0,
+      "total" : 107
+    },
+    "items" : [ {
+      "uid" : "18a4cf448564c68b",
+      "reportUrl" : "../107/index.html#testresult/18a4cf448564c68b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621263769818,
+        "stop" : 1621263831490,
+        "duration" : 61672
+      }
+    }, {
+      "uid" : "26fab3e811314502",
+      "reportUrl" : "../106/index.html#testresult/26fab3e811314502",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621177357314,
+        "stop" : 1621177421565,
+        "duration" : 64251
+      }
+    }, {
+      "uid" : "6f121b01e24f9916",
+      "reportUrl" : "../105/index.html#testresult/6f121b01e24f9916",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621177357314,
+        "stop" : 1621177421565,
+        "duration" : 64251
+      }
+    }, {
+      "uid" : "37e17c2c14be794c",
+      "reportUrl" : "../104/index.html#testresult/37e17c2c14be794c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620918166469,
+        "stop" : 1620918225505,
+        "duration" : 59036
+      }
+    }, {
+      "uid" : "2cd2eb16750d8390",
+      "reportUrl" : "../103/index.html#testresult/2cd2eb16750d8390",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620918166469,
+        "stop" : 1620918225505,
+        "duration" : 59036
+      }
+    }, {
+      "uid" : "682c820913dff550",
+      "reportUrl" : "../102/index.html#testresult/682c820913dff550",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620831770672,
+        "stop" : 1620831829985,
+        "duration" : 59313
+      }
+    }, {
+      "uid" : "4fcefd8271d1b303",
+      "reportUrl" : "../101/index.html#testresult/4fcefd8271d1b303",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620831770672,
+        "stop" : 1620831829985,
+        "duration" : 59313
+      }
+    }, {
+      "uid" : "5106083e4e7d3ff6",
+      "reportUrl" : "../100/index.html#testresult/5106083e4e7d3ff6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620745393952,
+        "stop" : 1620745453628,
+        "duration" : 59676
+      }
+    }, {
+      "uid" : "57f1eef07e9d9737",
+      "reportUrl" : "../99/index.html#testresult/57f1eef07e9d9737",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620745393952,
+        "stop" : 1620745453628,
+        "duration" : 59676
+      }
+    }, {
+      "uid" : "b12e01aa1c4a157a",
+      "reportUrl" : "../98/index.html#testresult/b12e01aa1c4a157a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620658954856,
+        "stop" : 1620659021882,
+        "duration" : 67026
+      }
+    }, {
+      "uid" : "ab3eec20fcf60ce7",
+      "reportUrl" : "../97/index.html#testresult/ab3eec20fcf60ce7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620658954856,
+        "stop" : 1620659021882,
+        "duration" : 67026
+      }
+    }, {
+      "uid" : "9206cb671bc67dd",
+      "reportUrl" : "../96/index.html#testresult/9206cb671bc67dd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620572549529,
+        "stop" : 1620572611342,
+        "duration" : 61813
+      }
+    }, {
+      "uid" : "3515a34c920c39e4",
+      "reportUrl" : "../95/index.html#testresult/3515a34c920c39e4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620572549529,
+        "stop" : 1620572611342,
+        "duration" : 61813
+      }
+    }, {
+      "uid" : "85e2d0e398013218",
+      "reportUrl" : "../94/index.html#testresult/85e2d0e398013218",
+      "status" : "failed",
+      "statusDetails" : "Overlapping window",
+      "time" : {
+        "start" : 1620313289698,
+        "stop" : 1620313320239,
+        "duration" : 30541
+      }
+    }, {
+      "uid" : "9c0d11822f666bb3",
+      "reportUrl" : "../93/index.html#testresult/9c0d11822f666bb3",
+      "status" : "failed",
+      "statusDetails" : "Overlapping window",
+      "time" : {
+        "start" : 1620313289698,
+        "stop" : 1620313320239,
+        "duration" : 30541
+      }
+    }, {
+      "uid" : "75b7f39ca44cbbff",
+      "reportUrl" : "../92/index.html#testresult/75b7f39ca44cbbff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620226892557,
+        "stop" : 1620226955272,
+        "duration" : 62715
+      }
+    }, {
+      "uid" : "f9f7722a0bbb3832",
+      "reportUrl" : "../91/index.html#testresult/f9f7722a0bbb3832",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620226892557,
+        "stop" : 1620226955272,
+        "duration" : 62715
+      }
+    }, {
+      "uid" : "a5f52ff0e4fc763d",
+      "reportUrl" : "../90/index.html#testresult/a5f52ff0e4fc763d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620140573427,
+        "stop" : 1620140634466,
+        "duration" : 61039
+      }
+    }, {
+      "uid" : "af45a0899aa9752",
+      "reportUrl" : "../89/index.html#testresult/af45a0899aa9752",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620140573427,
+        "stop" : 1620140634466,
+        "duration" : 61039
+      }
+    }, {
+      "uid" : "b8a4e6800a3a6d95",
+      "reportUrl" : "../88/index.html#testresult/b8a4e6800a3a6d95",
+      "status" : "failed",
+      "statusDetails" : "Unable to run \"Takeflite_Ops___Dev\"",
+      "time" : {
+        "start" : 1620054128989,
+        "stop" : 1620054138889,
+        "duration" : 9900
+      }
+    } ]
+  },
+  "TakeFliteBDD.assign tag to scheduled booking flight" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 45,
+      "unknown" : 0,
+      "total" : 45
+    },
+    "items" : [ {
+      "uid" : "1ac59b9fe157476c",
+      "reportUrl" : "../66/index.html#testresult/1ac59b9fe157476c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1617102122962,
+        "stop" : 1617102195835,
+        "duration" : 72873
+      }
+    }, {
+      "uid" : "f91457f5f52421a4",
+      "reportUrl" : "../65/index.html#testresult/f91457f5f52421a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1617102122962,
+        "stop" : 1617102195835,
+        "duration" : 72873
+      }
+    }, {
+      "uid" : "a946d5deec35e195",
+      "reportUrl" : "../64/index.html#testresult/a946d5deec35e195",
+      "status" : "passed",
+      "time" : {
+        "start" : 1617102122962,
+        "stop" : 1617102195835,
+        "duration" : 72873
+      }
+    }, {
+      "uid" : "2aaeb3741768728e",
+      "reportUrl" : "../63/index.html#testresult/2aaeb3741768728e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1617102122962,
+        "stop" : 1617102195835,
+        "duration" : 72873
+      }
+    }, {
+      "uid" : "261a9478c2259208",
+      "reportUrl" : "../62/index.html#testresult/261a9478c2259208",
+      "status" : "passed",
+      "time" : {
+        "start" : 1617102122962,
+        "stop" : 1617102195835,
+        "duration" : 72873
+      }
+    }, {
+      "uid" : "beac158e080144ed",
+      "reportUrl" : "../61/index.html#testresult/beac158e080144ed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1617102122962,
+        "stop" : 1617102195835,
+        "duration" : 72873
+      }
+    }, {
+      "uid" : "18d2e5efe7964f60",
+      "reportUrl" : "../60/index.html#testresult/18d2e5efe7964f60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1617102122962,
+        "stop" : 1617102195835,
+        "duration" : 72873
+      }
+    }, {
+      "uid" : "3b49c5be59a9d76b",
+      "reportUrl" : "../59/index.html#testresult/3b49c5be59a9d76b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1617102122962,
+        "stop" : 1617102195835,
+        "duration" : 72873
+      }
+    }, {
+      "uid" : "3e40f6f228928961",
+      "reportUrl" : "../58/index.html#testresult/3e40f6f228928961",
+      "status" : "passed",
+      "time" : {
+        "start" : 1617102122962,
+        "stop" : 1617102195835,
+        "duration" : 72873
+      }
+    }, {
+      "uid" : "4c6631d68f969f93",
+      "reportUrl" : "../57/index.html#testresult/4c6631d68f969f93",
+      "status" : "passed",
+      "time" : {
+        "start" : 1617102122962,
+        "stop" : 1617102195835,
+        "duration" : 72873
+      }
+    }, {
+      "uid" : "a14789ef0132010e",
+      "reportUrl" : "../56/index.html#testresult/a14789ef0132010e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1617102122962,
+        "stop" : 1617102195835,
+        "duration" : 72873
+      }
+    }, {
+      "uid" : "4dfd5c185ab02309",
+      "reportUrl" : "../55/index.html#testresult/4dfd5c185ab02309",
+      "status" : "passed",
+      "time" : {
+        "start" : 1617102122962,
+        "stop" : 1617102195835,
+        "duration" : 72873
+      }
+    }, {
+      "uid" : "5c36643073514af7",
+      "reportUrl" : "../54/index.html#testresult/5c36643073514af7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1617102122962,
+        "stop" : 1617102195835,
+        "duration" : 72873
+      }
+    }, {
+      "uid" : "9defc668828446ff",
+      "reportUrl" : "../53/index.html#testresult/9defc668828446ff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1617102122962,
+        "stop" : 1617102195835,
+        "duration" : 72873
+      }
+    }, {
+      "uid" : "eab380cc7bde4614",
+      "reportUrl" : "../52/index.html#testresult/eab380cc7bde4614",
+      "status" : "passed",
+      "time" : {
+        "start" : 1617102122962,
+        "stop" : 1617102195835,
+        "duration" : 72873
+      }
+    }, {
+      "uid" : "fe6282888344dc1",
+      "reportUrl" : "../51/index.html#testresult/fe6282888344dc1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1617102122962,
+        "stop" : 1617102195835,
+        "duration" : 72873
+      }
+    }, {
+      "uid" : "7e3411264a2485ff",
+      "reportUrl" : "../50/index.html#testresult/7e3411264a2485ff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1617102122962,
+        "stop" : 1617102195835,
+        "duration" : 72873
+      }
+    }, {
+      "uid" : "8512f0c4ccc196a4",
+      "reportUrl" : "../49/index.html#testresult/8512f0c4ccc196a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1617102122962,
+        "stop" : 1617102195835,
+        "duration" : 72873
+      }
+    }, {
+      "uid" : "daa3ce17ccf6318c",
+      "reportUrl" : "../48/index.html#testresult/daa3ce17ccf6318c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1617102122962,
+        "stop" : 1617102195835,
+        "duration" : 72873
+      }
+    }, {
+      "uid" : "e8447a2818af7aeb",
+      "reportUrl" : "../47/index.html#testresult/e8447a2818af7aeb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1617102122962,
+        "stop" : 1617102195835,
+        "duration" : 72873
+      }
+    } ]
+  },
+  "TakeFliteBDD.EvtProdu Assign tag to scheduled booking flight" : {
+    "statistic" : {
+      "failed" : 21,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 64,
+      "unknown" : 0,
+      "total" : 85
+    },
+    "items" : [ {
+      "uid" : "f4a7296fa66bf0ca",
+      "reportUrl" : "../107/index.html#testresult/f4a7296fa66bf0ca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621264101310,
+        "stop" : 1621264179769,
+        "duration" : 78459
+      }
+    }, {
+      "uid" : "3a8c50cd1e9a4f5c",
+      "reportUrl" : "../106/index.html#testresult/3a8c50cd1e9a4f5c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621177680197,
+        "stop" : 1621177759575,
+        "duration" : 79378
+      }
+    }, {
+      "uid" : "fbea0d1a0e9e231b",
+      "reportUrl" : "../105/index.html#testresult/fbea0d1a0e9e231b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621177680197,
+        "stop" : 1621177759575,
+        "duration" : 79378
+      }
+    }, {
+      "uid" : "c7d41467b717c31b",
+      "reportUrl" : "../104/index.html#testresult/c7d41467b717c31b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620918499356,
+        "stop" : 1620918577752,
+        "duration" : 78396
+      }
+    }, {
+      "uid" : "3566a56bf258c949",
+      "reportUrl" : "../103/index.html#testresult/3566a56bf258c949",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620918499356,
+        "stop" : 1620918577752,
+        "duration" : 78396
+      }
+    }, {
+      "uid" : "37e976d19a6be302",
+      "reportUrl" : "../102/index.html#testresult/37e976d19a6be302",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620832102583,
+        "stop" : 1620832191329,
+        "duration" : 88746
+      }
+    }, {
+      "uid" : "243f7a2c7e2ae10b",
+      "reportUrl" : "../101/index.html#testresult/243f7a2c7e2ae10b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620832102583,
+        "stop" : 1620832191329,
+        "duration" : 88746
+      }
+    }, {
+      "uid" : "382b2a026870717",
+      "reportUrl" : "../100/index.html#testresult/382b2a026870717",
+      "status" : "failed",
+      "statusDetails" : "Unable to verify a value with the property checkpoint, because the target object does not exist.",
+      "time" : {
+        "start" : 1620745730903,
+        "stop" : 1620745866089,
+        "duration" : 135186
+      }
+    }, {
+      "uid" : "d7874adac723fd35",
+      "reportUrl" : "../99/index.html#testresult/d7874adac723fd35",
+      "status" : "failed",
+      "statusDetails" : "Unable to verify a value with the property checkpoint, because the target object does not exist.",
+      "time" : {
+        "start" : 1620745730903,
+        "stop" : 1620745866089,
+        "duration" : 135186
+      }
+    }, {
+      "uid" : "eb2d8252b0789d80",
+      "reportUrl" : "../98/index.html#testresult/eb2d8252b0789d80",
+      "status" : "failed",
+      "statusDetails" : "Unable to verify a value with the property checkpoint, because the target object does not exist.",
+      "time" : {
+        "start" : 1620659241281,
+        "stop" : 1620659381666,
+        "duration" : 140385
+      }
+    }, {
+      "uid" : "d24580ee65c7c7f2",
+      "reportUrl" : "../97/index.html#testresult/d24580ee65c7c7f2",
+      "status" : "failed",
+      "statusDetails" : "Unable to verify a value with the property checkpoint, because the target object does not exist.",
+      "time" : {
+        "start" : 1620659241281,
+        "stop" : 1620659381666,
+        "duration" : 140385
+      }
+    }, {
+      "uid" : "334d393c9121fa3",
+      "reportUrl" : "../96/index.html#testresult/334d393c9121fa3",
+      "status" : "failed",
+      "statusDetails" : "Unable to verify a value with the property checkpoint, because the target object does not exist.",
+      "time" : {
+        "start" : 1620572886585,
+        "stop" : 1620573018787,
+        "duration" : 132202
+      }
+    }, {
+      "uid" : "711f77caa6988737",
+      "reportUrl" : "../95/index.html#testresult/711f77caa6988737",
+      "status" : "failed",
+      "statusDetails" : "Unable to verify a value with the property checkpoint, because the target object does not exist.",
+      "time" : {
+        "start" : 1620572886585,
+        "stop" : 1620573018787,
+        "duration" : 132202
+      }
+    }, {
+      "uid" : "6dd6d14efe54e162",
+      "reportUrl" : "../94/index.html#testresult/6dd6d14efe54e162",
+      "status" : "failed",
+      "statusDetails" : "Unexpected window: 'Takeflite Ops - Dev - Daily Overview - v5.6.11.0 - ctladmin - evtprodu (BACKUP/TRAINING MODE). Database Restored 13 days 6 hours 27 minutes ago. Time in master timezone is 06/May/2021 07:03.'",
+      "time" : {
+        "start" : 1620313438550,
+        "stop" : 1620313473935,
+        "duration" : 35385
+      }
+    }, {
+      "uid" : "beae14f0ddfa7362",
+      "reportUrl" : "../93/index.html#testresult/beae14f0ddfa7362",
+      "status" : "failed",
+      "statusDetails" : "Unexpected window: 'Takeflite Ops - Dev - Daily Overview - v5.6.11.0 - ctladmin - evtprodu (BACKUP/TRAINING MODE). Database Restored 13 days 6 hours 27 minutes ago. Time in master timezone is 06/May/2021 07:03.'",
+      "time" : {
+        "start" : 1620313438550,
+        "stop" : 1620313473935,
+        "duration" : 35385
+      }
+    }, {
+      "uid" : "f390f628a1cfba15",
+      "reportUrl" : "../92/index.html#testresult/f390f628a1cfba15",
+      "status" : "failed",
+      "statusDetails" : "Unable to verify a value with the property checkpoint, because the target object does not exist.",
+      "time" : {
+        "start" : 1620227223840,
+        "stop" : 1620227361098,
+        "duration" : 137258
+      }
+    }, {
+      "uid" : "230814d25bd97b4c",
+      "reportUrl" : "../91/index.html#testresult/230814d25bd97b4c",
+      "status" : "failed",
+      "statusDetails" : "Unable to verify a value with the property checkpoint, because the target object does not exist.",
+      "time" : {
+        "start" : 1620227223840,
+        "stop" : 1620227361098,
+        "duration" : 137258
+      }
+    }, {
+      "uid" : "2fd53458fd0e8dc0",
+      "reportUrl" : "../90/index.html#testresult/2fd53458fd0e8dc0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620140897389,
+        "stop" : 1620140974900,
+        "duration" : 77511
+      }
+    }, {
+      "uid" : "4a70c32428d95249",
+      "reportUrl" : "../89/index.html#testresult/4a70c32428d95249",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620140897389,
+        "stop" : 1620140974900,
+        "duration" : 77511
+      }
+    }, {
+      "uid" : "2c653f5a6c8ffe1b",
+      "reportUrl" : "../88/index.html#testresult/2c653f5a6c8ffe1b",
+      "status" : "failed",
+      "statusDetails" : "Unable to verify a value with the property checkpoint, because the target object does not exist.",
+      "time" : {
+        "start" : 1620054433619,
+        "stop" : 1620054570162,
+        "duration" : 136543
+      }
+    } ]
+  },
+  "TakeFliteBDD.Evtprodu anchorage freight search " : {
+    "statistic" : {
+      "failed" : 19,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 86,
+      "unknown" : 0,
+      "total" : 105
+    },
+    "items" : [ {
+      "uid" : "28ee795235db61e8",
+      "reportUrl" : "../107/index.html#testresult/28ee795235db61e8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621263681069,
+        "stop" : 1621263769808,
+        "duration" : 88739
+      }
+    }, {
+      "uid" : "187d77d285361c7d",
+      "reportUrl" : "../106/index.html#testresult/187d77d285361c7d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621177272462,
+        "stop" : 1621177357294,
+        "duration" : 84832
+      }
+    }, {
+      "uid" : "4722288c0451335f",
+      "reportUrl" : "../105/index.html#testresult/4722288c0451335f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621177272462,
+        "stop" : 1621177357294,
+        "duration" : 84832
+      }
+    }, {
+      "uid" : "b761af31b7e753e6",
+      "reportUrl" : "../104/index.html#testresult/b761af31b7e753e6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620918081789,
+        "stop" : 1620918166463,
+        "duration" : 84674
+      }
+    }, {
+      "uid" : "585b79e45989f474",
+      "reportUrl" : "../103/index.html#testresult/585b79e45989f474",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620918081789,
+        "stop" : 1620918166463,
+        "duration" : 84674
+      }
+    }, {
+      "uid" : "25d6a7c92eb349be",
+      "reportUrl" : "../102/index.html#testresult/25d6a7c92eb349be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620831684435,
+        "stop" : 1620831770652,
+        "duration" : 86217
+      }
+    }, {
+      "uid" : "450b173e4c1ba93f",
+      "reportUrl" : "../101/index.html#testresult/450b173e4c1ba93f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620831684435,
+        "stop" : 1620831770652,
+        "duration" : 86217
+      }
+    }, {
+      "uid" : "999dbc9c7d1821e3",
+      "reportUrl" : "../100/index.html#testresult/999dbc9c7d1821e3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620745306864,
+        "stop" : 1620745393942,
+        "duration" : 87078
+      }
+    }, {
+      "uid" : "69a8e6391b73e332",
+      "reportUrl" : "../99/index.html#testresult/69a8e6391b73e332",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620745306864,
+        "stop" : 1620745393942,
+        "duration" : 87078
+      }
+    }, {
+      "uid" : "a33de3c024af5c12",
+      "reportUrl" : "../98/index.html#testresult/a33de3c024af5c12",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620658872005,
+        "stop" : 1620658954846,
+        "duration" : 82841
+      }
+    }, {
+      "uid" : "b8e71e83dd80aa46",
+      "reportUrl" : "../97/index.html#testresult/b8e71e83dd80aa46",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620658872005,
+        "stop" : 1620658954846,
+        "duration" : 82841
+      }
+    }, {
+      "uid" : "a48b0fbf4cd7f752",
+      "reportUrl" : "../96/index.html#testresult/a48b0fbf4cd7f752",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620572463542,
+        "stop" : 1620572549519,
+        "duration" : 85977
+      }
+    }, {
+      "uid" : "71083f6751052ad3",
+      "reportUrl" : "../95/index.html#testresult/71083f6751052ad3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620572463542,
+        "stop" : 1620572549519,
+        "duration" : 85977
+      }
+    }, {
+      "uid" : "2829c8af0c9fe018",
+      "reportUrl" : "../94/index.html#testresult/2829c8af0c9fe018",
+      "status" : "failed",
+      "statusDetails" : "The object \"txtUsername\" does not exist.",
+      "time" : {
+        "start" : 1620313269571,
+        "stop" : 1620313289678,
+        "duration" : 20107
+      }
+    }, {
+      "uid" : "2fc590db34190f64",
+      "reportUrl" : "../93/index.html#testresult/2fc590db34190f64",
+      "status" : "failed",
+      "statusDetails" : "The object \"txtUsername\" does not exist.",
+      "time" : {
+        "start" : 1620313269571,
+        "stop" : 1620313289678,
+        "duration" : 20107
+      }
+    }, {
+      "uid" : "fcab9341972edea7",
+      "reportUrl" : "../92/index.html#testresult/fcab9341972edea7",
+      "status" : "failed",
+      "statusDetails" : "The object \"txtUsername\" does not exist.",
+      "time" : {
+        "start" : 1620226871983,
+        "stop" : 1620226892536,
+        "duration" : 20553
+      }
+    }, {
+      "uid" : "70f15568c0f4dacb",
+      "reportUrl" : "../91/index.html#testresult/70f15568c0f4dacb",
+      "status" : "failed",
+      "statusDetails" : "The object \"txtUsername\" does not exist.",
+      "time" : {
+        "start" : 1620226871983,
+        "stop" : 1620226892536,
+        "duration" : 20553
+      }
+    }, {
+      "uid" : "da030c20957e58ce",
+      "reportUrl" : "../90/index.html#testresult/da030c20957e58ce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620140478351,
+        "stop" : 1620140573417,
+        "duration" : 95066
+      }
+    }, {
+      "uid" : "cdd138dfe57a4f45",
+      "reportUrl" : "../89/index.html#testresult/cdd138dfe57a4f45",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620140478351,
+        "stop" : 1620140573417,
+        "duration" : 95066
+      }
+    }, {
+      "uid" : "cc98ba91b16ed218",
+      "reportUrl" : "../88/index.html#testresult/cc98ba91b16ed218",
+      "status" : "failed",
+      "statusDetails" : "The object \"txtUsername\" does not exist.",
+      "time" : {
+        "start" : 1620054108381,
+        "stop" : 1620054128979,
+        "duration" : 20598
+      }
+    } ]
+  },
+  "TakeFliteBDD.EvtProdu CreateQuickFreight-Validatefields" : {
+    "statistic" : {
+      "failed" : 9,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 77,
+      "unknown" : 0,
+      "total" : 86
+    },
+    "items" : [ {
+      "uid" : "c8897e35e4c0c7c4",
+      "reportUrl" : "../107/index.html#testresult/c8897e35e4c0c7c4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621263831510,
+        "stop" : 1621263902422,
+        "duration" : 70912
+      }
+    }, {
+      "uid" : "254e044f362b2412",
+      "reportUrl" : "../106/index.html#testresult/254e044f362b2412",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621177421575,
+        "stop" : 1621177490381,
+        "duration" : 68806
+      }
+    }, {
+      "uid" : "66c11456eb44925a",
+      "reportUrl" : "../105/index.html#testresult/66c11456eb44925a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621177421575,
+        "stop" : 1621177490381,
+        "duration" : 68806
+      }
+    }, {
+      "uid" : "1218a6cae9b3f044",
+      "reportUrl" : "../104/index.html#testresult/1218a6cae9b3f044",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620918225515,
+        "stop" : 1620918295004,
+        "duration" : 69489
+      }
+    }, {
+      "uid" : "a480c0dae697c35f",
+      "reportUrl" : "../103/index.html#testresult/a480c0dae697c35f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620918225515,
+        "stop" : 1620918295004,
+        "duration" : 69489
+      }
+    }, {
+      "uid" : "7b07e6bf234fb551",
+      "reportUrl" : "../102/index.html#testresult/7b07e6bf234fb551",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620831829995,
+        "stop" : 1620831899853,
+        "duration" : 69858
+      }
+    }, {
+      "uid" : "1765b5e8e8d8295f",
+      "reportUrl" : "../101/index.html#testresult/1765b5e8e8d8295f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620831829995,
+        "stop" : 1620831899853,
+        "duration" : 69858
+      }
+    }, {
+      "uid" : "4bc29f3ba28e43b1",
+      "reportUrl" : "../100/index.html#testresult/4bc29f3ba28e43b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620745453638,
+        "stop" : 1620745529060,
+        "duration" : 75422
+      }
+    }, {
+      "uid" : "1a0cfdcac61b3c54",
+      "reportUrl" : "../99/index.html#testresult/1a0cfdcac61b3c54",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620745453638,
+        "stop" : 1620745529060,
+        "duration" : 75422
+      }
+    }, {
+      "uid" : "b6b1c101b97dc75",
+      "reportUrl" : "../98/index.html#testresult/b6b1c101b97dc75",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620659021892,
+        "stop" : 1620659094306,
+        "duration" : 72414
+      }
+    }, {
+      "uid" : "e651ad3d0a765c2e",
+      "reportUrl" : "../97/index.html#testresult/e651ad3d0a765c2e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620659021892,
+        "stop" : 1620659094306,
+        "duration" : 72414
+      }
+    }, {
+      "uid" : "2531291eb4804e71",
+      "reportUrl" : "../96/index.html#testresult/2531291eb4804e71",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620572611352,
+        "stop" : 1620572685385,
+        "duration" : 74033
+      }
+    }, {
+      "uid" : "a41517cccb57211a",
+      "reportUrl" : "../95/index.html#testresult/a41517cccb57211a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620572611352,
+        "stop" : 1620572685385,
+        "duration" : 74033
+      }
+    }, {
+      "uid" : "a3c28ee8d4101233",
+      "reportUrl" : "../94/index.html#testresult/a3c28ee8d4101233",
+      "status" : "failed",
+      "statusDetails" : "1 The dashboard window has not appeared.",
+      "time" : {
+        "start" : 1620313320249,
+        "stop" : 1620313367880,
+        "duration" : 47631
+      }
+    }, {
+      "uid" : "b50fa750947bfd20",
+      "reportUrl" : "../93/index.html#testresult/b50fa750947bfd20",
+      "status" : "failed",
+      "statusDetails" : "1 The dashboard window has not appeared.",
+      "time" : {
+        "start" : 1620313320249,
+        "stop" : 1620313367880,
+        "duration" : 47631
+      }
+    }, {
+      "uid" : "9f6bda9f506c2bdc",
+      "reportUrl" : "../92/index.html#testresult/9f6bda9f506c2bdc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620226955272,
+        "stop" : 1620227024906,
+        "duration" : 69634
+      }
+    }, {
+      "uid" : "bd462c4080d36398",
+      "reportUrl" : "../91/index.html#testresult/bd462c4080d36398",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620226955272,
+        "stop" : 1620227024906,
+        "duration" : 69634
+      }
+    }, {
+      "uid" : "42927efd01098d47",
+      "reportUrl" : "../90/index.html#testresult/42927efd01098d47",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620140634476,
+        "stop" : 1620140706913,
+        "duration" : 72437
+      }
+    }, {
+      "uid" : "b299c81d1da0da27",
+      "reportUrl" : "../89/index.html#testresult/b299c81d1da0da27",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620140634476,
+        "stop" : 1620140706913,
+        "duration" : 72437
+      }
+    }, {
+      "uid" : "f3ad8e85d37d7072",
+      "reportUrl" : "../88/index.html#testresult/f3ad8e85d37d7072",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620054138919,
+        "stop" : 1620054230019,
+        "duration" : 91100
+      }
+    } ]
+  },
+  "TakeFliteBDD.EvtProdu Tag flight should throw error when no tags available" : {
+    "statistic" : {
+      "failed" : 59,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 24,
+      "unknown" : 0,
+      "total" : 83
+    },
+    "items" : [ {
+      "uid" : "ef13b79e92e05876",
+      "reportUrl" : "../107/index.html#testresult/ef13b79e92e05876",
+      "status" : "failed",
+      "statusDetails" : "Unable to verify a value with the property checkpoint, because the target object does not exist.",
+      "time" : {
+        "start" : 1621263902432,
+        "stop" : 1621264028747,
+        "duration" : 126315
+      }
+    }, {
+      "uid" : "8708f51addd5d58e",
+      "reportUrl" : "../106/index.html#testresult/8708f51addd5d58e",
+      "status" : "failed",
+      "statusDetails" : "Unable to verify a value with the property checkpoint, because the target object does not exist.",
+      "time" : {
+        "start" : 1621177490391,
+        "stop" : 1621177616683,
+        "duration" : 126292
+      }
+    }, {
+      "uid" : "8917bddd2fbd425e",
+      "reportUrl" : "../105/index.html#testresult/8917bddd2fbd425e",
+      "status" : "failed",
+      "statusDetails" : "Unable to verify a value with the property checkpoint, because the target object does not exist.",
+      "time" : {
+        "start" : 1621177490391,
+        "stop" : 1621177616683,
+        "duration" : 126292
+      }
+    }, {
+      "uid" : "f3d0a2429c61e4ba",
+      "reportUrl" : "../104/index.html#testresult/f3d0a2429c61e4ba",
+      "status" : "failed",
+      "statusDetails" : "Unable to verify a value with the property checkpoint, because the target object does not exist.",
+      "time" : {
+        "start" : 1620918295014,
+        "stop" : 1620918435044,
+        "duration" : 140030
+      }
+    }, {
+      "uid" : "8ffab5f08bc5232b",
+      "reportUrl" : "../103/index.html#testresult/8ffab5f08bc5232b",
+      "status" : "failed",
+      "statusDetails" : "Unable to verify a value with the property checkpoint, because the target object does not exist.",
+      "time" : {
+        "start" : 1620918295014,
+        "stop" : 1620918435044,
+        "duration" : 140030
+      }
+    }, {
+      "uid" : "16d8490b388269ec",
+      "reportUrl" : "../102/index.html#testresult/16d8490b388269ec",
+      "status" : "failed",
+      "statusDetails" : "Unable to verify a value with the property checkpoint, because the target object does not exist.",
+      "time" : {
+        "start" : 1620831899863,
+        "stop" : 1620832037443,
+        "duration" : 137580
+      }
+    }, {
+      "uid" : "66b493f377b5c3a1",
+      "reportUrl" : "../101/index.html#testresult/66b493f377b5c3a1",
+      "status" : "failed",
+      "statusDetails" : "Unable to verify a value with the property checkpoint, because the target object does not exist.",
+      "time" : {
+        "start" : 1620831899863,
+        "stop" : 1620832037443,
+        "duration" : 137580
+      }
+    }, {
+      "uid" : "d0d73a749bfd84a2",
+      "reportUrl" : "../100/index.html#testresult/d0d73a749bfd84a2",
+      "status" : "failed",
+      "statusDetails" : "Unable to verify a value with the property checkpoint, because the target object does not exist.",
+      "time" : {
+        "start" : 1620745529060,
+        "stop" : 1620745663984,
+        "duration" : 134924
+      }
+    }, {
+      "uid" : "ccf7388e7765b5cd",
+      "reportUrl" : "../99/index.html#testresult/ccf7388e7765b5cd",
+      "status" : "failed",
+      "statusDetails" : "Unable to verify a value with the property checkpoint, because the target object does not exist.",
+      "time" : {
+        "start" : 1620745529060,
+        "stop" : 1620745663984,
+        "duration" : 134924
+      }
+    }, {
+      "uid" : "4dbeab1fe53f1c6a",
+      "reportUrl" : "../98/index.html#testresult/4dbeab1fe53f1c6a",
+      "status" : "failed",
+      "statusDetails" : "1 The dashboard window has not appeared.",
+      "time" : {
+        "start" : 1620659094306,
+        "stop" : 1620659149620,
+        "duration" : 55314
+      }
+    }, {
+      "uid" : "d87a56a608d09815",
+      "reportUrl" : "../97/index.html#testresult/d87a56a608d09815",
+      "status" : "failed",
+      "statusDetails" : "1 The dashboard window has not appeared.",
+      "time" : {
+        "start" : 1620659094306,
+        "stop" : 1620659149620,
+        "duration" : 55314
+      }
+    }, {
+      "uid" : "543717990635138f",
+      "reportUrl" : "../96/index.html#testresult/543717990635138f",
+      "status" : "failed",
+      "statusDetails" : "Unable to verify a value with the property checkpoint, because the target object does not exist.",
+      "time" : {
+        "start" : 1620572685395,
+        "stop" : 1620572818759,
+        "duration" : 133364
+      }
+    }, {
+      "uid" : "52bc98ad70ed52b0",
+      "reportUrl" : "../95/index.html#testresult/52bc98ad70ed52b0",
+      "status" : "failed",
+      "statusDetails" : "Unable to verify a value with the property checkpoint, because the target object does not exist.",
+      "time" : {
+        "start" : 1620572685395,
+        "stop" : 1620572818759,
+        "duration" : 133364
+      }
+    }, {
+      "uid" : "3fa535d6aeecc6fd",
+      "reportUrl" : "../94/index.html#testresult/3fa535d6aeecc6fd",
+      "status" : "failed",
+      "statusDetails" : "Unexpected window: 'Takeflite Ops - Dev - Daily Overview - v5.6.11.0 - ctladmin - evtprodu (BACKUP/TRAINING MODE). Database Restored 13 days 6 hours 26 minutes ago. Time in master timezone is 06/May/2021 07:02.'",
+      "time" : {
+        "start" : 1620313367890,
+        "stop" : 1620313403070,
+        "duration" : 35180
+      }
+    }, {
+      "uid" : "d7a3dd50df754e9e",
+      "reportUrl" : "../93/index.html#testresult/d7a3dd50df754e9e",
+      "status" : "failed",
+      "statusDetails" : "Unexpected window: 'Takeflite Ops - Dev - Daily Overview - v5.6.11.0 - ctladmin - evtprodu (BACKUP/TRAINING MODE). Database Restored 13 days 6 hours 26 minutes ago. Time in master timezone is 06/May/2021 07:02.'",
+      "time" : {
+        "start" : 1620313367890,
+        "stop" : 1620313403070,
+        "duration" : 35180
+      }
+    }, {
+      "uid" : "f1e246061d121936",
+      "reportUrl" : "../92/index.html#testresult/f1e246061d121936",
+      "status" : "failed",
+      "statusDetails" : "Unable to verify a value with the property checkpoint, because the target object does not exist.",
+      "time" : {
+        "start" : 1620227024916,
+        "stop" : 1620227157579,
+        "duration" : 132663
+      }
+    }, {
+      "uid" : "bdc32888da476863",
+      "reportUrl" : "../91/index.html#testresult/bdc32888da476863",
+      "status" : "failed",
+      "statusDetails" : "Unable to verify a value with the property checkpoint, because the target object does not exist.",
+      "time" : {
+        "start" : 1620227024916,
+        "stop" : 1620227157579,
+        "duration" : 132663
+      }
+    }, {
+      "uid" : "be2c6108679e5ba5",
+      "reportUrl" : "../90/index.html#testresult/be2c6108679e5ba5",
+      "status" : "failed",
+      "statusDetails" : "Unable to verify a value with the property checkpoint, because the target object does not exist.",
+      "time" : {
+        "start" : 1620140706923,
+        "stop" : 1620140832487,
+        "duration" : 125564
+      }
+    }, {
+      "uid" : "ddbf9e1ace0300d4",
+      "reportUrl" : "../89/index.html#testresult/ddbf9e1ace0300d4",
+      "status" : "failed",
+      "statusDetails" : "Unable to verify a value with the property checkpoint, because the target object does not exist.",
+      "time" : {
+        "start" : 1620140706923,
+        "stop" : 1620140832487,
+        "duration" : 125564
+      }
+    }, {
+      "uid" : "c6839a9f08267881",
+      "reportUrl" : "../88/index.html#testresult/c6839a9f08267881",
+      "status" : "failed",
+      "statusDetails" : "Unable to verify a value with the property checkpoint, because the target object does not exist.",
+      "time" : {
+        "start" : 1620054230019,
+        "stop" : 1620054367172,
+        "duration" : 137153
+      }
+    } ]
+  }
+}

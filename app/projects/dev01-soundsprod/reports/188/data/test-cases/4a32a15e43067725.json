@@ -1,0 +1,251 @@
+{
+  "uid" : "4a32a15e43067725",
+  "name" : "FindBooking - User should be search bookings for a specific transaction",
+  "fullName" : "TakeFliteBDD.FindBooking - User should be search bookings for a specific transaction",
+  "historyId" : "TakeFliteBDD.FindBooking - User should be search bookings for a specific transaction",
+  "time" : {
+    "start" : 1620670523215,
+    "stop" : 1620670710120,
+    "duration" : 186905
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "TakeFliteBDD"
+  }, {
+    "name" : "testClass",
+    "value" : "TakeFliteBDD"
+  }, {
+    "name" : "package",
+    "value" : "TakeFliteBDD"
+  }, {
+    "name" : "resultFormat",
+    "value" : "trx"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 99,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 70,
+        "unknown" : 0,
+        "total" : 169
+      },
+      "items" : [ {
+        "uid" : "6b657f4528bfedc8",
+        "reportUrl" : "../187/index.html#testresult/6b657f4528bfedc8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620670523215,
+          "stop" : 1620670710120,
+          "duration" : 186905
+        }
+      }, {
+        "uid" : "eed6ff30a3d90720",
+        "reportUrl" : "../186/index.html#testresult/eed6ff30a3d90720",
+        "status" : "failed",
+        "statusDetails" : "1 The dashboard window has not appeared.",
+        "time" : {
+          "start" : 1620584120691,
+          "stop" : 1620584178226,
+          "duration" : 57535
+        }
+      }, {
+        "uid" : "bcc9867457f3f1bd",
+        "reportUrl" : "../185/index.html#testresult/bcc9867457f3f1bd",
+        "status" : "failed",
+        "statusDetails" : "The property checkpoint failed, because Text does not contain the substring (case-sensitive) \"100 passenger(s) found. Orphaned passengers a...\". See Details for additional information.",
+        "time" : {
+          "start" : 1620497680069,
+          "stop" : 1620497811142,
+          "duration" : 131073
+        }
+      }, {
+        "uid" : "bbe3cb5f3014c587",
+        "reportUrl" : "../184/index.html#testresult/bbe3cb5f3014c587",
+        "status" : "failed",
+        "statusDetails" : "The property checkpoint failed, because Text does not contain the substring (case-sensitive) \"100 passenger(s) found. Orphaned passengers a...\". See Details for additional information.",
+        "time" : {
+          "start" : 1620497680069,
+          "stop" : 1620497811142,
+          "duration" : 131073
+        }
+      }, {
+        "uid" : "366680aeaf662cb9",
+        "reportUrl" : "../183/index.html#testresult/366680aeaf662cb9",
+        "status" : "failed",
+        "statusDetails" : "The property checkpoint failed, because Text does not contain the substring (case-sensitive) \"100 passenger(s) found. Orphaned passengers a...\". See Details for additional information.",
+        "time" : {
+          "start" : 1620411311545,
+          "stop" : 1620411448778,
+          "duration" : 137233
+        }
+      }, {
+        "uid" : "58a39716659fb756",
+        "reportUrl" : "../182/index.html#testresult/58a39716659fb756",
+        "status" : "failed",
+        "statusDetails" : "The property checkpoint failed, because Text does not contain the substring (case-sensitive) \"100 passenger(s) found. Orphaned passengers a...\". See Details for additional information.",
+        "time" : {
+          "start" : 1620411311545,
+          "stop" : 1620411448778,
+          "duration" : 137233
+        }
+      }, {
+        "uid" : "efb9b096161da7f5",
+        "reportUrl" : "../181/index.html#testresult/efb9b096161da7f5",
+        "status" : "failed",
+        "statusDetails" : "The property checkpoint failed, because Text does not contain the substring (case-sensitive) \"100 passenger(s) found. Orphaned passengers a...\". See Details for additional information.",
+        "time" : {
+          "start" : 1620324957845,
+          "stop" : 1620325090963,
+          "duration" : 133118
+        }
+      }, {
+        "uid" : "b5738a829cb94e07",
+        "reportUrl" : "../180/index.html#testresult/b5738a829cb94e07",
+        "status" : "failed",
+        "statusDetails" : "The property checkpoint failed, because Text does not contain the substring (case-sensitive) \"100 passenger(s) found. Orphaned passengers a...\". See Details for additional information.",
+        "time" : {
+          "start" : 1620238523066,
+          "stop" : 1620238653108,
+          "duration" : 130042
+        }
+      }, {
+        "uid" : "9c740bee169ade25",
+        "reportUrl" : "../179/index.html#testresult/9c740bee169ade25",
+        "status" : "failed",
+        "statusDetails" : "The property checkpoint failed, because Text does not contain the substring (case-sensitive) \"100 passenger(s) found. Orphaned passengers a...\". See Details for additional information.",
+        "time" : {
+          "start" : 1620238523066,
+          "stop" : 1620238653108,
+          "duration" : 130042
+        }
+      }, {
+        "uid" : "ed67ebc05187408e",
+        "reportUrl" : "../178/index.html#testresult/ed67ebc05187408e",
+        "status" : "failed",
+        "statusDetails" : "The property checkpoint failed, because Text does not contain the substring (case-sensitive) \"100 passenger(s) found. Orphaned passengers a...\". See Details for additional information.",
+        "time" : {
+          "start" : 1620152136420,
+          "stop" : 1620152270084,
+          "duration" : 133664
+        }
+      }, {
+        "uid" : "7d5d461694651afd",
+        "reportUrl" : "../177/index.html#testresult/7d5d461694651afd",
+        "status" : "failed",
+        "statusDetails" : "The property checkpoint failed, because Text does not contain the substring (case-sensitive) \"100 passenger(s) found. Orphaned passengers a...\". See Details for additional information.",
+        "time" : {
+          "start" : 1620065708259,
+          "stop" : 1620065840381,
+          "duration" : 132122
+        }
+      }, {
+        "uid" : "7b5dc27372f4bdb4",
+        "reportUrl" : "../176/index.html#testresult/7b5dc27372f4bdb4",
+        "status" : "failed",
+        "statusDetails" : "The property checkpoint failed, because Text does not contain the substring (case-sensitive) \"100 passenger(s) found. Orphaned passengers a...\". See Details for additional information.",
+        "time" : {
+          "start" : 1619979301254,
+          "stop" : 1619979432248,
+          "duration" : 130994
+        }
+      }, {
+        "uid" : "535b45b0a78ad4a3",
+        "reportUrl" : "../175/index.html#testresult/535b45b0a78ad4a3",
+        "status" : "failed",
+        "statusDetails" : "The property checkpoint failed, because Text does not contain the substring (case-sensitive) \"100 passenger(s) found. Orphaned passengers a...\". See Details for additional information.",
+        "time" : {
+          "start" : 1619979301254,
+          "stop" : 1619979432248,
+          "duration" : 130994
+        }
+      }, {
+        "uid" : "639b2a4d1b568a19",
+        "reportUrl" : "../174/index.html#testresult/639b2a4d1b568a19",
+        "status" : "failed",
+        "statusDetails" : "The property checkpoint failed, because Text does not contain the substring (case-sensitive) \"100 passenger(s) found. Orphaned passengers a...\". See Details for additional information.",
+        "time" : {
+          "start" : 1619892923747,
+          "stop" : 1619893055395,
+          "duration" : 131648
+        }
+      }, {
+        "uid" : "330ac6fedc17dfa9",
+        "reportUrl" : "../173/index.html#testresult/330ac6fedc17dfa9",
+        "status" : "failed",
+        "statusDetails" : "The property checkpoint failed, because Text does not contain the substring (case-sensitive) \"100 passenger(s) found. Orphaned passengers a...\". See Details for additional information.",
+        "time" : {
+          "start" : 1619806586887,
+          "stop" : 1619806718096,
+          "duration" : 131209
+        }
+      }, {
+        "uid" : "4ca0aa0ca31bd6e3",
+        "reportUrl" : "../172/index.html#testresult/4ca0aa0ca31bd6e3",
+        "status" : "failed",
+        "statusDetails" : "The property checkpoint failed, because Text does not contain the substring (case-sensitive) \"100 passenger(s) found. Orphaned passengers a...\". See Details for additional information.",
+        "time" : {
+          "start" : 1619806586887,
+          "stop" : 1619806718096,
+          "duration" : 131209
+        }
+      }, {
+        "uid" : "8ef4cf265c069dad",
+        "reportUrl" : "../171/index.html#testresult/8ef4cf265c069dad",
+        "status" : "failed",
+        "statusDetails" : "The property checkpoint failed, because Text does not contain the substring (case-sensitive) \"100 passenger(s) found. Orphaned passengers a...\". See Details for additional information.",
+        "time" : {
+          "start" : 1619720164355,
+          "stop" : 1619720296951,
+          "duration" : 132596
+        }
+      }, {
+        "uid" : "5338e862f25bb60a",
+        "reportUrl" : "../170/index.html#testresult/5338e862f25bb60a",
+        "status" : "failed",
+        "statusDetails" : "The property checkpoint failed, because Text does not contain the substring (case-sensitive) \"100 passenger(s) found. Orphaned passengers a...\". See Details for additional information.",
+        "time" : {
+          "start" : 1619633736700,
+          "stop" : 1619633868235,
+          "duration" : 131535
+        }
+      }, {
+        "uid" : "19e1d46acfdd8bca",
+        "reportUrl" : "../169/index.html#testresult/19e1d46acfdd8bca",
+        "status" : "failed",
+        "statusDetails" : "The property checkpoint failed, because Text does not contain the substring (case-sensitive) \"100 passenger(s) found. Orphaned passengers a...\". See Details for additional information.",
+        "time" : {
+          "start" : 1619633736700,
+          "stop" : 1619633868235,
+          "duration" : 131535
+        }
+      }, {
+        "uid" : "71379e0c33c0cfe4",
+        "reportUrl" : "../168/index.html#testresult/71379e0c33c0cfe4",
+        "status" : "failed",
+        "statusDetails" : "The property checkpoint failed, because Text does not contain the substring (case-sensitive) \"100 passenger(s) found. Orphaned passengers a...\". See Details for additional information.",
+        "time" : {
+          "start" : 1619547327108,
+          "stop" : 1619547463814,
+          "duration" : 136706
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "4a32a15e43067725.json",
+  "parameterValues" : [ ]
+}

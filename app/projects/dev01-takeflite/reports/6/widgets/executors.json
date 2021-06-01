@@ -1,0 +1,9 @@
+[ {
+  "name" : "Automatic Execution",
+  "type" : "another",
+  "buildOrder" : 6,
+  "buildName" : "dev01-takeflite #6",
+  "buildUrl" : "",
+  "reportName" : "dev01-takeflite",
+  "reportUrl" : "../6/index.html"
+} ]

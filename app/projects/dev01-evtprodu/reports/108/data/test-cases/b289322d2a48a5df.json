@@ -1,0 +1,237 @@
+{
+  "uid" : "b289322d2a48a5df",
+  "name" : "Evtprodu anchorage freight search ",
+  "fullName" : "TakeFliteBDD.Evtprodu anchorage freight search ",
+  "historyId" : "TakeFliteBDD.Evtprodu anchorage freight search ",
+  "time" : {
+    "start" : 1621350071096,
+    "stop" : 1621350157754,
+    "duration" : 86658
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "TakeFliteBDD"
+  }, {
+    "name" : "testClass",
+    "value" : "TakeFliteBDD"
+  }, {
+    "name" : "package",
+    "value" : "TakeFliteBDD"
+  }, {
+    "name" : "resultFormat",
+    "value" : "trx"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 19,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 87,
+        "unknown" : 0,
+        "total" : 106
+      },
+      "items" : [ {
+        "uid" : "28ee795235db61e8",
+        "reportUrl" : "../107/index.html#testresult/28ee795235db61e8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621263681069,
+          "stop" : 1621263769808,
+          "duration" : 88739
+        }
+      }, {
+        "uid" : "187d77d285361c7d",
+        "reportUrl" : "../106/index.html#testresult/187d77d285361c7d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621177272462,
+          "stop" : 1621177357294,
+          "duration" : 84832
+        }
+      }, {
+        "uid" : "4722288c0451335f",
+        "reportUrl" : "../105/index.html#testresult/4722288c0451335f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621177272462,
+          "stop" : 1621177357294,
+          "duration" : 84832
+        }
+      }, {
+        "uid" : "b761af31b7e753e6",
+        "reportUrl" : "../104/index.html#testresult/b761af31b7e753e6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620918081789,
+          "stop" : 1620918166463,
+          "duration" : 84674
+        }
+      }, {
+        "uid" : "585b79e45989f474",
+        "reportUrl" : "../103/index.html#testresult/585b79e45989f474",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620918081789,
+          "stop" : 1620918166463,
+          "duration" : 84674
+        }
+      }, {
+        "uid" : "25d6a7c92eb349be",
+        "reportUrl" : "../102/index.html#testresult/25d6a7c92eb349be",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620831684435,
+          "stop" : 1620831770652,
+          "duration" : 86217
+        }
+      }, {
+        "uid" : "450b173e4c1ba93f",
+        "reportUrl" : "../101/index.html#testresult/450b173e4c1ba93f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620831684435,
+          "stop" : 1620831770652,
+          "duration" : 86217
+        }
+      }, {
+        "uid" : "999dbc9c7d1821e3",
+        "reportUrl" : "../100/index.html#testresult/999dbc9c7d1821e3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620745306864,
+          "stop" : 1620745393942,
+          "duration" : 87078
+        }
+      }, {
+        "uid" : "69a8e6391b73e332",
+        "reportUrl" : "../99/index.html#testresult/69a8e6391b73e332",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620745306864,
+          "stop" : 1620745393942,
+          "duration" : 87078
+        }
+      }, {
+        "uid" : "a33de3c024af5c12",
+        "reportUrl" : "../98/index.html#testresult/a33de3c024af5c12",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620658872005,
+          "stop" : 1620658954846,
+          "duration" : 82841
+        }
+      }, {
+        "uid" : "b8e71e83dd80aa46",
+        "reportUrl" : "../97/index.html#testresult/b8e71e83dd80aa46",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620658872005,
+          "stop" : 1620658954846,
+          "duration" : 82841
+        }
+      }, {
+        "uid" : "a48b0fbf4cd7f752",
+        "reportUrl" : "../96/index.html#testresult/a48b0fbf4cd7f752",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620572463542,
+          "stop" : 1620572549519,
+          "duration" : 85977
+        }
+      }, {
+        "uid" : "71083f6751052ad3",
+        "reportUrl" : "../95/index.html#testresult/71083f6751052ad3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620572463542,
+          "stop" : 1620572549519,
+          "duration" : 85977
+        }
+      }, {
+        "uid" : "2829c8af0c9fe018",
+        "reportUrl" : "../94/index.html#testresult/2829c8af0c9fe018",
+        "status" : "failed",
+        "statusDetails" : "The object \"txtUsername\" does not exist.",
+        "time" : {
+          "start" : 1620313269571,
+          "stop" : 1620313289678,
+          "duration" : 20107
+        }
+      }, {
+        "uid" : "2fc590db34190f64",
+        "reportUrl" : "../93/index.html#testresult/2fc590db34190f64",
+        "status" : "failed",
+        "statusDetails" : "The object \"txtUsername\" does not exist.",
+        "time" : {
+          "start" : 1620313269571,
+          "stop" : 1620313289678,
+          "duration" : 20107
+        }
+      }, {
+        "uid" : "fcab9341972edea7",
+        "reportUrl" : "../92/index.html#testresult/fcab9341972edea7",
+        "status" : "failed",
+        "statusDetails" : "The object \"txtUsername\" does not exist.",
+        "time" : {
+          "start" : 1620226871983,
+          "stop" : 1620226892536,
+          "duration" : 20553
+        }
+      }, {
+        "uid" : "70f15568c0f4dacb",
+        "reportUrl" : "../91/index.html#testresult/70f15568c0f4dacb",
+        "status" : "failed",
+        "statusDetails" : "The object \"txtUsername\" does not exist.",
+        "time" : {
+          "start" : 1620226871983,
+          "stop" : 1620226892536,
+          "duration" : 20553
+        }
+      }, {
+        "uid" : "da030c20957e58ce",
+        "reportUrl" : "../90/index.html#testresult/da030c20957e58ce",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620140478351,
+          "stop" : 1620140573417,
+          "duration" : 95066
+        }
+      }, {
+        "uid" : "cdd138dfe57a4f45",
+        "reportUrl" : "../89/index.html#testresult/cdd138dfe57a4f45",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620140478351,
+          "stop" : 1620140573417,
+          "duration" : 95066
+        }
+      }, {
+        "uid" : "cc98ba91b16ed218",
+        "reportUrl" : "../88/index.html#testresult/cc98ba91b16ed218",
+        "status" : "failed",
+        "statusDetails" : "The object \"txtUsername\" does not exist.",
+        "time" : {
+          "start" : 1620054108381,
+          "stop" : 1620054128979,
+          "duration" : 20598
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "b289322d2a48a5df.json",
+  "parameterValues" : [ ]
+}

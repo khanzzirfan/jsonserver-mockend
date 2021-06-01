@@ -1,0 +1,257 @@
+{
+  "uid" : "59b949015799db51",
+  "name" : "FindBooking - Searchbooking for a one month",
+  "fullName" : "TakeFliteBDD.FindBooking - Searchbooking for a one month",
+  "historyId" : "TakeFliteBDD.FindBooking - Searchbooking for a one month",
+  "time" : {
+    "start" : 1620497883426,
+    "stop" : 1620498014318,
+    "duration" : 130892
+  },
+  "status" : "failed",
+  "statusMessage" : "The property checkpoint failed, because Text does not equal (case-sensitive) \"100 passenger(s) found. Orphaned passengers a...\". See Details for additional information.",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "TakeFliteBDD"
+  }, {
+    "name" : "testClass",
+    "value" : "TakeFliteBDD"
+  }, {
+    "name" : "package",
+    "value" : "TakeFliteBDD"
+  }, {
+    "name" : "resultFormat",
+    "value" : "trx"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 84,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 82,
+        "unknown" : 0,
+        "total" : 166
+      },
+      "items" : [ {
+        "uid" : "1f2e296b504b7f5a",
+        "reportUrl" : "../184/index.html#testresult/1f2e296b504b7f5a",
+        "status" : "failed",
+        "statusDetails" : "The property checkpoint failed, because Text does not equal (case-sensitive) \"100 passenger(s) found. Orphaned passengers a...\". See Details for additional information.",
+        "time" : {
+          "start" : 1620497883426,
+          "stop" : 1620498014318,
+          "duration" : 130892
+        }
+      }, {
+        "uid" : "3c23403f7aad7457",
+        "reportUrl" : "../183/index.html#testresult/3c23403f7aad7457",
+        "status" : "failed",
+        "statusDetails" : "The property checkpoint failed, because Text does not equal (case-sensitive) \"100 passenger(s) found. Orphaned passengers a...\". See Details for additional information.",
+        "time" : {
+          "start" : 1620411521591,
+          "stop" : 1620411657156,
+          "duration" : 135565
+        }
+      }, {
+        "uid" : "d05c5a3ccd444992",
+        "reportUrl" : "../182/index.html#testresult/d05c5a3ccd444992",
+        "status" : "failed",
+        "statusDetails" : "The property checkpoint failed, because Text does not equal (case-sensitive) \"100 passenger(s) found. Orphaned passengers a...\". See Details for additional information.",
+        "time" : {
+          "start" : 1620411521591,
+          "stop" : 1620411657156,
+          "duration" : 135565
+        }
+      }, {
+        "uid" : "5ec6bc7e939757d7",
+        "reportUrl" : "../181/index.html#testresult/5ec6bc7e939757d7",
+        "status" : "failed",
+        "statusDetails" : "The property checkpoint failed, because Text does not equal (case-sensitive) \"100 passenger(s) found. Orphaned passengers a...\". See Details for additional information.",
+        "time" : {
+          "start" : 1620325164818,
+          "stop" : 1620325298184,
+          "duration" : 133366
+        }
+      }, {
+        "uid" : "6c33364fc618b690",
+        "reportUrl" : "../180/index.html#testresult/6c33364fc618b690",
+        "status" : "failed",
+        "statusDetails" : "The property checkpoint failed, because Text does not equal (case-sensitive) \"100 passenger(s) found. Orphaned passengers a...\". See Details for additional information.",
+        "time" : {
+          "start" : 1620238725734,
+          "stop" : 1620238858220,
+          "duration" : 132486
+        }
+      }, {
+        "uid" : "a15714c90d9e31f9",
+        "reportUrl" : "../179/index.html#testresult/a15714c90d9e31f9",
+        "status" : "failed",
+        "statusDetails" : "The property checkpoint failed, because Text does not equal (case-sensitive) \"100 passenger(s) found. Orphaned passengers a...\". See Details for additional information.",
+        "time" : {
+          "start" : 1620238725734,
+          "stop" : 1620238858220,
+          "duration" : 132486
+        }
+      }, {
+        "uid" : "18d98b162fc830f0",
+        "reportUrl" : "../178/index.html#testresult/18d98b162fc830f0",
+        "status" : "failed",
+        "statusDetails" : "The property checkpoint failed, because Text does not equal (case-sensitive) \"100 passenger(s) found. Orphaned passengers a...\". See Details for additional information.",
+        "time" : {
+          "start" : 1620152342949,
+          "stop" : 1620152475979,
+          "duration" : 133030
+        }
+      }, {
+        "uid" : "78256763d1e87692",
+        "reportUrl" : "../177/index.html#testresult/78256763d1e87692",
+        "status" : "failed",
+        "statusDetails" : "The property checkpoint failed, because Text does not equal (case-sensitive) \"100 passenger(s) found. Orphaned passengers a...\". See Details for additional information.",
+        "time" : {
+          "start" : 1620065914022,
+          "stop" : 1620066047575,
+          "duration" : 133553
+        }
+      }, {
+        "uid" : "3be139436d0e6b66",
+        "reportUrl" : "../176/index.html#testresult/3be139436d0e6b66",
+        "status" : "failed",
+        "statusDetails" : "The property checkpoint failed, because Text does not equal (case-sensitive) \"100 passenger(s) found. Orphaned passengers a...\". See Details for additional information.",
+        "time" : {
+          "start" : 1619979507086,
+          "stop" : 1619979639438,
+          "duration" : 132352
+        }
+      }, {
+        "uid" : "fb53a1b4be05a467",
+        "reportUrl" : "../175/index.html#testresult/fb53a1b4be05a467",
+        "status" : "failed",
+        "statusDetails" : "The property checkpoint failed, because Text does not equal (case-sensitive) \"100 passenger(s) found. Orphaned passengers a...\". See Details for additional information.",
+        "time" : {
+          "start" : 1619979507086,
+          "stop" : 1619979639438,
+          "duration" : 132352
+        }
+      }, {
+        "uid" : "6730364a70b49ecc",
+        "reportUrl" : "../174/index.html#testresult/6730364a70b49ecc",
+        "status" : "failed",
+        "statusDetails" : "The property checkpoint failed, because Text does not equal (case-sensitive) \"100 passenger(s) found. Orphaned passengers a...\". See Details for additional information.",
+        "time" : {
+          "start" : 1619893126448,
+          "stop" : 1619893259001,
+          "duration" : 132553
+        }
+      }, {
+        "uid" : "2f6a120c9501de47",
+        "reportUrl" : "../173/index.html#testresult/2f6a120c9501de47",
+        "status" : "failed",
+        "statusDetails" : "The property checkpoint failed, because Text does not equal (case-sensitive) \"100 passenger(s) found. Orphaned passengers a...\". See Details for additional information.",
+        "time" : {
+          "start" : 1619806791528,
+          "stop" : 1619806922573,
+          "duration" : 131045
+        }
+      }, {
+        "uid" : "3163001110fcd0af",
+        "reportUrl" : "../172/index.html#testresult/3163001110fcd0af",
+        "status" : "failed",
+        "statusDetails" : "The property checkpoint failed, because Text does not equal (case-sensitive) \"100 passenger(s) found. Orphaned passengers a...\". See Details for additional information.",
+        "time" : {
+          "start" : 1619806791528,
+          "stop" : 1619806922573,
+          "duration" : 131045
+        }
+      }, {
+        "uid" : "2d9791ce91fa2b60",
+        "reportUrl" : "../171/index.html#testresult/2d9791ce91fa2b60",
+        "status" : "failed",
+        "statusDetails" : "The property checkpoint failed, because Text does not equal (case-sensitive) \"100 passenger(s) found. Orphaned passengers a...\". See Details for additional information.",
+        "time" : {
+          "start" : 1619720375429,
+          "stop" : 1619720513538,
+          "duration" : 138109
+        }
+      }, {
+        "uid" : "60854ba02d7bc937",
+        "reportUrl" : "../170/index.html#testresult/60854ba02d7bc937",
+        "status" : "failed",
+        "statusDetails" : "The property checkpoint failed, because Text does not equal (case-sensitive) \"100 passenger(s) found. Orphaned passengers a...\". See Details for additional information.",
+        "time" : {
+          "start" : 1619633941223,
+          "stop" : 1619634075765,
+          "duration" : 134542
+        }
+      }, {
+        "uid" : "b6a3a56bf3a69213",
+        "reportUrl" : "../169/index.html#testresult/b6a3a56bf3a69213",
+        "status" : "failed",
+        "statusDetails" : "The property checkpoint failed, because Text does not equal (case-sensitive) \"100 passenger(s) found. Orphaned passengers a...\". See Details for additional information.",
+        "time" : {
+          "start" : 1619633941223,
+          "stop" : 1619634075765,
+          "duration" : 134542
+        }
+      }, {
+        "uid" : "e9ebd7aae4218d44",
+        "reportUrl" : "../168/index.html#testresult/e9ebd7aae4218d44",
+        "status" : "failed",
+        "statusDetails" : "The property checkpoint failed, because Text does not equal (case-sensitive) \"100 passenger(s) found. Orphaned passengers a...\". See Details for additional information.",
+        "time" : {
+          "start" : 1619547536280,
+          "stop" : 1619547671887,
+          "duration" : 135607
+        }
+      }, {
+        "uid" : "5eec3e6033f942d9",
+        "reportUrl" : "../167/index.html#testresult/5eec3e6033f942d9",
+        "status" : "failed",
+        "statusDetails" : "The property checkpoint failed, because Text does not equal (case-sensitive) \"100 passenger(s) found. Orphaned passengers a...\". See Details for additional information.",
+        "time" : {
+          "start" : 1619547536280,
+          "stop" : 1619547671887,
+          "duration" : 135607
+        }
+      }, {
+        "uid" : "c8390d543d68effb",
+        "reportUrl" : "../166/index.html#testresult/c8390d543d68effb",
+        "status" : "failed",
+        "statusDetails" : "The property checkpoint failed, because Text does not equal (case-sensitive) \"100 passenger(s) found. Orphaned passengers a...\". See Details for additional information.",
+        "time" : {
+          "start" : 1619461163954,
+          "stop" : 1619461295617,
+          "duration" : 131663
+        }
+      }, {
+        "uid" : "62b1dbd626aa6d4e",
+        "reportUrl" : "../165/index.html#testresult/62b1dbd626aa6d4e",
+        "status" : "failed",
+        "statusDetails" : "The property checkpoint failed, because Text does not equal (case-sensitive) \"100 passenger(s) found. Orphaned passengers a...\". See Details for additional information.",
+        "time" : {
+          "start" : 1619461163954,
+          "stop" : 1619461295617,
+          "duration" : 131663
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "59b949015799db51.json",
+  "parameterValues" : [ ]
+}

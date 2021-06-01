@@ -1,0 +1,82 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "",
+      "children" : [ {
+        "name" : "As a user I should be able to create freight shipment",
+        "uid" : "f534728ac7615860",
+        "parentUid" : "ac137dbdc3eb70d55d947f065b65fff1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620658989417,
+          "stop" : 1620659021237,
+          "duration" : 31820
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ac137dbdc3eb70d55d947f065b65fff1"
+    }, {
+      "name" : "timeout: Timed out receiving message from renderer: -0.000\n                  (Session info: headless chrome=90.0.4430.85)",
+      "children" : [ {
+        "name" : "Search page should display all basic field on landing",
+        "uid" : "e4e77c136f6e3892",
+        "parentUid" : "6ea70ce4d24561af1c6d722f28c50c66",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620659072567,
+          "stop" : 1620659114157,
+          "duration" : 41590
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "As a user I should see oneway trip booking options @validation",
+        "uid" : "fc3898d64e80fc39",
+        "parentUid" : "6ea70ce4d24561af1c6d722f28c50c66",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620659114242,
+          "stop" : 1620659155798,
+          "duration" : 41556
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "As a user I should see validation errors for oneway trip @validation",
+        "uid" : "ee9a06ab538bd05e",
+        "parentUid" : "6ea70ce4d24561af1c6d722f28c50c66",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620659155875,
+          "stop" : 1620659197478,
+          "duration" : 41603
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "As a user I should see validation errors for round trip field @validation",
+        "uid" : "e8e1bb5353113585",
+        "parentUid" : "6ea70ce4d24561af1c6d722f28c50c66",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620659197557,
+          "stop" : 1620659239112,
+          "duration" : 41555
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6ea70ce4d24561af1c6d722f28c50c66"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

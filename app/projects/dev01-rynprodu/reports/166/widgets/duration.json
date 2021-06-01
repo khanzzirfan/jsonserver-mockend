@@ -1,0 +1,101 @@
+[ {
+  "uid" : "e0dd262104b60914",
+  "name" : "create new tags",
+  "time" : {
+    "start" : 1620922347795,
+    "stop" : 1620922417478,
+    "duration" : 69683
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "14bd1fe1825cd092",
+  "name" : "search by freights by agent",
+  "time" : {
+    "start" : 1620922006558,
+    "stop" : 1620922150745,
+    "duration" : 144187
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "774d929106227d38",
+  "name" : "Search all freights from Kotlik",
+  "time" : {
+    "start" : 1620922221572,
+    "stop" : 1620922286876,
+    "duration" : 65304
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b655cab5dc9522b3",
+  "name" : "create quick freight",
+  "time" : {
+    "start" : 1620921709773,
+    "stop" : 1620921788996,
+    "duration" : 79223
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "12cf4b770dc0bb32",
+  "name" : "freights from kotlik to emmonak",
+  "time" : {
+    "start" : 1620922150765,
+    "stop" : 1620922221562,
+    "duration" : 70797
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f971d8f1b9ce2f6d",
+  "name" : "validate add freight mandatory fields",
+  "time" : {
+    "start" : 1620921866341,
+    "stop" : 1620921934565,
+    "duration" : 68224
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cf0dff686fbfe45f",
+  "name" : "DashboardScreenValidation",
+  "time" : {
+    "start" : 1620922286876,
+    "stop" : 1620922347775,
+    "duration" : 60899
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3a002c1522283050",
+  "name" : "create quick freight mandatory office selection",
+  "time" : {
+    "start" : 1620921789007,
+    "stop" : 1620921866331,
+    "duration" : 77324
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "11ba51ebac1b609c",
+  "name" : "Validate add freight window fields",
+  "time" : {
+    "start" : 1620921934575,
+    "stop" : 1620922006548,
+    "duration" : 71973
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "27db3dd515b1c4c0",
+  "name" : "assign tag to scheduled booking flight_1",
+  "time" : {
+    "start" : 1620922417488,
+    "stop" : 1620922508277,
+    "duration" : 90789
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

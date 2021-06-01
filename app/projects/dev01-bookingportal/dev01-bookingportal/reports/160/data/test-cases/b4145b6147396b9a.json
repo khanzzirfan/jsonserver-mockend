@@ -1,0 +1,1310 @@
+{
+  "uid" : "b4145b6147396b9a",
+  "name" : "Search page should display all basic field on landing",
+  "fullName" : "Book a flight and complete the payments @flightbooking.Search page should display all basic field on landing",
+  "historyId" : "8919749f5884b22ec19ecdbb9aa0ddda",
+  "time" : {
+    "start" : 1620345484969,
+    "stop" : 1620345537335,
+    "duration" : 52366
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "",
+    "statusTrace" : "undefined",
+    "steps" : [ {
+      "name" : "Given I navigate to application ",
+      "time" : {
+        "start" : 1620345486594,
+        "stop" : 1620345493571,
+        "duration" : 6977
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "searchPage: goToSearch ",
+        "time" : {
+          "start" : 1620345486594,
+          "stop" : 1620345493548,
+          "duration" : 6954
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "I am on page \"https://apps8.tflite.com/Public/SA/Booking/Search\"",
+          "time" : {
+            "start" : 1620345486594,
+            "stop" : 1620345492225,
+            "duration" : 5631
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "I refresh page ",
+          "time" : {
+            "start" : 1620345492225,
+            "stop" : 1620345493412,
+            "duration" : 1187
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "I wait for visible \"#submit\"",
+          "time" : {
+            "start" : 1620345493412,
+            "stop" : 1620345493548,
+            "duration" : 136
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 3,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "I see element \"#submit\"",
+        "time" : {
+          "start" : 1620345493548,
+          "stop" : 1620345493571,
+          "duration" : 23
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 5,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When I see sigin button ",
+      "time" : {
+        "start" : 1620345493571,
+        "stop" : 1620345494000,
+        "duration" : 429
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I see element \"#login\"",
+        "time" : {
+          "start" : 1620345493571,
+          "stop" : 1620345493597,
+          "duration" : 26
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I click on signin button ",
+      "time" : {
+        "start" : 1620345494000,
+        "stop" : 1620345495790,
+        "duration" : 1790
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I click \"#login\"",
+        "time" : {
+          "start" : 1620345494000,
+          "stop" : 1620345495790,
+          "duration" : 1790
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I should enter agent username and password ",
+      "time" : {
+        "start" : 1620345495790,
+        "stop" : 1620345499641,
+        "duration" : 3851
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I wait 2",
+        "time" : {
+          "start" : 1620345495790,
+          "stop" : 1620345497792,
+          "duration" : 2002
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I fill field \"#username\", \"Agent\"",
+        "time" : {
+          "start" : 1620345498194,
+          "stop" : 1620345498513,
+          "duration" : 319
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I fill field \"#password\", \"123456\"",
+        "time" : {
+          "start" : 1620345498913,
+          "stop" : 1620345499240,
+          "duration" : 327
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I click on login button ",
+      "time" : {
+        "start" : 1620345499641,
+        "stop" : 1620345499905,
+        "duration" : 264
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I click \"#submit\"",
+        "time" : {
+          "start" : 1620345499641,
+          "stop" : 1620345499905,
+          "duration" : 264
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I should see application navigated to search flight page ",
+      "time" : {
+        "start" : 1620345499905,
+        "stop" : 1620345505868,
+        "duration" : 5963
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I wait 2",
+        "time" : {
+          "start" : 1620345499905,
+          "stop" : 1620345501906,
+          "duration" : 2001
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I see in current url \"/Booking/Search\"",
+        "time" : {
+          "start" : 1620345501906,
+          "stop" : 1620345505467,
+          "duration" : 3561
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I choose departing from 'Wellington' flight ",
+      "time" : {
+        "start" : 1620345505868,
+        "stop" : 1620345508040,
+        "duration" : 2172
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I click \"button[data-id=\"from\"]\"",
+        "time" : {
+          "start" : 1620345505868,
+          "stop" : 1620345506966,
+          "duration" : 1098
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I click \".inner li:nth-child(9)\"",
+        "time" : {
+          "start" : 1620345507366,
+          "stop" : 1620345507640,
+          "duration" : 274
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I choose travelling to 'Blenheim' flight ",
+      "time" : {
+        "start" : 1620345508040,
+        "stop" : 1620345510191,
+        "duration" : 2151
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I click \"button[data-id=\"to\"]\"",
+        "time" : {
+          "start" : 1620345508040,
+          "stop" : 1620345508556,
+          "duration" : 516
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I press key \"ArrowDown\"",
+        "time" : {
+          "start" : 1620345508956,
+          "stop" : 1620345509167,
+          "duration" : 211
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I press key \"Enter\"",
+        "time" : {
+          "start" : 1620345509569,
+          "stop" : 1620345509790,
+          "duration" : 221
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I choose departing from date ",
+      "time" : {
+        "start" : 1620345510191,
+        "stop" : 1620345514698,
+        "duration" : 4507
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I click \"#depart_date\"",
+        "time" : {
+          "start" : 1620345510191,
+          "stop" : 1620345510520,
+          "duration" : 329
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I click \".datepicker-days .next\"",
+        "time" : {
+          "start" : 1620345510920,
+          "stop" : 1620345511204,
+          "duration" : 284
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I click \".datepicker-days .next\"",
+        "time" : {
+          "start" : 1620345511604,
+          "stop" : 1620345511868,
+          "duration" : 264
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I click \".datepicker-days .next\"",
+        "time" : {
+          "start" : 1620345512268,
+          "stop" : 1620345512530,
+          "duration" : 262
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I click \".datepicker-days .next\"",
+        "time" : {
+          "start" : 1620345512931,
+          "stop" : 1620345513206,
+          "duration" : 275
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I click \"tr:nth-child(4) > .day:nth-child(6)\"",
+        "time" : {
+          "start" : 1620345513606,
+          "stop" : 1620345514298,
+          "duration" : 692
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 6,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I choose return date ",
+      "time" : {
+        "start" : 1620345514698,
+        "stop" : 1620345517164,
+        "duration" : 2466
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I click \"#return_date\"",
+        "time" : {
+          "start" : 1620345514698,
+          "stop" : 1620345515026,
+          "duration" : 328
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I click \".datepicker-days .next\"",
+        "time" : {
+          "start" : 1620345515429,
+          "stop" : 1620345515712,
+          "duration" : 283
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I click \"tr:nth-child(5) > .day:nth-child(2)\"",
+        "time" : {
+          "start" : 1620345516113,
+          "stop" : 1620345516764,
+          "duration" : 651
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I click on search button ",
+      "time" : {
+        "start" : 1620345517164,
+        "stop" : 1620345517450,
+        "duration" : 286
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I click \"#submit\"",
+        "time" : {
+          "start" : 1620345517164,
+          "stop" : 1620345517450,
+          "duration" : 286
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I should see page is navigated to flight url ",
+      "time" : {
+        "start" : 1620345517450,
+        "stop" : 1620345522464,
+        "duration" : 5014
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I wait 5",
+        "time" : {
+          "start" : 1620345517450,
+          "stop" : 1620345522451,
+          "duration" : 5001
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I see in current url \"/Booking/Flights\"",
+        "time" : {
+          "start" : 1620345522451,
+          "stop" : 1620345522464,
+          "duration" : 13
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I select first available sounds best travelling to flight ",
+      "time" : {
+        "start" : 1620345522464,
+        "stop" : 1620345526686,
+        "duration" : 4222
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I wait for element \".fc_radio-success\"",
+        "time" : {
+          "start" : 1620345522464,
+          "stop" : 1620345522483,
+          "duration" : 19
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I wait 2",
+        "time" : {
+          "start" : 1620345522484,
+          "stop" : 1620345524485,
+          "duration" : 2001
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I scroll into view \"#departleg\"",
+        "time" : {
+          "start" : 1620345524485,
+          "stop" : 1620345524515,
+          "duration" : 30
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I click {xpath: (.//*[./@id = 'departleg']//*[contains(concat(' ', normalize-space(./@class), ' '), ' flight-panel ')])[position()=1]//*[contains(concat(' ', normalize-space(./@class), ' '), ' fc_show_btn ')]}",
+        "time" : {
+          "start" : 1620345524524,
+          "stop" : 1620345524607,
+          "duration" : 83
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "accordianExpanded",
+        "time" : {
+          "start" : 1620345524607,
+          "stop" : 1620345524607,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "true",
+        "time" : {
+          "start" : 1620345524607,
+          "stop" : 1620345524607,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I click {xpath: ((.//*[./@id = 'departleg']//*[contains(concat(' ', normalize-space(./@class), ' '), ' flight-panel ')])[position()=1]//*[contains(concat(' ', normalize-space(./@class), ' '), ' panel-collapse ')]//*[contains(concat(' ', normalize-space(./@class), ' '), ' booking-class-item ')])[position()=3]//*[contains(concat(' ', normalize-space(./@class), ' '), ' fc_radio ')]//*[contains(concat(' ', normalize-space(./@class), ' '), ' fc_radio-success ')][./child::label]}",
+        "time" : {
+          "start" : 1620345524609,
+          "stop" : 1620345524631,
+          "duration" : 22
+        },
+        "status" : "failed",
+        "statusMessage" : "undefined",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : true,
+        "hasContent" : true
+      }, {
+        "name" : "flightSelected0",
+        "time" : {
+          "start" : 1620345524631,
+          "stop" : 1620345524631,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "false",
+        "time" : {
+          "start" : 1620345524631,
+          "stop" : 1620345524631,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I click {xpath: ((.//*[./@id = 'departleg']//*[contains(concat(' ', normalize-space(./@class), ' '), ' flight-panel ')])[position()=1]//*[contains(concat(' ', normalize-space(./@class), ' '), ' panel-collapse ')]//*[contains(concat(' ', normalize-space(./@class), ' '), ' booking-class-item ')])[position()=3]//*[contains(concat(' ', normalize-space(./@class), ' '), ' fc_radio ')]//*[contains(concat(' ', normalize-space(./@class), ' '), ' fc_radio-success ')][./child::label]}",
+        "time" : {
+          "start" : 1620345524632,
+          "stop" : 1620345524650,
+          "duration" : 18
+        },
+        "status" : "failed",
+        "statusMessage" : "undefined",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : true,
+        "hasContent" : true
+      }, {
+        "name" : "flightSelected1",
+        "time" : {
+          "start" : 1620345524650,
+          "stop" : 1620345524650,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "false",
+        "time" : {
+          "start" : 1620345524651,
+          "stop" : 1620345524651,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I click {xpath: ((.//*[./@id = 'departleg']//*[contains(concat(' ', normalize-space(./@class), ' '), ' flight-panel ')])[position()=1]//*[contains(concat(' ', normalize-space(./@class), ' '), ' panel-collapse ')]//*[contains(concat(' ', normalize-space(./@class), ' '), ' booking-class-item ')])[position()=3]//*[contains(concat(' ', normalize-space(./@class), ' '), ' fc_radio ')]//*[contains(concat(' ', normalize-space(./@class), ' '), ' fc_radio-success ')][./child::label]}",
+        "time" : {
+          "start" : 1620345524651,
+          "stop" : 1620345524678,
+          "duration" : 27
+        },
+        "status" : "failed",
+        "statusMessage" : "undefined",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : true,
+        "hasContent" : true
+      }, {
+        "name" : "flightSelected2",
+        "time" : {
+          "start" : 1620345524678,
+          "stop" : 1620345524678,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "false",
+        "time" : {
+          "start" : 1620345524678,
+          "stop" : 1620345524678,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I wait 2",
+        "time" : {
+          "start" : 1620345524678,
+          "stop" : 1620345526678,
+          "duration" : 2000
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 16,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I select first available sounds best returning to flight ",
+      "time" : {
+        "start" : 1620345526686,
+        "stop" : 1620345531948,
+        "duration" : 5262
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I scroll into view \"#returnleg\"",
+        "time" : {
+          "start" : 1620345526686,
+          "stop" : 1620345526716,
+          "duration" : 30
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I click {xpath: (.//*[./@id = 'returnleg']//*[contains(concat(' ', normalize-space(./@class), ' '), ' flight-panel ')])[position()=1]//*[contains(concat(' ', normalize-space(./@class), ' '), ' fc_show_btn ')]}",
+        "time" : {
+          "start" : 1620345526716,
+          "stop" : 1620345526774,
+          "duration" : 58
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I wait 2",
+        "time" : {
+          "start" : 1620345526775,
+          "stop" : 1620345528776,
+          "duration" : 2001
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I see number of elements {xpath: (.//*[./@id = 'returnleg']//*[contains(concat(' ', normalize-space(./@class), ' '), ' flight-panel ')])[position()=1]//*[contains(concat(' ', normalize-space(./@class), ' '), ' panel-collapse ')]//*[contains(concat(' ', normalize-space(./@class), ' '), ' booking-class-item ')]}, 3",
+        "time" : {
+          "start" : 1620345528777,
+          "stop" : 1620345528796,
+          "duration" : 19
+        },
+        "status" : "failed",
+        "statusMessage" : "undefined",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : true,
+        "hasContent" : true
+      }, {
+        "name" : "I click {xpath: ((.//*[./@id = 'returnleg']//*[contains(concat(' ', normalize-space(./@class), ' '), ' flight-panel ')])[position()=1]//*[contains(concat(' ', normalize-space(./@class), ' '), ' panel-collapse ')]//*[contains(concat(' ', normalize-space(./@class), ' '), ' booking-class-item ')])[position()=1]//*[contains(concat(' ', normalize-space(./@class), ' '), ' fc_radio ')]//*[contains(concat(' ', normalize-space(./@class), ' '), ' fc_radio-success ')][./child::label]}",
+        "time" : {
+          "start" : 1620345528798,
+          "stop" : 1620345529940,
+          "duration" : 1142
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I wait 2",
+        "time" : {
+          "start" : 1620345529940,
+          "stop" : 1620345531940,
+          "duration" : 2000
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 6,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I should see flight summary popup window ",
+      "time" : {
+        "start" : 1620345531948,
+        "stop" : 1620345537334,
+        "duration" : 5386
+      },
+      "status" : "failed",
+      "statusMessage" : "undefined",
+      "steps" : [ {
+        "name" : "I see element \".modal-dialog\"",
+        "time" : {
+          "start" : 1620345531948,
+          "stop" : 1620345537333,
+          "duration" : 5385
+        },
+        "status" : "failed",
+        "statusMessage" : "undefined",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : true,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "ca15f8c77f490789",
+      "name" : "Last Seen Screenshot",
+      "source" : "ca15f8c77f490789.png",
+      "type" : "image/png",
+      "size" : 37804
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 68,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@flightbooking"
+  }, {
+    "name" : "suite",
+    "value" : "Book a flight and complete the payments @flightbooking"
+  }, {
+    "name" : "testClass",
+    "value" : "Book a flight and complete the payments @flightbooking"
+  }, {
+    "name" : "testMethod",
+    "value" : "Search page should display all basic field on landing"
+  }, {
+    "name" : "package",
+    "value" : "Book a flight and complete the payments @flightbooking"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 88,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 39,
+        "unknown" : 0,
+        "total" : 127
+      },
+      "items" : [ {
+        "uid" : "d707d27e84c77db2",
+        "reportUrl" : "../159/index.html#testresult/d707d27e84c77db2",
+        "status" : "failed",
+        "statusDetails" : "element (.fc_radio-success) still not present on page after 20 sec",
+        "time" : {
+          "start" : 1620339637778,
+          "stop" : 1620339702971,
+          "duration" : 65193
+        }
+      }, {
+        "uid" : "4081fcee4515a947",
+        "reportUrl" : "../158/index.html#testresult/4081fcee4515a947",
+        "status" : "failed",
+        "statusDetails" : "element (.fc_radio-success) still not present on page after 20 sec",
+        "time" : {
+          "start" : 1620339637778,
+          "stop" : 1620339702971,
+          "duration" : 65193
+        }
+      }, {
+        "uid" : "64dc5afabe248271",
+        "reportUrl" : "../157/index.html#testresult/64dc5afabe248271",
+        "status" : "failed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1620338718535,
+          "stop" : 1620338768651,
+          "duration" : 50116
+        }
+      }, {
+        "uid" : "e164d44a030ba439",
+        "reportUrl" : "../156/index.html#testresult/e164d44a030ba439",
+        "status" : "failed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1620338718535,
+          "stop" : 1620338768651,
+          "duration" : 50116
+        }
+      }, {
+        "uid" : "c1420848f83c279b",
+        "reportUrl" : "../155/index.html#testresult/c1420848f83c279b",
+        "status" : "failed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1620338196978,
+          "stop" : 1620338242090,
+          "duration" : 45112
+        }
+      }, {
+        "uid" : "5ab88034556d6ff1",
+        "reportUrl" : "../154/index.html#testresult/5ab88034556d6ff1",
+        "status" : "failed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1620338196978,
+          "stop" : 1620338242090,
+          "duration" : 45112
+        }
+      }, {
+        "uid" : "e0f2ec34946ba071",
+        "reportUrl" : "../153/index.html#testresult/e0f2ec34946ba071",
+        "status" : "failed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1620336517850,
+          "stop" : 1620336562874,
+          "duration" : 45024
+        }
+      }, {
+        "uid" : "7ab3d73023cbcab6",
+        "reportUrl" : "../152/index.html#testresult/7ab3d73023cbcab6",
+        "status" : "failed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1620336517850,
+          "stop" : 1620336562874,
+          "duration" : 45024
+        }
+      }, {
+        "uid" : "ce8224f70e994af9",
+        "reportUrl" : "../151/index.html#testresult/ce8224f70e994af9",
+        "status" : "failed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1620331837309,
+          "stop" : 1620331881593,
+          "duration" : 44284
+        }
+      }, {
+        "uid" : "fe1ef7b88ccc77db",
+        "reportUrl" : "../150/index.html#testresult/fe1ef7b88ccc77db",
+        "status" : "failed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1620331837309,
+          "stop" : 1620331881593,
+          "duration" : 44284
+        }
+      }, {
+        "uid" : "57e9b4c84f9b3da2",
+        "reportUrl" : "../149/index.html#testresult/57e9b4c84f9b3da2",
+        "status" : "failed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1620227172636,
+          "stop" : 1620227224548,
+          "duration" : 51912
+        }
+      }, {
+        "uid" : "ce1ef6110b5e12bb",
+        "reportUrl" : "../148/index.html#testresult/ce1ef6110b5e12bb",
+        "status" : "failed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1620227172636,
+          "stop" : 1620227224548,
+          "duration" : 51912
+        }
+      }, {
+        "uid" : "262f1cf217f4fc58",
+        "reportUrl" : "../147/index.html#testresult/262f1cf217f4fc58",
+        "status" : "failed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1620168943705,
+          "stop" : 1620168990393,
+          "duration" : 46688
+        }
+      }, {
+        "uid" : "5ca9f55f97a62afe",
+        "reportUrl" : "../146/index.html#testresult/5ca9f55f97a62afe",
+        "status" : "failed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1620168943705,
+          "stop" : 1620168990393,
+          "duration" : 46688
+        }
+      }, {
+        "uid" : "54e0c15d386ea5f3",
+        "reportUrl" : "../145/index.html#testresult/54e0c15d386ea5f3",
+        "status" : "failed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1620165540868,
+          "stop" : 1620165608457,
+          "duration" : 67589
+        }
+      }, {
+        "uid" : "8332cdedd4f729c0",
+        "reportUrl" : "../144/index.html#testresult/8332cdedd4f729c0",
+        "status" : "failed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1620165540868,
+          "stop" : 1620165608457,
+          "duration" : 67589
+        }
+      }, {
+        "uid" : "74f207fa0bfe822a",
+        "reportUrl" : "../143/index.html#testresult/74f207fa0bfe822a",
+        "status" : "failed",
+        "statusDetails" : "Cannot read property 'url' of undefined",
+        "time" : {
+          "start" : 1620141440989,
+          "stop" : 1620141446178,
+          "duration" : 5189
+        }
+      }, {
+        "uid" : "9d295a6b1034dc78",
+        "reportUrl" : "../142/index.html#testresult/9d295a6b1034dc78",
+        "status" : "failed",
+        "statusDetails" : "Cannot read property 'url' of undefined",
+        "time" : {
+          "start" : 1620141440989,
+          "stop" : 1620141446178,
+          "duration" : 5189
+        }
+      }, {
+        "uid" : "aefb090a52ce1904",
+        "reportUrl" : "../141/index.html#testresult/aefb090a52ce1904",
+        "status" : "failed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1620075030257,
+          "stop" : 1620075116757,
+          "duration" : 86500
+        }
+      }, {
+        "uid" : "ac6bd864ef310a82",
+        "reportUrl" : "../140/index.html#testresult/ac6bd864ef310a82",
+        "status" : "failed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1620075030257,
+          "stop" : 1620075116757,
+          "duration" : 86500
+        }
+      } ]
+    },
+    "tags" : [ "@flightbooking" ]
+  },
+  "source" : "b4145b6147396b9a.json",
+  "parameterValues" : [ ]
+}

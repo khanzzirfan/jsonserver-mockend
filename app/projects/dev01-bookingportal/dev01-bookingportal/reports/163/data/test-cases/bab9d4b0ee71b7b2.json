@@ -1,0 +1,572 @@
+{
+  "uid" : "bab9d4b0ee71b7b2",
+  "name" : "Search page should display sidebar links @story1246",
+  "fullName" : "Booking portal search page.Search page should display sidebar links @story1246",
+  "historyId" : "332c6ed1c97a970102e846c69301caf5",
+  "time" : {
+    "start" : 1620346516992,
+    "stop" : 1620346523114,
+    "duration" : 6122
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I navigate to application ",
+      "time" : {
+        "start" : 1620346518594,
+        "stop" : 1620346522137,
+        "duration" : 3543
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "searchPage: goToSearch ",
+        "time" : {
+          "start" : 1620346518594,
+          "stop" : 1620346522093,
+          "duration" : 3499
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "I am on page \"https://apps8.tflite.com/Public/SA/Booking/Search\"",
+          "time" : {
+            "start" : 1620346518594,
+            "stop" : 1620346520909,
+            "duration" : 2315
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "I refresh page ",
+          "time" : {
+            "start" : 1620346520909,
+            "stop" : 1620346521831,
+            "duration" : 922
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "I wait for visible \"#submit\"",
+          "time" : {
+            "start" : 1620346521831,
+            "stop" : 1620346522093,
+            "duration" : 262
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 3,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "I see element \"#submit\"",
+        "time" : {
+          "start" : 1620346522093,
+          "stop" : 1620346522137,
+          "duration" : 44
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 5,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When the sidebar page is displayed ",
+      "time" : {
+        "start" : 1620346522137,
+        "stop" : 1620346522178,
+        "duration" : 41
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I see element \".sidebar-right\"",
+        "time" : {
+          "start" : 1620346522137,
+          "stop" : 1620346522178,
+          "duration" : 41
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I should see the link to purchase 10 trip tickets ",
+      "time" : {
+        "start" : 1620346522178,
+        "stop" : 1620346522460,
+        "duration" : 282
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I see \"Purchase 10 Trip Tickets\"",
+        "time" : {
+          "start" : 1620346522178,
+          "stop" : 1620346522364,
+          "duration" : 186
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I see element \"a[href=\"/Public/SA/Voucher/Buy\"]\"",
+        "time" : {
+          "start" : 1620346522364,
+          "stop" : 1620346522460,
+          "duration" : 96
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "And I should see find a booking link ",
+      "time" : {
+        "start" : 1620346522460,
+        "stop" : 1620346522677,
+        "duration" : 217
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I see \"Find a Booking\"",
+        "time" : {
+          "start" : 1620346522460,
+          "stop" : 1620346522591,
+          "duration" : 131
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I see element \"a[href=\"/Public/SA/View/FindBooking\"]\"",
+        "time" : {
+          "start" : 1620346522591,
+          "stop" : 1620346522677,
+          "duration" : 86
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "And I should also see sign in link ",
+      "time" : {
+        "start" : 1620346522677,
+        "stop" : 1620346522868,
+        "duration" : 191
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I see \"Sign In\"",
+        "time" : {
+          "start" : 1620346522677,
+          "stop" : 1620346522815,
+          "duration" : 138
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I see element \"a[href=\"/Public/SA/Account/login\"]\"",
+        "time" : {
+          "start" : 1620346522815,
+          "stop" : 1620346522868,
+          "duration" : 53
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "And I should also see sign up link ",
+      "time" : {
+        "start" : 1620346522868,
+        "stop" : 1620346523114,
+        "duration" : 246
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I see \"Sign up\"",
+        "time" : {
+          "start" : 1620346522868,
+          "stop" : 1620346523022,
+          "duration" : 154
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I see element \"a[href=\"/Public/SA/Account/SignUp\"]\"",
+        "time" : {
+          "start" : 1620346523022,
+          "stop" : 1620346523114,
+          "duration" : 92
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "I save screenshot \"Search_page_should_display_sidebar_links_@story1246.png\", true",
+      "time" : {
+        "start" : 1620346523114,
+        "stop" : 1620346523484,
+        "duration" : 370
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "94685daf6b653750",
+      "name" : "Search_page_should_display_sidebar_links_@story1246.png",
+      "source" : "94685daf6b653750.png",
+      "type" : "image/png",
+      "size" : 62532
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 21,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@story1246"
+  }, {
+    "name" : "suite",
+    "value" : "Booking portal search page"
+  }, {
+    "name" : "testClass",
+    "value" : "Booking portal search page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Search page should display sidebar links @story1246"
+  }, {
+    "name" : "package",
+    "value" : "Booking portal search page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 8,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 98,
+        "unknown" : 0,
+        "total" : 106
+      },
+      "items" : [ {
+        "uid" : "6e795625c0b5559a",
+        "reportUrl" : "../162/index.html#testresult/6e795625c0b5559a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620346516992,
+          "stop" : 1620346523114,
+          "duration" : 6122
+        }
+      }, {
+        "uid" : "72062308ea67757a",
+        "reportUrl" : "../161/index.html#testresult/72062308ea67757a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620345572159,
+          "stop" : 1620345577026,
+          "duration" : 4867
+        }
+      }, {
+        "uid" : "32fd2c357f49a3c1",
+        "reportUrl" : "../160/index.html#testresult/32fd2c357f49a3c1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620345572159,
+          "stop" : 1620345577026,
+          "duration" : 4867
+        }
+      }, {
+        "uid" : "8cb18dac66649bae",
+        "reportUrl" : "../159/index.html#testresult/8cb18dac66649bae",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620339735489,
+          "stop" : 1620339739743,
+          "duration" : 4254
+        }
+      }, {
+        "uid" : "ca871123ae5bdd2c",
+        "reportUrl" : "../158/index.html#testresult/ca871123ae5bdd2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620339735489,
+          "stop" : 1620339739743,
+          "duration" : 4254
+        }
+      }, {
+        "uid" : "4f64fee94c6563b",
+        "reportUrl" : "../157/index.html#testresult/4f64fee94c6563b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620338805325,
+          "stop" : 1620338812970,
+          "duration" : 7645
+        }
+      }, {
+        "uid" : "bc31a754e960412c",
+        "reportUrl" : "../156/index.html#testresult/bc31a754e960412c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620338805325,
+          "stop" : 1620338812970,
+          "duration" : 7645
+        }
+      }, {
+        "uid" : "4f1e0512e4f55fba",
+        "reportUrl" : "../155/index.html#testresult/4f1e0512e4f55fba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620338276303,
+          "stop" : 1620338280850,
+          "duration" : 4547
+        }
+      }, {
+        "uid" : "81016a4de9391bcc",
+        "reportUrl" : "../154/index.html#testresult/81016a4de9391bcc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620338276303,
+          "stop" : 1620338280850,
+          "duration" : 4547
+        }
+      }, {
+        "uid" : "6f3cee80bd29a932",
+        "reportUrl" : "../153/index.html#testresult/6f3cee80bd29a932",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620336597434,
+          "stop" : 1620336602315,
+          "duration" : 4881
+        }
+      }, {
+        "uid" : "b36387a8c792afa6",
+        "reportUrl" : "../152/index.html#testresult/b36387a8c792afa6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620336597434,
+          "stop" : 1620336602315,
+          "duration" : 4881
+        }
+      }, {
+        "uid" : "80b1b424e732c5de",
+        "reportUrl" : "../151/index.html#testresult/80b1b424e732c5de",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620331915155,
+          "stop" : 1620331919591,
+          "duration" : 4436
+        }
+      }, {
+        "uid" : "af2b7bb8839f9fc6",
+        "reportUrl" : "../150/index.html#testresult/af2b7bb8839f9fc6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620331915155,
+          "stop" : 1620331919591,
+          "duration" : 4436
+        }
+      }, {
+        "uid" : "9b2c8f8b5893f2ee",
+        "reportUrl" : "../149/index.html#testresult/9b2c8f8b5893f2ee",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620227260373,
+          "stop" : 1620227265055,
+          "duration" : 4682
+        }
+      }, {
+        "uid" : "ca231377321232e1",
+        "reportUrl" : "../148/index.html#testresult/ca231377321232e1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620227260373,
+          "stop" : 1620227265055,
+          "duration" : 4682
+        }
+      }, {
+        "uid" : "fd1ebc55f3be532c",
+        "reportUrl" : "../147/index.html#testresult/fd1ebc55f3be532c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620169024773,
+          "stop" : 1620169029574,
+          "duration" : 4801
+        }
+      }, {
+        "uid" : "fb1358a3f7cd24cd",
+        "reportUrl" : "../146/index.html#testresult/fb1358a3f7cd24cd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620169024773,
+          "stop" : 1620169029574,
+          "duration" : 4801
+        }
+      }, {
+        "uid" : "9a2b18694ade93b8",
+        "reportUrl" : "../145/index.html#testresult/9a2b18694ade93b8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620165651780,
+          "stop" : 1620165657376,
+          "duration" : 5596
+        }
+      }, {
+        "uid" : "c45771a465f4cc80",
+        "reportUrl" : "../144/index.html#testresult/c45771a465f4cc80",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620165651780,
+          "stop" : 1620165657376,
+          "duration" : 5596
+        }
+      }, {
+        "uid" : "6657e19e34e05a22",
+        "reportUrl" : "../143/index.html#testresult/6657e19e34e05a22",
+        "status" : "failed",
+        "statusDetails" : "Cannot read property 'url' of undefined",
+        "time" : {
+          "start" : 1620141460764,
+          "stop" : 1620141463558,
+          "duration" : 2794
+        }
+      } ]
+    },
+    "tags" : [ "@story1246" ]
+  },
+  "source" : "bab9d4b0ee71b7b2.json",
+  "parameterValues" : [ ]
+}
