@@ -1,0 +1,97 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "containerGroups_tst_tf_allure_report_api_aci_name": {
+      "defaultValue": "allure-report-api-aci",
+      "type": "String"
+    }
+  },
+  "variables": {},
+  "resources": [
+    {
+      "type": "Microsoft.ContainerInstance/containerGroups",
+      "apiVersion": "2021-03-01",
+      "name": "[parameters('containerGroups_tst_tf_allure_report_api_aci_name')]",
+      "location": "australiaeast",
+      "properties": {
+        "sku": "Standard",
+        "containers": [
+          {
+            "name": "[parameters('containerGroups_tst_tf_allure_report_api_aci_name')]",
+            "properties": {
+              "image": "frankescobar/allure-docker-service",
+              "ports": [
+                {
+                  "protocol": "TCP",
+                  "port": 5050
+                }
+              ],
+              "environmentVariables": [
+                {
+                  "name": "CHECK_RESULTS_EVERY_SECONDS",
+                  "value": "NONE"
+                },
+                {
+                  "name": "KEEP_HISTORY",
+                  "value": "1"
+                },
+                {
+                  "name": "KEEP_HISTORY_LATEST",
+                  "value": "25"
+                },
+                {
+                  "name": "SECURITY_USER",
+                  "value": "tflitenz"
+                },
+                {
+                  "name": "SECURITY_PASS",
+                  "value": "tflitenz"
+                },
+                {
+                  "name": "MAKE_VIEWER_ENDPOINTS_PUBLIC",
+                  "value": "1"
+                }
+              ],
+              "resources": {
+                "requests": {
+                  "memoryInGB": 1,
+                  "cpu": 1
+                }
+              },
+              "volumeMounts": [
+                {
+                  "name": "gitrepo1",
+                  "mountPath": "/app/projects"
+                }
+              ]
+            }
+          }
+        ],
+        "initContainers": [],
+        "restartPolicy": "OnFailure",
+        "ipAddress": {
+          "ports": [
+            {
+              "protocol": "TCP",
+              "port": 5050
+            }
+          ],
+          "ip": "20.53.93.21",
+          "type": "Public",
+          "dnsNameLabel": "[parameters('containerGroups_tst_tf_allure_report_api_aci_name')]"
+        },
+        "osType": "Linux",
+        "volumes": [
+          {
+            "name": "gitrepo1",
+            "gitRepo": {
+              "directory": "./",
+              "repository": "https://github.com/khanzzirfan/jsonserver-mockend"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
